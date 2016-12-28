@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section>
+  <div class="container-fluid no-padding">
+    <div class="page-banner" style="background-image:url(/images/gates/rooms-banner.jpg);">
+      {% region rooms-banner-text %}
+    </div>
+  </div>
+</section>
+
+<section>
+	<div class="container" rt3-rooms-browser="browser" rt3-search-form="search" on-search-changed="browser.tonightRate()" ng-cloak>
+    <div class="row">
+    	<div class="rooms-holder">
+            {% assign rooms_images = site.data._models.rooms_page_images  | sort : "sort_order" %}
+            {% for roomsimages in rooms_images %}            
+                <div class="col-md-4 col-sm-6">
+                    <div class="rooms-item">
+                        <figure><img src="{{ roomsimages.room_image.url }}" alt="{{ roomsimages.room_title | upcase }}"/></figure>
+                        <h2>{{ roomsimages.room_title | upcase }}</h2>
+                        <!--<div class="room-price">Tonight’s Rate <span>$ 429</span></div>-->
+                        {{ roomsimages.room_desc }}
+                    </div>
+                </div>
+            {% endfor %}            
+        </div>
+    </div>
+    </div>
+</section>
+
+

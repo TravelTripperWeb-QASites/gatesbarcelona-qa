@@ -1,0 +1,66 @@
+{
+	 'mainnav':[ 
+		
+		{
+			'title':'Rooms',
+			'name': 'rooms',
+			'url': '/rooms/' 
+		},
+		{
+			'title':'Offers',
+			'name': 'offers',
+			'url': '/offers/' 
+		},
+		{
+			'title':'Gallery',
+			'name': 'gallery',
+			'url': '/gallery/' 
+		},
+		{
+			'title':'Blog',
+			'name': 'blog',
+			'url': '/blog/' 
+		},
+		{
+			'title':'Location',
+			'name': 'location',
+			'url': '/location/' 
+		}, 
+		
+		 
+	],
+	'footernav':[
+		{
+			'title':'Terms & Conditions',
+			'url':'/',
+			'name': 'terms',
+		},
+		{
+			'title':'Privacy Policy',
+			'url':'/',
+			'name': 'privacy',
+		},
+		{
+			'title':'Site Map',
+			'url':'/',
+			'name': 'sitemap',
+		}, 
+	],
+	'social':[
+		{
+			'title':'Linkedin',
+			'url':'https://www.linkedin.com/company/travel-trippe',
+			'class':'fa-linkedin'
+		},
+		{
+			'title':'Facebook',
+			'url':'https://www.facebook.com/traveltripper',
+			'class':'fa-facebook-square'
+		},
+		{
+			'title':'Twitter',
+			'url':'https://twitter.com/Travel_Tripper',
+			"class":"fa-twitter"
+		},
+	]
+}

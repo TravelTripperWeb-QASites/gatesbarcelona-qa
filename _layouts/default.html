@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
-  <body>
-    <div>
-      
-        {{ content }}
-      
-    </div>
-  </body>
+{% include head.html %}
+
+<body id="top" ng-app="rezTrip" rt3-hotel-info="hotelInfo" ng-cloak>
+
+{% include header.html %}
+
+	{{ content }}
+
+{% include footer.html %}
+
+{% include scripts.html %}
+
+
+</body>
 </html>

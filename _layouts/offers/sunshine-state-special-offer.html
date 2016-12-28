@@ -1,0 +1,142 @@
+---
+layout: default
+---
+<section>
+  <div class="container-fluid no-padding">
+    <div class="page-banner" style="background-image: url(/images/gates/offer-details-banner.jpg)">
+      {% region sunshine-offer-banner-text %}
+    </div>
+  </div>
+</section>
+
+<section>
+	<ul class="gallery-nav">
+          
+          {% region sunshine-opening-text %}
+          
+        </ul>
+</section>
+
+<section class="rd-row-1">
+	<div id="rd-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators 
+  <ol class="carousel-indicators">
+    <li data-target="#rd-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#rd-carousel" data-slide-to="1"></li>
+    <li data-target="#rd-carousel" data-slide-to="2"></li>
+    <li data-target="#rd-carousel" data-slide-to="3"></li>
+  </ol>-->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background-image:url(/images/gates/offers/sunshine-state-special-offer.jpg);">
+     <div class="rdc-car-con">
+     	{% region sunshine-banner-booknow %}
+     </div> 
+    </div>
+
+  </div>
+
+  <!-- Left and right controls 
+  <a class="left carousel-control" href="#rd-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#rd-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> -->
+</div>
+</section>
+
+<section class="r-info">
+	<div class="container no-padding">
+    	<div class="col-md-6 no-padding -left">
+        	<div class="con-1">
+        	{% region sunshine-allinthe-details %}
+	  </div>
+      <div class="con-2">{% region offer-exterior-image %}</div>
+      </div>
+      <div class="col-md-6 no-padding -right">
+        	<div class="con-3">
+       	    	{% region take-a-casual-way %}
+            </div>
+            <div class="con-4">
+            	<div class="col-sm-5 con-4-1 offer-amenities">
+                <!--<ul class="list">
+                      <li>10% off Visitors Pass</li>
+                        <li>Macy’s Miami Tote Bag</li>
+                        <li>Free resort fee</li>
+                        <li>5% off DAILY Rate</li>
+                       
+                    </ul> -->
+                     {% region amenities-images %}
+                </div><div class="col-sm-7 con-4-2">
+                	<div>
+                    	 <!--<div class="add-1">ENJOY THE FOLLOWING<span class="nl">PRIVILEGES</span></div>
+                        <div class="add-2">Offer<span class="nl">Features</span></div>
+                         <div class="spacing"><a href="" class="button-common-2">general amenities</a></div> -->
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+     </div>
+        
+</section>
+
+<section class="rooms-section">
+  <div class="container">
+    <div class="col-md-4 no-padding">
+      <div class="new-caption-area" id="roomscroll">
+        <p></p>
+        <div class="carousel-controls"> <a class="left nav-control" href="#rooms-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#rooms-carousel" role="button" data-slide="next"> </a> </div>
+        <h3></h3>
+        <div class="links"></div>
+      </div>
+    </div>
+    <div class="col-md-8 no-padding">
+      <div class="rooms-carousel">
+        <div id="rooms-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+           {% assign offer_inst =  page.url | split: "/" %}
+          {% assign active_offer_flag =  0 %}
+          {% assign offer_details = site.data._models.offers | sort : "sort_order" %}
+
+          {% for offerdtls in offer_details %} 
+            {% if offerdtls.offer_details_link != offer_inst[2] %}
+              
+              {% if active_offer_flag  == 0 %}
+                <div class="item active">
+              {% else %}
+                <div class="item">
+              {% endif %}
+              {% assign active_offer_flag =  1 %}
+                  <img alt="" src="{{offerdtls.large_image.url}}"  class="width-full">
+                  <div class="carousel-caption">
+                    <p>VIEW MORE LUXURIOUS SPECIAL OFFERS</p>
+                    <h3>{{offerdtls.offer_title | upcase }}</h3>
+                    <div class="links">
+                    <a href="/offers/{{ offerdtls.offer_details_link }}/" class="button-common-2">VIEW THIS OFFER</a> <a href="/offers/" class="button-common-2">VIEW ALL OFFERS</a>
+                    </div>
+                  </div>
+              </div>
+
+            {% endif %}
+             
+          {% endfor %}   
+
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="loc-cta" style="background-image:url(/images/gates/offers/offer-details-book-bg.jpg);">
+	<div class="container-fluid no-padding">
+    	<div class="cta">
+        	{% region book-ur-stay %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,36 @@
+{
+    "room_title":
+    {
+      "required": true,  
+      "label": "Room Title"
+    },
+    "room_desc":
+    {
+      "required": true,  
+      "type": "richtext",
+      "label": "Description"
+    },
+    "room_details_link":
+    {
+      "required": true,  
+      "type": "url_slug",
+      "label": "Url Slug"
+    },  
+    "room_image":
+    {
+      "required": true,  
+      "type": "image",
+      "label": "Upload Image"   
+    },   
+     "large_image":
+    {
+      "required": true,  
+      "type": "image",
+      "label": "Upload Large Image"
+    },
+    "sort_order": 
+    { 
+      "type": "integer",
+      "required": true 
+    }
+}

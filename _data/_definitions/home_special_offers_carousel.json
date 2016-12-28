@@ -1,0 +1,13 @@
+{ 
+    "offer_desc":
+    {
+      "required": true,  
+      "type": "richtext",
+      "label": "Offer Description"
+    },
+    "sort_order": 
+    { 
+      "type": "integer",
+      "required": true 
+    }
+}

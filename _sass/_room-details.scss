@@ -1,0 +1,675 @@
+.rd-row-1 {
+	#rd-carousel {
+		overflow: hidden;
+	}
+
+	.carousel-inner {
+		.item {
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+			padding: 60px 0 60px 0;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 90px 0 90px 0;
+			}
+
+			@media(min-width:$screen-sm-min) {
+				padding: 190px 0;
+			}
+
+		}
+
+	}
+
+	.carousel-indicators {
+		bottom: 20px;
+		right: 0;
+		left: 0;
+		width: auto;
+		margin: 0;
+
+		@media(min-width:$screen-sm-min) {
+			bottom: 51px;
+		}
+
+		li {
+			background-color: #fff;
+			width: 8px;
+			height: 8px;
+			margin: 2px 5px;
+		}
+
+		.active {
+			width: 11px;
+			height: 11px;
+			margin: 1px 5px;
+			border: solid 2px #fff;
+			background-color: transparent;
+		}
+
+	}
+
+	.carousel-control {
+		top: 50%;
+		bottom: auto;
+		width: auto;
+		margin-top: -18px;
+		width: 36px;
+		height: 36px;
+		text-shadow: none;
+
+		&.left {
+			left: 30px;
+
+			@media(min-width:$screen-sm-min) {
+				left: 54px;
+			}
+
+		}
+
+		&.right {
+			right: 30px;
+
+			@media(min-width:$screen-sm-min) {
+				right: 54px;
+			}
+
+		}
+
+		.glyphicon-chevron-left {
+			left: 0;
+			margin: 0;
+		}
+
+		.glyphicon-chevron-right {
+			right: 0;
+			margin: 0;
+		}
+
+	}
+
+	.rdc-car-con {
+		width: 290px;
+		padding: 40px 30px;
+		margin: 0 auto;
+		text-align: center;
+		color: #232525;
+		text-transform: uppercase;
+		background-color: rgba(255, 255, 255, 0.8);
+
+		@media(min-width:$screen-sm-min) {
+			padding: 55px 40px 55px 40px;
+			width: 394px;
+		}
+
+		.sub-title {
+			font-family: $main-font-light;
+			font-size: 12px;
+			letter-spacing: 1px;
+			padding: 0 0 20px 0;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 0 0 30px 0;
+			}
+
+		}
+
+		.title {
+			font-family: $main-font-bold;
+			font-size: 24px;
+			padding: 0 0 34px 0;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 0 0 55px 0;
+			}
+
+		}
+
+		.tonight {
+			font-family: $main-font-light;
+			font-size: 34px;
+			color: #008cc1;
+			display: inline-block;
+			border-top: solid 1px #d6d6d6;
+			border-bottom: solid 1px #d6d6d6;
+			padding: 8px 12px;
+			margin: 0 0 40px 0;
+
+			@media(min-width:$screen-sm-min) {
+				margin: 0 0 50px 0;
+			}
+
+		}
+
+	}
+
+}
+
+.button-common-2 {
+	border: solid 1px #232525;
+	font-size: 12px;
+	font-family: $main-font-medium;
+	color: #232525;
+	letter-spacing: 2px;
+	padding: 8px 15px;
+	transition: all 0.4s;
+	display: inline-block;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+	&:hover {
+		color: #fff;
+		background-color: #232525;
+	}
+
+	&.-white {
+		color: #fff;
+		border-color: #fff;
+
+		&:hover {
+			color: #232525;
+			background-color: #fff;
+		}
+
+	}
+
+}
+
+.r-info {
+	padding: 20px 0 0 0;
+
+	.container {
+		width: auto;
+		max-width: 1320px;
+		position: relative;
+	}
+
+	.-left {
+		@media(min-width:$screen-md-min) {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+
+	}
+
+	.-right {
+		@media(min-width:$screen-md-min) {
+			float: right;
+		}
+
+	}
+
+	.con-1 {
+		text-align: center;
+		padding: 20px 15px;
+
+		@media(min-width:$screen-sm-min) {
+			padding: 40px 15px 40px 15px;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 10px 0 0;
+			padding: 40px 15px 40px 15px;
+		}
+
+		@media(min-width:$screen-lg-min) {
+			padding: 62px 0;
+		}
+
+		.title {
+			font-family: $main-font-bold;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: #232525;
+			letter-spacing: 1px;
+
+			@media(min-width:$screen-sm-min) {
+				font-size: 24px;
+			}
+
+		}
+
+		.sub-title {
+			font-family: $main-font-light;
+			font-size: 12px;
+			line-height: 24px;
+			color: #232525;
+			padding: 36px 0 0 0;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+		.des-wrap {
+			margin: 20px auto 0 auto;
+
+			@media(min-width:$screen-sm-min) {
+				margin: 30px auto 0 auto;
+			}
+
+			@media(min-width:$screen-lg-min) {
+				margin: 39px auto 0 auto;
+			}
+
+		}
+
+		.des {
+			font-family: $main-font-book;
+			font-size: 12px;
+			line-height: 22px;
+			color: #8c8d8d;
+			letter-spacing: 1px;
+			padding: 0 0 20px 0;
+			margin: 0 auto;
+
+			@media(min-width:$screen-lg-min) {
+				width: 75%;
+			}
+
+			&.bold-text {
+				font-family: $main-font-medium;
+			}
+
+			a{
+
+				color: #8c8d8d;
+				&:hover{
+					color:#168fbc;
+				}
+			}
+
+		}
+
+		.spacing {
+			padding: 20px 0 0 0;
+		}
+
+	}
+
+	.con-2 {
+		padding: 20px 0 0 0;
+
+		@media(min-width:$screen-sm-min) {
+			padding: 0 0 0 0;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 10px 0 0;
+		}
+
+		img {
+			width: 100%;
+		}
+
+	}
+
+	.con-3 {
+		position: relative;
+		margin: 20px 0 20px 0;
+
+		@media(min-width:$screen-sm-min) {
+			margin: 20px 0 20px 0;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 0 20px 10px;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		.text {
+			position: absolute;
+			bottom: 40px;
+			left: 15px;
+			right: 15px;
+			color: #fff;
+			text-align: center;
+
+			@media(min-width:$screen-sm-min) {
+				bottom: 60px;
+				left: 60px;
+				right: auto;
+				text-align: left;
+			}
+
+			.title {
+				font-family: $main-font-bold;
+				font-size: 18px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+
+				@media(min-width:$screen-sm-min) {
+					font-size: 24px;
+				}
+
+			}
+
+			.spacing {
+				padding: 30px 0 0 0;
+			}
+
+		}
+
+	}
+
+	.con-4 {
+		@media(min-width:$screen-md-min) {
+			margin: 0 0 0 10px;
+		}
+
+		.col-sm-5 {
+			@media(min-width:$screen-sm-min) {
+				float: none;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+		}
+
+		.col-sm-7 {
+			@media(min-width:$screen-sm-min) {
+				float: none;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+		}
+
+		.con-4-1 {
+			padding: 40px 0;
+			background-color: #d7d7d7;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 60px 0;
+			}
+
+
+
+
+		}
+		
+
+		.list {
+			padding: 0 0 0 20px;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 0 0 0 20px;
+			}
+
+			@media(min-width:$screen-lg-min) {
+				padding: 0 0 0 40px;
+			}
+
+			li {
+				list-style-type: none;
+				line-height: 22px;
+				font-family: $main-font-book;
+				color: #232525;
+				letter-spacing: 1px;
+				font-size: 12px;
+				position: relative;
+				padding: 0 0 0 32px;
+
+				@media(min-width:$screen-sm-min) {
+					padding: 0 0 0 20px;
+				}
+
+				&:after {
+					content: "";
+					position: absolute;
+					left: 0;
+					width: 4px;
+					height: 4px;
+					background-color: #232525;
+					border-radius: 50% 50%;
+					left: 0;
+					top: 8px;
+				}
+
+			}
+
+		}
+
+		.con-4-2 {
+			padding: 40px 15px 0px 15px;
+			text-align: center;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 0 15px;
+			}
+
+			.nl {
+				display: block;
+			}
+
+			.add-1 {
+				font-family: $main-font-light;
+				font-size: 12px;
+				color: #232525;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				line-height: 20px;
+			}
+
+			.add-2 {
+				font-family: $main-font-light;
+				color: #d7d7d7;
+				font-size: 26px;
+				padding: 30px 0 0px 0;
+
+				@media(min-width:$screen-md-min) {
+					font-size: 26px;
+					line-height: 33px;
+					padding: 40px 0;
+				}
+
+				@media(min-width:$screen-lg-min) {
+					font-size: 34px;
+					line-height: 42px;
+					padding: 40px 0;
+				}
+
+			}
+
+			.add-3 {
+				font-family: $main-font-book;
+				font-size: 12px;
+				color: #232525;
+				letter-spacing: 1px;
+				line-height: 20px;
+			}
+
+		}
+
+	}
+
+}
+
+.rooms-section {
+	padding: 20px 0 0 0;
+
+	.container {
+		width: auto;
+		max-width: 1320px;
+		position: relative;
+	}
+
+	.new-caption-area, .special-caption-area {
+		margin: auto;
+		color: #000;
+		text-align: center;
+		position: relative;
+		padding: 70px 0px 0px 0px;
+		 @media (max-width:1240px) {
+				
+				padding: 70px 0px 0px 0px;
+
+		      }
+		 @media (max-width:1200px) {
+				
+				padding: 70px 0px 0px 0px;
+
+		      }
+		  @media (max-width:1070px) {
+				
+				padding: 40px 0px 0px 0px;
+
+		      }
+
+		   @media (max-width:991px) {
+				
+				padding: 40px 0px 40px 0px;
+
+		      }
+		   @media (max-width:767px) {
+				
+				padding: 0px 0px 40px 0px;
+
+		      }
+
+
+		p {
+			font-family: $main-font-light;
+			font-size: 12px;
+			line-height: 22px;
+			color: #232525;
+			width: 50%;
+			letter-spacing: 1px;
+			padding: 0 0 20px 0;
+			margin: 0 auto;
+			 @media (max-width:1200px) {
+				
+				 width: 65%;
+
+		      }
+		    @media (max-width:768px) {
+				padding: 20px 0 0 0;
+				 width: 90%;
+
+		      }
+		}
+
+		h3 {
+			font-size: 34px;
+			font-family: "GothamHTF-Light";
+			
+			padding: 120px 0px 50px 0px;
+		    line-height: 40px;
+		    text-align: center;
+		    width: 75%;
+		    margin: 0 auto;
+
+		     @media (max-width:1200px) {
+				
+			padding: 100px 0px 20px 0px;
+
+		      }
+		     @media (max-width:1070px) {
+		     	font-size: 20px;
+		     	line-height: 30PX;
+		     	width: 90%;
+				padding: 80px 0px 20px 0px;
+		     }
+		      
+
+		}
+		.button-common-2 {
+			min-width: 225px;
+			margin-top: 18px;
+		}
+	}
+
+	.rooms-carousel {
+		margin: auto;
+		color: #000;
+
+	}
+	.carousel-caption {
+	    background-color: transparent;
+	
+	}
+	.carousel-controls {
+		position: absolute;
+		width: 71px;		    /* overflow: hidden; */
+		height: 36px;
+		margin: 0px auto;
+		left: 0;
+   		right: 0;
+   		z-index: 3;
+   		margin-top: 30px;
+ 		@media (max-width:1070px) {
+				
+				margin-top: 20px;
+
+		      }
+
+		.nav-control {
+			background-image: none;
+			position: absolute;
+			border: 1px solid #000;
+			width: 36px;
+			height: 36px;
+			font-family: "GothamHTF-Light";
+			line-height: 29px;
+			color: #03111d;
+			font-size: 33px;
+			
+		}
+
+		.left {
+			background-image: none;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+
+			&:before {
+				
+				content: '\2039';
+			}
+
+
+		}
+
+		.right {
+			background-image: none;
+			position: absolute;
+			right: 0px;
+			top: 0px;
+
+			&:before {
+				line-height: 27px;
+				content: '\203A';
+				font-size: 33px;
+				
+			}
+
+		}
+
+		.glyphicon {
+			border: 1px solid #03111d;
+		}
+
+		.glyphicon-chevron-left {
+		}
+
+	}
+
+}
+
+.footer-separator {
+	border: 1px solid #e0e2e3;
+	padding-bottom: 20px;
+}
+
+
+.offer-amenities{
+
+			padding: 0px!important;
+
+		
+		
+		}
