@@ -1,0 +1,537 @@
+
+// section 1 main banner //
+
+.page-banner
+{
+	
+	background-size: cover;
+	text-align:center;
+	
+
+
+
+	.page-title
+	{
+		font-family: $main-font-light;
+		font-size:	40px;
+		letter-spacing: 4px;
+		padding-left:14px;
+		text-transform:uppercase;
+		color:#fff;
+		padding: 123px 0;
+
+		@media(min-width: $screen-sm-min)
+		{
+			font-size:	69px;
+			letter-spacing: 6px;
+			
+		}
+		
+
+	}
+
+}
+
+section.models
+{
+	
+	margin-top:60px;
+	margin-bottom:30px;
+
+	@media(max-width:$screen-xs-max)
+	{
+
+		margin-top:40px;		
+	}
+
+	@media(min-width:$screen-sm-min) and (max-width: 1024px)
+	{
+		margin-top:50px;
+	}
+	
+
+	.container
+	{
+			
+			
+		.row
+		{
+			background: #f0f0f0;
+		}
+
+		.sp-img
+		{
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			padding:0;
+			margin:0;
+			height: 180px;
+				@media(min-width: 600px){
+					height: 220px;
+				}
+				@media(min-width: $screen-sm-min){
+					margin: 0 24px 0 0;
+					height: auto;
+				}
+
+			img
+			{
+				width:100%;
+			}
+
+			.rate-btn
+			{
+				font-family: $main-font-medium;
+				font-size:12px;
+				text-transform:uppercase;
+				display:inline-block;
+				text-decoration:none;
+				padding: 13px 17px 13px 17px;
+				background-color: #fff;
+				color: #232525;
+				letter-spacing: 2px;
+				position:absolute;
+				left:15px;
+				top:15px;
+				text-shadow: none;
+				transition: all 0.4s;
+					@media(min-width: $screen-sm-min){
+						letter-spacing: 5px;
+						left:38px;
+						top:33px;
+					}
+
+				.fa {
+					display: none;
+		
+				}
+
+				&:hover{
+		color: #fff;
+		background-color: #008cc1;
+	}
+	&:hover .fa-play{
+	color: $tc-white;
+	}
+
+			@media(max-width:$screen-xs-max)
+			{
+							
+			}
+
+
+			}
+		}
+
+		.sp-content
+		{
+
+			padding: 46px 55px 46px 55px;
+			text-align:center;
+
+			@media(max-width:$phone-max)
+			{
+				padding: 35px 25px 35px 25px;
+			}
+
+			@media (max-width: 1240px)
+			{
+
+				padding: 35px 30px;
+				
+			}
+			@media (max-width: 1023px)
+			{
+
+				padding: 35px 15px;
+				
+			}
+
+			.title
+			{
+				font-family: $main-font-bold;
+				font-size:18px;
+				color: #333333;
+				padding-bottom:50px;
+				text-transform:uppercase;
+				
+				@media (max-width: 1240px) {
+				padding-bottom: 30px;
+				
+			}
+				
+				
+				@media (max-width: 1023px) {
+				padding-bottom: 20px;
+				
+			}
+				
+
+				@media(max-width:$phone-max)
+				{
+					font-size:15px;
+					padding-bottom:20px;
+				}
+
+				
+
+
+
+
+			}
+
+			.desp
+			{
+
+				font-family: $main-font-book;
+				font-size: 12px;
+				line-height: 21px;
+				padding-bottom:50px;
+				color: #8c8d8d;
+				letter-spacing: 2px;
+				@media (max-width: 1240px)
+			{
+	
+				padding-bottom: 30px;
+				font-size: 12px;
+				
+			}
+			@media (max-width: 1023px)
+			{
+	
+				padding-bottom: 23px;
+				font-size: 12px;
+				
+			}
+
+				@media(max-width:$phone-max)
+				{
+					font-size: 12px;
+				    line-height: 24px;
+				    padding-bottom: 23px;
+				}
+
+				
+
+			
+			}
+
+			
+			
+			.button-common {
+		border: solid 1px #232525;
+		font-size: 12px;
+		font-family: $main-font-medium;
+		color: #232525;
+		letter-spacing: 2px;
+		padding: 8px 13px;
+		transition: all 0.4s;
+			&:hover {
+				background-color: #232525;
+				color: #fff;
+			}
+			&:focus {
+				background-color: #fff;
+				color: #232525;
+			}
+			.fa{
+				display: none;
+			}
+			@media (min-width: $screen-sm-min){
+				letter-spacing: 5px;
+			}
+	}
+			
+			
+			
+		}
+	}
+
+	
+}
+
+
+// common styles //
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.specials-bannner {
+		background: url("/images/specials-banner.jpg") no-repeat center center;
+	}
+
+.grand-opening-banner {
+	background: url("/images/grand-opening-banner.jpg") no-repeat center center;
+}
+.book-early-banner{
+	background: url("/images/book-early-banner.jpg") no-repeat center center;
+}
+
+.details-wrap {
+	padding-bottom: 44px;
+}
+
+.details{
+	text-align: center;
+	@media (max-width: $screen-md-min){
+		padding: 15px 0;
+	}
+
+h2{
+		font-size: 14px;
+			text-transform: uppercase;
+			font-family: $main-font-bold;
+			letter-spacing: 5px;
+	}
+	h3{
+		font-family: $main-font-light;
+		font-size: 32px;
+		text-transform: uppercase;
+		color: $tc-black;
+		letter-spacing: 6px;
+		line-height: 40px;
+		padding: 28px 0 46px 0;
+		@media (max-width: 1200px){
+			font-size: 26px;
+			line-height: 30px;
+    		padding: 15px 0 25px 0;
+		}
+		
+		@media (max-width: 767px){
+		font-size: 18px;
+		line-height: 28px;
+		padding: 15px 0;
+	}
+	}
+	
+	p{
+		padding: 26px 20px 0px 20px;
+			font-size: 18px;
+			line-height: 30px;
+			font-family: $main-font-light;
+			
+			@media (max-width: 1200px){
+    		padding: 0px 20px 0px 20px;
+			line-height: 28px;
+		}
+			
+			
+			
+			@media (max-width: 767px){
+		font-size: 16px;
+		line-height: 24px;
+		padding:0;
+	}
+			
+	}
+	.text-big {
+	font-family: $main-font-book;
+	padding: 30px 0 0 0;
+	
+	@media (max-width: 1200px){
+    		padding: 15px 0 0 0;
+		}
+}
+}
+.btn-filled {
+	background-color: $bg-blue-1;
+	border: none;
+	padding: 14px 20px;
+	
+	&:hover {
+		border: none;
+	}
+}
+.btn-fixed-width {
+	width: 202px;
+	@media (max-width: 767px){
+		width: 160px;
+	}
+}
+.spacing-bottom {
+	padding-bottom: 22px;
+}
+
+
+.special-carousel .carousel-indicators {
+/*	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	transform-origin: top left;*/
+/*	left: 36px;
+	bottom: 28px;
+	margin: 0;
+	width: auto;
+	text-align: left;
+	
+	@media (max-width: 767px){
+		left: 15px;
+	}*/
+}
+.special-carousel .carousel-indicators li {
+	
+	width: 8px;
+    height: 8px;
+    margin: 0px 5px;
+    text-indent: -999px;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+	border: 2px solid transparent;
+}
+.special-carousel .carousel-indicators .active {
+    background-color: transparent;
+    border: 2px solid #fff;
+	width: 11px;
+	height: 11px;
+	margin-bottom: -1px;
+}
+.pint {
+	position: absolute;
+	bottom: 27px;
+	right: 30px;
+		@media (max-width: 767px){
+			bottom: 5px;
+    right: 10px;
+		}
+	
+	.fa-pinterest {
+		
+		color: $tc-white;
+		font-size: 30px;
+	}
+}
+.inner-blue-bg {
+	background-color: $bg-blue-3;
+	color: $tc-white;
+	padding: 40px 0;
+	
+		@media (max-width: 767px){
+			text-align: center;
+		}
+	
+	h4{
+		font-family: $main-font-bold;
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: 6px;
+		padding-left: 5%;
+		@media (max-width: 767px){
+			padding-left: 0;
+		}
+	}
+	
+}
+.blue-bg-list {
+	font-family: $main-font-light;
+		font-size: 18px;
+		padding-left: 5%;
+		
+		
+		@media (max-width: 767px){
+			padding: 15px 0 0 0;
+			font-size: 16px;
+		}
+		
+	li{
+		list-style-type: none;
+		padding: 5px 0 5px 0;
+		
+		@media (max-width: 1023px){
+    		padding: 5px 0 5px 0;
+		}
+		@media (max-width: 767px){
+    		padding: 3px 0 3px 0;
+		}
+		
+	}
+}
+.centered-con-wrap {
+	padding-top: 77px;
+	padding-bottom: 77px;
+	color: $tc-black;
+	
+	@media (max-width: 767px){
+		padding-top: 40px;
+	padding-bottom: 40px;
+	}
+	
+	
+	
+	
+	img {
+		width: auto !important;
+	}
+	.centerd-con-left {
+		text-align: center;
+	}
+	.centerd-con-right {
+		padding-left: 5%;
+		font-size: 18px;
+		
+		p{
+			font-family: $main-font-light;
+			padding-bottom: 26px;
+			
+			@media (max-width: 767px){
+    		
+			padding-bottom: 15px;
+		}
+			
+			&:last-child{
+				padding-bottom: 0;
+			}
+		}
+		
+		a{
+			color: $tc-black;
+			&:hover{
+				color: $bg-blue-1;
+			}
+	}
+		
+		@media (max-width: 767px){
+    		padding: 15px 0 0 0;
+			font-size: 16px;
+		}
+	}
+	
+}
+.heading-text {
+	font-family: $main-font-book;
+	padding-bottom: 30px;
+	@media (max-width: 767px){
+		padding-bottom: 15px;
+		
+	}
+}
+.bullet-text {
+	font-family: $main-font-light;
+	padding-bottom: 26px;
+	
+	li {
+		list-style-type: none;
+		position: relative;
+		padding-left: 30px;
+		@media (max-width: 767px){
+    		padding-left: 15px;
+			
+		}
+		&:before {
+			position:absolute;
+			content:"";
+			width: 3px;
+			height: 3px;
+			border-radius: 50% 50%;
+			background-color: $tc-black;
+			left:0;
+			top: 50%;
+			margin-top: -2px;
+		}
+	}
+}
+.text-center {
+	text-align: center;
+}

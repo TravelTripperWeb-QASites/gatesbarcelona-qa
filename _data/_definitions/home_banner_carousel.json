@@ -1,0 +1,14 @@
+{
+    "slider_image":
+    {
+      "required": true,  
+      "type": "image",
+      "label": "Upload Banner Image"
+      
+    },
+    "sort_order": 
+    { 
+      "type": "integer",
+      "required": true 
+    }
+}
