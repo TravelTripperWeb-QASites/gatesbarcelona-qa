@@ -28,39 +28,32 @@ function initMap() {
 	 
 	  
 	  $(document).ready(function(){
-  $('.home-slider').slick({
-  autoplay: true,
-    dots: false,
-	
-   centerMode: true,
-  centerPadding: '16%',
-  slidesToShow: 1,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '4px',
-        slidesToShow: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '4px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
+    $('.home-slider').slick({
+     
+       autoplay: true,
+       dots: false,
+  	
+    });
+
+    
 	
 });
 	  
-	  
+$(window).on('load resize', function () {
+  var mheight = $(window).height();
+  var mwidth = $(window).width();
   
+  if(mwidth > 300){
+    $(".home-banner .carousel-inner .item").height(mheight-50);
+  }
+  if(mwidth > 768){
+    $(".home-banner .carousel-inner .item").height(mheight-75);
+  }
+  if(mwidth > 1240){
+    $(".home-banner .carousel-inner .item").height(mheight-121);
+  }
+  
+});   
 
 $(window).on('load scroll resize', function () {
  
