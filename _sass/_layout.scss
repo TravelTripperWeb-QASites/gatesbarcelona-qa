@@ -51,63 +51,7 @@
 
         }
 
-        .social-icons {
-            position: absolute;
-            margin: 0px auto;
-            padding: 0px;
-            left: 0;
-            right: 0;
-            z-index: 3;
-            bottom: 50px;
-            font-size: 17px;
-
-            @media (max-width:767px) {
-                bottom: 30px;
-            }
-
-            @media (max-width:400px) {
-                bottom: 12px;
-            }
-
-            a {
-                color: #fff;
-
-                &:hover {
-                    color: #ddd;
-                }
-
-            }
-
-            h6 {
-                font-family: $main-font-light;
-                font-size: 12px;
-                margin-bottom: 28px;
-
-                @media (max-width:400px) {
-                    margin-bottom: 5px;
-                }
-
-            }
-
-            span {
-                height: 1px;
-                background-color: #fff;
-                width: 30px;
-                display: inline-block;
-                margin: 4px 18px;
-
-                @media (max-width:1023px) {
-                    width: 30px;
-                    margin: 4px 5px;
-                }
-
-                @media (max-width:400px) {
-                    width: 20px;
-                }
-
-            }
-
-        }
+        
 
     }
 
@@ -2627,6 +2571,8 @@ margin-bottom: 1px;
                     text-align: center;
                     background-color: transparent;
 
+
+
                     .wi {
                         font-size: 80px;
                         padding: 10px;
@@ -2637,7 +2583,8 @@ margin-bottom: 1px;
                 }
 
                 img {
-                    margin-bottom: 40px;
+                      max-width: 130px;
+                      margin: 15px;
                 }
 
                 p {
@@ -2646,7 +2593,7 @@ margin-bottom: 1px;
                     
                     display: block;
                     line-height: 21px;
-                    padding: 30px 0 0 0;
+                    padding: 33px 0 0 0;
                     font-family: $main-font-light;
 
                     @media (max-width:767px) {
@@ -2819,7 +2766,8 @@ margin-bottom: 1px;
             p {
                 font-size: 12px;
                 color: #232525;
-                width: 50%;
+                width: 73%;
+                text-transform:uppercase;
                 margin: 0px auto;
                 display: block;
                 line-height: 21px;
@@ -2864,6 +2812,14 @@ margin-bottom: 1px;
                     width: 31px;
                     display: inline-block;
                     margin: 4px 14px;
+                }
+
+                .seperator{
+                            height: 1px;
+                            background-color: #000000;
+                            width: 31px;
+                            display: inline-block;
+                            margin: 4px 14px;
                 }
 
             }
@@ -3190,5 +3146,107 @@ margin-bottom: 1px;
             padding: 7px 13px;
 
         }
+
+}
+
+.home-banner { 
+      position: relative;
+
+     .banner-logo{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            transform: translateY(-50%);
+
+            width:260px;
+
+            @media(min-width:$screen-sm-min) {
+                
+                width:320px;           
+                
+
+            }
+
+
+
+     }
+
+     .social-icons {
+            position: absolute;
+            margin: 0px auto;
+            padding: 0px;
+            left: 0;
+            right: 0;
+            z-index: 3;
+            bottom: 50px;
+            font-size: 17px;
+            text-align: center;
+
+            @media (max-width:767px) {
+                bottom: 30px;
+            }
+
+            @media (max-width:400px) {
+                bottom: 12px;
+            }
+
+            a {
+                color: #fff;
+
+                .fa{
+                    border:none;
+                    padding:0px;
+                }
+
+                &:hover {
+                    color: #ddd;
+                }
+
+            }
+
+            h6 {
+                font-family: $main-font-light;
+                font-size: 12px;
+                margin-bottom: 28px;
+                color:#fff;
+
+                @media (max-width:400px) {
+                    margin-bottom: 5px;
+                }
+
+            }
+
+            span {
+                height: 1px;
+                background-color: #fff;
+                width: 30px;
+                display: inline-block;
+                margin: 4px 18px;
+
+                @media (max-width:1023px) {
+                    width: 30px;
+                    margin: 4px 5px;
+                }
+
+                @media (max-width:400px) {
+                    width: 20px;
+                }
+
+            }
+
+        }
+
+
+}
+
+#specials-carousel-home{
+
+    .carousel-indicators{
+
+        max-width: 650px;
+        text-align: center;
+    }
 
 }
