@@ -3,30 +3,70 @@ layout: default
 ---
 <section>
   <div class="container-fluid no-padding">
-    <div class="page-banner" style="background-image:url(/images/gates/rooms-banner.jpg);">
-      {% region rooms-banner-text %}
+    <div class="page-banner" style="background-image:url(/images/gates/rooms-banner.jpg);"><h1 class="page-title">Comfort & Style</h1></div>
+  </div>
+</section>
+<section>
+  <div class="container" rt3-rooms-browser="browser" rt3-search-form="search" on-search-changed="browser.tonightRate()" ng-cloak>
+    <div class="row">
+      <div class="rooms-holder">
+        <div class="col-md-4 col-sm-6">
+          <div class="rooms-item">
+            <figure><img src="/images/gates/rooms/room-1.jpg" alt=""/></figure>
+            <div class="rooms-item-content">
+            <h2>The Standard King</h2>
+            <div class="room-price">Tonight’s Rate <span>$ 429</span></div>
+            <p>Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+            <div class="extra-padding"><a class="button-common btn-blue" href="/rooms/the-standard-king/">View this room</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="rooms-item">
+            <figure><img src="/images/gates/rooms/room-1.jpg" alt=""/></figure>
+            <h2>The Standard King</h2>
+            <div class="room-price">Tonight’s Rate <span>$ 429</span></div>
+            <p>Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+            <div class="extra-padding"><a class="button-common btn-blue" href="/rooms/1-king-bed/">View this room</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="rooms-item">
+            <figure><img src="/images/gates/rooms/room-1.jpg" alt=""/></figure>
+            <h2>The Standard King</h2>
+            <div class="room-price">Tonight’s Rate <span>$ 429</span></div>
+            <p>Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+            <div class="extra-padding"><a class="button-common btn-blue" href="/rooms/1-king-bed/">View this room</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="rooms-item">
+            <figure><img src="/images/gates/rooms/room-1.jpg" alt=""/></figure>
+            <h2>The Standard King</h2>
+            <div class="room-price">Tonight’s Rate <span>$ 429</span></div>
+            <p>Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+            <div class="extra-padding"><a class="button-common btn-blue" href="/rooms/1-king-bed/">View this room</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="rooms-item">
+            <figure><img src="/images/gates/rooms/room-1.jpg" alt=""/></figure>
+            <h2>The Standard King</h2>
+            <div class="room-price">Tonight’s Rate <span>$ 429</span></div>
+            <p>Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+            <div class="extra-padding"><a class="button-common btn-blue" href="/rooms/1-king-bed/">View this room</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="rooms-item">
+            <figure><img src="/images/gates/rooms/room-1.jpg" alt=""/></figure>
+            <h2>The Standard King</h2>
+            <div class="room-price">Tonight’s Rate <span>$ 429</span></div>
+            <p>Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+            <div class="extra-padding"><a class="button-common btn-blue" href="/rooms/1-king-bed/">View this room</a></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-
-<section>
-	<div class="container" rt3-rooms-browser="browser" rt3-search-form="search" on-search-changed="browser.tonightRate()" ng-cloak>
-    <div class="row">
-    	<div class="rooms-holder">
-            {% assign rooms_images = site.data._models.rooms_page_images  | sort : "sort_order" %}
-            {% for roomsimages in rooms_images %}            
-                <div class="col-md-4 col-sm-6">
-                    <div class="rooms-item">
-                        <figure><img src="{{ roomsimages.room_image.url }}" alt="{{ roomsimages.room_title | upcase }}"/></figure>
-                        <h2>{{ roomsimages.room_title | upcase }}</h2>
-                        <!--<div class="room-price">Tonight’s Rate <span>$ 429</span></div>-->
-                        {{ roomsimages.room_desc }}
-                    </div>
-                </div>
-            {% endfor %}            
-        </div>
-    </div>
-    </div>
-</section>
-
-

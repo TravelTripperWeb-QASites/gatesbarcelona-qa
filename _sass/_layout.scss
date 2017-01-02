@@ -1479,6 +1479,11 @@ margin-bottom: 1px;
         img {
             width: 100%;
         }
+		.rooms-item-content {
+			@media (min-width:$screen-md-min) {
+				padding: 0 0 0 15px;
+			}
+		}
 
         h2 {
             font-family: $main-font-bold;
