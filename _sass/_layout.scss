@@ -1449,11 +1449,15 @@ margin-bottom: 1px;
             font-family: $main-font-light;
             padding-top: 15px;
             font-size: 16px;
-
+			
             span {
                 font-family: $main-font-light;
                 color: #008cc1;
-                padding-left: 10px;
+                
+					&.tonight-label {
+						color: #232525;
+						padding-right: 10px;
+					}
             }
 
             @media (min-width:$screen-sm-min) {
