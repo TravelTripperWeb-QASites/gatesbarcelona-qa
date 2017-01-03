@@ -1,5 +1,5 @@
  # Site settings
-title: Hotels in Key West Florida | 24 North Hotel Key West
+title: Key West Hotels - The Gates Hotel Key West
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -16,3 +16,6 @@ default_lang: 'en'
 languages: ['en']
 
 exclude: ['sitemap.json']
+
+booking_widget_url: https://gateshotelkeywest.reztrip.com/mobile
+
