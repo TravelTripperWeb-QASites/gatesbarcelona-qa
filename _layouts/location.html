@@ -11,15 +11,11 @@ layout: default
 </section>
 
 <section>
-	<ul class="nav nav-pills gallery-nav">
-    <li><a data-toggle="pill" href="#activities">Activities</a></li>
-    <li class="active"><a data-toggle="pill" href="#attractions">Attractions</a></li>
-    <li><a data-toggle="pill" href="#shopping">Shopping</a></li>
-  </ul>
+	
   
   <div class="tab-content">
 
-    <div id="attractions" class="tab-pane fade in active">
+    <div id="attractions" class="tab-pane fade in active top-padding">
       <section class="loc-con-one">
       		<div class="container no-padding">
                 	<div class="col-sm-6 no-padding">
@@ -29,7 +25,7 @@ layout: default
                     </div>
                     <div class="col-sm-6 no-padding">
                     	<div class="con-two">
-                    		<span class="att">{% region attr-image-1 %}<span class="cap">Viscaya Museum</span></span><span class="att">{% region attr-image-2 %}<span class="cap">Wynwood Art District</span></span>
+                    		<span class="att">{% region attr-image-1 %}<span class="cap">Mallory Square</span></span>
                         </div>
                     </div>
                 </div>
@@ -38,16 +34,16 @@ layout: default
                     <div class="con-tt">
                     	<div class="con-three">
                		    	{% region attr-image-3 %}
-                             <span class="cap">Art deco historic district</span>
+                             <span class="cap">dry Tortugas State National Park</span>
                         </div>
                         <div class="con-four">
                         	<div class="col-sm-6 no-padding att">
                             	{% region attr-image-4 %}
-                                <span class="cap">perez art museum</span>
+                                <span class="cap">Architecture</span>
                             </div><div class="col-sm-6 no-padding att-con">
-                            	<div class="add-1">THE GATES HOTEL<span class="nl">SOUTH BEACH</span></div>
+                            	<div class="add-1">THE GATES HOTEL<span class="nl">KEY WEST</span></div>
                                 <div class="add-2">Our<span class="nl">Address</span></div>
-                                <div class="add-3">2360 Collins Avenue<br>Miami Beach, FL 33139<br>United States</div>
+                                <div class="add-3">3824 N Roosevelt Blvd<br>Key West, FL 33040</div>
                           </div>
                         </div>
                         </div>
@@ -61,100 +57,174 @@ layout: default
                 </div>
       </section>
     </div>
-    <div id="activities" class="tab-pane">
-     	<section class="loc-con-one">
-      		<div class="container no-padding">
-                	<div class="col-sm-6 no-padding">
-                    	<div class="con-one">
-                    	{% region activities-todos %}
-                        </div>
-                    </div>
-                    <div class="col-sm-6 no-padding">
-                    	<div class="con-two">
-                    		<span class="att att-1">{% region activities-image-1 %}<span class="cap">American Airlines Arena</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="container no-padding">
-                	<div class="col-md-6 no-padding">
-                    <div class="con-tt">
-                    	<div class="con-three">
-               		    	{% region activities-image-2 %}
-                             <span class="cap">Miami Beach</span>
-                        </div>
-                        <div class="con-four">
-                        	<div class="col-sm-6 no-padding att">
-                            	{% region activities-image-3 %}
-                                <span class="cap">Zoo Miami</span>
-                            </div><div class="col-sm-6 no-padding att-con">
-                            	<div class="add-1">THE GATES HOTEL<span class="nl">SOUTH BEACH</span></div>
-                                <div class="add-2">Our<span class="nl">Address</span></div>
-                                <div class="add-3">2360 Collins Avenue<br>Miami Beach, FL 33139<br>United States</div>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 no-padding">
-                    	<div class="con-five con-five-2">
-                        	{% region activities-favourite-dest %}
-                            
-                        </div>
-                        <div class="act-list-bg">{% region activities-image-4 %}<span class="cap">Miami Beach</span></div>
-                    </div>
-                   
-                </div>
-      </section>
-    </div>
-    <div id="shopping" class="tab-pane fade">
-     	<section class="loc-con-one">
-      		<div class="container no-padding">
-                	<div class="col-sm-6 no-padding">
-                    	<div class="con-one">
-                    	{% region shopping-todos %}
-                        </div>
-                    </div>
-                    <div class="col-sm-6 no-padding">
-                    	<div class="con-two">
-                    		<span class="att att-1">{% region shopping-image-1 %}<span class="cap">Bayside marketplace</span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="container no-padding">
-                	<div class="col-md-6 no-padding">
-                    <div class="con-tt con-tt-2">
-                    	<div class="con-three">
-               		    	<span class="att">{% region shopping-image-2 %}</span><span class="att">{% region shopping-image-3 %}<span class="cap">Lincoln Road</span></span>
-                        </div>
-                        <div class="con-four">
-                        	<div class="col-sm-6 no-padding att">
-                            	{% region shopping-image-4 %}
-                                <span class="cap">Miami Design District</span>
-                            </div><div class="col-sm-6 no-padding att-con">
-                            	<div class="add-1">THE GATES HOTEL<span class="nl">SOUTH BEACH</span></div>
-                                <div class="add-2">Our<span class="nl">Address</span></div>
-                                <div class="add-3">2360 Collins Avenue<br>Miami Beach, FL 33139<br>United States</div>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 no-padding">
-                    	<div class="con-five con-five-2">
-                        	{% region shopping-favourite-dest %}
-                            
-                        </div>
-                        
-                    </div>
-                   
-                </div>
-      </section>
-    </div>
   </div>
 </section>
 
 <section class="map-holder">
 	<div class="map-inner" id="map"></div>
 </section>
+<section class="location-tabs">
 
+<div class=" container no-padding ">
+
+        <div class="tabs-links">
+                  <ul class="nav nav-pills gallery-nav">
+                    <li class="active"><a data-toggle="pill" href="#restaurants">Best Restaurants</a></li>
+                    <li><a data-toggle="pill" href="#bars">Best Bars</a></li>
+                    <li><a data-toggle="pill" href="#golfing">Golfing</a></li>
+                    <li><a data-toggle="pill" href="#beaches">Beaches</a></li>
+                  </ul>
+        </div>
+
+        
+
+          
+
+                    <div class="tab-content">
+
+                    <div id="restaurants" class="tab-pane fade in active" >
+                    <div class="content-container">
+                    <div class="col-sm-6 no-padding">
+                    <div class="desc">
+                        <h2>Key West Cuisine</h2>
+                        <h5>best Restaurants</h5>
+                        <p>Key West offers an incredible range of culinary styles, incorporating incomparably fresh seafood and a mix of culinary practices traditional and progressive. Local favorites include Hogfish — a Key West-specific catch — and Key Lime Pie, an island classic. Across the board, Key West restaurants serve a balance of standard seafood dishes and more progressive creations.<br>
+
+                        Guests at The Gates have the luxury of exploring this culinary landscape at the Blind Pig — our backyard tapas food truck — and at an array of other great Key West dining destinations.</p>
+
+                        </div>
+                      </div> 
+                      <div class="col-sm-6 no-padding tabs-img" style="background-image: url(/images/gates/location/best-restaurants.jpg)">
+                        
+                      <div class="imp-container">
+                      <div class="imp" >
+                         <p class="">
+                            Nine One Five<br>
+                            Santiago’s Bodega<br>
+                            Blue Heaven<br>
+                            Blackfin Bistro<br>
+                            Seven Fish<br>
+                            Better Than Sex<br>
+                            </p>
+
+                      </div>      
+                        </div>
+                    
+                        
+                      </div> 
+                    </div>
+                    </div>
+                    <div id="bars" class="tab-pane">
+                        <div class="content-container">
+                    <div class="col-sm-6 no-padding">
+                    <div class="desc">
+                        <h2>Key West nightlife</h2>
+                        <h5>Unforgettable Experiences</h5>
+                        <p>Known for their freewheeling style, leisurely
+                        atmosphere, and relaxed attitude, Key West bars encourage fun at the expense of inhibition. Visitors and lifelong residents alike bond over the island’s signature spirit — rum — while strolling Duval Street’s lively sidewalks in search of the next stop on their Key West nightlife journey.</p>
+
+                        </div>
+                      </div> 
+                      <div class="col-sm-6 no-padding tabs-img" style="background-image: url(/images/gates/location/best-bars.jpg)">
+                        
+                      <div class="imp-container">
+                      <div class="imp" >
+                         <p class="">
+                            Green Parrot Bar<br>
+                            Sloppy Joe’s Bar<br>
+                            Hog’s Breath Saloon<br>
+                            The Porch<br>
+                            Key West First<br>
+                            Legal Rum Distillery<br>
+                            Vino’s on Duval<br>
+                            Rum Bar
+                            </p>
+
+                      </div>      
+                        </div>
+                    
+                        
+                      </div> 
+                    </div>
+                    </div>
+                    <div id="golfing" class="tab-pane">
+                        <div class="content-container">
+                    <div class="col-sm-6 no-padding">
+                    <div class="desc">
+                        <h2>Key West golfing</h2>
+                        <h5>Key West Golf Club</h5>
+                            <p>South Florida is synonymous with great golf.
+                            With that in mind, The Gates has partnered with the Key West Golf Club,  the only Caribbean golf course in the United States. Players of all abilities will be challenged on the 18-hole, 6,500 yard
+                            tropical course masterfully designed by golf legend Rees Jones. The course is home to the famous “Mangrove Hole,” a 143 yard par 3 that is played over a field of thickly intertwined tropical mangroves. <br>
+
+                            Guests of The Gates are sure to enjoy an exhilarating round as well as special rates.</p>
+
+                        </div>
+                      </div> 
+                      <div class="col-sm-6 no-padding tabs-img" style="background-image: url(/images/gates/location/golfing.jpg)">
+                        
+                      <div class="imp-container">
+                      <div class="imp" >
+                         <p class="">
+                           Nike Rentals<br>
+                            $27.00<br><br>
+
+                            Twilight<br>
+                            (1 PM) – $52.00 (5/1-10/31)<br>
+                            $72.00 (11/1-4/30)
+
+                            </p>
+
+                      </div>      
+                        </div>
+                    
+                        
+                      </div> 
+                    </div>
+                    </div>
+                    <div id="beaches" class="tab-pane">
+                        <div class="content-container">
+                    <div class="col-sm-6 no-padding">
+                    <div class="desc">
+                        <h2>Key West beaches</h2>
+                        <h5>Beach paradise</h5>
+                        <p> Key West isn’t your classic Caribbean beach
+                            destination, where thousands upon thousands
+                            of visitors crowd cabanas and jockey for space
+                            on the sand. Instead, Key West beaches offer a certain aura of cozy exclusivity. Spending a day
+                            on a Key West beach with the sand, water, and
+                            sun as company is a relaxing and restorative
+                            experience: Soak it up.</p>
+
+                        </div>
+                      </div> 
+                      <div class="col-sm-6 no-padding tabs-img" style="background-image: url(/images/gates/location/beaches.jpg)">
+                        
+                      <div class="imp-container">
+                      <div class="imp" >
+                         <p class="">
+                            Smathers Beach<br>
+                            Fort Zachary Taylor<br>
+                            Park & Beach<br>
+                            Higgs Beach Park<br>
+                            Dog Beach<br>
+
+                            </p>
+
+                      </div>      
+                        </div>
+                    
+                        
+                      </div> 
+                    </div>
+                    </div>
+
+            </div>
+
+        
+</div>
+
+</section>
 <section class="loc-gal">
   <div class="container-fluid no-padding">
     	 <div class="col-xs-8 no-padding loc-gal-con" style="background-image: url(/images/gates/location/loc-gal-1.jpg);"><div class="strip"></div></div>
@@ -165,7 +235,7 @@ layout: default
 <section class="loc-cta" style="background-image: url(/images/gates/location/loc-cta.jpg);">
 	<div class="container-fluid no-padding">
     	<div class="cta">
-        	<div class="cta-logo"><a href="/"><img src="/images/gates/gates-cta-logo.png" alt="Gates Hotel South Beach"/></a></div>
+        	<div class="cta-logo"><a href="/"><img src="/images/the-gates-key-west-white.svg" alt="Gates Hotel South Beach"/></a></div>
             <div class="btn-holder text-center"><a href="https://secure3.hilton.com/en/dt/reservation/book.htm?ctyhocn=MIAMHDT" target="_blank" class="button-common">Book Your Stay</a></div>
         </div>
     </div>
@@ -174,10 +244,4 @@ layout: default
 
 
 {% include twitter-instagram.html %}
-
-
-
-<section class="p-found" style="background-image:url(/images/gates/location/p-found.jpg);">
-	{% region paradise-found %}
-</section>
 
