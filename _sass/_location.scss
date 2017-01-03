@@ -371,7 +371,7 @@
 			}
 			.att {
 				display: inline-block;
-				width: 50%;
+				width: 100%;
 				position: relative;
 					img {
 						width: 100%;
@@ -397,8 +397,8 @@
 				padding: 0 10px 0 0;
 			}
 			@media(min-width: $screen-lg-min){
-				top: -142px;
-				margin-bottom: -142px;
+				top: -371px;
+				margin-bottom: -371px;
 			}
 	}
 	
@@ -503,28 +503,34 @@
 		margin: 0 0 0 0;
 		padding: 40px 20px;
 			@media(min-width: $screen-sm-min){
-				margin: 20px 0 0 0;
+				margin: 0px 0 0 0;
 			}
 			@media(min-width: $screen-md-min){
-				margin: 20px 0 0 10px;
+				margin: 0px 0 0 10px;
 				padding: 40px;
 			}
 			@media(min-width: $screen-lg-min){
 				padding: 62px 80px 63px 80px;
 			}
 			.title-head {
-				font-family:$main-font-bold;
-				font-size: 20px;
-				text-transform: uppercase;
+				font-family:$main-font-light;
+				font-size: 12px;
 				color: #232525;
-				letter-spacing: 1px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				line-height: 20px;
 				text-align: center;
-					@media(min-width: $screen-sm-min){
-						text-align: left;
-					}
-					@media(min-width: $screen-md-min){
-						font-size: 24px;
-					}
+				padding-bottom:31px;
+					
+			}
+			p{
+				font-family:$main-font-light;
+				font-size: 12px;
+				color: #8c8d8d;
+				letter-spacing: 2px;
+				
+				line-height: 20px;
+				text-align: center;
 			}
 			.con-five-list {
 				padding: 30px 0 0 0;
@@ -857,4 +863,143 @@
 	img {
 		width: 100%;
 	}
+}
+
+.location-tabs{
+
+	.container {
+		width: auto;
+		max-width: 1320px;
+		position: relative;
+
+		.tabs-links{
+
+				    position: relative;
+				    width: 100%;
+				    z-index: 10;
+
+			    @media(min-width: $screen-sm-min){
+			    	 position: absolute;
+			    	 width: 50%;
+			    }
+
+
+
+		}
+	}
+			
+			.content-container{
+
+
+
+					display: block;
+					width: 100%;
+
+					@media(min-width: $screen-sm-min){
+						
+						display: table;
+						width: 100%;
+
+					}
+
+				.col-sm-6{
+					
+					display: block;
+							
+					text-align: center;
+					vertical-align: middle;
+
+				@media(min-width: $screen-sm-min){
+					display: table-cell;
+					float:none;
+				}
+			
+			}
+
+
+			}
+	    	
+	    	.desc{
+
+  				max-width:366px;
+  				margin:0 auto;
+  				color: #232525;
+  				
+
+  				h2{
+  					    font-family: "GothamHTF-Bold";
+					    font-size: 24px;
+					    text-transform: uppercase;
+					    
+					    letter-spacing: 1px;
+
+  				}
+  				h5 {
+				    font-family: "GothamHTF-Light";
+				    font-size: 12px;
+				    padding:22px 0 0 0;
+				    letter-spacing: 2px;
+				    text-transform: uppercase;
+				    line-height: 20px;
+
+				    @media(min-width: $screen-sm-min){
+					    	padding:35px 0;
+					    }
+
+
+				}
+				p{
+
+					    font-family: "GothamHTF-Book";
+					    font-size: 12px;
+					    letter-spacing: 1px;
+					    line-height: 20px;
+					    padding: 25px 15px;
+					    
+					    @media(min-width: $screen-sm-min){
+					    	padding:0px;
+					    }
+				}
+
+  			}
+	   	    
+  			.imp-container{
+
+  				padding:90px 0px;
+
+  				@media(min-width: $screen-sm-min){
+					    	padding:180px 0px;
+					    }
+
+		  				.imp{
+
+		  				max-width:288px;
+		  				margin:0 auto;
+		  				
+		  				background-color: rgba(255, 255, 255, 0.85);
+		  				padding:70px 0px;
+
+		  				p{
+
+		  					font-family: "GothamHTF-Medium";
+		  					line-height: 27px;
+		  				}
+
+		  				}
+  			}
+  			
+
+
+}
+
+.top-padding{
+
+	margin-top: 20px;
+	
+}
+
+.tabs-img{
+	    background-size: cover;
+	    background-repeat:no-repeat;
+
 }
