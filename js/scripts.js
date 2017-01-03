@@ -3,23 +3,23 @@
 	});
 
 function initMap() {
-        var myLatLng = {lat: 25.799845, lng: -80.128243};
+        var myLatLng = {lat: 24.571201, lng: -81.754446};
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: new google.maps.LatLng(25.804785, -80.136067),
+          zoom: 14,
+          center: new google.maps.LatLng(24.571201, -81.754446),
 		  scrollwheel: false,
 		  disableDefaultUI: true
         });
 		
 		
 		
-		var iconBase = 'http://www.gatessouthbeach.com/images/gates/location/'; 
+		var iconBase = '/images/'; 
 		
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          title: 'Gates Hotel South Beach',
+          title: 'The Gates Hotel Key West',
 		  icon: iconBase + 'loc.png'
         });
 		
