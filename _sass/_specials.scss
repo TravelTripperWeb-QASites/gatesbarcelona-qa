@@ -535,3 +535,11 @@ h2{
 .text-center {
 	text-align: center;
 }
+.rd-row-1 .rdc-car-con {
+&.overlay-con {
+	@media (min-width: $screen-sm-min){
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+}
+}

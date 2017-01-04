@@ -4,23 +4,63 @@ layout: default
 <section>
   <div class="container-fluid no-padding">
     <div class="page-banner" style="background-image:url(/images/gates/offers-banner.jpg);">
-      {% region offers-banner-text %}
+      <h1 class="page-title">Special Offers</h1>
     </div>
   </div>
-</section>
-{% assign offer_dtls = site.data._models.offers  | sort : "sort_order" %}
-{% for offer_details in offer_dtls %}     
+</section>    
 <section class="models">
   <div class="container">
     <div class=" two-col-wrap">
       <div class="row no-gutters">
-        <div class="col-sm-6 sp-img v-center" style="background-image:url({{ offer_details.offer_image.url }});">{{ offer_details.check_rate }} </div>
+        <div class="col-sm-6 sp-img v-center" style="background-image:url(/images/gates/offers/offer-1.jpg);"><a href="#" class="rate-btn">Check Rate</a></div>
         <div class="col-sm-6 sp-content v-center">
-          <p class="title">{{ offer_details.offer_title }}</p>
-          {{ offer_details.offer_desc }}
+          <p class="title">New Years Eve Package</p>
+          <p class="desp">Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+          <div class="btn-holder"><a class="button-common" href="/offers/new-years-eve-package/">View this offer</a></div>
         </div>
       </div>
     </div>
   </div>
 </section>
- {% endfor %}
+<section class="models">
+  <div class="container">
+    <div class=" two-col-wrap">
+      <div class="row no-gutters">
+        <div class="col-sm-6 sp-img v-center" style="background-image:url(/images/gates/offers/offer-1.jpg);"><a href="#" class="rate-btn">Check Rate</a></div>
+        <div class="col-sm-6 sp-content v-center">
+          <p class="title">New Years Eve Package</p>
+          <p class="desp">Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+          <div class="btn-holder"><a class="button-common" href="#">View this offer</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="models">
+  <div class="container">
+    <div class=" two-col-wrap">
+      <div class="row no-gutters">
+        <div class="col-sm-6 sp-img v-center" style="background-image:url(/images/gates/offers/offer-1.jpg);"><a href="#" class="rate-btn">Check Rate</a></div>
+        <div class="col-sm-6 sp-content v-center">
+          <p class="title">New Years Eve Package</p>
+          <p class="desp">Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+          <div class="btn-holder"><a class="button-common" href="#">View this offer</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="models">
+  <div class="container">
+    <div class=" two-col-wrap">
+      <div class="row no-gutters">
+        <div class="col-sm-6 sp-img v-center" style="background-image:url(/images/gates/offers/offer-1.jpg);"><a href="#" class="rate-btn">Check Rate</a></div>
+        <div class="col-sm-6 sp-content v-center">
+          <p class="title">New Years Eve Package</p>
+          <p class="desp">Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
+          <div class="btn-holder"><a class="button-common" href="#">View this offer</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
