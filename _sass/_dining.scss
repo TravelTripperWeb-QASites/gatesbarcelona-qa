@@ -35,7 +35,7 @@
 
     	p{
     		font-family: $main-font-light;
-    		max-width:385px;
+    		max-width:444px;
 		    font-size: 12px;
 		    line-height: 24px;
 		    color: #8c8d8d;
@@ -204,3 +204,71 @@
 		    	color: #fff;
 		    }
     	}
+
+.dining-overlay{
+
+		padding: 55px 40px 55px 40px !important;
+
+	@media (min-width: $screen-sm-min){
+		padding-top: 70px  !important;
+		padding-bottom: 70px  !important;
+	}
+
+	.title{
+
+		padding:0px !important;
+
+	}
+
+	.sub-title{
+
+		    text-transform: initial;
+		    padding:36px 0px !important;
+		    line-height: 20px;
+
+
+	}
+
+
+}
+
+.the-blind-pig-content{
+
+	    padding-top: 30px !important;
+	     padding-bottom: 30px !important;
+
+	    @media (min-width: $screen-md-min){
+
+		    padding-top: 66px !important;
+		    padding-bottom: 0px !important;
+
+		    }
+
+
+	p{
+		    max-width: 470px !important;
+		    padding: 0px 15px  !important;
+		    line-height: 20px !important;
+
+		    @media (min-width: $screen-md-min){
+
+		   	line-height: 20px !important;
+
+		    }
+	}
+
+	img{
+
+		    max-width: 170px !important;
+   			padding: 20px 0px !important;
+
+   			@media (min-width: $screen-md-min){
+
+   				padding: 30px 0px !important;
+   				max-width: 247px !important;
+
+   			}
+	}
+
+
+}

@@ -3,7 +3,7 @@ layout: default
 ---
 <section>
   <div class="container-fluid no-padding">
-    <div class="page-banner location-banner" style="background-image: url(/images/gates/location-banner.jpg)">
+    <div class="page-banner location-banner" style="background-image: url(/images/dining/dining-banner.jpg)">
       {% region banner-text %}
       <!--<div class="banner-btn"><a href="#" class="button-common">Download Map</a><a href="#" class="button-common">Download Fact Sheet</a></div>-->
     </div>
@@ -13,14 +13,13 @@ layout: default
       <div class="container no-padding rum-row-container">
 
                         <div class="col-sm-6 no-padding img-container">
-                        <img src="/images/dining/rum-image1.jpg" alt="Rum Row is the quintessential Key West hangout"/>
+                        {% region rum-row-container-image%}
+                        
                         </div>
 
                         <div class="col-sm-6 no-padding content">
-                        <img src="/images/rum-row.svg" alt="Rum Row is the quintessential Key West hangout"/>
-                        <p>By day a sunny retreat for poolside lounging and
-small bites and by night a lively watering hole featuring great cocktails and live local music, Rum Row is the quintessential Key West hangout. Our Key West hotel promises a pool scene without the scene—kick back, chill out, and celebrate the best of the island all in one spot.</p>
-                        <a class="button-common loc-btn" href="">Contact us</a>
+                        {% region rum-row-container-content%}
+                        
                         </div>
                         <div>
                         
@@ -34,11 +33,8 @@ small bites and by night a lively watering hole featuring great cocktails and li
 
       <div class="col-sm-6 no-padding">
       <div  class="poolside-container ">
-
-                        <h5>RETREAT FOR POOLSIDE LOUNGING</h5>
-                        <p>Rum Row’s bar and lounge are open to hotel guests
-                        from 11am to 10pm. Guests must be 21 or older to enter the bar and lounge. The pool is open to all ages and accessible from 8am to 10pm. The Blind Pig food truck serves food all day to Rum Row guests, starting with breakfast from 7am to 11am and lunch and dinner from 11am to 10pm.</p>
-                        <a class="button-common loc-btn" href="">View menu</a>
+      {% region poolside-content%}
+                        
 
       
       </div>
@@ -61,6 +57,93 @@ small bites and by night a lively watering hole featuring great cocktails and li
 </section>
 
 
+<section class="rd-row-1">
+  <div id="rd-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators 
+  <ol class="carousel-indicators">
+    <li data-target="#rd-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#rd-carousel" data-slide-to="1"></li>
+    <li data-target="#rd-carousel" data-slide-to="2"></li>
+    <li data-target="#rd-carousel" data-slide-to="3"></li>
+  </ol>-->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background-image:url(/images/dining/blind-pig.jpg);">
+     <div class="rdc-car-con overlay-con dining-overlay">
+      {% region the-blind-pig-content%}
+        
+     </div> 
+    </div>
+
+  </div>
+
+  <!-- Left and right controls 
+  <a class="left carousel-control" href="#rd-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#rd-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> -->
+</div>
+</section>
+
+<section>
+      <div class="container no-padding rum-row-container">
+
+                        
+
+                        <div class="col-sm-6 no-padding content the-blind-pig-content">
+                        {% region the-blind-pig-content2%}
+                                               
+                        </div>
+                        <div class="col-sm-6 no-padding img-container">
+                        {% region the-blind-pig-content-image%}
+                        
+                        </div>
+                        <div>
+                        
+                        </div>
+
+
+      </div>
+</section>
+
+
+<section class="rd-row-1">
+  <div id="rd-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators 
+  <ol class="carousel-indicators">
+    <li data-target="#rd-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#rd-carousel" data-slide-to="1"></li>
+    <li data-target="#rd-carousel" data-slide-to="2"></li>
+    <li data-target="#rd-carousel" data-slide-to="3"></li>
+  </ol>-->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active" style="background-image:url(/images/dining/best-cuisine.jpg);">
+     <div class="rdc-car-con overlay-con dining-overlay">
+         {% region cuisine-content%}
+        
+     </div> 
+    </div>
+
+  </div>
+
+  <!-- Left and right controls 
+  <a class="left carousel-control" href="#rd-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#rd-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> -->
+</div>
+</section>
 
 {% include twitter-instagram.html %}
 
