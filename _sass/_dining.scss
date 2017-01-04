@@ -1,0 +1,274 @@
+.rum-row-container{
+
+	width: auto;
+    max-width: 1320px;
+    position: relative;
+    text-align: center;
+
+    .img-container{
+
+    	background-color: #d7d7d7;
+    	padding:40px 0px;
+
+    	@media(min-width: $screen-sm-min){
+            padding:85px 0px;;
+            }
+
+    	img{
+    		width:100%;
+    		max-width:477px;
+    	}
+    }
+    .content{
+
+    	img{
+    		max-width: 340px;
+            width: 100%;
+            padding-top:25px;
+            
+            @media(min-width: $screen-md-min){
+             padding-top:55px;
+            }
+
+           
+    	}
+
+    	p{
+    		font-family: $main-font-light;
+    		max-width:444px;
+		    font-size: 12px;
+		    line-height: 24px;
+		    color: #8c8d8d;
+		    letter-spacing: 1px;
+		    margin:0 auto;
+		    padding: 15px;
+		    @media(min-width: $screen-sm-min){
+             padding: 5px 15px 44px 15px;
+            }
+    	}
+    	
+    }
+}
+
+.rum-wars-container{
+
+	width: 100%;
+    max-width: 1320px;
+    margin:0 auto;
+    position: relative;
+    text-align: center;
+    display:block;
+    margin-bottom:20px;
+
+
+    	@media(min-width:808px){
+
+	           display:table;  
+
+            }
+
+    .col-sm-6{
+    	float:none;
+    	display:block;
+    	vertical-align: top;
+    	position:relative;
+    	width: 100%;
+
+    	@media(min-width:808px){
+
+	           display:table-cell;  
+	           width: 50%;
+	           
+            }
+
+
+    	.poolside-images-container{
+
+    		    height: 285px;
+    		    width: 100%;
+    		    position: absolute;
+			    bottom: 0px;
+			    left: 0px;
+			    padding-right: 20px;
+			     @media (max-width:1297px) {
+
+			     	height: 220px;
+			     }
+			     @media (max-width:989px) {
+
+			     	height: 150px;
+			     }
+			      @media (max-width:847px) {
+
+			     	display:none;
+
+			     }
+    			
+
+    		.pool-img-1{
+
+
+    			height: 100%;
+    			background-image: url(/images/dining/pool-img-1.jpg);
+    			background-size: cover;
+    			width: 39%;
+			    float: left;
+			    
+
+    		}
+
+
+    		.pool-img-2{
+
+    			height: 100%;
+    			background-image: url(/images/dining/pool-img-2.jpg);
+    			background-size: cover;
+    			float: right;
+   				width: 57.8%;
+
+    			
+    		}
+    	}
+
+
+    }
+
+    .poolside-container{
+    	
+    	padding-right:20px;
+
+    	h5{
+    		font-family: $main-font-light;
+    		font-size: 12px;
+    		letter-spacing: 1px;
+    		padding:73px 0px 0px 0px;
+
+    		@media (max-width:1129px) {
+
+			     	padding:48px 0px 0px 0px;
+			     }
+    	}
+
+    	p{
+    		font-family: $main-font-light;
+    		max-width:415px;
+		    font-size: 12px;
+		    line-height: 20px;
+		    color: #8c8d8d;
+		    letter-spacing: 1px;
+		    margin:0 auto;
+		    padding: 44px 0px 44px 0px;
+		    
+		    @media(max-width:1129px){
+             padding: 15px;
+            }
+    	}
+    	.loc-btn{
+
+    		    margin-bottom: 40px;
+
+    		    @media(min-width:808px){
+
+    		    	margin-bottom: 0px;
+
+    		    }
+    	}
+
+
+    }
+
+    .rum-img-container{
+
+    	img{
+    		width:100%
+    	}
+
+
+    }
+
+
+}
+
+
+.loc-btn{
+    		border: solid 1px #232525;
+		    font-size: 12px;
+		    color: #232525;
+		    padding:7px 30px;
+		    letter-spacing: 3.5px;
+		    border-radius:0px;
+
+		    &:hover{
+
+		    	background-color: #232525;
+		    	color: #fff;
+		    }
+    	}
+
+.dining-overlay{
+
+		padding: 55px 40px 55px 40px !important;
+
+	@media (min-width: $screen-sm-min){
+		padding-top: 70px  !important;
+		padding-bottom: 70px  !important;
+	}
+
+	.title{
+
+		padding:0px !important;
+
+	}
+
+	.sub-title{
+
+		    text-transform: initial;
+		    padding:36px 0px !important;
+		    line-height: 20px;
+
+
+	}
+
+
+}
+
+.the-blind-pig-content{
+
+	    padding-top: 30px !important;
+	     padding-bottom: 30px !important;
+
+	    @media (min-width: $screen-md-min){
+
+		    padding-top: 66px !important;
+		    padding-bottom: 0px !important;
+
+		    }
+
+
+	p{
+		    max-width: 470px !important;
+		    padding: 0px 15px  !important;
+		    line-height: 20px !important;
+
+		    @media (min-width: $screen-md-min){
+
+		   	line-height: 20px !important;
+
+		    }
+	}
+
+	img{
+
+		    max-width: 170px !important;
+   			padding: 20px 0px !important;
+
+   			@media (min-width: $screen-md-min){
+
+   				padding: 30px 0px !important;
+   				max-width: 247px !important;
+
+   			}
+	}
+
+
+}
