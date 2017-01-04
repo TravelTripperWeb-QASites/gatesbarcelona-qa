@@ -17,9 +17,9 @@ layout: default
       <div class="container">
         <ul class="gallery-nav">
          <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
-          <li><a href="javascript:;" data-rel="hotel" class="filter">The Hotel</a></li>
-          <li><a href="javascript:;" data-rel="restaurant" class="filter">Restaurant & Bar</a></li>
-          <li><a href="javascript:;" data-rel="rooms" class="filter">Rooms & Suites</a></li>
+          <li><a href="javascript:;" data-rel="hotel" class="filter">Hotel</a></li>
+          <li><a href="javascript:;" data-rel="amenities" class="filter">Amenities</a></li>
+          <li><a href="javascript:;" data-rel="attractions" class="filter">Attractions</a></li>
         </ul>
       </div>
       <div class="container gallery-wrap" id="lightgallery">
@@ -32,13 +32,13 @@ layout: default
 {% endfor %}  
 {% assign resta_images = site.data._models.gallery_restaurent_images | sort : "sort_order" %}
 {% for resta_gallery in resta_images %}          
-          <li class="col-md-4 col-sm-4 fancybox" data-filter="restaurant">
+          <li class="col-md-4 col-sm-4 fancybox" data-filter="amenities">
             <div class="item" data-src="{{resta_gallery.large_image.url}}"><img src="{{resta_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
           </li>
  {% endfor %}          
 {% assign roomsnsuites_images = site.data._models.gallery_roomsnsuites_images | sort : "sort_order" %}
 {% for roomsnsuites_gallery in roomsnsuites_images %}            
-           <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="attractions">
             <div class="item" data-src="{{roomsnsuites_gallery.large_image.url}}"><img src="{{roomsnsuites_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
           </li>  
 {% endfor %}                  
