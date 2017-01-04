@@ -878,9 +878,12 @@
 				    width: 100%;
 				    z-index: 10;
 
+				    padding-top: 10px;
+
 			    @media(min-width: $screen-sm-min){
 			    	 position: absolute;
 			    	 width: 50%;
+			    	 padding-top: 40px;
 			    }
 
 
