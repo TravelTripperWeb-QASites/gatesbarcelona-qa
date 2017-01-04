@@ -30,13 +30,13 @@ layout: default
             <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
           </li>
 {% endfor %}  
-{% assign resta_images = site.data._models.gallery_amenities_images | sort : "sort_order" %}
+{% assign resta_images = site.data._models.gallery_restaurent_images | sort : "sort_order" %}
 {% for resta_gallery in resta_images %}          
           <li class="col-md-4 col-sm-4 fancybox" data-filter="amenities">
             <div class="item" data-src="{{resta_gallery.large_image.url}}"><img src="{{resta_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
           </li>
  {% endfor %}          
-{% assign roomsnsuites_images = site.data._models.gallery_attractions_images | sort : "sort_order" %}
+{% assign roomsnsuites_images = site.data._models.gallery_roomsnsuites_images | sort : "sort_order" %}
 {% for roomsnsuites_gallery in roomsnsuites_images %}            
            <li class="col-md-4 col-sm-4 fancybox" data-filter="attractions">
             <div class="item" data-src="{{roomsnsuites_gallery.large_image.url}}"><img src="{{roomsnsuites_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
