@@ -1,0 +1,24 @@
+{"title":
+	{"required":true},
+"sub_title":
+{},
+"seo_title":
+	{"required":true},
+"seo_description":
+	{"type":"text","required":true},
+"url_friendly_name":
+	{"type":"url_slug"},
+"short_description":
+	{"required":true},
+"image":
+	{"type":"image"},
+"contents_1":
+	{"type":"richtext","required":true,"hint":"Write the detailed description"},
+"image_1":
+	{"type":"image","required":true},	
+"contents_2":
+	{"type":"richtext","required":true,"hint":"Write the description"},
+"image_2":
+{"type":"image","required":true},
+
+}
