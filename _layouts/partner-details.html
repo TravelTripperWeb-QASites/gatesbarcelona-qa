@@ -1,57 +1,51 @@
 ---
 layout: default
 ---
+
+{% assign partners = page %}
+{% assign model = page %}
+
 <section>
   <div class="container-fluid no-padding">
-    <div class="page-banner location-banner" style="background-image: url(/images/gates/partners-banner.jpg)">
-      <h1 class="page-title">PARTNERS</h1>
+    <div class="page-banner location-banner" style="background-image: url({{partners.image.url}})">
+      <h1 class="page-title">{{partners.title}}</h1>
+
       <!--<div class="banner-btn"><a href="#" class="button-common">Download Map</a><a href="#" class="button-common">Download Fact Sheet</a></div>-->
     </div>
   </div>
 </section>
 <section class="r-info">
-  <div class="container no-padding">
-    <div class="col-md-6 no-padding -left">
-      <div class="con-1 details-container-1">
-        <h2 class="title">Key West Bike Rentals featuring Lorenzo Martone Bicycles</h2>
-        
-        <div class="des-wrap">
-          <p>Biking in Key West is by far the best way to get around and explore the many parts of the island, especially in Old Town where the streets are narrow and winding, or along the beach where you can gaze out at the crystal blue waters. There are plenty of  bike trails and bike lanes throughout Key West, and the local busses and taxis have bike racks in case you get tired of riding.
-          </p>
-          <p>
-          Here at Gates Hotel, ride through Key West style with chic bikes from Martone Cycling Co. The ultimate combination of sleek style and solid function, these sexy bikes by fashion icon Lorenzo Martone are designed to let you see and be seen.
-          </p>
-          <p>
-          Our Martone bicycle are available complimentary to guests that reserve THE SCENE room. Want substance with a scene? The SCENE room features a small terrace with a seating area and view of the pool.
-          </p>
-          <p>
-          For daily rental we have our Gates cruiser bicycles available for touring Key West. Please see the concierge for daily and multi-day rental pricing.
-          </p>
-          
-        </div>
-       
+  <div class="container no-padding partners-description">
+    <div class="col-md-6 no-padding">
+      <div class="details-container-1">
+
+      {{partners.contents_1}}
+             
       </div>
-      <div class="con-2"><img src="/images/gates/room-details/room-2.jpg" alt=""></div>
+      
     </div>
-    <div class="col-md-6 no-padding -right">
-      <div class="con-3">
-        <div><img src="/images/gates/room-details/gallery.jpg" alt=""></div>
+    <div class="col-md-6 no-padding">
+
+      <div class="img1-container">
+       <div class="img1" style="background-image: url({{partners.image_1.url}})"></div>
+      </div>  
+      
+    </div>
+
+    <div class="col-md-6 no-padding">
+
+      <div class="img2-container">
+        <div class="img2" style="background-image: url({{partners.image_2.url}})"></div>   
+      </div>
+
+    </div>
+    <div class="col-md-6 no-padding">
+
+      <div class="details-container-1 partners-gallery-text-align">
+      {{partners.contents_2}}
         
       </div>
-      <div class="con-4 details-container-2">
-      <h2 class="title">Biking in Key West: Tips and Etiquette</h2>
-        <p>Bicycling is a popular way to get around in Key West, but you still have to share the streets with cars and pedestrians. Here are some tips and etiquette rules to keep it fun and safe:
-        </p>
-        <ul class="list">
-            <li>Only bicycle riders under 16 are required to wear a helmet by law, but that doesn’t mean you should go without one. Our Key West bike rentals include helmets, and they’re just as stylish as our bikes!</li>
-            
-            <li>You may ride on the sidewalks here in Key West, but keep in mind that all cyclists must slow down and yield to pedestrians.</li>
-            <li>Follow the rules of the road: obey traffic controls and signals, ride with the flow of traffic, yield when entering a roadway, etc. And of course, don’t ride drunk—You can get DUI as you would if you were operating a car.</li>
-            <li>Secure your bike whenever you are not using it, as bikes have a habit of “being borrowed” when unattended. There are plenty of bicycle racks around the city that you can lock it to. Ask our front desk for a lock if needed.</li>
-            
-          </ul>
-        
-      </div>
+
     </div>
   </div>
 </section>
@@ -59,47 +53,30 @@ layout: default
 <section class="rd-row-1 partners-gallery-margin">
   <div id="rd-carousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#rd-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#rd-carousel" data-slide-to="1"></li>
-    <li data-target="#rd-carousel" data-slide-to="2"></li>
-    <li data-target="#rd-carousel" data-slide-to="3"></li>
-  </ol>
+  
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active" style="background-image:url(/images/dining/blind-pig.jpg);">
-     <div class="rdc-car-con overlay-con dining-overlay">
-      <h2 class="title">The Blind Pig<br>Food Truck in <br> Key West</h2><h3 class="sub-title">Gates Hotel will be offering food from The Blind Pig, a new Key West food truck that will be permanently parked at the hotel.</h3><div class="spacing"><a class="button-common-2" href="#" target="_blank">View Menu</a>
-        
+  {% assign active_offer_flag =  0 %}
+
+  {% for partners in site.data._models.partners %}
+
+  {% if active_offer_flag  == 0 %}
+                <div class="item active" style="background-image:url(/images/dining/blind-pig.jpg);">
+              {% else %}
+                <div class="item" style="background-image:url(/images/dining/blind-pig.jpg);">
+              {% endif %}
+  {% assign active_offer_flag =  1 %}
+       <div class="rdc-car-con overlay-con dining-overlay">
+      <h2 class="title">{{partners.title}}</h2><h3 class="sub-title">{{partners.short_description}}</h3>
+      <div class="spacing"><a class="button-common-2" href="{{partners.url_friendly_name}}" target="_blank">Read More</a>
+      
      </div> 
     </div>
-
   </div>
-  <div class="item " style="background-image:url(/images/dining/blind-pig.jpg);">
-     <div class="rdc-car-con overlay-con dining-overlay">
-      <h2 class="title">The Blind Pig<br>Food Truck in <br> Key West</h2><h3 class="sub-title">Gates Hotel will be offering food from The Blind Pig, a new Key West food truck that will be permanently parked at the hotel.</h3><div class="spacing"><a class="button-common-2" href="#" target="_blank">View Menu</a>
-        
-     </div> 
-    </div>
 
-  </div>
-  <div class="item " style="background-image:url(/images/dining/blind-pig.jpg);">
-     <div class="rdc-car-con overlay-con dining-overlay">
-      <h2 class="title">The Blind Pig<br>Food Truck in <br> Key West</h2><h3 class="sub-title">Gates Hotel will be offering food from The Blind Pig, a new Key West food truck that will be permanently parked at the hotel.</h3><div class="spacing"><a class="button-common-2" href="#" target="_blank">View Menu</a>
-        
-     </div> 
-    </div>
+  {% endfor %} 
 
-  </div>
-  <div class="item " style="background-image:url(/images/dining/blind-pig.jpg);">
-     <div class="rdc-car-con overlay-con dining-overlay">
-      <h2 class="title">The Blind Pig<br>Food Truck in <br> Key West</h2><h3 class="sub-title">Gates Hotel will be offering food from The Blind Pig, a new Key West food truck that will be permanently parked at the hotel.</h3><div class="spacing"><a class="button-common-2" href="#" target="_blank">View Menu</a>
-        
-     </div> 
-    </div>
-
-  </div>
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#rd-carousel" role="button" data-slide="prev">

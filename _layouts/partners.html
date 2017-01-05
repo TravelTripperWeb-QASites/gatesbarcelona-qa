@@ -9,28 +9,25 @@ layout: default
     </div>
   </div>
 </section>
-{% for events in site.data._models.partners %}
-      
-         {{partners.title}}
-         {{partners.short_description}}
-         {{partners.short_description}}
-         {{partners.url_friendly_name}}
-        
-{% endfor %} 
-<section class="models">
-  <div class="container">
-    <div class=" two-col-wrap">
-      <div class="row no-gutters">
-        <div class="col-sm-3 sp-img v-center" style="background-image:url(/images/partners/concierge.jpg);"></div>
-        <div class="col-sm-9 sp-content v-center partners-text-align">
-          <p class="title">KEY WEST CONCIERGE</p>
-          <p class="desp">Whether you are starting to plan your Key West vacation or have already checked in to The Gates, our Concierge team is ready to help you discover the beauty, charm and excitement of the island.</p>
-          <div class="btn-holder"><a class="button-common" href="/offers/new-years-eve-package/">Read More</a></div>
+{% for partners in site.data._models.partners %}
+
+    <section class="models">
+      <div class="container">
+        <div class=" two-col-wrap">
+          <div class="row no-gutters">
+            <div class="col-sm-3 sp-img v-center" style="background-image:url({{partners.image_1.url}});"></div>
+            <div class="col-sm-9 sp-content v-center partners-text-align">
+              <p class="title"> {{partners.title}}</p>
+              <p class="desp"> {{partners.short_description}}</p>
+              <div class="btn-holder"><a class="button-common" href="{{partners.url_friendly_name}}">Read More</a></div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+        
+{% endfor %} 
+
 
 {% include twitter-instagram.html %}
 
