@@ -19,3 +19,8 @@ exclude: ['sitemap.json']
 
 booking_widget_url: https://gateshotelkeywest.reztrip.com/mobile
 
+page_gen:
+  - data: 'events'
+    template: 'event-details'
+    dir: 'events'
+
