@@ -12,9 +12,11 @@
 	{"type":"date"},
 "time":
 	{"type":"text","required":true},
+"website_url":
+	{"type":"text"},
 "short_description":
 	{},
 "event_image":
-	{"type":"image"},
+	{"type":"image","required":true},
 "venue":
 	{"type":"richtext","required":true,"hint":"Write the detailed venue details"}}
