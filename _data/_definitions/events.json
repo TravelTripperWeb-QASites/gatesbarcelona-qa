@@ -19,6 +19,4 @@
 "contents_2":
 	{"type":"richtext","required":true,"hint":"Write the description"},
 "image_2":
-{"type":"image","required":true},
-
-}
+{"type":"image","required":true}}
