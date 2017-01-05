@@ -18,13 +18,13 @@ layout: default
     <div class="content-container">
       <div class="col-sm-6 no-padding">
         <div class="desc">
-        	<h2>Chad Burtch</h2>
-            <h3><span class="date-label">Date</span>January 18, 2016</h3>
-            <h3><span class="date-label">Time</span>4:00 pm - 7:00 pm</h3>
+        	<h2>{{events.title}}</h2>
+            <h3><span class="date-label">Date</span>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</h3>
+            <h3><span class="date-label">Time</span>{{events.time}}</h3>
 			<div class="venue">
-            	<span class="date-label">Venue</span>3824 N Roosevelt Blvd,<br>Key West, FL 33040<br>United States
+            	<span class="date-label">Venue</span>{{events.venue}}
             </div>
-            <div class="website"><span class="date-label">Website</span><a href="#">http://www.gateshotelkeywest.com/eat-drink/key-west-bar/</a></div>
+            <div class="website"><span class="date-label">Website</span><a href="{{events.website_url}}">{{events.website_url}}</a></div>
         </div>
       </div>
       <div class="col-sm-6 no-padding tabs-img" style="background-image: url(/images/gates/location/best-restaurants.jpg)">   
