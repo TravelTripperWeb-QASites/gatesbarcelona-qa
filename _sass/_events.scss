@@ -64,6 +64,12 @@
 				line-height: 20px;
 			}
 		}
+		.tabs-img {
+			min-height: 250px;
+			@media(min-width: $screen-sm-min) {
+				min-height: none;
+			}
+		}
 }
 /*
 .gky-events {
