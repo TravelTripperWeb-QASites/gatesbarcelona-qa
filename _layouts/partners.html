@@ -9,7 +9,14 @@ layout: default
     </div>
   </div>
 </section>
-
+{% for events in site.data._models.partners %}
+      
+         {{partners.title}}
+         {{partners.short_description}}
+         {{partners.short_description}}
+         {{partners.url_friendly_name}}
+        
+{% endfor %} 
 <section class="models">
   <div class="container">
     <div class=" two-col-wrap">
