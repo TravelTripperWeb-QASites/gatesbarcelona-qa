@@ -1,0 +1,160 @@
+---
+layout: default
+---
+<input type="hidden" id="roomId"  value="{{page.code}}" />
+<input type="hidden" id="roomList" value="[[ browser.roomsList ]]"   />
+<div ng-controller ="roomDetail">
+<section>
+  <div class="container-fluid no-padding">
+    <div class="page-banner" style="background-image: url(/images/gates/room-details/rooms-banner.jpg)">
+      <h1 class="page-title">Luxury Comfort</h1>
+    </div>
+  </div>
+</section>
+<section>
+  <ul class="gallery-nav">
+    <li><a ng-href="/room-details/#[[prevRoomName | formatNameForLink ]]" ng-click="reloadPage" ng-show="prevRoomName">Prevoius Room</a></li>
+    <li><a href="#">[[selectedRoom.name]]</a></li>
+    <li><a ng-href="/room-details/#[[nextRoomName | formatNameForLink ]]" ng-click="reloadPage" ng-show="nextRoomName">Next Room</a></li>
+  </ul>
+</section>
+<section class="rd-row-1">
+  <div id="rd-carousel" class="carousel slide carousel-fade" data-ride="carousel"> 
+    <!-- Indicators
+    <ol class="carousel-indicators">
+      <li data-target="#rd-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#rd-carousel" data-slide-to="1"></li>
+      <li data-target="#rd-carousel" data-slide-to="2"></li>
+      <li data-target="#rd-carousel" data-slide-to="3"></li>
+    </ol>
+     --> 
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item" ng-class="{'active': $index == 0}"  style="background-image: url([[photo.yankee_large]]);" ng-repeat ="photo in selectedRoom.photos">
+        <div class="rdc-car-con">
+          <h3 class="sub-title">luxury redefined</h3>
+          <h2 class="title">[[selectedRoom.name]]</h2>
+          <div class="tonight">[[ selectedRoom.todayRate ]]</div>
+          <div class="spacing"><a class="button-common-2" href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">Book Now</a></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Left and right controls --> 
+    <a class="left carousel-control" href="#rd-carousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#rd-carousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+  </div>
+</section>
+<section class="r-info">
+  <div class="container no-padding">
+    <div class="col-md-6 no-padding -left">
+      <div class="con-1">
+        <h2 class="title">Room Information</h2>
+        <h3 class="sub-title">[[selectedRoom.bed_types[0].name]] | [[ selectedRoom.room_size ]] [[ selectedRoom.room_size_units ]]</h3>
+        <div class="des-wrap">
+          <p class="des">[[ selectedRoom.description ]]</p>
+          <p class="des bold-text">Need assistance? Our dedicated reservations team is available around the clock:</p>
+          <p class="des">Gates South Beach Service Centre <a href="tel:1 877 462 5638">1 877 462 5638</a> or<br>
+            <a href="mailto:info@gatessouthbeach.com">info@gatessouthbeach.com</a></p>
+        </div>
+        <div class="spacing"><a class="button-common-2" href="mailto:info@gatessouthbeach.com">Contact Us</a></div>
+      </div>
+      <div class="con-2"><img src="/images/gates/room-details/room-2.jpg" alt=""></div>
+    </div>
+    <div class="col-md-6 no-padding -right">
+      <div class="con-3">
+        <div><img src="/images/gates/room-details/gallery.jpg" alt=""></div>
+        <div class="text">
+          <h2 class="title">Take a visual Journey</h2>
+          <div class="spacing"><a class="button-common-2 -white" href="/gallery/">View Gallery</a></div>
+        </div>
+      </div>
+      <div class="con-4">
+        <div class="col-sm-5 con-4-1">
+          <ul class="list">
+            <li>WIFI available</li>
+            <li>Wireless printing</li>
+            <li>42-inch HD TV</li>
+            <li>MP3 alarm clock</li>
+            <li>Hairdryer</li>
+            <li>Iron</li>
+            <li>Coffeemaker</li>
+            <li>Large work desk</li>
+            <li>Laptop safes</li>
+          </ul>
+        </div>
+        <div class="col-sm-7 con-4-2">
+          <div>
+            <div class="add-1">ENJOY THE FOLLOWING<span class="nl">PRIVILEGES</span></div>
+            <div class="add-2">Room<span class="nl">Amenitites</span></div>
+            <div class="spacing"><a href="" class="button-common-2">general amenities</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="rooms-section">
+<div class="container">
+<div class="col-md-4 no-padding">
+  <div class="new-caption-area" id="roomscroll">
+    <p></p>
+    <div class="carousel-controls"> <a class="left nav-control" href="#rooms-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#rooms-carousel" role="button" data-slide="next"> </a> </div>
+    <h3></h3>
+    <div class="links"></div>
+  </div>
+</div>
+<div class="col-md-8 no-padding">
+  <div class="rooms-carousel">
+    <div id="rooms-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item" ng-class="{'active': $index == 0}" ng-repeat ="room in browser.roomsList">
+        <img alt="" src="[[room.photos[0].large]]" class="width-full">
+          <div class="carousel-caption">
+            <p>VIEW MORE LUXURIOUS ROOMS & SUITES</p>
+            <h3>[[room.name]]</h3>
+            <div class="links"><a href="/room-details/#[[room.name | formatNameForLink]]" class="button-common-2">VIEW THIS ROOM</a> <a href="/rooms/" class="button-common-2">VIEW ALL ROOMS</a> </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section class="loc-cta" style="background-image:url(/images/gates/room-details/rooms-details-book-bg.jpg);">
+  <div class="container-fluid no-padding">
+  	<div class="cta">
+    <div class="cta-logo"><a href="https://gateshotelkeywest.reztrip.com/" target="_blank"><img src="/images/the-gates-key-west-white.svg" alt="Gates Hotel South Beach"></a></div>
+<div class="btn-holder text-center"><a class="button-common" href="#">Book Your Stay</a></div>
+  </div>
+  </div>
+</section>
+<section class="rooms-section footer-separator" rt3-special-rates= "offers">
+<div class="container">
+<div class="col-md-8 no-padding">
+  <div class="rooms-carousel">
+    <div id="specials-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+          <div class="item" ng-class="{'active': $index == 0}" ng-repeat="offer in offers.special_rates"><img alt="" src="[[offer.lead_photo_url.large]]" class="width-full">
+            <div class="carousel-caption">
+              <p>VIEW MORE LUXURIOUS SPECIAL OFFERS</p>
+              <h3>[[offer.rate_plan_name | renderHTMLCorrectly]]</h3>
+              <div class="links"> <a href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">VIEW THIS OFFER</a> <a href="#" class="button-common-2">VIEW ALL OFFERS</a> </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-4 no-padding">
+    <div class="special-caption-area">
+      <p></p>
+      <div class="carousel-controls"> <a class="left nav-control" href="#specials-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#specials-carousel" role="button" data-slide="next"> </a> </div>
+      <h3></h3>
+      <div class="links"></div>
+    </div>
+  </div>
+</div>
+</section>
+</div>
