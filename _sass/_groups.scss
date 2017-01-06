@@ -1,0 +1,199 @@
+.groups{
+
+		.container {
+	    width: auto;
+	    max-width: 900px;
+	    position: relative;
+
+	    p{
+	    	font-family: "GothamHTF-Book";
+		    font-size: 12px;
+		    line-height: 24px;
+		    color: #8c8d8d;
+		    letter-spacing: 1px;
+		    margin: 0 auto;
+		    padding:20px;
+		    text-align:left;
+	    }
+
+	    h2{
+	    	    font-family: "GothamHTF-Bold";
+			    font-size: 24px;
+			    text-transform: uppercase;
+			    color: #232525;
+			    letter-spacing: 1px;
+			    text-align:center;
+			    padding:25px;
+	    }
+
+		.rfp-wrapper {
+			max-width: 570px;
+			margin: 0 auto 50px auto;
+			
+			@media(max-width: 767px){
+				margin: 0 auto 30px auto;
+				padding: 0 15px;
+			}
+			
+			.contact-form {
+			.form-control {
+				font-family: $main-font-light;
+				border-color: #d9d9d9;
+				border-radius: 0px;
+				height: 48px;
+				box-shadow: none;
+				color: #232525;
+				font-weight: 400;
+				letter-spacing: 1px;
+				font-size: 12px;
+				@media(max-width: 767px){
+				height: 48px;
+				font-size: 13px;
+				font-weight: 400;
+				letter-spacing: 1px;
+			}
+				&:focus {
+					box-shadow: none;
+					border-color:#232525;
+				}
+				&::-webkit-input-placeholder {
+					font-family: $main-font-light;
+					text-transform: uppercase;
+					font-weight: 700;
+					letter-spacing: 2px;
+					font-style: normal;
+		  			 color: #d9d9d9;
+				}
+				:-moz-placeholder { /* Firefox 18- */
+				font-family: $main-font-light;
+				text-transform: uppercase;
+				font-weight: 700;
+				letter-spacing: 2px;
+				font-style: normal;
+				   color: #d9d9d9;
+				}
+
+				::-moz-placeholder {  /* Firefox 19+ */
+				font-family: $main-font-light;
+				text-transform: uppercase;
+				font-weight: 700;
+				letter-spacing: 2px;
+				font-style: normal;
+				   color: #d9d9d9;
+				}
+
+				:-ms-input-placeholder {  
+				font-family: $main-font-light;
+				text-transform: uppercase;
+				font-weight: 700;
+				letter-spacing: 2px;
+				font-style: normal;
+				   color: #d9d9d9;
+				}
+				
+			}
+			
+			.btn {
+					font-family: GothamHTF-Medium;
+					border-radius: 0px;
+					height: 50px;
+					font-size: 12px;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					width:100%;
+					@media(max-width: 767px){
+				height: 48px;
+				width: 150px;
+				transition: all 0.3s;
+			}
+					&.btn-default{
+						background-color: #fff;
+						border-color: #232525;
+						color:#232525;
+					}
+					&:hover {
+						background-color: #232525;
+						color: #fff;
+					}
+				}
+				
+				textarea.form-control{
+					resize: none;
+					height: 200px;
+						@media(max-width: 767px){
+							height: 100px;
+							}
+				
+				&.m-textarea {
+					height: 130px;
+						@media(max-width: 767px){
+							height: 100px;
+							}
+				}
+			
+				}
+				.checkbox 
+				{
+					padding: 0 0 10px 0;
+					@media(max-width: 767px){
+				padding: 0 0 10px 0;
+			}
+					label {
+						font-family: $main-font-light;
+					font-size: 12px;
+					line-height: 22px;
+					letter-spacing: 1px;
+				}
+				}
+		}
+		.right-space {
+			padding-right: 8px;
+			@media(max-width: 767px){
+				padding-right: 0px;
+			}
+		}
+		.left-space {
+			padding-left: 8px;
+			@media(max-width: 767px){
+				padding-left: 0px;
+			}
+		}
+		}
+		.form-title {
+			text-align: center;
+		}
+		.two-fields-holder {
+			overflow: hidden;
+		}
+		.checkbox-inline {
+			font-family: $main-font-light;
+			font-size: 12px;
+			line-height: 20px;
+			letter-spacing: 1px;
+		}
+		.checkbox-holder {
+			padding: 15px 0;
+			overflow: hidden;
+			
+			.option-label {
+				
+				@media(max-width: 767px){
+				padding-bottom: 15px;
+			}
+			}
+		}
+
+		}
+
+}
+
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-current-day .ui-state-active
+{
+
+	    background: #232525 !important;
+}
+
+#ui-datepicker-div{
+
+	margin-left: 0px;
+}
