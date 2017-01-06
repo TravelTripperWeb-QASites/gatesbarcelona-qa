@@ -62,14 +62,14 @@ layout: default
   {% for partners in site.data._models.partners %}
 
   {% if active_offer_flag  == 0 %}
-                <div class="item active" style="background-image:url(/images/dining/blind-pig.jpg);">
+                <div class="item active" style="background-image:url({{partners.image.url}});">
               {% else %}
-                <div class="item" style="background-image:url(/images/dining/blind-pig.jpg);">
+                <div class="item" style="background-image:url({{partners.image.url}});">
               {% endif %}
   {% assign active_offer_flag =  1 %}
        <div class="rdc-car-con overlay-con dining-overlay">
       <h2 class="title">{{partners.title}}</h2><h3 class="sub-title">{{partners.short_description}}</h3>
-      <div class="spacing"><a class="button-common-2" href="{{partners.url_friendly_name}}" target="_blank">Read More</a>
+      <div class="spacing"><a class="button-common-2" href="../{{partners.url_friendly_name}}">Read More</a>
       
      </div> 
     </div>

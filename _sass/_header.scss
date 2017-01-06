@@ -101,7 +101,7 @@ a:hover,a:focus {
 }
 .main-menu {
 	float: left;
-	padding: 29px 0 0 84px;
+	padding: 29px 0 0 70px;
 	background-color: $bg-white;
 	
 	@media (max-width: 1240px){
@@ -139,7 +139,7 @@ a:hover,a:focus {
 				color: $tc-black;
 				font-size: 12px;
 				letter-spacing: 1px;
-				padding: 10px 12px;
+				padding: 10px 10px;
 				&:hover {
 					color: $bg-blue-1;
 				}
