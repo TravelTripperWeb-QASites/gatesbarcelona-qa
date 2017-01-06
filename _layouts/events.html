@@ -10,12 +10,13 @@ layout: default
   </div>
 </section>
 
-{% for events in site.data._models.events %}
+{% assign eventList = site.data._models.events | sort: 'datemeta' %}
+{% for events in eventList %}
 <section class="models events">
       <div class="container">
         <div class="two-col-wrap">
           <div class="row no-gutters">
-          	<div class="col-sm-6 sp-img"> <img src="{{events.event_image.url}}" alt=""></div>
+          	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.event_image.url}}" alt=""></div>
           	<div class="col-sm-6 sp-content">
               <h2>{{events.title}}</h2>
               <ul>
@@ -24,6 +25,7 @@ layout: default
               </ul>
     		  <div class="btn-holder"><a href="{{events.url_friendly_name}}" class="button-common btn-blue">View this event<i class="fa fa-play"></i></a></div>
             </div>
+           
           </div>
         </div>
       </div>

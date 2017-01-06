@@ -10,6 +10,8 @@
 	{"type":"date","required":true},
 "end_date":
 	{"type":"date"},
+"datemeta":
+	{"required":true,"hint":"Used to sort Events by date (YYYY/MM/DD)"},
 "time":
 	{"type":"text","required":true},
 "website_url":
