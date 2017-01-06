@@ -19,7 +19,7 @@ layout: default
             	<span ng-hide="room.todayRate == 'CHECK AVAILABILITY'" class="tonight-label">Tonight’s Rate</span> <span>[[ room.todayRate ]]</span>
              </div>
             <p>[[ room.short_description ]]</p>
-            <div class="extra-padding"><a class="button-common btn-blue" href="/rooms/the-standard-king/">View this room</a></div>
+            <div class="extra-padding"><a class="button-common btn-blue" ng-href="/room-details/#[[room.name | formatNameForLink]]">View this room</a></div>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     coderay (1.1.1)
     colorator (0.1)
-    concurrent-ruby (1.0.4)
+    concurrent-ruby (1.0.2)
     extras (0.1.0)
       forwardable-extended (~> 2.5)
     fastimage (2.0.1)
@@ -54,7 +54,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.4.23)
+    sass (3.4.22)
     slop (3.6.0)
     sprockets (3.6.3)
       concurrent-ruby (~> 1.0)
@@ -73,4 +73,4 @@ DEPENDENCIES
   xkeys
 
 BUNDLED WITH
-   1.13.6
+   1.13.2
