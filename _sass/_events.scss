@@ -71,6 +71,11 @@
 			}
 		}
 }
+.pulling-right {
+	@media(min-width: $screen-sm-min) {
+		float: right !important;
+	}
+}
 /*
 .gky-events {
 	.container {
