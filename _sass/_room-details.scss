@@ -139,6 +139,12 @@
 			@media(min-width:$screen-sm-min) {
 				margin: 0 0 50px 0;
 			}
+			a {
+				color: #008cc1;
+					&:hover {
+						color: #008cc1;
+					}
+			}
 
 		}
 
