@@ -13,9 +13,9 @@ layout: default
 </section>
 <section>
   <ul class="gallery-nav">
-    <li><a ng-href="/room-details/#[[prevRoomName | formatNameForLink ]]" ng-click="reloadPage" ng-show="prevRoomName">Prevoius Room</a></li>
+    <li ng-show="prevRoomName"><a ng-href="/room-details/#[[prevRoomName | formatNameForLink ]]" ng-click="reloadPage">Prevoius Room</a></li>
     <li><a href="#">[[selectedRoom.name]]</a></li>
-    <li><a ng-href="/room-details/#[[nextRoomName | formatNameForLink ]]" ng-click="reloadPage" ng-show="nextRoomName">Next Room</a></li>
+    <li ng-show="nextRoomName"><a ng-href="/room-details/#[[nextRoomName | formatNameForLink ]]" ng-click="reloadPage">Next Room</a></li>
   </ul>
 </section>
 <section class="rd-row-1">
@@ -34,7 +34,7 @@ layout: default
         <div class="rdc-car-con">
           <h3 class="sub-title">luxury redefined</h3>
           <h2 class="title">[[selectedRoom.name]]</h2>
-          <div class="tonight">[[ selectedRoom.todayRate ]]</div>
+          <div class="tonight"><a href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">[[ selectedRoom.todayRate ]]</a></div>
           <div class="spacing"><a class="button-common-2" href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">Book Now</a></div>
         </div>
       </div>

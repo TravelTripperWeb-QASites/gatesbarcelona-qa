@@ -174,6 +174,17 @@ $(".rooms-item p").each(function(){
 
 $(".rooms-item p").height(maxHeight);
 
+
+$(".offer-text h3").each(function(){
+   if ($(this).height() > maxHeight) { 
+     maxHeight = $(this).height(); 
+ }
+});
+
+if(mwidth > 767){
+$(".offer-text h3").height(maxHeight);
+}
+
 }
 
 

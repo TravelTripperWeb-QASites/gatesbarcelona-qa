@@ -7,60 +7,20 @@ layout: default
       <h1 class="page-title">Special Offers</h1>
     </div>
   </div>
-</section>    
-<section class="models">
+</section>
+<div rt3-special-rates= "offers">    
+<section class="models" ng-repeat="offer in offers.special_rates">
   <div class="container">
     <div class=" two-col-wrap">
-      <div class="row no-gutters">
-        <div class="col-sm-6 sp-img v-center" style="background-image:url(/images/gates/offers/offer-1.jpg);"><a href="#" class="rate-btn">Check Rate</a></div>
+      
+        <div class="col-sm-6 sp-img v-center" style="background-image:url([[offer.lead_photo_url.yankee_large]]);"><a href="#" class="rate-btn">Check Rate</a></div>
         <div class="col-sm-6 sp-content v-center">
-          <p class="title">New Years Eve Package</p>
-          <p class="desp">Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
-          <div class="btn-holder"><a class="button-common" href="/offers/new-years-eve-package/">View this offer</a></div>
+          <p class="title" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></p>
+          <p class="desp">[[offer.short_description | limitTo: 90]][[offer.short_description.length > 250 ? '...' : '']]</p>
+          <div class="btn-holder"><a class="button-common" href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]">View this offer</a></div>
         </div>
-      </div>
+      
     </div>
   </div>
 </section>
-<section class="models">
-  <div class="container">
-    <div class=" two-col-wrap">
-      <div class="row no-gutters">
-        <div class="col-sm-6 sp-img v-center" style="background-image:url(/images/gates/offers/offer-1.jpg);"><a href="#" class="rate-btn">Check Rate</a></div>
-        <div class="col-sm-6 sp-content v-center">
-          <p class="title">New Years Eve Package</p>
-          <p class="desp">Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
-          <div class="btn-holder"><a class="button-common" href="#">View this offer</a></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="models">
-  <div class="container">
-    <div class=" two-col-wrap">
-      <div class="row no-gutters">
-        <div class="col-sm-6 sp-img v-center" style="background-image:url(/images/gates/offers/offer-1.jpg);"><a href="#" class="rate-btn">Check Rate</a></div>
-        <div class="col-sm-6 sp-content v-center">
-          <p class="title">New Years Eve Package</p>
-          <p class="desp">Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
-          <div class="btn-holder"><a class="button-common" href="#">View this offer</a></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="models">
-  <div class="container">
-    <div class=" two-col-wrap">
-      <div class="row no-gutters">
-        <div class="col-sm-6 sp-img v-center" style="background-image:url(/images/gates/offers/offer-1.jpg);"><a href="#" class="rate-btn">Check Rate</a></div>
-        <div class="col-sm-6 sp-content v-center">
-          <p class="title">New Years Eve Package</p>
-          <p class="desp">Lorem ipsum dolor sit amet, exerci accusamus omittantur his no. Dolorem definitiones mei et. Per in fierent intellegat constituto, nec eu nonumy.</p>
-          <div class="btn-holder"><a class="button-common" href="#">View this offer</a></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+</div>

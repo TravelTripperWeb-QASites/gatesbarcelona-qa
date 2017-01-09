@@ -1953,7 +1953,13 @@ margin-bottom: 1px;
                 width: 31px;
                 display: inline-block;
                 margin: 4px 14px;
+					
             }
+			&:last-child {
+					span {
+						display: none;
+					}
+					}
 
         }
 
@@ -3155,6 +3161,12 @@ margin-bottom: 1px;
 
 .home-banner { 
       position: relative;
+	  .item {
+		  min-height: 300px;
+		  	@media(min-width:$screen-sm-min) {
+				min-height: 600px;
+			}
+	  }
 
      .banner-logo{
             position: absolute;
