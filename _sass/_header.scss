@@ -86,7 +86,7 @@ a:hover,a:focus {
 
 .logo {
 	float:left;
-	width: 204px;
+	width: 250px;
 	@media (max-width: 1240px){
 		width: 160px;
 	}
@@ -101,7 +101,7 @@ a:hover,a:focus {
 }
 .main-menu {
 	float: left;
-	padding: 29px 0 0 70px;
+	padding: 29px 0 0 26px;
 	background-color: $bg-white;
 	
 	@media (max-width: 1240px){
