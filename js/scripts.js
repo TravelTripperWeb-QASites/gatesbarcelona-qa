@@ -267,30 +267,30 @@ jQuery(function ($) {
 });
 
 //jptform
-$("#input_17").datepicker({
+$("#input_15").datepicker({
             dateFormat: "yy-mm-dd",
-      altField  : '#input_17',
+      altField  : '#input_15',
       altFormat : 'yy-mm-dd',
             minDate: 0,
             onSelect: function (date) {
-                var date2 = $('#input_17').datepicker('getDate');
+                var date2 = $('#input_15').datepicker('getDate');
                 date2.setDate(date2.getDate() + 1);
-                $('#input_18').datepicker('setDate', date2);
+                $('#input_16').datepicker('setDate', date2);
                 //sets minDate to dt1 date + 1
-                $('#input_18').datepicker('option', 'minDate', date2);
+                $('#input_16').datepicker('option', 'minDate', date2);
             }
         });
-        $('#input_18').datepicker({
+        $('#input_16').datepicker({
             dateFormat: "yy-mm-dd",
-      altField  : '#input_18',
+      altField  : '#input_16',
       altFormat : 'yy-mm-dd',
             onClose: function () {
                 var dt1 = $('#v').datepicker('getDate');
                 console.log(dt1);
-                var dt2 = $('#input_18').datepicker('getDate');
+                var dt2 = $('#input_16').datepicker('getDate');
                 if (dt2 <= dt1) {
-                    var minDate = $('#input_18').datepicker('option', 'minDate');
-                    $('#input_18').datepicker('setDate', minDate);
+                    var minDate = $('#input_16').datepicker('option', 'minDate');
+                    $('#input_16').datepicker('setDate', minDate);
                 }
             }
         });
