@@ -35,7 +35,7 @@ layout: default
           <h3 class="sub-title">luxury redefined</h3>
           <h2 class="title">[[selectedRoom.name]]</h2>
           <div class="tonight"><a href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">[[ selectedRoom.todayRate ]]</a></div>
-          <div class="spacing"><a class="button-common-2" href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">Book Now</a></div>
+          <div class="spacing"><a class="button-common-2" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">Book Now</a></div>
         </div>
       </div>
     </div>
@@ -53,10 +53,10 @@ layout: default
         <div class="des-wrap">
           <p class="des">[[ selectedRoom.description ]]</p>
           <p class="des bold-text">Need assistance? Our dedicated reservations team is available around the clock:</p>
-          <p class="des">Gates South Beach Service Centre <a href="tel:1 877 462 5638">1 877 462 5638</a> or<br>
-            <a href="mailto:info@gatessouthbeach.com">info@gatessouthbeach.com</a></p>
+          <p class="des">Gates Key West Service Centre <a href="tel:1 877 462 5638">1 877 462 5638</a> or<br>
+            <a href="mailto:info@gateshotelkeywest.com">info@gateshotelkeywest.com</a></p>
         </div>
-        <div class="spacing"><a class="button-common-2" href="mailto:info@gatessouthbeach.com">Contact Us</a></div>
+        <div class="spacing"><a class="button-common-2" href="mailto:info@gateshotelkeywest.com">Contact Us</a></div>
       </div>
       <div class="con-2"><img src="/images/gates/room-details/room-2.jpg" alt=""></div>
     </div>
@@ -70,7 +70,11 @@ layout: default
       </div>
       <div class="con-4">
         <div class="col-sm-5 con-4-1">
-          <ul class="list">
+        <ul class="list" ng-show="selectedRoom.amenities.length  > 0">
+
+          <li ng-repeat="amenities in selectedRoom.amenities">[[amenities]]</li> 
+        </ul>
+          <ul class="list" ng-show="!selectedRoom.amenities.length">
             <li>WIFI available</li>
             <li>Wireless printing</li>
             <li>42-inch HD TV</li>
@@ -86,7 +90,7 @@ layout: default
           <div>
             <div class="add-1">ENJOY THE FOLLOWING<span class="nl">PRIVILEGES</span></div>
             <div class="add-2">Room<span class="nl">Amenitites</span></div>
-            <div class="spacing"><a href="" class="button-common-2">general amenities</a></div>
+            <!--div class="spacing"><a href="" class="button-common-2">general amenities</a></div-->
           </div>
         </div>
       </div>
@@ -108,11 +112,11 @@ layout: default
     <div id="rooms-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="item" ng-class="{'active': $index == 0}" ng-repeat ="room in browser.roomsList">
-        <img alt="" src="[[room.photos[0].large]]" class="width-full">
+        <img alt="[[room.name]]" ng-src="[[room.photos[0].large]]" class="width-full">
           <div class="carousel-caption">
             <p>VIEW MORE LUXURIOUS ROOMS & SUITES</p>
             <h3>[[room.name]]</h3>
-            <div class="links"><a href="/room-details/#[[room.name | formatNameForLink]]" class="button-common-2">VIEW THIS ROOM</a> <a href="/rooms/" class="button-common-2">VIEW ALL ROOMS</a> </div>
+            <div class="links"><a ng-href="/room-details/#[[room.name | formatNameForLink]]" class="button-common-2 button-blue">VIEW THIS ROOM</a> <a href="/rooms/" class="button-common-2 button-blue">VIEW ALL ROOMS</a> </div>
           </div>
         </div>
         
@@ -125,8 +129,8 @@ layout: default
 <section class="loc-cta" style="background-image:url(/images/gates/room-details/rooms-details-book-bg.jpg);">
   <div class="container-fluid no-padding">
   	<div class="cta">
-    <div class="cta-logo"><a href="https://gateshotelkeywest.reztrip.com/" target="_blank"><img src="/images/the-gates-key-west-white.svg" alt="Gates Hotel South Beach"></a></div>
-<div class="btn-holder text-center"><a class="button-common" href="#">Book Your Stay</a></div>
+    <div class="cta-logo"><a href="https://gateshotelkeywest.reztrip.com/" target="_blank"><img src="/images/the-gates-key-west-white.svg" alt="Gates Key West"></a></div>
+<div class="btn-holder text-center"><a class="button-common" href="https://gateshotelkeywest.reztrip.com/">Book Your Stay</a></div>
   </div>
   </div>
 </section>
@@ -136,11 +140,11 @@ layout: default
   <div class="rooms-carousel">
     <div id="specials-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-          <div class="item" ng-class="{'active': $index == 0}" ng-repeat="offer in offers.special_rates"><img alt="" src="[[offer.lead_photo_url.large]]" class="width-full">
+          <div class="item" ng-class="{'active': $index == 0}" ng-repeat="offer in offers.special_rates"><img alt="[[room.name]]" ng-src="[[offer.lead_photo_url.large]]" class="width-full">
             <div class="carousel-caption">
               <p>VIEW MORE LUXURIOUS SPECIAL OFFERS</p>
               <h3>[[offer.rate_plan_name | renderHTMLCorrectly]]</h3>
-              <div class="links"> <a href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">VIEW THIS OFFER</a> <a href="#" class="button-common-2">VIEW ALL OFFERS</a> </div>
+              <div class="links"> <a ng-href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 button-blue">VIEW THIS OFFER</a> <a href="/offers/" class="button-common-2 button-blue">VIEW ALL OFFERS</a> </div>
             </div>
           </div>
       </div>
