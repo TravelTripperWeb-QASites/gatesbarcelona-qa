@@ -8,7 +8,8 @@ layout: default
   
    <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active" style="background-image: url(/images/home-banner-1.jpg);"></div>
+  	<div class="item active" style="background-image: url(/images/home-banner-5.jpg);"></div>
+    <div class="item" style="background-image: url(/images/home-banner-1.jpg);"></div>
     <div class="item" style="background-image: url(/images/home-banner-2.jpg);"></div>
     <div class="item" style="background-image: url(/images/home-banner-3.jpg);"></div>
     <div class="item" style="background-image: url(/images/home-banner-4.jpg);"></div>
@@ -48,71 +49,15 @@ layout: default
                   <div class="description-container">
                   <h3>OPENING “THE GATES” TO AN AUTHENTIC KEY WEST EXPERIENCE.</h3>
                   <p>Welcome to a sun-soaked paradise. Stay with us at The Gates, and discover the history and soul of Key West. Our local touches immerse you in the art of island living, through design, music and, of course, food and drink. But be warned, you might never want to leave</p>
-                  <a class="btn btn-lg btn-primary button-home " href="/location/">DISCOVER</a>
+                  <a class="btn btn-lg btn-primary button-home " href="#">DISCOVER</a>
                   </div>
                   </div>
       </div>
       </div>
     </section>
-    <section class="container-fluid home-widget-container">
-     
-     
-          <div class="col-md-6 no-padding" >
-          <div class="home-swim-container">
-          <div class="women-block " >
-          <div class="women-image-contanier" >
-           
-          </div> 
-          </div>
-          <div class="hotel-block " >
-           
-          </div>
-          <div class="clearfix"></div>
-          <div class="detailsbg" >
-                        <div class="details-img pull-right">{% region home-detailsbg-img %}</div>
-                        <div class="details-events pull-left">
-                          {% region latest-happiness-box %}
-                        </div>
-                        
-         </div>
-          </div>
-          <div class="clearfix"></div>
-          </div>
+   
+    
 
-          <div class="col-md-6 no-padding weather-widget-container" >
-            
-                       <div class="wrapper weather-widget">
-                            <div class="panel bg-panel">
-                              <div class="weather" id="weather">
-                                <div class="temperature" id="temperature">
-                                  <div id="temp">
-                                    <p>Current Weather<br>
-                                    Key West, florida</p>
-                                   
-                                    <img class="weather-icon" src="icon">
-                                    <div>
-                                      <ul class="list-inline">
-                                        <li>
-                                          <span  class="degree fahr"></span>
-                                          <h6>Fahrenheit</h6>
-
-                                        </li>
-                                        <li><span class="seperator"></span></li>
-                                        <li>
-                                          <span class="degree cel"></span>
-                                          <h6>Celsius</h6>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-          </div> 
-
-    </section>
 
    
               <section>
@@ -177,7 +122,106 @@ layout: default
                         </section>
 
 
+ <section class="container-fluid home-widget-container">
+     
+     
+          <div class="col-md-6 no-padding" >
+          <div class="home-swim-container">
+          <div class="women-block " >
+          <div class="women-image-contanier" >
+           
+          </div> 
+          </div>
+          <div class="hotel-block " >
+           
+          </div>
+          <div class="clearfix"></div>
+          <div class="detailsbg" >
+                        <div class="details-img pull-right">{% region home-detailsbg-img %}</div>
+                        <div class="details-events pull-left">
+                          <p>LATEST HAPPENINGS AT Tennessee Williams Theater</p>
+                        
+                          <div id="events-car" class="carousel slide custom-car-control" data-ride="carousel">
+                          
+                           <!-- Indicators -->
 
+  
+   <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+      {% assign eventList = site.data._models.events | sort: 'datemeta' %}
+							{% for events in eventList %}
+                           {% if forloop.first == true %} 
+    		<div class="item active">
+            {% else %}
+            <div class="item">
+            {% endif %}
+        	<h4><a href="/events/{{events.url_friendly_name}}">{{events.title}}</a></h4>
+            <div class="date"><span class="block-ele">{{events.start_date | date: "%Y.%m.%d"}}</span><span class="seperator"></span><span class="block-ele">{{events.time}}</span></div>
+    </div>
+    {% endfor %}
+    
+  </div>
+  
+  <!-- Left and right controls -->
+<a class="left carousel-control" href="#events-car" role="button" data-slide="prev">
+    <i class="fa fa-angle-left" aria-hidden="true"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#events-car" role="button" data-slide="next">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+
+                          
+                        </div>
+                        
+         </div>
+          </div>
+          <div class="clearfix"></div>
+          </div>
+          </div>
+
+          <div class="col-md-6 no-padding weather-widget-container" >
+            
+                       <div class="wrapper weather-widget">
+                            <div class="panel bg-panel">
+                              <div class="weather" id="weather">
+                                <div class="temperature" id="temperature">
+                                  <div id="temp">
+                                    <p>Current Weather<br>
+                                    Key West, florida</p>
+                                   
+                                    <img class="weather-icon" src="icon">
+                                    <div>
+                                      <ul class="list-inline">
+                                        <li>
+                                          <span  class="degree fahr"></span>
+                                          <h6>Fahrenheit</h6>
+
+                                        </li>
+                                        <li><span class="seperator"></span></li>
+                                        <li>
+                                          <span class="degree cel"></span>
+                                          <h6>Celsius</h6>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+                          <div class="visual-title">
+                      Take a visual Journey
+                      <div class="btn-holder"><a class="btn btn-lg btn-primary button-home-white visual-button" href="/gallery/">VIEW GALLERY</a></div>
+                         </div>
+
+          </div> 
+
+    </section>
 
 
 
