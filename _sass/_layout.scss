@@ -1415,14 +1415,41 @@ margin-bottom: 1px;
     .rooms-item {
         color: #232525;
         padding: 0 0 55px 0;
-
+       
         @media (max-width:767px) {
             padding: 0 0 40px 0;
         }
+        figure{
+             position: relative; 
+            img {
+                width: 100%; 
+            }
+            a{
+                 img { 
+                       position: relative;
+                      -webkit-transform: scale(1);
+                      -ms-transform: scale(1);
+                      transform: scale(1);
+                      -webkit-transition: all 0.35s;
+                      transition: all 0.35s;
 
-        img {
-            width: 100%;
+                 }
+                &:hover{
+                    img {
+                        box-shadow: 0px 0px 20px -5px #000;
+                        -webkit-transform: scale(1.05);
+                          -ms-transform: scale(1.05);
+                          transform: scale(1.05);
+                          filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.7" /><feFuncB type="linear" slope="0.7" /></feComponentTransfer></filter></svg>#filter');
+                          filter: brightness(0.8);
+                          -webkit-filter: brightness(0.8);
+                    }
+                    
+                }
+                
+            }
         }
+        
 		.rooms-item-content {
 			@media (min-width:$screen-md-min) {
 				padding: 0 0 0 15px;
