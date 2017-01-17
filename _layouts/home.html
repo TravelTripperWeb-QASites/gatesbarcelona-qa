@@ -39,28 +39,8 @@ layout: default
 </div>
   </div>
 </section>
-    <section  class="opening-content-container">
-      <div class="container  opening-content">
-      <div class="row">
-                  <div class="col-sm-6">
-                  <img src="/images/keywest/home-about.jpg" class="center-block" alt="">
-                  </div>
-                  <div class="col-sm-6">
-                  <div class="description-container">
-                  <h3>OPENING “THE GATES” TO AN AUTHENTIC KEY WEST EXPERIENCE.</h3>
-                  <p>Welcome to a sun-soaked paradise. Stay with us at The Gates, and discover the history and soul of Key West. Our local touches immerse you in the art of island living, through design, music and, of course, food and drink. But be warned, you might never want to leave</p>
-                  <a class="btn btn-lg btn-primary button-home " href="#">DISCOVER</a>
-                  </div>
-                  </div>
-      </div>
-      </div>
-    </section>
-   
-    
 
-
-   
-              <section>
+<section>
                 <div id="rooms-carousel-home" class="carousel rooms-carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                   
@@ -82,7 +62,7 @@ layout: default
                           <div class="carousel-caption">
                             
                              <h3>[[room.name]]</h3>
-<p>[[room.description | limitTo: 100]][[room.description.length > 100 ? '...' : '']],</p><a class="btn btn-lg btn-primary button-home" href="/rooms/">View All Rooms</a>
+<p>[[room.description | limitTo: 100]][[room.description.length > 100 ? '...' : '']],</p><a class="btn btn-lg btn-primary button-home button-blue" href="/rooms/">View All Rooms</a>
                             
                             </div>
                           </div>
@@ -92,21 +72,35 @@ layout: default
                           <!-- Left and right controls -->
                           <a class="left carousel-control" href="#rooms-carousel-home" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#rooms-carousel-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
                         </section>
-
-
-
-
+                        
+    <section  class="opening-content-container">
+      <div class="container  opening-content">
+      <div class="row">
+                  <div class="col-sm-6">
+                  <img src="/images/keywest/home-about.jpg" class="center-block" alt="">
+                  </div>
+                  <div class="col-sm-6">
+                  <div class="description-container">
+                  <h3>OPENING “THE GATES” TO AN AUTHENTIC KEY WEST EXPERIENCE.</h3>
+                  <p>Welcome to a sun-soaked paradise. Stay with us at The Gates, and discover the history and soul of Key West. Our local touches immerse you in the art of island living, through design, music and, of course, food and drink. But be warned, you might never want to leave</p>
+                  <a class="btn btn-lg btn-primary button-home " href="#">DISCOVER</a>
+                  </div>
+                  </div>
+      </div>
+      </div>
+    </section>
+   
                         <section class="container-fluid offers-wrapper" rt3-special-rates= "offers">
 
                         <div class="lucky-day">
-                        <p>IT’S YOUR LUCKY DAY </p>
+                        <!--<p>IT’S YOUR LUCKY DAY </p>-->
                         <h4>Special Offers</h4>
                         </div>  
                         <div class="row">
                           <div class="col-sm-4" ng-repeat="offer in offers.special_rates | limitTo:3">
                             <div class="offer-container">
                             <div class="offer-text">
-                            <p>Offer 0[[$index+1]]</p>
+                            <!--<p>Offer 0[[$index+1]]</p>-->
                             <h3>[[offer.rate_plan_name | renderHTMLCorrectly]]</h3>
                             <a class="btn btn-lg btn-primary button-home " href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]">see details</a>
                             </div>
@@ -120,6 +114,34 @@ layout: default
                         <a class="btn btn-lg btn-primary button-home offer-btn" href="#">view all offers</a>                      
 
                         </section>
+                        
+                        <section class="newsletter-section" >
+                                <div class="dining-img">
+                                <div class="image-container">
+                                </div>
+                                </div>
+                              
+                                <div class="newsletter-container ">
+                                         {% region newsletter-context %}
+                                        <div class="newsletterform ">
+                                          <form class="jotform-form" action="https://submit.jotform.me/submit/62653920766463/" method="post" name="form_62653920766463" id="62653920766463" accept-charset="utf-8">
+                                            <input type="hidden" name="formID" value="62653920766463" />
+                                            <div class="form-holder form-holder-one ">
+                                              <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="YOUR EMAIL" required="required" />
+                                              <button id="input_2" type="submit" class="form-button-arrow">submit</button>
+                                            </div>
+                                            <input type="hidden" id="simple_spc" name="simple_spc" value="62653920766463" />
+                                            <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "62653920766463-62653920766463"; </script>
+                                          </form>
+                                          <script type="text/javascript">JotForm.ownerView=true;</script> 
+                                          </div> 
+                                        </div>
+                              <div class="newsletter-image">
+                              <div class="newsletter-image-container"></div>
+                              </div>
+                              
+
+                              </section>
 
 
  <section class="container-fluid home-widget-container">
@@ -235,9 +257,9 @@ layout: default
                                   <div class="carousel-inner">
                               
                                         <div class="item active">
-                                    <h4>Dining & Bar</h4>
+                                    <h4>EAT | DRINK</h4>
                                     <h6>Lorem ipsum dolor sit amet, mel verear molestie cu. Ius dico natum causae eu, antiopam scribentur ea est. Sint semper mei ei, ei postea deseruisse vix. Usu alii modus cu. Ad iusto torquatos duo, docendi intellegam accommodare vim ea, ut alienum recteque consequuntur vis. Mundi voluptaria cum et, at vis quod meis essent, animal pertinax id pri.</h6>
-                                    <a class="btn btn-lg btn-primary button-home " href="/location/">DISCOVER MORE</a>
+                                    <a class="btn btn-lg btn-primary button-home " href="/eat-drink/">DISCOVER MORE</a>
                                       </div>
                             
                                   </div>
@@ -250,33 +272,7 @@ layout: default
                                   </div>
                                 </div>
                               </section>
-                              <section class="newsletter-section" >
-                                <div class="dining-img">
-                                <div class="image-container">
-                                </div>
-                                </div>
                               
-                                <div class="newsletter-container ">
-                                         {% region newsletter-context %}
-                                        <div class="newsletterform ">
-                                          <form class="jotform-form" action="https://submit.jotform.me/submit/62653920766463/" method="post" name="form_62653920766463" id="62653920766463" accept-charset="utf-8">
-                                            <input type="hidden" name="formID" value="62653920766463" />
-                                            <div class="form-holder form-holder-one ">
-                                              <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="YOUR EMAIL" required="required" />
-                                              <button id="input_2" type="submit" class="form-button-arrow">submit</button>
-                                            </div>
-                                            <input type="hidden" id="simple_spc" name="simple_spc" value="62653920766463" />
-                                            <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "62653920766463-62653920766463"; </script>
-                                          </form>
-                                          <script type="text/javascript">JotForm.ownerView=true;</script> 
-                                          </div> 
-                                        </div>
-                              <div class="newsletter-image">
-                              <div class="newsletter-image-container"></div>
-                              </div>
-                              
-
-                              </section>
                              
                                  
                             <section>
