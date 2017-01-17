@@ -3085,7 +3085,7 @@ margin-bottom: 1px;
 
             .image-container{
                 margin: 20px 20px 0 0;
-                background: url(/images/newletter-img.jpg) no-repeat; 
+                background: url(/images/newsletter-img1.jpg) no-repeat; 
                 background-size: cover;
                 position: absolute;
                 left: 0;
@@ -3144,7 +3144,7 @@ margin-bottom: 1px;
                 right: 0;
                 top: 0;
                 bottom: 0;                
-                background: url(/images/newsletter-img.jpg) no-repeat; 
+                background: url(/images/newsletter-img2.jpg) no-repeat; 
                 background-size: cover;
 
             }
@@ -3411,11 +3411,11 @@ margin-bottom: 1px;
 }
 }
 .button-blue {
-	border-color: #1086b4;
-	color: #1086b4;
+	border-color: #1086b4 !important;
+	color: #1086b4 !important;
 		&:hover {
-			background-color: #1086b4;
-			color: #fff;
-			border-color: #1086b4;
+			background-color: #1086b4 !important;
+			color: #fff !important;
+			border-color: #1086b4 !important;
 		}
 }
