@@ -12,14 +12,14 @@ layout: default
       <div class="rooms-holder">
         <div class="col-md-4 col-sm-6" ng-repeat ="room in browser.roomsList">
           <div class="rooms-item">
-            <figure><img src="[[room.photos[0].yankee_large]]" alt=""/></figure>
+            <figure><a ng-href="/room-details/#[[room.name | formatNameForLink]]"><img ng-src="[[room.photos[0].yankee_large]]" alt="[[ room.name ]]"/></a></figure>
             <div class="rooms-item-content">
             <h2>[[ room.name ]]</h2>
             <div class="room-price">
-            	<span ng-hide="room.todayRate == 'CHECK AVAILABILITY'" class="tonight-label">Tonight’s Rate</span> <a href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank"><span>[[ room.todayRate ]]</span></a>
+            	<span ng-hide="room.todayRate == 'CHECK AVAILABILITY'" class="tonight-label">Tonight’s Rate</span> <a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank"><span>[[ room.todayRate ]]</span></a>
              </div>
             <p>[[ room.short_description ]]</p>
-            <div class="extra-padding"><a class="button-common btn-blue" ng-href="/room-details/#[[room.name | formatNameForLink]]">View this room</a></div>
+            <div class="extra-padding"><a class="button-common button-blue" ng-href="/room-details/#[[room.name | formatNameForLink]]">View this room</a></div>
             </div>
           </div>
         </div>
