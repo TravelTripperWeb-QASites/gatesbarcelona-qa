@@ -3383,3 +3383,12 @@ margin-bottom: 1px;
 		display: none;
 }
 }
+.button-blue {
+	border-color: #1086b4;
+	color: #1086b4;
+		&:hover {
+			background-color: #1086b4;
+			color: #fff;
+			border-color: #1086b4;
+		}
+}
