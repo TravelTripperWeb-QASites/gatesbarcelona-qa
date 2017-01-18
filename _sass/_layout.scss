@@ -304,7 +304,7 @@ text-align: center;
     display: inline-block;
     color: $tc-white;
     text-shadow: none;
-    transition: all 0.1s;
+    transition: all 0.4s;
 
     @media (max-width:1023px) {
         padding: 10px 14px;
@@ -3411,7 +3411,7 @@ margin-bottom: 1px;
 }
 }
 .button-blue {
-	border-color: #1086b4 !important;
+	border: solid 1px #1086b4 !important;
 	color: #1086b4 !important;
 		&:hover {
 			background-color: #1086b4 !important;
