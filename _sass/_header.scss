@@ -130,6 +130,7 @@ a:hover,a:focus {
 		li{
 			list-style-type: none;
 			display: inline-block;
+			position: relative;
 				@media (max-width: 1180px){
 					display: block;
 					border-bottom: solid 1px #d3d3d3;
@@ -166,8 +167,27 @@ a:hover,a:focus {
 				&:hover {
 				
 				}
+					
 			}
-			
+			.submenu {
+					position: absolute;
+					top: 24px;
+					background-color: #fff;
+					display: none;
+					width: 100%;
+					right: 0;
+					left: 0;
+					min-width: 216px;
+					z-index: 10;
+						li {
+							a {
+								display: block;
+								font-size: 11px;
+								padding: 14px 10px;
+							}
+						}
+					}
+					
 		}
 	}
 }
