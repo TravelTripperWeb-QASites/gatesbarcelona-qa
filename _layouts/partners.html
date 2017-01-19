@@ -4,29 +4,12 @@ layout: default
 <section>
   <div class="container-fluid no-padding">
     <div class="page-banner location-banner" style="background-image: url(/images/gates/partners-banner.jpg)">
-      
+      {% region banner-text %}
       <!--<div class="banner-btn"><a href="#" class="button-common">Download Map</a><a href="#" class="button-common">Download Fact Sheet</a></div>-->
     </div>
   </div>
 </section>
-{% for partners in site.data._models.partners %}
 
-    <section class="models">
-      <div class="container">
-        <div class=" two-col-wrap">
-          <div class="row no-gutters">
-            <div class="col-sm-3 sp-img v-center" style="background-image:url({{partners.image_1.url}});"></div>
-            <div class="col-sm-9 sp-content v-center partners-text-align">
-              <p class="title"> {{partners.title}}</p>
-              <p class="desp"> {{partners.short_description}}</p>
-              <div class="btn-holder"><a class="button-common" href="{{partners.url_friendly_name}}">Read More</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-        
-{% endfor %} 
 
 
 {% include twitter-instagram.html %}
