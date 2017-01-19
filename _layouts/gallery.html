@@ -25,7 +25,38 @@ layout: default
         </ul>
       </div>
       <div class="container gallery-wrap" id="lightgallery">
-        
+        <ul class="row">
+        {% assign hotel_images = site.data._models.gallery_hotel_images %}
+{% for hotel_gallery in hotel_images %}            
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
+            <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>  
+{% endfor %}
+{% assign room_images = site.data._models.gallery_room_images %}
+{% for room_gallery in room_images %}          
+          <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
+            <div class="item" data-src="{{room_gallery.large_image.url}}"><img src="{{room_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>
+{% endfor %}
+{% assign dining_images = site.data._models.gallery_dining_images %}
+{% for dining_gallery in dining_images %}            
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="dining">
+            <div class="item" data-src="{{dining_gallery.large_image.url}}"><img src="{{dining_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>  
+{% endfor %}  
+{% assign amenities_images = site.data._models.gallery_amenities_images %}
+{% for amenities_gallery in amenities_images %}          
+          <li class="col-md-4 col-sm-4 fancybox" data-filter="amenities">
+            <div class="item" data-src="{{amenities_gallery.large_image.url}}"><img src="{{amenities_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>
+ {% endfor %}          
+{% assign attractions_images = site.data._models.gallery_attractions_images %}
+{% for attractions_gallery in attractions_images %}            
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="attractions">
+            <div class="item" data-src="{{attractions_gallery.large_image.url}}"><img src="{{attractions_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>  
+{% endfor %}                  
+        </ul>
       </div>
     </div>
     
