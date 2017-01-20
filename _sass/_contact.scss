@@ -1,0 +1,60 @@
+.contact {
+	padding: 30px 0;
+	text-align: center;
+	color: #000;
+	@media (min-width: $screen-sm-min){
+		padding: 30px 0;
+		text-align: left;
+	}
+	.container {
+		max-width: 1100px;
+		width: auto;
+	}
+	.contact-wrap {
+		h2 {
+			font-family: $main-font-medium;
+			text-transform: uppercase;
+			font-size: 14px;
+			letter-spacing: 1px;
+			color: #232525;
+			padding: 15px 0;
+		}
+		h3 {
+			font-family: $main-font-bold;
+			text-transform: uppercase;
+			font-size: 20px;
+			letter-spacing: 1px;
+			color: #232525;
+			padding: 15px 0;
+			line-height: 30px;
+		}
+		p {
+				font-family: $main-font-light;
+				font-size: 13px;
+				line-height: 26px;
+				color: #8c8d8d;
+				letter-spacing: 1px;
+				padding: 15px 0;
+					a {
+						color: #1086b4;
+						font-family: $main-font-medium;
+					}
+			}
+	}
+	.-left {
+			@media (min-width: $screen-md-min){
+				padding: 0 50px 0 0;
+			}
+			@media (min-width: $screen-md-min){
+				padding: 0 100px 0 0;
+			}
+	}
+	.-right {
+	}
+	.contact-form {
+		max-width: none !important;
+	}
+	.contact-con {
+		padding: 30px 0;
+	}
+}
