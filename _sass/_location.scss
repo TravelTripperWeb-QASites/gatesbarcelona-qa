@@ -473,6 +473,10 @@
 			letter-spacing: 2px;
 			text-transform: uppercase;
 			line-height: 20px;
+				&.local-add-1 {
+					font-size: 15px;
+					line-height: 24px;
+				}
 		}
 		.add-2{
 			font-family:$main-font-light;
@@ -489,6 +493,13 @@
 					line-height: 42px;
 					padding: 33px 0;
 				}
+				&.logo-wrap {
+					width: 50px;
+					margin: 0 auto;
+					 img {
+					 	width: 100%;
+					 }
+				}
 		}
 		.add-3{
 			font-family:$main-font-book;
@@ -496,6 +507,10 @@
 			color: #232525;
 			letter-spacing: 1px;
 			line-height: 20px;
+				&.local-add-3 {
+					font-size: 15px;
+					line-height: 24px;
+				}
 		}
 	}
 	.con-five {
@@ -1011,4 +1026,11 @@
 .partners-text-align{
 
 	text-align:left !important;
+}
+.blue-text {
+	font-weight: bold;
+	color: #1086b4;
+}
+.right-item {
+	padding: 40px 0 0 0;
 }
