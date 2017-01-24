@@ -165,7 +165,7 @@
 		width: 100%;
 		height: 100%;
 	}
-	.play-icon {
+	.play-btn {
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -253,7 +253,7 @@
 	}
 	.close {
 		    background-color: #232525;
-    padding: 5px 8px;
+    padding: 5px 10px;
     opacity: 1;
     line-height: normal;
     text-shadow: none;
@@ -3095,12 +3095,13 @@ margin-bottom: 1px;
             }
 
             h4 {
-                font-size: 34px;
+                font-size: 21px;
                 padding: 45px 0px;
                 font-family: $main-font-light;
                 color:#fff;
 				max-width: 250px;
 				margin: 0 auto;
+				line-height: 30px;
 					a {
 						color: #fff;
 						text-decoration: none;
@@ -3108,12 +3109,12 @@ margin-bottom: 1px;
 
                 @media (max-width:1220px) {
                     padding: 30px 0px;
-                    font-size: 24px;
+                    font-size: 21px;
                 }
 
                 @media (max-width:900px) {
                     padding: 10px 0px;
-                    font-size: 24px;
+                    font-size: 21px;
                 }
 
                 @media (max-width:767px) {
@@ -3710,4 +3711,24 @@ margin-bottom: 1px;
 			color: #fff !important;
 			border-color: #1086b4 !important;
 		}
+}
+
+.home-specials {
+	.carousel-indicators {
+		position: relative;
+		margin: 0 auto;
+		padding: 40px 0;
+		left: auto;
+		bottom: auto;
+		
+		li {
+			background-color: #efeeee;
+			width: 15px;
+			height: 15px;
+				&.active {
+				background-color: #03111d;
+				}
+		}
+	}
+	
 }
