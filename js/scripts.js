@@ -1,14 +1,47 @@
  $(document).ready(function(){
-	 $(".main-menu li").hover(function(){
+	 $(".main-menu li.dropdownitem").hover(function(){
 		
 		 $(this).find('.submenu').stop(true, true).delay(100).fadeIn();
         }, function() {
           $(this).find('.submenu').stop(true, true).delay(100).fadeOut();
 	 });
 	 $(".submenu").hover(function(){
-		  $(".submenu").show();
+		  $(this).find(".submenu").show();
 	 });
  });
+ 
+ $(document).ready(function(){
+  $('.home-slider').slick({
+  autoplay: false,
+    dots: false,
+	
+   centerMode: true,
+  centerPadding: '16%',
+  slidesToShow: 1,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '4px',
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '4px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+	
+});
+
  
  $('#rd-carousel').carousel({
     	interval: false
@@ -322,7 +355,6 @@ $("#input_15").datepicker({
         });
 
 
-
-
+ 
 
 
