@@ -15,7 +15,7 @@ layout: default
              <img src="{{ bannerimages.slider_image.url }}" class="width-full"  alt=""/>
              <div class=" social-icons">
               <h6>Follow Us</h6>
-              <a href="https://www.facebook.com/aloftsouthbeachhotel/" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="https://twitter.com/gatessouthbeach/" target="blank"><i class="fa fa-twitter"></i></a><span></span> <a href="https://plus.google.com/110828341641136906221" target="blank"><i class="fa fa-google-plus"></i></a><span></span> <a href="https://www.instagram.com/gatessouthbeach/" target="blank"><i class="fa fa-instagram"></i></a> 
+              <a href="http://facebook.com/gateskeywesthotel" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="http://twitter.com/GatesKeyWest" target="blank"><i class="fa fa-twitter"></i></a><span></span> <a href="#" target="blank"><i class="fa fa-google-plus"></i></a><span></span> <a href="http://instagram.com/GatesKeyWest" target="blank"><i class="fa fa-instagram"></i></a> 
             </div>
         </div>
       {% endfor %}  
@@ -24,7 +24,7 @@ layout: default
     <section>
               <div class="container-fluid global-container no-padding">
                 <div class="row welcome-row">
-                  <div class="col-sm-6 left-block no-padding">
+                  <div class="col-md-6 left-block no-padding">
                     <div>
                       <div class="two-col-content">
                         {% region welcome-paradise %}
@@ -35,7 +35,7 @@ layout: default
                                 <div class="temperature" id="temperature">
                                   <div id="temp">
                                     <p>Current Weather<br>
-                                    South beach, florida</p>
+                                    Key West, Florida</p>
                                     <i id="condition"></i>
                                     <div>
                                       <ul class="list-inline">
@@ -59,7 +59,7 @@ layout: default
                       </div>
                     </div>
                   </div>
-                  <div class="col-sm-6 right-block no-padding">
+                  <div class="col-md-6 right-block no-padding">
                     <div class="visual-container">{% region two-col-1-img %}
                       <div class="visual-title">
                         <div> {% region view-gallery-text %}</div>
@@ -69,6 +69,41 @@ layout: default
                         <div class="details-img pull-left">{% region home-detailsbg-img %}</div>
                         <div class="details-events pull-right">
                           {% region latest-happiness-box %}
+                          <div id="events-car" class="carousel slide custom-car-control" data-ride="carousel">
+                          
+                           <!-- Indicators -->
+
+  
+   <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+      {% assign eventList = site.data._models.events | sort: 'datemeta' %}
+							{% for events in eventList %}
+                           {% if forloop.first == true %} 
+    		<div class="item active">
+            {% else %}
+            <div class="item">
+            {% endif %}
+        	<h4><a href="/events/{{events.url_friendly_name}}">{{events.title}}</a></h4>
+            <div class="date"><span class="block-ele">{{events.start_date | date: "%Y.%m.%d"}}</span><span class="seperator"></span><span class="block-ele">{{events.time}}</span></div>
+    </div>
+    {% endfor %}
+    
+  </div>
+  
+  <!-- Left and right controls -->
+<a class="left carousel-control" href="#events-car" role="button" data-slide="prev">
+    <i class="fa fa-angle-left" aria-hidden="true"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#events-car" role="button" data-slide="next">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+
+                          
+                        </div>
                         </div>
                         <div class="clearfix"> </div>
                       </div>
@@ -80,34 +115,34 @@ layout: default
                   <!-- Indicators -->
                   
                   <ol class="carousel-indicators">
-                    <li data-target="#rooms-carousel-home" data-slide-to="0" class="active">1 KING BED <span></span></li>
-                    <li data-target="#rooms-carousel-home" data-slide-to="1">1 KING BALCONY POOL VIEW <span></span></li>
-                    <li data-target="#rooms-carousel-home" data-slide-to="2">1 KING TERRACE POOL VIEW <span></span></li>
-                    <li data-target="#rooms-carousel-home" data-slide-to="3">1 KING SUITE </li>
+                    <li data-target="#rooms-carousel-home" ng-repeat="room in browser.roomsList | limitTo: 4" data-slide-to="[[$index]]">[[room.name]]<span></span></li> 
                     <a href="/rooms/" class="pull-right">[ More +]</a>
                   </ol>
                     
                     <div class="carousel-inner" role="listbox">                  
-                    {% assign rooms_images = site.data._models.rooms_carousel  | sort : "sort_order" %}
-                    {% for roomsimages in rooms_images %}                 
+                                   
                     <!-- Wrapper for slides -->                
-                       {% if forloop.first == true %}
-                          <div class="item active">
-                         {% else %}
-                          <div class="item">
-                         {% endif %} 
-                        <img src="{{ roomsimages.slider_image.url }}" alt="">
+                      
+                          
+                         
+                          <div class="item" ng-repeat ="room in browser.roomsList | limitTo: 4" ng-class='{active:$first}'>
+                        
+                        <img ng-src="[[room.photos[0].large]]" alt="">
                         <div class="container">
                           <div class="carousel-caption">
-                             {{ roomsimages.carousel_caption }}
+                            
+                             <h3>[[room.name]]</h3>
+<p>[[room.description | limitTo: 100]][[room.description.length > 100 ? '...' : '']],</p><a class="btn btn-lg btn-primary button-home button-blue" href="/rooms/">View All Rooms</a>
+                            
                             </div>
                           </div>
                       </div>              
-                    {% endfor %} 
-                    </div>                     
+                
+                                     
                           <!-- Left and right controls -->
                           <a class="left carousel-control" href="#rooms-carousel-home" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#rooms-carousel-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
                         </section>
+                        
                         <section >
                           <div class="global-container home-offers center-block top-margin">
                             <div class="">
@@ -142,6 +177,7 @@ layout: default
                                   </div>
                                 </div>
                               </section>
+                        
                               <section >
                                 <div class="global-container home-offers center-block">
                                   <div class=" no-margin">

@@ -244,7 +244,7 @@
 		box-shadow: none;
 	}
 	.modal {
-		background-color: rgba(0,0,0,0.3);
+		background-color: rgba(0,0,0,0.6);
 	}
 	.modal-dialog {
     max-width: 1200px;
@@ -640,13 +640,28 @@ text-align: center;
     @media (max-width:767px) {
         padding: 20px 15px;
     }
+	.left-img {
+		margin: 40px 0 0 0;
+			@media (min-width: $screen-md-min) {
+			margin: 0 20px 0 0;
+				}
+		img {
+			width: 100%; 
+		}
+		
+	}
 
     h3 {
-        font-size: 24px;
+        font-size: 18px;
         text-transform: uppercase;
         font-family: $main-font-bold;
         letter-spacing: 2px;
-        padding-top: 61px;
+        padding-top: 30px;
+		
+		@media (min-width: $screen-md-min) {
+				font-size: 24px;
+				padding-top: 61px;
+			}
 
         @media (max-width:767px) {
             padding: 0;
@@ -656,13 +671,18 @@ text-align: center;
 
     p {
         font-family: "GothamHTF-Light";
-        padding: 49px 0 46px 0;
+        padding: 49px 15px 46px 15px;
         font-size: 12px;
         line-height: 21px;
         color: #8c8d8d;
         width: 75%;
         margin: 0 auto;
         letter-spacing: .1em;
+		
+		@media (min-width: $screen-md-min) {
+				font-size: 12px;
+				line-height: 26px;
+			}
 
         @media (max-width:1240px) {
             width: 90%;
@@ -670,8 +690,8 @@ text-align: center;
 
         @media (max-width:1023px) {
             width: auto;
-            padding: 20px 0 15px 0;
-            line-height: 26px;
+            padding: 20px 15px 15px 15px;
+            line-height: 20px;
         }
 
         @media (max-width:767px) {
@@ -1970,17 +1990,22 @@ margin-bottom: 1px;
     }
 
     .left-block {
-        position: absolute;
+        position: relative;
+			padding: 0 0 0 0;
+        @media (min-width: $screen-md-min) {           
+			 position: absolute;
         height: 100%;
-
-        @media (max-width:767px) {
-            position: relative;
+		padding: 0 20px 0 0;
         }
 
         .left-img {
-            position: absolute;
+           
+				@media (min-width: $screen-md-min) {
+					 position: absolute;
             bottom: 0;
             left: 0;
+			padding: 40px 0 0 0;
+				}
 
             @media (max-width:767px) {
                 position: relative;
@@ -1990,10 +2015,92 @@ margin-bottom: 1px;
             
 
         }
+		.pos-rel {
+			position: relative;
+		}
 
     }
 
-    
+    /* Weather widget new */
+.weather-widget {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                background-color: #fff;
+                min-width: 320px;
+                text-transform: uppercase;
+                padding-bottom: 37px;
+
+                .panel {
+                    margin: 0px;
+                    box-shadow: none;
+                    border: none;
+
+                    .wi {
+                        font-size: 80px;
+                        padding: 10px;
+                        color: #dfdfdf;
+                        margin: 29px 0px;
+                    }
+
+                }
+
+                img {
+                    margin-bottom: 40px;
+                }
+
+                p {
+                    font-size: 12px;
+                    color: #232525;
+                    width: 70%;
+                    display: block;
+                    line-height: 21px;
+                    padding: 60px 0 0 0;
+                    font-family: $main-font-light;
+
+                    @media (max-width:767px) {
+                        width: 90%;
+                    }
+
+                }
+
+                h6 {
+                    text-transform: none;
+                    text-transform: none;
+                    font-size: 12px;
+                    margin-top: 10px;
+                    letter-spacing: .07em;
+                }
+
+                .degree {
+                    font-size: 34px;
+                    padding: 0px 0px 12px 0px;
+                    line-height: 16px;
+                    font-family: $main-font-light;
+                    position: relative;
+
+                    &:after {
+                        content: "";
+                        width: 12px;
+                        height: 12px;
+                        border: .088em solid #232525;
+                        position: absolute;
+                        right: -14px;
+                        border-radius: 33px;
+                        top: 6px;
+                    }
+
+                }
+
+                .seperator {
+                    height: 1px;
+                    background-color: #000000;
+                    width: 31px;
+                    display: inline-block;
+                    margin: 4px 14px;
+                }
+
+            }
 
 }
 
@@ -2035,6 +2142,8 @@ margin-bottom: 1px;
             text-shadow: none;
             color: #232525;
             text-transform: uppercase;
+			
+			
 
             @media (max-width:600px) {
                 font-size: 18px;
@@ -2238,20 +2347,16 @@ margin-bottom: 1px;
 
     h6 {
         font-size: 12px;
-        color: #8c8d8d;
+        color: #232525;
         line-height: 21px;
         font-family: $main-font-light;
         letter-spacing: .1em;
-        padding:60px 0px;
     }
 
     h4 {
-         font-size: 24px;
-         color: #232525;
-         letter-spacing: 0.1em;
-         font-family: $main-font-bold;
-         
-         text-transform:uppercase;
+        font-size: 34px;
+        font-family: $main-font-light;
+        padding: 50px 20px;
 
         @media (max-width:1144px) {
             padding: 20px;
@@ -2268,9 +2373,30 @@ margin-bottom: 1px;
 
     }
 
+    .newsletter-container {
+        background-color: #efeeee;
+        background-color: #efeeee;
+        width: 40.3%;
+        text-align: center;
 
+        @media (max-width:767px) {
+            width: 100%;
+        }
 
-    
+        h4 {
+            padding: 41px 0px 34px 0px;
+        }
+
+        h6 {
+            padding: 0px 40px 35px 40px;
+        }
+
+        .newsletterform {
+            background-color: #03111d;
+            min-height: 58px;
+        }
+
+    }
 
     .discover-container {
         float: right;
@@ -2330,7 +2456,7 @@ margin-bottom: 1px;
 
         .carousel-inner {
             text-align: center;
-            
+            padding-bottom: 120px;
             width: 75%;
             margin: 0 auto;
 
@@ -2709,7 +2835,7 @@ margin-bottom: 1px;
 
 
 
-//weather widget
+//weather widget old
 
 .weather-widget-container{
 
@@ -2804,6 +2930,8 @@ margin-bottom: 1px;
 
 
 }
+
+
 
 
 
@@ -3499,7 +3627,7 @@ margin-bottom: 1px;
 			background-image: none;
 			background-color: transparent;
 			border: solid 1px #fff;
-			right: 15px;
+			right: 30px;
 				&:hover {
 						background: #232525;
 						border: solid 1px #232525;
