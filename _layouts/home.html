@@ -6,9 +6,12 @@ layout: default
       {% assign banner_images = site.data._models.home_banner_carousel  | sort : "sort_order" %}
       {% for bannerimages in banner_images %}
         <div>
-            <div class="banner-logo">
-              <div class="hero-title">Sophisticated Playground</div>
-            </div>
+        <div class="overlay"></div>
+            {% if forloop.index == 2 %}
+            <div class="play-icon"><a href="#" data-toggle="modal" data-target="#gatesVideo"><img src="/images/play-icon.svg" alt="" /></a></div>
+            {% else %}
+            <div class="banner-logo"></div>
+            {% endif %}
              <img src="{{ bannerimages.slider_image.url }}" class="width-full"  alt=""/>
              <div class=" social-icons">
               <h6>Follow Us</h6>
@@ -232,3 +235,23 @@ layout: default
                                   <section>
                                     <div class="map" > {% region homepage-map-img %}  </div>
                                   </section>
+                                  
+  <!-- Modal popup -->
+  
+  <div id="gatesVideo" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        
+                      </div>
+                      <div class="modal-body">
+                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/rVzXaAKaNec?rel=0' frameborder='0' allowfullscreen></iframe></div>
+                      </div>
+                      
+                    </div>
+                
+                  </div>
+                </div>
