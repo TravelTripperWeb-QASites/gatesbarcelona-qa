@@ -19,4 +19,11 @@
 "contents_2":
 	{"type":"richtext","hint":"Write the description"},
 "image_2":
-{"type":"image","required":true}}
+{"type":"image","required":true},
+"sort_order": 
+    { 
+      "type": "integer",
+      "required": true 
+    }
+
+}
