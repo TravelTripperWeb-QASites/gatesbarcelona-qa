@@ -9,7 +9,7 @@ layout: default
     </div>
   </div>
 </section>
-{% for partners in site.data._models.partners %}
+{% for partners in site.data._models.partners | sort : "sort_order" %}
 
     <section class="models">
       <div class="container">
