@@ -10,6 +10,39 @@
 	 });
  });
  
+ $(document).ready(function(){
+  $('.home-slider').slick({
+  autoplay: true,
+    dots: false,
+	
+   centerMode: true,
+  centerPadding: '16%',
+  slidesToShow: 1,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '4px',
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '4px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+	
+});
+
+ 
  $('#rd-carousel').carousel({
     	interval: false
 	});
@@ -308,7 +341,6 @@ $("#input_15").datepicker({
         });
 
 
-
-
+ 
 
 

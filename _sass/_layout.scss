@@ -5,9 +5,10 @@
 
 .home-slider {
     color: #fff;
-    
+    margin-bottom: 20px;
 
     .slick-slide {
+        margin: 0px 8px;
         position: relative;
         text-align: center;
 
@@ -51,7 +52,63 @@
 
         }
 
-        
+        .social-icons {
+            position: absolute;
+            margin: 0px auto;
+            padding: 0px;
+            left: 0;
+            right: 0;
+            z-index: 3;
+            bottom: 50px;
+            font-size: 17px;
+
+            @media (max-width:767px) {
+                bottom: 30px;
+            }
+
+            @media (max-width:400px) {
+                bottom: 12px;
+            }
+
+            a {
+                color: #fff;
+
+                &:hover {
+                    color: #ddd;
+                }
+
+            }
+
+            h6 {
+                font-family: $main-font-light;
+                font-size: 12px;
+                margin-bottom: 28px;
+
+                @media (max-width:400px) {
+                    margin-bottom: 5px;
+                }
+
+            }
+
+            span {
+                height: 1px;
+                background-color: #fff;
+                width: 30px;
+                display: inline-block;
+                margin: 4px 18px;
+
+                @media (max-width:1023px) {
+                    width: 30px;
+                    margin: 4px 5px;
+                }
+
+                @media (max-width:400px) {
+                    width: 20px;
+                }
+
+            }
+
+        }
 
     }
 
