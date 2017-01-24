@@ -2,7 +2,7 @@
 	{"required":true},
 "sub_title":
 {},
-"seo_title":
+"page_title":
 	{"required":true},
 "seo_description":
 	{"type":"text","required":true},
