@@ -1,3 +1,15 @@
+ $(document).ready(function(){
+	 $(".main-menu li").hover(function(){
+		
+		 $(this).find('.submenu').stop(true, true).delay(100).fadeIn();
+        }, function() {
+          $(this).find('.submenu').stop(true, true).delay(100).fadeOut();
+	 });
+	 $(".submenu").hover(function(){
+		  $(".submenu").show();
+	 });
+ });
+ 
  $('#rd-carousel').carousel({
     	interval: false
 	});
