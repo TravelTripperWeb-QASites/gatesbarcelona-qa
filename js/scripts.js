@@ -1,12 +1,12 @@
  $(document).ready(function(){
-	 $(".main-menu li").hover(function(){
+	 $(".main-menu li.dropdownitem").hover(function(){
 		
 		 $(this).find('.submenu').stop(true, true).delay(100).fadeIn();
         }, function() {
           $(this).find('.submenu').stop(true, true).delay(100).fadeOut();
 	 });
 	 $(".submenu").hover(function(){
-		  $(".submenu").show();
+		  $(this).find(".submenu").show();
 	 });
  });
  
