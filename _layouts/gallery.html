@@ -22,10 +22,17 @@ layout: default
           <li><a href="javascript:;" data-rel="dining" class="filter">Dining</a></li>
           <li><a href="javascript:;" data-rel="amenities" class="filter">Amenities</a></li>
           <li><a href="javascript:;" data-rel="attractions" class="filter">Attractions</a></li>
+          <li><a href="javascript:;" data-rel="dela" class="filter">De La</a></li>
         </ul>
       </div>
       <div class="container gallery-wrap" id="lightgallery">
         <ul class="row">
+        <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="hotel"	>
+        	<a href="https://www.youtube.com/watch?v=rVzXaAKaNec">
+                  <img src="/images/video-thumb.jpg" class="img-responsive" />
+                  <div class="play-icon"><i class="fa fa-play"></i></div>
+            </a>
+        </li>
         {% assign hotel_images = site.data._models.gallery_hotel_images %}
 {% for hotel_gallery in hotel_images %}            
            <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
@@ -55,7 +62,13 @@ layout: default
            <li class="col-md-4 col-sm-4 fancybox" data-filter="attractions">
             <div class="item" data-src="{{attractions_gallery.large_image.url}}"><img src="{{attractions_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
           </li>  
-{% endfor %}                  
+{% endfor %} 
+{% assign dela_images = site.data._models.gallery_dela_images %}
+{% for dela_gallery in dela_images %}            
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="dela">
+            <div class="item" data-src="{{dela_gallery.large_image.url}}"><img src="{{dela_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>  
+{% endfor %}                 
         </ul>
       </div>
     </div>

@@ -11,7 +11,6 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 permalink: pretty
-port: 8080
 default_lang: 'en'
 languages: ['en']
 

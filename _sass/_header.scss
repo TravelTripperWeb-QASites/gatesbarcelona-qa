@@ -180,6 +180,8 @@ a:hover,a:focus {
 					min-width: 216px;
 					z-index: 10;
 						li {
+							float:none;
+							display:block;
 							a {
 								display: block;
 								font-size: 11px;
