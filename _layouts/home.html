@@ -1,196 +1,74 @@
 ---
 layout: default
 ---
-<section class="home-banner custom-carousel">
-  <div class="container-fluid">
-  <div class="row">
-    <div id="home-banner" class="carousel slide" data-ride="carousel">
-  
-   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-  	<div class="item active" style="background-image: url(/images/home-banner-5.jpg);"></div>
-    <div class="item" style="background-image: url(/images/home-banner-1.jpg);"></div>
-    <div class="item" style="background-image: url(/images/home-banner-2.jpg);"></div>
-    <div class="item" style="background-image: url(/images/home-banner-3.jpg);"></div>
-    <div class="item" style="background-image: url(/images/home-banner-4.jpg);"></div>
-  </div>
-  
-  <div class="banner-overlay"></div>
-  <div class="banner-logo"><a href="/"><img src="/images/the-gates-key-west-white.svg" alt="The Gates Key West"/></a></div>
-  <div class=" social-icons">
-              <h6>Follow Us</h6>
-              <a href="http://facebook.com/gateskeywesthotel/" target="blank"><i class="fa fa-facebook"></i></a><span></span> 
-              <a href="http://twitter.com/GatesKeyWest/" target="blank"><i class="fa fa-twitter"></i></a><span></span> 
-              <a href="https://www.youtube.com/channel/UCSRTq6es6j3dVRBvdOnkhMg/" target="blank"><i class="fa fa-youtube-play"></i></a><span></span>
-              <a href="http://unlockthegates.tumblr.com/" target="blank"><i class="fa fa-tumblr"></i></a><span></span>
-              <a href="http://instagram.com/GatesKeyWest/" target="blank"><i class="fa fa-instagram"></i></a> 
-  </div>
-  <!-- Left and right controls -->
-
-  <a class="left carousel-control" href="#home-banner" role="button" data-slide="prev">
-    <i class="fa fa-angle-left" aria-hidden="true"></i>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#home-banner" role="button" data-slide="next">
-    <i class="fa fa-angle-right" aria-hidden="true"></i>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-  </div>
-</section>
-
 <section>
-                <div id="rooms-carousel-home" class="carousel rooms-carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  
-                  <ol class="carousel-indicators">
-                    <li data-target="#rooms-carousel-home" ng-repeat="room in browser.roomsList | limitTo: 4" data-slide-to="[[$index]]">[[room.name]]<span></span></li> 
-                    <a href="/rooms/" class="pull-right">[ More +]</a>
-                  </ol>
-                    
-                    <div class="carousel-inner" role="listbox">                  
-                                   
-                    <!-- Wrapper for slides -->                
-                      
-                          
-                         
-                          <div class="item" ng-repeat ="room in browser.roomsList | limitTo: 4" ng-class='{active:$first}'>
-                        
-                        <img ng-src="[[room.photos[0].large]]" alt="">
-                        <div class="container">
-                          <div class="carousel-caption">
-                            
-                             <h3>[[room.name]]</h3>
-<p>[[room.description | limitTo: 100]][[room.description.length > 100 ? '...' : '']],</p><a class="btn btn-lg btn-primary button-home button-blue" href="/rooms/">View All Rooms</a>
-                            
-                            </div>
-                          </div>
-                      </div>              
-                
-                                     
-                          <!-- Left and right controls -->
-                          <a class="left carousel-control" href="#rooms-carousel-home" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#rooms-carousel-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
-                        </section>
-                        
-    <section  class="opening-content-container">
-      <div class="container  opening-content">
-      <div class="row">
-                  <div class="col-sm-6">
-                  <img src="/images/keywest/home-about.jpg" class="center-block" alt="">
-                  </div>
-                  <div class="col-sm-6">
-                  <div class="description-container">
-                  <h3>OPENING “THE GATES” TO AN AUTHENTIC KEY WEST EXPERIENCE.</h3>
-                  <p>Welcome to a sun-soaked paradise. Stay with us at The Gates, and discover the history and soul of Key West. Our local touches immerse you in the art of island living, through design, music and, of course, food and drink. But be warned, you might never want to leave</p>
-                  <a class="btn btn-lg btn-primary button-home " href="#">DISCOVER</a>
-                  </div>
-                  </div>
-      </div>
+  <div class="home-slider">
+      {% assign banner_images = site.data._models.home_banner_carousel  | sort : "sort_order" %}
+      {% for bannerimages in banner_images %}
+        <div>
+        <div class="overlay"></div>
+            {% if forloop.index == 2 %}
+            <div class="play-icon"><a href="#" data-toggle="modal" data-target="#gatesVideo"><img src="/images/play-icon.svg" alt="" /></a></div>
+            {% else %}
+            <div class="banner-logo"></div>
+            {% endif %}
+             <img src="{{ bannerimages.slider_image.url }}" class="width-full"  alt=""/>
+             <div class=" social-icons">
+              <h6>Follow Us</h6>
+              <a href="http://facebook.com/gateskeywesthotel" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="http://twitter.com/GatesKeyWest" target="blank"><i class="fa fa-twitter"></i></a><span></span> <a href="#" target="blank"><i class="fa fa-google-plus"></i></a><span></span> <a href="http://instagram.com/GatesKeyWest" target="blank"><i class="fa fa-instagram"></i></a> 
+            </div>
+        </div>
+      {% endfor %}  
       </div>
     </section>
-   
-                        <section class="container-fluid offers-wrapper" rt3-special-rates= "offers">
-
-                        <div class="lucky-day">
-                        <!--<p>IT’S YOUR LUCKY DAY </p>-->
-                        <h4>Special Offers</h4>
-                        </div>  
-                        <div class="row">
-                          <div class="col-sm-4" ng-repeat="offer in offers.special_rates | limitTo:3">
-                            <div class="offer-container">
-                            <div class="offer-text">
-                            <!--<p>Offer 0[[$index+1]]</p>-->
-                            <h3>[[offer.rate_plan_name | renderHTMLCorrectly]]</h3>
-                            <a class="btn btn-lg btn-primary button-home " href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]">see details</a>
-                            </div>
-                            <div class="offer-img" style="background-image:url('[[offer.lead_photo_url.yankee_large]]');">
-                            
-                            </div>
-                            </div>
-                            </div>
-                          
-                        </div>  
-                        <a class="btn btn-lg btn-primary button-home offer-btn" href="#">view all offers</a>                      
-
-                        </section>
-                        
-                        <section class="newsletter-section" >
-                                <div class="dining-img">
-                                <div class="image-container">
-                                </div>
-                                </div>
-                              
-                                <div class="newsletter-container ">
-                                         {% region newsletter-context %}
-                                        <div class="newsletterform ">
-                                          <form class="jotform-form" action="https://submit.jotform.me/submit/62653920766463/" method="post" name="form_62653920766463" id="62653920766463" accept-charset="utf-8">
-                                            <input type="hidden" name="formID" value="62653920766463" />
-                                            <div class="form-holder form-holder-one ">
-                                              <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="YOUR EMAIL" required="required" />
-                                              <button id="input_2" type="submit" class="form-button-arrow">submit</button>
-                                            </div>
-                                            <input type="hidden" id="simple_spc" name="simple_spc" value="62653920766463" />
-                                            <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "62653920766463-62653920766463"; </script>
-                                          </form>
-                                          <script type="text/javascript">JotForm.ownerView=true;</script> 
-                                          </div> 
-                                        </div>
-                              <div class="newsletter-image">
-                              <div class="newsletter-image-container"></div>
-                              </div>
-                              
-
-                              </section>
-                              
-                                                                <section>
-                                    <div class="continental">
-                                      
-                                      <div class="menu-container" style="background-image:url('/images/bar-img.jpg');" >
-                                        <div class="menu-data">
-                                        <div class="bev-des">
-                                          <div class="blue-container beverage"> 
-                                            <a href="/pdf/Continental-Beverage.pdf" target="blank"></a> 
-                                            {% region baverage-txt %}
-                                          </div>
-                                          <div class="blue-container deserts">
-                                            <a href="/pdf/Continental-Dessert.pdf" target="blank"></a>
-                                            {% region dessert-txt %}
-                                          </div>
-                                       </div>
-                                    <div class="day">
-
-                                    {% region food-types %} 
+    <section>
+              <div class="container-fluid global-container no-padding">
+                <div class="row welcome-row">
+                  <div class="col-md-6 left-block no-padding">
+                    <div>
+                      <div class="two-col-content">
+                        {% region welcome-paradise %}
+                        <div class="left-img">{% region twocol-left-img %}
+                          <div class="wrapper weather-widget">
+                            <div class="panel bg-panel">
+                              <div class="weather" id="weather">
+                                <div class="temperature" id="temperature">
+                                  <div id="temp">
+                                    <p>Current Weather<br>
+                                    Key West, Florida</p>
+                                    <i id="condition"></i>
+                                    <div>
+                                      <ul class="list-inline">
+                                        <li>
+                                          <span  class="degree" id="fahr"></span>
+                                          <h6>Fahrenheit</h6>
+                                        </li>
+                                        <li><span class="seperator"></span></li>
+                                        <li>
+                                          <span class="degree" id="celc"></span>
+                                          <h6>Celsius</h6>
+                                        </li>
+                                      </ul>
                                     </div>
-                                    
                                   </div>
-                                  
-                                </div>
-                                <div class="cont-image" style="background-image:url('/images/continental-home.jpg');">
                                 </div>
                               </div>
-                            </section>
-
-
- <section class="container-fluid home-widget-container">
-     
-     
-          <div class="col-md-6 no-padding" >
-          <div class="home-swim-container">
-          <div class="women-block " >
-          <div class="women-image-contanier" >
-           
-          </div> 
-          </div>
-          <div class="hotel-block " >
-           
-          </div>
-          <div class="clearfix"></div>
-          <div class="detailsbg" >
-                        <div class="details-img pull-right">{% region home-detailsbg-img %}</div>
-                        <div class="details-events pull-left">
-                          <p>LATEST HAPPENINGS AT Tennessee Williams Theater</p>
-                        
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 right-block no-padding">
+                    <div class="visual-container">{% region two-col-1-img %}
+                      <div class="visual-title">
+                        <div> {% region view-gallery-text %}</div>
+                         </div>
+                      </div>
+                      <div class="detailsbg" >
+                        <div class="details-img pull-left">{% region home-detailsbg-img %}</div>
+                        <div class="details-events pull-right">
+                          {% region latest-happiness-box %}
                           <div id="events-car" class="carousel slide custom-car-control" data-ride="carousel">
                           
                            <!-- Indicators -->
@@ -226,70 +104,69 @@ layout: default
 
                           
                         </div>
-                        
-         </div>
-          </div>
-          <div class="clearfix"></div>
-          </div>
-          </div>
-
-          <div class="col-md-6 no-padding weather-widget-container" >
-            
-                       <div class="wrapper weather-widget">
-                            <div class="panel bg-panel">
-                              <div class="weather" id="weather">
-                                <div class="temperature" id="temperature">
-                                  <div id="temp">
-                                    <p>Current Weather<br>
-                                    Key West, florida</p>
+                        </div>
+                        <div class="clearfix"> </div>
+                      </div>
+                    </div>
+                </div>
+              </section>
+              <section>
+                <div id="rooms-carousel-home" class="carousel rooms-carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  
+                  <ol class="carousel-indicators">
+                    <li data-target="#rooms-carousel-home" ng-repeat="room in browser.roomsList | limitTo: 4" data-slide-to="[[$index]]">[[room.name]]<span></span></li> 
+                    <a href="/rooms/" class="pull-right">[ More +]</a>
+                  </ol>
+                    
+                    <div class="carousel-inner" role="listbox">                  
                                    
-                                    <img class="weather-icon" src="icon">
-                                    <div>
-                                      <ul class="list-inline">
-                                        <li>
-                                          <span  class="degree fahr"></span>
-                                          <h6>Fahrenheit</h6>
-
-                                        </li>
-                                        <li><span class="seperator"></span></li>
-                                        <li>
-                                          <span class="degree cel"></span>
-                                          <h6>Celsius</h6>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                    <!-- Wrapper for slides -->                
+                      
+                          
+                         
+                          <div class="item" ng-repeat ="room in browser.roomsList | limitTo: 4" ng-class='{active:$first}'>
+                        
+                        <img ng-src="[[room.photos[0].large]]" alt="">
+                        <div class="container">
+                          <div class="carousel-caption">
                             
+                             <h3>[[room.name]]</h3>
+<p>[[room.description | limitTo: 100]][[room.description.length > 100 ? '...' : '']],</p><a class="btn btn-lg btn-primary button-home button-blue" href="/rooms/">View All Rooms</a>
+                            
+                            </div>
                           </div>
-                          <div class="visual-title">
-                      Take a visual Journey
-                      <div class="btn-holder"><a class="btn btn-lg btn-primary button-home-white visual-button" href="/gallery/">VIEW GALLERY</a></div>
-                         </div>
-
-          </div> 
-
-    </section>
-
-
-
-
+                      </div>              
+                
+                                     
+                          <!-- Left and right controls -->
+                          <a class="left carousel-control" href="#rooms-carousel-home" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#rooms-carousel-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+                        </section>
+                        
                         <section >
                           <div class="global-container home-offers center-block top-margin">
                             <div class="">
                               <div class="left-col">
                                 <div id="offers-carousel" class="carousel slide offers-carousel" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#offers-carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#offers-carousel" data-slide-to="1"></li>
+                                    <li data-target="#offers-carousel" data-slide-to="2"></li>
+                                  </ol>
                                   
+                                  <!-- Wrapper for slides -->
                                   <div class="carousel-inner">
-                              
+                              {% assign spec_offers = site.data._models.home_special_offers_carousel  | sort : "sort_order" %}
+                              {% for specoffers in spec_offers %}                                     
+                                    {% if forloop.first == true %}
                                         <div class="item active">
-                                    <h4>EAT | DRINK</h4>
-                                    <h6>Lorem ipsum dolor sit amet, mel verear molestie cu. Ius dico natum causae eu, antiopam scribentur ea est. Sint semper mei ei, ei postea deseruisse vix. Usu alii modus cu. Ad iusto torquatos duo, docendi intellegam accommodare vim ea, ut alienum recteque consequuntur vis. Mundi voluptaria cum et, at vis quod meis essent, animal pertinax id pri.</h6>
-                                    <a class="btn btn-lg btn-primary button-home " href="/eat-drink/">DISCOVER MORE</a>
+                                    {% else %}
+                                       <div class="item">
+                                    {% endif %} 
+                                         {{ specoffers.offer_desc }}
                                       </div>
-                            
+                             {% endfor %} 
                                   </div>
                                       </div>
                                     </div>
@@ -300,22 +177,73 @@ layout: default
                                   </div>
                                 </div>
                               </section>
-                              
-                             
-                                 
-                            <!--<section>
-                              <div id="specials-carousel-home" class="carousel rooms-carousel slide" data-ride="carousel">
-                                
-                                
-                                <ol class="carousel-indicators" >
-                                  <li data-target="#specials-carousel-home" data-slide-to="0" class="active">Best Restaurants<span></span></li>
-                                  <li data-target="#specials-carousel-home" data-slide-to="1">Best Bars<span></span></li>
-                                  <li data-target="#specials-carousel-home" data-slide-to="2">Golfing<span></span></li>
-                                  <li data-target="#specials-carousel-home" data-slide-to="3">Beaches</li>
+                        
+                              <section >
+                                <div class="global-container home-offers center-block">
+                                  <div class=" no-margin">
+                                    <div class="left-col"> {% region newsletter-img %} </div>
+                                    <div class="right-col">
+                                      <div class="newsletter-container  pull-left">
+                                        {% region newsletter-context %}
+                                        <div class="newsletterform ">
+                                          <form class="jotform-form" action="https://submit.jotform.me/submit/62653920766463/" method="post" name="form_62653920766463" id="62653920766463" accept-charset="utf-8">
+                                            <input type="hidden" name="formID" value="62653920766463" />
+                                            <div class="form-holder form-holder-one ">
+                                              <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="YOUR EMAIL" required="required" />
+                                              <button id="input_2" type="submit" class="form-button-arrow">submit</button>
+                                            </div>
+                                            <input type="hidden" id="simple_spc" name="simple_spc" value="62653920766463" />
+                                            <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "62653920766463-62653920766463"; </script>
+                                          </form>
+                                          <script type="text/javascript">JotForm.ownerView=true;</script> </div>
+                                        </div>
+                                        <div class="discover-container pull-right">
+                                          {% region restaurent-bar %}
+                                          <!--<a class="btn btn-lg btn-primary button-home " href="#">Discover more</a>--> </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                  <section>
+                                    <div class="continental">
+                                      
+                                      <div class="menu-container" style="background-image:url('/images/bar-img.jpg');" >
+                                        <div class="menu-data">
+                                        <div class="bev-des">
+                                          <div class="blue-container beverage"> 
+                                            <a href="/pdf/Continental-Beverage.pdf" target="blank"></a> 
+                                            {% region baverage-txt %}
+                                          </div>
+                                          <div class="blue-container deserts">
+                                            <a href="/pdf/Continental-Dessert.pdf" target="blank"></a>
+                                            {% region dessert-txt %}
+                                          </div>
+                                       </div>
+                                    <div class="day">
+
+                                    {% region food-types %} 
+                                    </div>
+                                    
+                                  </div>
                                   
+                                </div>
+                                <div class="cont-image" style="background-image:url('/images/continental-home.jpg');">
+                                </div>
+                              </div>
+                            </section>
+                            <section>
+                              <div id="specials-carousel-home" class="carousel rooms-carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                
+                                <ol class="carousel-indicators" style="display:none;">
+                                  <li data-target="#specials-carousel-home" data-slide-to="0" class="active">KING SUITE<span></span></li>
+                                  <li data-target="#specials-carousel-home" data-slide-to="1">1 KING BALCONY POOL VIEW <span></span></li>
+                                  <li data-target="#specials-carousel-home" data-slide-to="2">1 KING TERRACE POOL VIEW <span></span></li>
+                                  <li data-target="#specials-carousel-home" data-slide-to="3">1 KING SUITE <span></span></li>
+                                  <a href="#" class="pull-right">[ More +]</a>
                                 </ol>
                                 
-                                
+                                <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
                               {% assign miami_images = site.data._models.enchanting_miami_carousel  | sort : "sort_order" %}
                               {% for miamiimages in miami_images %}                                 
@@ -334,12 +262,32 @@ layout: default
                                 {% endfor %}
                                 </div>
                                       
-                                    
+                                      <!-- Left and right controls -->
                                       <a class="left carousel-control" href="#specials-carousel-home" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
                                       <a class="right carousel-control" href="#specials-carousel-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
                                     </div>
-                                  </section>-->
+                                  </section>
                                   {% include twitter-instagram.html %}
-<section class="map-holder">
-	<div class="map-inner" id="map"></div>
-</section>
+                                  <section>
+                                    <div class="map" > {% region homepage-map-img %}  </div>
+                                  </section>
+                                  
+  <!-- Modal popup -->
+  
+  <div id="gatesVideo" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        
+                      </div>
+                      <div class="modal-body">
+                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/rVzXaAKaNec?rel=0' frameborder='0' allowfullscreen></iframe></div>
+                      </div>
+                      
+                    </div>
+                
+                  </div>
+                </div>
