@@ -5,11 +5,12 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     coderay (1.1.1)
     colorator (0.1)
-    concurrent-ruby (1.0.4)
+    concurrent-ruby (1.0.2)
     extras (0.1.0)
       forwardable-extended (~> 2.5)
     fastimage (2.0.1)
       addressable (~> 2)
+    ffi (1.9.14)
     ffi (1.9.14-x64-mingw32)
     forwardable-extended (2.6.0)
     i18n (0.7.0)
@@ -54,7 +55,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.4.23)
+    sass (3.4.22)
     slop (3.6.0)
     sprockets (3.6.3)
       concurrent-ruby (~> 1.0)
@@ -62,6 +63,7 @@ GEM
     xkeys (2.2.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES

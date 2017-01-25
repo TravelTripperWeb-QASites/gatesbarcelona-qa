@@ -10,6 +10,42 @@
 	 });
  });
  
+ jQuery(function ($) {
+
+
+    setTimeout(function(){
+      $('#offers-carousel ').carousel({
+        interval: 5000,
+        cycle: true,
+
+        nav:true
+      });
+      $('#offerscroll').carousel({
+        interval: false,
+        cycle: true,
+
+        nav:true
+      });
+
+       $('#offers-carousel ').on('slide.bs.carousel', function(ev){
+          var direction = ev.direction == 'right' ? 'prev' : 'next';
+    	 	  $('#offerscroll').carousel(direction);
+
+    	 });
+
+    },2000);
+
+});
+ 
+ $('#gatesVideo').on('hide.bs.modal', function(e) {    
+    var $if = $(e.delegateTarget).find('iframe');
+    var src = $if.attr("src");
+    $if.attr("src", '/empty.html');
+    $if.attr("src", src);
+});
+
+
+ 
  $(document).ready(function(){
   $('.home-slider').slick({
   autoplay: false,
