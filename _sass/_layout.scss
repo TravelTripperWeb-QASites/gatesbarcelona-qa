@@ -2611,7 +2611,12 @@ margin-bottom: 1px;
                  padding: 20px;
                  clear: both;
                  }
-
+						 h2 {
+							 font-family: "GothamHTF-Light";
+							 font-size: 30px;
+							 color: #232525;
+							 padding: 0 0 30px 0;
+						 }
 
                 ul {
                     li {
@@ -2625,14 +2630,17 @@ margin-bottom: 1px;
                              margin-bottom: 10px;
 
                          }
+						 
+						
 
                         h5 {
                             font-family: "GothamHTF-Bold";
-                            font-size: 20px;
+                            font-size: 16px;
                             text-shadow: none;
                             color: #232525;
                             text-transform: uppercase;
                             width: 164px;
+							line-height: 28px;
                         }
 
                         p {
