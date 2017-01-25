@@ -2046,7 +2046,8 @@ margin-bottom: 1px;
                 }
 
                 img {
-                    margin-bottom: 40px;
+                        max-width: 97px;
+                        margin: 25px;
                 }
 
                 p {
@@ -2055,7 +2056,7 @@ margin-bottom: 1px;
                     width: 70%;
                     display: block;
                     line-height: 21px;
-                    padding: 60px 0 0 0;
+                    padding: 46px 0 0 0;
                     font-family: $main-font-light;
 
                     @media (max-width:767px) {
