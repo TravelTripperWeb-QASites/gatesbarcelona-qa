@@ -13,8 +13,10 @@ layout: default
       <div class="container no-padding rum-row-container">
 
                         <div class="col-sm-6 no-padding img-container">
-                        {% region rum-row-container-image%}
+                       <!-- {% region rum-row-container-image%} -->
                         
+                        <img src="/images/dining/rum-image1.jpg" alt="Rum Row is the quintessential Key West hangout">
+                        <div class="play-btn"><a href="javascript:void(0);" data-toggle="modal" data-target="#gatesVideo"><img src="/images/play-btn.svg" alt="" /></a></div>
                         </div>
 
                         <div class="col-sm-6 no-padding content">
@@ -147,3 +149,22 @@ layout: default
 
 {% include twitter-instagram.html %}
 
+  <!-- Modal popup -->
+  
+  <div id="gatesVideo" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+                
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        
+                      </div>
+                      <div class="modal-body">
+                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/rVzXaAKaNec?rel=0' frameborder='0' allowfullscreen></iframe></div>
+                      </div>
+                      
+                    </div>
+                
+                  </div>
+                </div>

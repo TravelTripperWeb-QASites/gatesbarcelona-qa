@@ -9,13 +9,15 @@ layout: default
         <div class="overlay"></div>
             {% if forloop.index == 2 %}
             <div class="play-btn"><a href="#" data-toggle="modal" data-target="#gatesVideo"><img src="/images/play-btn.svg" alt="" /></a></div>
-            {% else %}
+            {% endif %}
+            {% if forloop.index == 1 %}
             <div class="banner-logo"></div>
             {% endif %}
+            
              <img src="{{ bannerimages.slider_image.url }}" class="width-full"  alt=""/>
              <div class=" social-icons">
               <h6>Follow Us</h6>
-              <a href="http://facebook.com/gateskeywesthotel" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="http://twitter.com/GatesKeyWest" target="blank"><i class="fa fa-twitter"></i></a><span></span> <a href="#" target="blank"><i class="fa fa-google-plus"></i></a><span></span> <a href="http://instagram.com/GatesKeyWest" target="blank"><i class="fa fa-instagram"></i></a> 
+              <a href="http://facebook.com/gateskeywesthotel" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="http://twitter.com/GatesKeyWest" target="blank"><i class="fa fa-twitter"></i></a><span></span> <a href="https://www.youtube.com/channel/UCSRTq6es6j3dVRBvdOnkhMg/" target="blank"><i class="fa fa-youtube-play"></i></a><span></span> <a href="http://unlockthegates.tumblr.com/" target="blank"><i class="fa fa-tumblr"></i></a><span></span> <a href="http://instagram.com/GatesKeyWest" target="blank"><i class="fa fa-instagram"></i></a> 
             </div>
         </div>
       {% endfor %}  
@@ -154,8 +156,9 @@ layout: default
       
         <div class="carousel-inner">
           <div class="item" ng-repeat ="offer in offers.special_rates | limitTo:3" ng-class='{active:$first}'>
-          <h4>[[ offer.short_description ]]</h4>
+          
               <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
+              <h4>[[ offer.short_description ]]</h4>
               <div class="links"> <a ng-href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">See Details</a></div>
               
           </div>
