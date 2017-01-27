@@ -2515,6 +2515,7 @@ margin-bottom: 1px;
                     text-align: center;
                     background-color: rgba(25, 198, 255, 0.8);
                     max-width: 170px;
+					min-width: 170px;
                     padding: 24px 28px;
                     position: relative;
 
@@ -2523,6 +2524,10 @@ margin-bottom: 1px;
                            max-width:inherit;
                            width: 47.5%;
                      }
+					 @media (max-width:800px) {
+						 max-width: inherit;
+						 min-width: none;
+					 }
 
                     @media (max-width:500px) {
                            padding: 20px;
