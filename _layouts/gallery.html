@@ -23,7 +23,7 @@ layout: default
           <li><a href="javascript:;" data-rel="amenities" class="filter">Amenities</a></li>
           <li><a href="javascript:;" data-rel="attractions" class="filter">Attractions</a></li>
           <li><a href="javascript:;" data-rel="dela" class="filter">De La</a></li>
-          <li><a href="javascript:;" data-rel="gs" class="filter">Gates Stock</a></li>
+          <li><a href="javascript:;" data-rel="local" class="filter">Local</a></li>
           <li><a href="javascript:;" data-rel="ps" class="filter">Public Space</a></li>
         </ul>
       </div>
@@ -73,7 +73,7 @@ layout: default
 {% endfor %}         
 {% assign gs_images = site.data._models.gallery_gs_images %}
 {% for gs_gallery in gs_images %}            
-           <li class="col-md-4 col-sm-4 fancybox" data-filter="gs">
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="local">
             <div class="item" data-src="{{gs_gallery.large_image.url}}"><img src="{{gs_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
           </li>  
 {% endfor %}  

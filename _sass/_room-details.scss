@@ -534,7 +534,7 @@
 		      }
 		   @media (max-width:767px) {
 				
-				padding: 0px 0px 40px 0px;
+				padding: 0px 0px 0 0px;
 
 		      }
 
@@ -566,35 +566,31 @@
 			margin: 0 auto;
 			text-align: center;
 			line-height: 22px;
+			padding: 0 0px 40px 0px;
+				@media (min-width: $screen-md-min) {
+					padding: 0 0px 75px 0px;
+				}
 		}
 
 		h3 {
 			font-size: 34px;
 			font-family: "GothamHTF-Light";
-			
-			padding: 120px 0px 50px 0px;
 		    line-height: 40px;
 		    text-align: center;
 		    width: 75%;
 		    margin: 0 auto;
-
-		     @media (max-width:1200px) {
-				
-			padding: 100px 0px 20px 0px;
-
-		      }
-		     @media (max-width:1070px) {
-		     	font-size: 20px;
-		     	line-height: 30PX;
-		     	width: 90%;
-				padding: 40px 0px 20px 0px;
-		     }
+			padding: 0 0px 75px 0px;
+				 @media (max-width:1070px) {
+					font-size: 20px;
+					line-height: 30px;
+					width: 90%;
+					padding: 0 0 40px 0px;
+				 }
 		      
 
 		}
 		.button-common-2 {
 			min-width: 225px;
-			margin-top: 18px;
 		}
 	}
 
