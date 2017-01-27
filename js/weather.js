@@ -38,5 +38,7 @@ $(function() {
       //$(".weather-app_main__information--icon").attr("src", "https://s3-us-west-2.amazonaws.com/s.cdpn.io/217538/" + icon + ".png");
       $(".cel").html(toCels + "");
       $(".fahr").html(toFar + "");
+
+     // console.log('added' + toFar);
     }) 
 });
