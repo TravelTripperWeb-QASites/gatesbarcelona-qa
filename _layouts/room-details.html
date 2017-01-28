@@ -100,20 +100,20 @@ layout: default
 <section class="rooms-section">
   <div class="container">
     <div class="col-md-4 no-padding" >
-      <div class="new-caption-area " id="roomscroll" class="carousel slide" data-ride="carousel">
+      <div class="new-caption-area " id="rddscroll" class="carousel slide" data-ride="carousel">
         <p>VIEW MORE LUXURIOUS ROOMS & SUITES</p>
-        <div class="carousel-controls"> <a class="left nav-control" href="#rd-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#rd-carousel" role="button" data-slide="next"> </a> </div>
+        <div class="carousel-controls"> <a class="left nav-control" href="#rdd-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#rdd-carousel" role="button" data-slide="next"> </a> </div>
         <div class="carousel-inner ">
           <div class="item "  ng-repeat ="room in browser.roomsList" ng-class='{active:$first}'>
             <h3>[[room.name]]</h3>
-            <div class="links"> <a href="/room/#[[room.name | formatNameForLink]]/" class="button-common-2 btn-spacing button-blue">VIEW THIS ROOM</a><br/> <a href="/rooms/" class="button-common-2 button-blue">VIEW ALL ROOMS</a> </div>
+            <div class="links"> <a href="/room-details/#[[room.name | formatNameForLink]]/" class="button-common-2 btn-spacing button-blue">VIEW THIS ROOM</a><br/> <a href="/rooms/" class="button-common-2 button-blue">VIEW ALL ROOMS</a> </div>
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-8 no-padding">
       <div class="rooms-carousel">
-        <div id="rd-carousel" class="carousel slide" data-ride="carousel">
+        <div id="rdd-carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
 
          	<div class="item" ng-repeat ="room in browser.roomsList" ng-class='{active:$first}'>

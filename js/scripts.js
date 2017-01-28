@@ -41,22 +41,22 @@ jQuery(function ($) {
 
 
     setTimeout(function(){
-      $('#rd-carousel ').carousel({
+      $('#rdd-carousel ').carousel({
         interval: 5000,
         cycle: true,
 
         nav:true
       });
-      $('#rdscroll').carousel({
+      $('#rddscroll').carousel({
         interval: false,
         cycle: true,
 
         nav:true
       });
 
-       $('#rd-carousel ').on('slide.bs.carousel', function(ev){
+       $('#rdd-carousel ').on('slide.bs.carousel', function(ev){
           var direction = ev.direction == 'right' ? 'prev' : 'next';
-    	 	  $('#rdscroll').carousel(direction);
+    	 	  $('#rddscroll').carousel(direction);
 
     	 });
 
