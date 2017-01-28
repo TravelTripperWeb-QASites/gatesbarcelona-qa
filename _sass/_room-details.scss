@@ -579,7 +579,7 @@
 		    text-align: center;
 		    width: 75%;
 		    margin: 0 auto;
-			padding: 0 0px 75px 0px;
+			padding: 0 0px 45px 0px;
 				 @media (max-width:1070px) {
 					font-size: 20px;
 					line-height: 30px;
@@ -591,6 +591,9 @@
 		}
 		.button-common-2 {
 			min-width: 225px;
+		}
+		.btn-spacing {
+			margin: 0 0 10px 0;
 		}
 	}
 
@@ -604,23 +607,23 @@
 	
 	}
 	.carousel-controls {
-		position: absolute;
-		width: 71px;		    /* overflow: hidden; */
+		position: relative;
+		width: auto;		    /* overflow: hidden; */
 		height: 36px;
 		margin: 0px auto;
-		left: 0;
-   		right: 0;
+		left: auto;
+   		right: auto;
    		z-index: 3;
-   		margin-top: 30px;
+   		margin: 30px auto 40px auto;
  		@media (max-width:1070px) {
 				
-				margin-top: 20px;
+				margin: 30px auto 30px auto;
 
 		      }
 
 		.nav-control {
 			background-image: none;
-			position: absolute;
+			position: relative;
 			border: 1px solid #000;
 			width: 36px;
 			height: 36px;
@@ -628,15 +631,16 @@
 			line-height: 29px;
 			color: #03111d;
 			font-size: 33px;
+			display: inline-block;
 			
 		}
 
 		.left {
 			background-image: none;
-			position: absolute;
-			left: 0px;
-			top: 0px;
-
+			position: relative;
+			left: auto;
+			top: auto;
+			
 			&:before {
 				
 				content: '\2039';
@@ -647,9 +651,9 @@
 
 		.right {
 			background-image: none;
-			position: absolute;
-			right: 0px;
-			top: 0px;
+			position: relative;
+			right: auto;
+			top: auto;
 
 			&:before {
 				line-height: 27px;

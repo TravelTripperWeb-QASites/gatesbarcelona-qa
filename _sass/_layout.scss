@@ -3434,6 +3434,26 @@ margin-bottom: 1px;
 
 }
 
+/*.rooms-section {
+&.control-relative {
+	 .carousel-control {
+		 position: relative;
+		 width: auto;
+		 .left {
+			 position: relative;
+			 display: inline-block;
+			 left: auto;
+			 top: auto;
+        }
+		.right {
+			 position: relative;
+			 display: inline-block;
+			 right: auto;
+			 top: auto;
+        }
+	 }
+}
+}*/
 
 .custom-carousel {
 

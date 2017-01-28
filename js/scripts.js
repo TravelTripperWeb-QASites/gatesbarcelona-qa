@@ -36,6 +36,60 @@
     },2000);
 
 });
+
+jQuery(function ($) {
+
+
+    setTimeout(function(){
+      $('#rd-carousel ').carousel({
+        interval: 5000,
+        cycle: true,
+
+        nav:true
+      });
+      $('#rdscroll').carousel({
+        interval: false,
+        cycle: true,
+
+        nav:true
+      });
+
+       $('#rd-carousel ').on('slide.bs.carousel', function(ev){
+          var direction = ev.direction == 'right' ? 'prev' : 'next';
+    	 	  $('#rdscroll').carousel(direction);
+
+    	 });
+
+    },2000);
+
+});
+
+jQuery(function ($) {
+
+
+    setTimeout(function(){
+      $('#od-carousel ').carousel({
+        interval: 5000,
+        cycle: true,
+
+        nav:true
+      });
+      $('#odscroll').carousel({
+        interval: false,
+        cycle: true,
+
+        nav:true
+      });
+
+       $('#od-carousel ').on('slide.bs.carousel', function(ev){
+          var direction = ev.direction == 'right' ? 'prev' : 'next';
+    	 	  $('#odscroll').carousel(direction);
+
+    	 });
+
+    },2000);
+
+});
  
  $('#gatesVideo').on('hide.bs.modal', function(e) {    
     var $if = $(e.delegateTarget).find('iframe');
