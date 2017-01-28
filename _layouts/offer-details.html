@@ -102,37 +102,34 @@ layout: default
         
 </section>
 
-<section class="rooms-section">
-  <div class="container">
-    <div class="col-md-4 no-padding">
-      <div class="new-caption-area" id="roomscroll">
-        <p></p>
-        <div class="carousel-controls"> <a class="left nav-control" href="#rooms-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#rooms-carousel" role="button" data-slide="next"> </a> </div>
-        <h3></h3>
-        <div class="links"></div>
-      </div>
-    </div>
-    <div class="col-md-8 no-padding">
-      <div class="rooms-carousel">
-        <div id="rooms-carousel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-
-                <div class="item" ng-class="{'active': $index == 0}" ng-repeat="offer in offers.special_rates">
-                  <img alt="" src="[[offer.lead_photo_url.yankee_large]]" class="width-full">
-                  <div class="carousel-caption">
-                    <p>VIEW MORE LUXURIOUS SPECIAL OFFERS</p>
-                    <h3>[[offer.rate_plan_name | renderHTMLCorrectly]]</h3>
-                    <div class="links">
-                    <a href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">VIEW THIS OFFER</a> <a href="/offers/" class="button-common-2">VIEW ALL OFFERS</a>
-                    </div>
-                  </div>
-              </div>
-                       
+<section class="rooms-section" rt3-special-rates= "offers">
+<div class="container">
+ <div class="col-md-4 no-padding" >
+      <div class="new-caption-area " id="odscroll" class="carousel slide" data-ride="carousel">
+        <p>VIEW MORE LUXURIOUS SPECIAL OFFERS</p>
+        <div class="carousel-controls"> <a class="left nav-control" href="#od-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#od-carousel" role="button" data-slide="next"> </a> </div>
+        <div class="carousel-inner ">
+          <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
+            <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
+            <div class="links"> <a href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">VIEW THIS OFFER</a><br/> <a href="/offers/" class="button-common-2 button-blue">VIEW ALL OFFERS</a> </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
+<div class="col-md-8 no-padding">
+      <div class="rooms-carousel">
+        <div id="od-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+
+         	<div class="item" ng-repeat="offer in offers.special_rates" ng-class='{active:$first}'>
+             <img alt="" ng-src="[[offer.lead_photo_url.yankee_large]]" class="width-full">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 </section>
 <section class="loc-cta" style="background-image:url(/images/gates/offers/offer-4.jpg);">
 	<div class="container-fluid no-padding">
