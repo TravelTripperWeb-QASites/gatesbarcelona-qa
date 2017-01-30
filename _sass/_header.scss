@@ -122,6 +122,7 @@ a:hover,a:focus {
 					left: 0;
 					right: 0;
 					padding: 0;
+					z-index: 9999;
 					}
 					@media (max-width: 767px){
 						top: 52px;
@@ -189,7 +190,30 @@ a:hover,a:focus {
 							}
 						}
 					}
+				.arrow-down {
+					position: absolute;
+					right: 0;
+					top: 0;
+					height: 100%;
+					width: 50px;
+					text-align: center;
+					display: block;
+					cursor: pointer;
 					
+						@media (min-width: 1181px){
+							display: none;
+						}
+						.fa {
+							position: absolute;
+							top: 50%;
+							left: 0;
+							right: 0;
+							transform: translateY(-50%);
+							margin: 0 auto;
+							color: #232525;
+							font-size: 28px;
+						}
+				}
 		}
 	}
 }
@@ -295,3 +319,4 @@ a:hover,a:focus {
 
 
 .carousel-control.left,.carousel-control.right {background-image:none;}
+
