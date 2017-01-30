@@ -41,4 +41,15 @@
 					}
 			}
 	}
+	.magazines {
+		padding: 40px 0 0 0;
+		p {
+			padding: 7px 0 7px 0;
+				@media (min-width: $screen-sm-min){
+					width: 50%;
+					float: left;
+					padding: 5px 0 5px 15px;
+				}
+		}
+	}
 }
