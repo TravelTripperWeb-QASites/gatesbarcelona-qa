@@ -1,5 +1,9 @@
  $(document).ready(function(){
-	 $(".main-menu li.dropdownitem").hover(function(){
+	 
+	 var windowSize = $(window).width();
+	  if (windowSize > 1180) {
+	
+		 $(".main-menu li.dropdownitem").hover(function(){
 		
 		 $(this).find('.submenu').stop(true, true).delay(100).fadeIn();
         }, function() {
@@ -8,6 +12,19 @@
 	 $(".submenu").hover(function(){
 		  $(this).find(".submenu").show();
 	 });
+	  }
+
+	 $(".main-menu li .arrow-down").click(function(){
+		 if(!$(this).next(".submenu").hasClass("-show")){
+			 $(this).next(".submenu").addClass("-show"); 
+			 $(this).addClass("arrow-up");
+		 }
+		 else {
+			 $(this).next(".submenu").css("display", "").removeClass("-show");
+			 $(this).removeClass("arrow-up");
+		 }
+	 });
+
  });
  
   $(document).ready(function() {
