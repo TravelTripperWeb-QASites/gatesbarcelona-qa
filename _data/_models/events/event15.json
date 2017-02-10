@@ -9,8 +9,8 @@
 	"time": "4:00 pm - 7:00 pm",
 	"website_url": "https://www.gateshotelkeywest.com/",
 	"short_description": "Join us for a Mardi Gras Celebration at the gates hotel //24 North Hotel. We’ll have great New Orleans inspired drink specials, food specials, beads and masks! Buy a drink and get a free mask!  Join us at the bar for a fun celebration and some great music! Music from 4-7pm",
+	"venue": "<p>&nbsp;&nbsp;</p>",
 	"event_image": {
 		"url": "https://cdn.traveltripper.io/site-assets/192_570_1769/media/2017-02-10-060716/gates-mardi gras-tt.JPG"
-	},
-	"venue": "<p>&nbsp;&nbsp;</p>"
+	}
 }
