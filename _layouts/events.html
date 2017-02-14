@@ -12,7 +12,7 @@ layout: default
 
  <ul class="gallery-nav events-filter-nav">
     <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
-    {% assign catlist = site.data._models.eventCategory %} 
+    {% assign catlist = site.data._models.event_category %} 
 
     {% for cat in catlist %}
     <li><a href="javascript:;" data-rel="{{cat.cat_name}}" class="filter">{{cat.cat_name}}</a></li>
