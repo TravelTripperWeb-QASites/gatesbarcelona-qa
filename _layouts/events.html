@@ -10,14 +10,24 @@ layout: default
   </div>
 </section>
 
+ <ul class="gallery-nav events-filter-nav">
+    <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
+    {% assign catlist = site.data._models.eventCategory %} 
+
+    {% for cat in catlist %}
+    <li><a href="javascript:;" data-rel="{{cat.cat_name}}" class="filter">{{cat.cat_name}}</a></li>
+    {% endfor %}
+  </ul>
+
 {% assign eventList = site.data._models.events | sort: 'datemeta' %}
 {% for events in eventList %}
-<section class="models events">
+<section class="models events fancybox" data-filter="{{events.category.cat_name}}">
       <div class="container">
         <div class="two-col-wrap">
           <div class="row no-gutters">
           	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.event_image.url}}" alt=""></div>
           	<div class="col-sm-6 sp-content">
+           
               <h2>{{events.page_title}}</h2>
               <ul>
               	<li>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</li>
