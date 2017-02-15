@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <section>
   <div class="home-slider">
       {% assign banner_images = site.data._models.home_banner_carousel  | sort : "sort_order" %}
@@ -29,6 +30,7 @@ layout: default
                   <div class="col-md-6 left-block no-padding">
                     <div>
                       <div class="two-col-content">
+
                         {% region welcome-paradise %}
                         <div class="left-img">{% region twocol-left-img %}
                           <div class="wrapper weather-widget">
@@ -38,9 +40,7 @@ layout: default
                                   <div id="temp">
                                     <p>Current Weather<br>
                                     Key West, Florida</p>
-                                    <i id="condition">
-                                      <img  class="weather-icon"  src="" alt=""/> 
-                                    </i>
+                                     <i></i>
                                     <div>
                                       <ul class="list-inline">
                                         <li>
