@@ -1,6 +1,6 @@
 {
 
-    "cat_name":
+    "title":
     {
       "required": true,  
       "label": "Category Title"

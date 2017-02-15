@@ -12,7 +12,7 @@
     {
       "label": "Choose Category",
       "type":"model",
-      "display_field": "cat_name", 
+      "display_field": "title", 
       "model_name":"event_category"
     }, 
 "end_date":

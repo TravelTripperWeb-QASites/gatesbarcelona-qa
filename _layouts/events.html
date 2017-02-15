@@ -15,13 +15,13 @@ layout: default
     {% assign catlist = site.data._models.event_category %} 
 
     {% for cat in catlist %}
-    <li><a href="javascript:;" data-rel="{{cat.cat_name}}" class="filter">{{cat.cat_name}}</a></li>
+    <li><a href="javascript:;" data-rel="{{cat.title}}" class="filter">{{cat.title}}</a></li>
     {% endfor %}
   </ul>
 
 {% assign eventList = site.data._models.events | sort: 'datemeta' %}
 {% for events in eventList %}
-<section class="models events fancybox" data-filter="{{events.category.cat_name}}">
+<section class="models events fancybox" data-filter="{{events.category.title}}">
       <div class="container">
         <div class="two-col-wrap">
           <div class="row no-gutters">
