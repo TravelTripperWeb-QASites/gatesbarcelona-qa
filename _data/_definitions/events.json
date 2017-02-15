@@ -12,8 +12,8 @@
     {
       "label": "Choose Category",
       "type":"model",
-      "display_field": "cat_name", 
-      "model_name":"eventCategory"
+      "display_field": "title", 
+      "model_name":"event_category"
     }, 
 "end_date":
 	{"type":"date"},
