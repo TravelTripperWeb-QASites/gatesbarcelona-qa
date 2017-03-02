@@ -1,13 +1,20 @@
 {"title":
 	{"required":true},
 "seo_title":
-	{"required":true},
+	{"type":"text"},
 "seo_description":
 	{"type":"text","required":true},
 "url_friendly_name":
 	{"type":"url_slug"},
 "start_date":
-	{"type":"date","required":true},
+	{"type":"date"},
+"category":
+    {
+      "label": "Choose Category",
+      "type":"model",
+      "display_field": "title", 
+      "model_name":"event_category"
+    }, 
 "end_date":
 	{"type":"date"},
 "datemeta":
