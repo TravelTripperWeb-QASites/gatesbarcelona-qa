@@ -22,4 +22,35 @@ layout: default
   </div>
   
 </section>
+
+<section class="rooms-section footer-separator" rt3-special-rates= "offers">
+<div class="container">
+<div class="col-md-8 no-padding">
+      <div class="rooms-carousel">
+        <div id="od-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+
+          <div class="item" ng-repeat="offer in offers.special_rates" ng-class='{active:$first}'>
+             <img alt="" ng-src="[[offer.lead_photo_url.yankee_large]]" class="width-full">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <div class="col-md-4 no-padding" >
+      <div class="new-caption-area " id="odscroll" class="carousel slide" data-ride="carousel">
+        <p>VIEW MORE SPECIAL OFFERS</p>
+        <div class="carousel-controls"> <a class="left nav-control" href="#od-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#od-carousel" role="button" data-slide="next"> </a> </div>
+        <div class="carousel-inner ">
+          <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
+            <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
+            <div class="links"> <a href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">VIEW THIS OFFER</a><br/> <a href="/offers/" class="button-common-2 button-blue">VIEW ALL OFFERS</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
 {% include twitter-instagram.html %}
