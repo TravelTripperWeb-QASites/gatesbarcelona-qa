@@ -17,7 +17,6 @@ exclude: ['sitemap.json']
 booking_widget_url: https://gateshotelkeywest.reztrip.com/mobile
 
 page_gen:
-
   - data: 'partners'
     template: 'partner-details'
     dir: 'partners'
