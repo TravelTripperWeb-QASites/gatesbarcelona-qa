@@ -7,9 +7,9 @@
 "seo_description":
 	{},
 "from":
-	{"type":"date","required":false},
+	{},
 "to":
-	{"type":"date","required":false},
+	{},
 "url_friendly_name":
 	{"type":"url_slug"},
 "date":
