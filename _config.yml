@@ -24,3 +24,22 @@ page_gen:
     template: 'event-details'
     dir: 'events'
 
+data_paginate: 
+  per_page: 5
+  data: 'blog'
+  path: 'blog/page:num'
+  pagination_template: 'blog/index.html'
+  sort_field: 'date'
+  sort_reverse: true
+
+#paginate_path: "/page:num/"
+markdown: kramdown 
+
+page_gen:
+  - data: 'attractions'
+    template: 'attraction-details'
+    dir: 'attractions'
+  - data: 'blog'
+    template: 'blog-details'
+    dir: 'blog'
+
