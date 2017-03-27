@@ -2660,6 +2660,56 @@
     "git_file_name": "_assets/image_data/site-assets_192_570_1769_media_2017-02-10-071724_2222.JPG.json"
   },
   {
+    "name": "gateway-intro",
+    "file_name": "gateway-intro.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1769/media/2017-03-27-074233/gateway-intro.jpg",
+    "date_added": "2017-03-27-074233",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1769_media_2017-03-27-074233_gateway-intro.jpg.json"
+  },
+  {
+    "name": "gateway-dine",
+    "file_name": "gateway-dine.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1769/media/2017-03-27-074903/gateway-dine.jpg",
+    "date_added": "2017-03-27-074903",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1769_media_2017-03-27-074903_gateway-dine.jpg.json"
+  },
+  {
+    "name": "gateways-shopping2",
+    "file_name": "gateways-shopping2.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1769/media/2017-03-27-075712/gateways-shopping2.jpg",
+    "date_added": "2017-03-27-075712",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1769_media_2017-03-27-075712_gateways-shopping2.jpg.json"
+  },
+  {
+    "name": "gateway-drinks",
+    "file_name": "gateway-drinks.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1769/media/2017-03-27-080249/gateway-drinks.jpg",
+    "date_added": "2017-03-27-080250",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1769_media_2017-03-27-080249_gateway-drinks.jpg.json"
+  },
+  {
+    "name": "gateway-art2",
+    "file_name": "gateway-art2.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1769/media/2017-03-27-080722/gateway-art2.jpg",
+    "date_added": "2017-03-27-080723",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1769_media_2017-03-27-080722_gateway-art2.jpg.json"
+  },
+  {
     "name": "cowkeybridgerun-image1",
     "file_name": "cowkeybridgerun-image1.jpg",
     "file_type": "image/jpeg",

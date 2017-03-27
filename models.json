@@ -2,8 +2,32 @@
   "blog": [
     [
       {
-        "title": "The North American International Toy Fair 2017",
-        "file": "blog4.json"
+        "title": "The Gateway to Key West",
+        "file": "blog5.json"
+      }
+    ],
+    [
+      {
+        "title": "Where to Dine in Key West",
+        "file": "blog6.json"
+      }
+    ],
+    [
+      {
+        "title": "Our Favorite Boutiques in Key West",
+        "file": "blog7.json"
+      }
+    ],
+    [
+      {
+        "title": "Where to Grab Drinks in Key West",
+        "file": "blog8.json"
+      }
+    ],
+    [
+      {
+        "title": "Art Galleries in KW",
+        "file": "blog9.json"
       }
     ]
   ],
