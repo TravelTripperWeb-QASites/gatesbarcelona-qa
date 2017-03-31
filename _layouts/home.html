@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <section>
   <div class="home-slider">
       {% assign banner_images = site.data._models.home_banner_carousel  | sort : "sort_order" %}
@@ -29,6 +30,7 @@ layout: default
                   <div class="col-md-6 left-block no-padding">
                     <div>
                       <div class="two-col-content">
+
                         {% region welcome-paradise %}
                         <div class="left-img">{% region twocol-left-img %}
                           <div class="wrapper weather-widget">
@@ -38,9 +40,7 @@ layout: default
                                   <div id="temp">
                                     <p>Current Weather<br>
                                     Key West, Florida</p>
-                                    <i id="condition">
-                                      <img  class="weather-icon"  src="" alt=""/> 
-                                    </i>
+                                     <i></i>
                                     <div>
                                       <ul class="list-inline">
                                         <li>
@@ -159,7 +159,7 @@ layout: default
           
               <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
               <h4>[[ offer.short_description ]]</h4>
-              <div class="links"> <a ng-href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">See Details</a></div>
+              <div class="links"> <a ng-href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 button-blue">See Details</a></div>
               
           </div>
           <!-- Indicators -->
@@ -216,7 +216,7 @@ layout: default
                                   <section>
                                     <div class="continental">
                                       
-                                      <div class="menu-container" style="background-image:url('/images/bar-img.jpg');" >
+                                      <div class="menu-container" style="background-image:url('/images/bar-img2.jpg');" >
                                         <div class="menu-data">
                                         <div class="bev-des">
                                           <div class="blue-container beverage"> 

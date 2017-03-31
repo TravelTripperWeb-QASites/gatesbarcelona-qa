@@ -1,0 +1,831 @@
+{
+  "blog": [
+    [
+      {
+        "title": "The Gateway to Key West",
+        "file": "blog5.json"
+      }
+    ],
+    [
+      {
+        "title": "Where to Dine in Key West",
+        "file": "blog6.json"
+      }
+    ],
+    [
+      {
+        "title": "Our Favorite Boutiques in Key West",
+        "file": "blog7.json"
+      }
+    ],
+    [
+      {
+        "title": "Where to Grab Drinks in Key West",
+        "file": "blog8.json"
+      }
+    ],
+    [
+      {
+        "title": "Our Favorite Art Galleries in Key West",
+        "file": "blog9.json"
+      }
+    ]
+  ],
+  "enchanting_miami_carousel": [
+    [
+      {
+        "file": "enchanting_miami_carousel1.json"
+      }
+    ],
+    [
+      {
+        "file": "enchanting_miami_carousel2.json"
+      }
+    ],
+    [
+      {
+        "file": "enchanting_miami_carousel3.json"
+      }
+    ]
+  ],
+  "events": [
+    [
+      {
+        "title": "55th Annual Conch Shell Blowing Contest | Key West Events",
+        "file": "event16.json"
+      }
+    ],
+    [
+      {
+        "title": "Cow Key Channel Bridge Run | Key West Events",
+        "file": "event17.json"
+      }
+    ]
+  ],
+  "event_category": [
+    [
+      {
+        "title": "At The Gates",
+        "file": "event_category1.json"
+      }
+    ],
+    [
+      {
+        "title": "City-Wide",
+        "file": "event_category2.json"
+      }
+    ]
+  ],
+  "gallery_amenities_images": [
+    [
+      {
+        "file": "gallery_amenities_images1.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_amenities_images2.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_amenities_images3.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_amenities_images4.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_amenities_images5.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_amenities_images6.json"
+      }
+    ]
+  ],
+  "gallery_attractions_images": [
+    [
+      {
+        "file": "gallery_attractions_images1.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_attractions_images2.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_attractions_images3.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_attractions_images4.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_attractions_images5.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_attractions_images6.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_attractions_images7.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_attractions_images8.json"
+      }
+    ]
+  ],
+  "gallery_dela_images": [
+    [
+      {
+        "file": "gallery_dela_image1.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image10.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image11.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image12.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image13.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image14.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image15.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image16.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image17.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image18.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image19.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image2.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image20.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image21.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image3.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image4.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image5.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image6.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image7.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image8.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dela_image9.json"
+      }
+    ]
+  ],
+  "gallery_dining_images": [
+    [
+      {
+        "file": "gallery_dining_image1.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image10.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image11.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image12.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image13.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image2.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image3.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image4.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image5.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image6.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image7.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image8.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_dining_image9.json"
+      }
+    ]
+  ],
+  "gallery_gs_images": [
+    [
+      {
+        "file": "gallery_gs_image1.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image10.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image11.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image12.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image13.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image14.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image15.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image16.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image17.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image18.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image19.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image2.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image20.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image21.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image3.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image4.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image5.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image6.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image7.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image8.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_gs_image9.json"
+      }
+    ]
+  ],
+  "gallery_hotel_images": [
+    [
+      {
+        "file": "gallery_hotel_image1.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_hotel_image2.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_hotel_image3.json"
+      }
+    ]
+  ],
+  "gallery_ps_images": [
+    [
+      {
+        "file": "gallery_ps_image1.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image10.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image11.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image12.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image13.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image14.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image15.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image16.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image17.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image18.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image19.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image2.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image20.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image21.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image22.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image23.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image24.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image25.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image26.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image27.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image28.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image29.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image3.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image30.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image31.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image32.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image4.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image5.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image6.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image7.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image8.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_ps_image9.json"
+      }
+    ]
+  ],
+  "gallery_room_images": [
+    [
+      {
+        "file": "gallery_room_images1.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_room_images2.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_room_images3.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_room_images4.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_room_images5.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_room_images6.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_room_images7.json"
+      }
+    ],
+    [
+      {
+        "file": "gallery_room_images8.json"
+      }
+    ]
+  ],
+  "home_banner_carousel": [
+    [
+      {
+        "file": "home_banner_carousel1.json"
+      }
+    ],
+    [
+      {
+        "file": "home_banner_carousel2.json"
+      }
+    ],
+    [
+      {
+        "file": "home_banner_carousel3.json"
+      }
+    ],
+    [
+      {
+        "file": "home_banner_carousel4.json"
+      }
+    ],
+    [
+      {
+        "file": "home_banner_carousel5.json"
+      }
+    ]
+  ],
+  "home_special_offers_carousel": [
+    [
+      {
+        "file": "home_special_offers_carousel1.json"
+      }
+    ],
+    [
+      {
+        "file": "home_special_offers_carousel2.json"
+      }
+    ],
+    [
+      {
+        "file": "home_special_offers_carousel3.json"
+      }
+    ]
+  ],
+  "offers": [
+    [
+      {
+        "file": "offer1.json"
+      }
+    ],
+    [
+      {
+        "file": "offer2.json"
+      }
+    ],
+    [
+      {
+        "file": "offer3.json"
+      }
+    ]
+  ],
+  "partners": [
+    [
+      {
+        "title": "Rodriguez Cigar Lounge in Key West | The Gates Hotel Key West",
+        "file": "partner1.json"
+      }
+    ],
+    [
+      {
+        "title": "De La Gallery in Key West | Gallery at The Gates Hotel",
+        "file": "partner2.json"
+      }
+    ],
+    [
+      {
+        "title": "Key West First Legal Rum Distillery | The Gates Key West",
+        "file": "partner3.json"
+      }
+    ],
+    [
+      {
+        "title": "Concierge Team Key West | The Gates Hotel Key West",
+        "file": "partner5.json"
+      }
+    ],
+    [
+      {
+        "title": "Key West Bike Rentals | Things to do in Key West Fl",
+        "file": "partner6.json"
+      }
+    ],
+    [
+      {
+        "title": "Key West Theater | Things to do in Key West",
+        "file": "partner7.json"
+      }
+    ]
+  ],
+  "rooms_carousel": [
+    [
+      {
+        "file": "rooms_carousel1.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_carousel2.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_carousel3.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_carousel4.json"
+      }
+    ]
+  ],
+  "rooms_page_images": [
+    [
+      {
+        "file": "rooms_page_image1.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image10.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image2.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image3.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image4.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image5.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image6.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image7.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image8.json"
+      }
+    ],
+    [
+      {
+        "file": "rooms_page_image9.json"
+      }
+    ]
+  ],
+  "simple": [
+
+  ]
+}

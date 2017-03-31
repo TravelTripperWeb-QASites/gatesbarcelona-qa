@@ -10,20 +10,30 @@ layout: default
   </div>
 </section>
 
+ <ul class="gallery-nav events-filter-nav">
+    <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
+    {% assign catlist = site.data._models.event_category %} 
+
+    {% for cat in catlist %}
+    <li><a href="javascript:;" data-rel="{{cat.title}}" class="filter">{{cat.title}}</a></li>
+    {% endfor %}
+  </ul>
+
 {% assign eventList = site.data._models.events | sort: 'datemeta' %}
 {% for events in eventList %}
-<section class="models events">
+<section class="models events fancybox" data-filter="{{events.category.title}}">
       <div class="container">
         <div class="two-col-wrap">
           <div class="row no-gutters">
           	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.event_image.url}}" alt=""></div>
           	<div class="col-sm-6 sp-content">
+           
               <h2>{{events.page_title}}</h2>
-              <ul>
+              <ul class="date-time">
               	<li>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</li>
                 <li>{{events.time}}</li>
               </ul>
-    		  <div class="btn-holder"><a href="{{events.url_friendly_name}}" class="button-common btn-blue">View this event<i class="fa fa-play"></i></a></div>
+    		  <div class="btn-holder"><a href="{{events.url_friendly_name}}" class="button-common button-blue">View this event<i class="fa fa-play"></i></a></div>
             </div>
            
           </div>
