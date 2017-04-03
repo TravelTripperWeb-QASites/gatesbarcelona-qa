@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% assign blog = page %}
+{% assign model = page %}
+<!--Banner here-->
+<section>
+  <div class="container-fluid no-padding">
+    <div class="page-banner location-banner" style="background-image: url(/images/gates/events-banner.jpg)">
+      <h1 class="page-title">Blog</h1>
+      <!--<div class="banner-btn"><a href="#" class="button-common">Download Map</a><a href="#" class="button-common">Download Fact Sheet</a></div>-->
+    </div>
+  </div>
+</section>
+
+<section class="blog-details">
+	<div class="container">
+    	<div class="col-sm-7 no-padding">
+        	<div class="-left">
+            	<h1>{{blog.title}}</h1>
+              <div class="date-holder">{{blog.date  |  date: "%B %d, %Y"}}</div>
+                {{blog.more_content}}
+                <div class="btn-holder"><a href="/blog/" class="btn-common button-blue">SEE ALL BLOG POSTS</a></div>
+            </div>
+        </div>
+        <div class="col-sm-5 no-padding">
+        	<div class="-right">
+            	<h3>Most recent blog posts</h3>
+                {% assign blog = site.data._models.blog %}
+				{% for a in blog limit:5  | sort : 'date' %}
+                <div class="fe-item">
+            	<p><a href="/blog/{{a.url_friendly_name}}"><img src="{{a.blogimage.url}}" alt=""/></a></p>
+                <p><a href="/blog/{{a.url_friendly_name}}">{{a.title}}</a></p>
+                </div>
+                {% endfor %}
+                <div class="btn-holder"><a href="/blog/" class="btn-common button-blue">SEE ALL BLOG POSTS</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

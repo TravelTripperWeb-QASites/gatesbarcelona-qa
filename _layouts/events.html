@@ -29,11 +29,11 @@ layout: default
           	<div class="col-sm-6 sp-content">
            
               <h2>{{events.page_title}}</h2>
-              <ul>
+              <ul class="date-time">
               	<li>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</li>
                 <li>{{events.time}}</li>
               </ul>
-    		  <div class="btn-holder"><a href="{{events.url_friendly_name}}" class="button-common btn-blue">View this event<i class="fa fa-play"></i></a></div>
+    		  <div class="btn-holder"><a href="{{events.url_friendly_name}}" class="button-common button-blue">View this event<i class="fa fa-play"></i></a></div>
             </div>
            
           </div>
