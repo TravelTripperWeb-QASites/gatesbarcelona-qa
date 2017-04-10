@@ -4,15 +4,13 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (0.1)
-    concurrent-ruby (1.0.2)
+    concurrent-ruby (1.0.4)
     extras (0.1.0)
       forwardable-extended (~> 2.5)
-    fastimage (2.0.0)
+    fastimage (2.0.1)
       addressable (~> 2)
-    ffi (1.9.18-x86-mingw32)
+    ffi (1.9.17-x64-mingw32)
     forwardable-extended (2.6.0)
-    hash-joiner (0.0.7)
-      safe_yaml
     i18n (0.8.1)
     jekyll (3.1.6)
       colorator (~> 0.1)
@@ -42,8 +40,8 @@ GEM
     mercenary (0.3.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    public_suffix (2.0.4)
-    rack (1.6.4)
+    public_suffix (2.0.5)
+    rack (1.6.5)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
@@ -56,14 +54,13 @@ GEM
     xkeys (2.2.0)
 
 PLATFORMS
-  x86-mingw32
+  x64-mingw32
 
 DEPENDENCIES
-  hash-joiner
   i18n
   jekyll (= 3.1.6)
   jekyll-assets
   xkeys
 
 BUNDLED WITH
-   1.13.6
+   1.14.5
