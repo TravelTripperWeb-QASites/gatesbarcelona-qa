@@ -1,5 +1,7 @@
 <section class="t-feeds">
   <div class="container no-padding">
+  {% for insta in site.data.instagram.data | limit: 4 %}
+        {% if forloop.index <= 2 %}
         <div class="col-sm-4 col-md-3">
         <div class="feed-text">
         	<a href="https://twitter.com/GatesKeyWest/status/825013250458796032" target="_blank">
@@ -10,33 +12,18 @@
             </a>
         </div>
         </div><div class="col-sm-4 col-md-3">
-        	<a href="https://www.instagram.com/p/BOunAbuFwZ4/?taken-by=gateskeywest" target="_blank">
-        	<img src="/images/gates/location/insta-1.jpg" class="img-respond" alt=""/>
+        	<a href="{{insta.link}}" target="_blank">
+        	<img src="{{insta.images.low_resolution.url}}" class="img-respond" alt=""/>
             <span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span>
             <div class="insta-overlay">
             	<div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div>
             </div>
             </a>
-        </div><div class="col-sm-4 col-md-3">
-        	<div class="feed-text">
-            <a href="https://twitter.com/GatesKeyWest/status/824589733149941762" target="_blank">
-        	<h2 class="label-1">@GATESKEYWEST</h2>
-            <div class="icon-t"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-            <p class="label-2">Double jolts for double the island fun. (IG @stylescrpabook) #UnlockTheKeys</p>
-            <div class="label-3"><span class="label-date">01.26.2017</span><span class="label-twitter">Twitter</span></div> 
-            </a>
-        </div> 
-        </div><div class="col-sm-4 col-md-3">
-        <a href="https://www.instagram.com/p/BOsctAXlwOz/?taken-by=gateskeywest" target="_blank">
-        	<img src="/images/gates/location/insta-2.jpg" class="img-respond" alt=""/>
-            <span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span>
-             <div class="insta-overlay">
-            	<div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div>
-            </div>
-            </a>
-        </div><div class="col-sm-4 col-md-3">
-        <a href="https://www.instagram.com/p/BOqNd0XFt86/?taken-by=gateskeywest" target="_blank">
-        	<img src="/images/gates/location/insta-3.jpg" class="img-respond" alt=""/>
+        </div>
+           {% else %} 
+        <div class="col-sm-4 col-md-3">
+        <a href="{{insta.link}}" target="_blank">
+        	<img src="{{insta.images.low_resolution.url}}" class="img-respond" alt=""/>
             <span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span>
              <div class="insta-overlay">
             	<div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div>
@@ -51,23 +38,9 @@
             <div class="label-3"><span class="label-date">01.25.2017</span><span class="label-twitter">Twitter</span></div>
             </a>
         </div> 
-        </div><div class="col-sm-4 col-md-3">
-        <a href="https://www.instagram.com/p/BOn8cN0leYu/?taken-by=gateskeywest" target="_blank">
-        	<img src="/images/gates/location/insta-4.jpg" class="img-respond" alt=""/>
-            <span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span>
-             <div class="insta-overlay">
-            	<div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div>
-            </div>
-            </a>
-        </div><div class="col-sm-4 col-md-3">
-        	<div class="feed-text">
-            <a href="https://twitter.com/GatesKeyWest/status/823926088619462656" target="_blank">
-        	<h2 class="label-1">@GATESKEYWEST</h2>
-            <div class="icon-t"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-            <p class="label-2">Take a stroll through the Key West Wreckers Sloop for a heavy dose of island culture:  http://fal.cn/Q1ok  #UnlockTheKeys</p>
-            <div class="label-3"><span class="label-date">01.24.2017</span><span class="label-twitter">Twitter</span></div>
-            </a>
-        </div> 
-        </div>
+          </div>
+
+                {% endif %}
+        {% endfor %} 
   </div>
 </section>
