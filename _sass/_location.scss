@@ -834,9 +834,9 @@
 	.label-date {
 		display: inline-block;
 		position: relative;
-    	padding: 0 47px 0 0;
+    	//padding: 0 47px 0 0;
     	margin: 0px 16px 0 0;
-		&:after {
+		/*&:after {
 						position: absolute;
 						content: "";
 						width: 31px;
@@ -844,7 +844,7 @@
 						background-color: #232525;
 						right: 0;
 						top: 50%;
-					}
+					}*/
 		}
 }
 .p-found {
