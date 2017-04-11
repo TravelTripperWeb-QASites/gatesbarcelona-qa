@@ -769,7 +769,7 @@
 	.col-sm-4, .col-md-3 {
 		padding: 0;
 			@media(min-width: $screen-sm-min){
-				 height: 246px;
+				 height: 300px;
 				 overflow: hidden;
 				display: inline-block;
 				vertical-align: middle;
@@ -819,7 +819,7 @@
 		padding: 40px 15px;
 		position: relative;
 			@media(min-width: $screen-sm-min){
-				padding: 20px 15px;
+				padding: 50px 15px;
 			}
 			a{
 				color: #232425;

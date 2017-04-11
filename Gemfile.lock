@@ -11,8 +11,6 @@ GEM
       addressable (~> 2)
     ffi (1.9.18-x86-mingw32)
     forwardable-extended (2.6.0)
-    hash-joiner (0.0.7)
-      safe_yaml
     i18n (0.8.1)
     jekyll (3.1.6)
       colorator (~> 0.1)
@@ -59,7 +57,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  hash-joiner
   i18n
   jekyll (= 3.1.6)
   jekyll-assets

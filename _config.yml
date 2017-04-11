@@ -43,7 +43,4 @@ page_gen:
     template: 'blog-details'
     dir: 'blog'
 
-jekyll_get:
-  - data: instagram
-    json: 'https://api.instagram.com/v1/users/1107405473/media/recent/?access_token=1107405473.2340b2a.0fa34e173388438db804c1c089c8e1fe'
  
