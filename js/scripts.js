@@ -58,8 +58,7 @@
       dataType: "jsonp",
       success: function (response) { 
         setTimeout(function(){
-        $.each(response.data, function(i, item) {
-          console.log(item.images.standard_resolution);
+        $.each(response.data, function(i, item) { 
             $('.t-feeds').find('.photolist'+i).html('<a href="'+item.link+'" target="_blank"><img src="'+item.images.standard_resolution.url+'" class="img-respond"/><span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span><div class="insta-overlay"><div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div></div></a>');
         });
       },1000);
