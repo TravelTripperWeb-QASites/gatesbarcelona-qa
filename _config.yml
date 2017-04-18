@@ -12,18 +12,6 @@ permalink: pretty
 default_lang: 'en'
 languages: ['en']
 
-exclude: ['sitemap.json']
-
-booking_widget_url: https://gateshotelkeywest.reztrip.com/mobile
-
-page_gen:
-  - data: 'partners'
-    template: 'partner-details'
-    dir: 'partners'
-  - data: 'events'
-    template: 'event-details'
-    dir: 'events'
-
 data_paginate: 
   per_page: 5
   data: 'blog'
@@ -32,15 +20,18 @@ data_paginate:
   sort_field: 'date'
   sort_reverse: true
 
-#paginate_path: "/page:num/"
 markdown: kramdown 
 
 page_gen:
-  - data: 'attractions'
-    template: 'attraction-details'
-    dir: 'attractions'
   - data: 'blog'
     template: 'blog-details'
     dir: 'blog'
+  - data: 'partners'
+    template: 'partner-details'
+    dir: 'partners'
+    
+booking_widget_url: https://gateshotelkeywest.reztrip.com/mobile
+
+exclude: ['sitemap.json']
 
  
