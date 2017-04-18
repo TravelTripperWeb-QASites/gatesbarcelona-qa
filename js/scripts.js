@@ -49,11 +49,21 @@
             color: 'A90707'
         }
     });
-
- });
  
- jQuery(function ($) {
-
+   
+   // get instagram feed
+  var instaurl = 'https://api.instagram.com/v1/users/1107405473/media/recent/?access_token=1107405473.2340b2a.0fa34e173388438db804c1c089c8e1fe&callback=?';
+   $.ajax({
+      url: instaurl,
+      dataType: "jsonp",
+      success: function (response) { 
+        setTimeout(function(){
+        $.each(response.data, function(i, item) { 
+            $('.t-feeds').find('.photolist'+i).html('<a href="'+item.link+'" target="_blank"><img src="'+item.images.standard_resolution.url+'" class="img-respond"/><span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span><div class="insta-overlay"><div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div></div></a>');
+        });
+      },1000);
+      }
+    });
 
     setTimeout(function(){
       $('#offers-carousel ').carousel({
@@ -356,16 +366,7 @@ $(".offer-text h3").height(maxHeight);
 }
 
 
-$('.owl-carousel').owlCarousel({
-    stagePadding: 50,
-    loop:true,
-    margin:10,
-    nav:false,
-    items:1,
-    lazyLoad: true,
-    nav:true,
-  
-})
+
 
 });
 
@@ -374,6 +375,16 @@ $('.owl-carousel').owlCarousel({
 /*move caption area out of carousel for rooms*/
 
 jQuery(function ($) {
+  $('.owl-carousel').owlCarousel({
+    stagePadding: 50,
+    loop:true,
+    margin:10,
+    nav:false,
+    items:1,
+    lazyLoad: true,
+    nav:true,
+  
+});
     $('#rooms-carousel').carousel();
     var captionroom = $('#rooms-carousel').find('div.item:nth-child(1) .carousel-caption h3');
     $('#roomscroll h3').html(captionroom.html());
