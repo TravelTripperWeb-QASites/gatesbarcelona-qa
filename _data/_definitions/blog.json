@@ -3,7 +3,8 @@
 		"required": true
 	},
 	"blogimage": {
-		"type": "image"
+		"type": "image",
+		"required": true
 	},
 	"seo_title": {},
 	"seo_description": {},
