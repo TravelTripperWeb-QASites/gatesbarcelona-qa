@@ -2052,7 +2052,10 @@ margin-bottom: 1px;
                     margin-top: 10px;
                     letter-spacing: .07em;
                 }
-
+                i{
+                    font-size: 147px;
+                    color: #7a7a7a;
+                }
                 .degree {
                     font-size: 34px;
                     padding: 0px 0px 12px 0px;
@@ -2587,7 +2590,7 @@ margin-bottom: 1px;
             }
 
             .day {
-                background-color: rgba(255, 255, 255, 0.7);
+                background-color: rgba(255, 255, 255, 0.9);
                 padding: 30px;
                 display: table-cell;
                 vertical-align: top;

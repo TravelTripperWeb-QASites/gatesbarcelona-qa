@@ -496,6 +496,651 @@
 
 }
 
+
+
+
+/*offers*/
+
+.ro-info {
+	padding: 20px 0 0 0;
+	position: relative;
+	.container {
+		width: auto;
+		max-width: 1320px;
+		position: relative;
+	}
+
+	.-left {
+		@media(min-width:$screen-md-min) {
+			position: relative;
+			left: 0;
+			right: 0;
+			top: 0;
+		}
+
+	}
+
+	.-right {
+		@media(min-width:$screen-md-min) {
+			float: right;
+		}
+
+	}
+
+	.con-1 {
+		text-align: center;
+		padding: 20px 15px;
+
+		@media(min-width:$screen-sm-min) {
+			padding: 40px 15px 40px 15px;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 10px 0 0;
+			padding: 40px 15px 40px 15px;
+		}
+
+		@media(min-width:$screen-lg-min) {
+			padding: 62px 0;
+		}
+
+		.title {
+			font-family: $main-font-bold;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: #232525;
+			letter-spacing: 1px;
+
+			@media(min-width:$screen-sm-min) {
+				font-size: 24px;
+			}
+
+		}
+
+		.sub-title {
+			font-family: $main-font-light;
+			font-size: 12px;
+			line-height: 24px;
+			color: #232525;
+			padding: 36px 0 0 0;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+		.des-wrap {
+			margin: 20px auto 0 auto;
+
+			@media(min-width:$screen-sm-min) {
+				margin: 30px auto 0 auto;
+			}
+
+			@media(min-width:$screen-lg-min) {
+				margin: 39px auto 0 auto;
+			}
+
+		}
+
+		.des {
+			font-family: $main-font-book;
+			font-size: 12px;
+			line-height: 22px;
+			color: #8c8d8d;
+			letter-spacing: 1px;
+			padding: 0 0 20px 0;
+			margin: 0 auto;
+
+			@media(min-width:$screen-lg-min) {
+				width: 75%;
+			}
+
+			&.bold-text {
+				font-family: $main-font-medium;
+			}
+
+			a{
+
+				color: #8c8d8d;
+				&:hover{
+					color:#168fbc;
+				}
+			}
+
+		}
+
+		.spacing {
+			padding: 20px 0 0 0;
+		}
+
+	}
+
+	.con-2 {
+		padding: 20px 0 0 0;
+
+		@media(min-width:$screen-sm-min) {
+			padding: 0 0 0 0;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 10px 0 0;
+		}
+
+		img {
+			width: 100%;
+		}
+
+	}
+
+	.con-3 {
+		position: relative;
+		margin: 20px 0 20px 0;
+
+		@media(min-width:$screen-sm-min) {
+			margin: 20px 0 0px 0;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 0 20px 10px;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		.text {
+			position: absolute;
+			bottom: 40px;
+			left: 15px;
+			right: 15px;
+			color: #fff;
+			text-align: center;
+
+			@media(min-width:$screen-sm-min) {
+				bottom: 60px;
+				left: 60px;
+				right: auto;
+				text-align: left;
+			}
+
+			.title {
+				font-family: $main-font-bold;
+				font-size: 18px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+
+				@media(min-width:$screen-sm-min) {
+					font-size: 24px;
+				}
+
+			}
+
+			.spacing {
+				padding: 30px 0 0 0;
+			}
+
+		}
+
+	}
+
+	.con-4 {
+		@media(min-width:$screen-md-min) {
+			margin: 0 0 0 10px;
+		}
+
+		.col-sm-5 {
+			@media(min-width:$screen-sm-min) {
+				float: none;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+		}
+
+		.col-sm-7 {
+			@media(min-width:$screen-sm-min) {
+				float: none;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+		}
+
+		.con-4-1 {
+			padding: 40px 0;
+			background-color: #d7d7d7;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 60px 0;
+			}
+
+
+
+
+		}
+		
+
+		.list {
+			padding: 45px 0 45px 20px;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 45px 0 45px 20px;
+			}
+
+			@media(min-width:$screen-lg-min) {
+				padding: 45px 0 45px 40px;
+			}
+
+			li {
+				list-style-type: none;
+				line-height: 22px;
+				font-family: $main-font-book;
+				color: #232525;
+				letter-spacing: 1px;
+				font-size: 12px;
+				position: relative;
+				padding: 0 0 0 32px;
+
+				@media(min-width:$screen-sm-min) {
+					padding: 0 0 0 20px;
+				}
+
+				&:after {
+					content: "";
+					position: absolute;
+					left: 0;
+					width: 4px;
+					height: 4px;
+					background-color: #232525;
+					border-radius: 50% 50%;
+					left: 0;
+					top: 8px;
+				}
+
+			}
+
+		}
+
+		.con-4-2 {
+			padding: 40px 15px 0px 15px;
+			text-align: center;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 0 15px;
+				margin-right: -5px;
+			}
+
+			.nl {
+				display: block;
+			}
+
+			.add-1 {
+				font-family: $main-font-light;
+				font-size: 12px;
+				color: #232525;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				line-height: 20px;
+			}
+
+			.add-2 {
+				font-family: $main-font-light;
+				color: #d7d7d7;
+				font-size: 26px;
+				padding: 30px 0;
+
+				@media(min-width:$screen-md-min) {
+					font-size: 26px;
+					line-height: 33px;
+					padding: 40px 0;
+				}
+
+				@media(min-width:$screen-lg-min) {
+					font-size: 34px;
+					line-height: 42px;
+					padding: 40px 0;
+				}
+
+			}
+
+			.add-3 {
+				font-family: $main-font-book;
+				font-size: 12px;
+				color: #232525;
+				letter-spacing: 1px;
+				line-height: 20px;
+			}
+
+		}
+
+	}
+
+}
+
+/*offers end*/
+
+
+
+
+/*offer details --background*/
+.o-info {
+	padding: 20px 0 0 0;
+	position: relative;
+	.container {
+		width: auto;
+		max-width: 1320px;
+		position: relative;
+	}
+
+	.-left {
+		@media(min-width:$screen-md-min) {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+
+	}
+
+	.-right {
+		@media(min-width:$screen-md-min) {
+			float: right;
+		}
+
+	}
+
+	.con-1 {
+		text-align: center;
+		padding: 20px 15px;
+
+		@media(min-width:$screen-sm-min) {
+			padding: 40px 15px 40px 15px;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 10px 0 0;
+			padding: 40px 15px 40px 15px;
+		}
+
+		@media(min-width:$screen-lg-min) {
+			padding: 42px 0;
+		}
+
+		.title {
+			font-family: $main-font-bold;
+			font-size: 18px;
+			text-transform: uppercase;
+			color: #232525;
+			letter-spacing: 1px;
+
+			@media(min-width:$screen-sm-min) {
+				font-size: 24px;
+			}
+
+		}
+
+		.sub-title {
+			font-family: $main-font-light;
+			font-size: 12px;
+			line-height: 24px;
+			color: #232525;
+			padding: 36px 0 0 0;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+
+		.des-wrap {
+			margin: 20px auto 0 auto;
+
+			@media(min-width:$screen-sm-min) {
+				margin: 30px auto 0 auto;
+			}
+
+			@media(min-width:$screen-lg-min) {
+				margin: 39px auto 0 auto;
+			}
+
+		}
+
+		.des {
+			font-family: $main-font-book;
+			font-size: 12px;
+			line-height: 22px;
+			color: #8c8d8d;
+			letter-spacing: 1px;
+			padding: 0 0 20px 0;
+			margin: 0 auto;
+
+			@media(min-width:$screen-lg-min) {
+				width: 75%;
+			}
+
+			&.bold-text {
+				font-family: $main-font-medium;
+			}
+
+			a{
+
+				color: #8c8d8d;
+				&:hover{
+					color:#168fbc;
+				}
+			}
+
+		}
+
+		.spacing {
+			padding: 20px 0 0 0;
+		}
+
+	}
+
+	.con-2 {
+		padding: 20px 0 0 0;
+		background-position: center;
+    	background-size: cover;
+    	min-height:360px;
+
+		@media(min-width:$screen-sm-min) {
+			padding: 0 0 0 0;
+			min-height:201px;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 10px 0 0;
+			min-height:201px;
+		}
+
+		img {
+			width: 100%;
+		}
+
+	}
+
+	.con-3 {
+		position: relative;
+		margin: 20px 0 20px 0;
+
+		@media(min-width:$screen-sm-min) {
+			margin: 20px 0 0px 0;
+		}
+
+		@media(min-width:$screen-md-min) {
+			margin: 0 0 0px 10px;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		.text {
+			position: absolute;
+			bottom: 40px;
+			left: 15px;
+			right: 15px;
+			color: #fff;
+			text-align: center;
+
+			@media(min-width:$screen-sm-min) {
+				bottom: 60px;
+				left: 60px;
+				right: auto;
+				text-align: left;
+			}
+
+			.title {
+				font-family: $main-font-bold;
+				font-size: 18px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+
+				@media(min-width:$screen-sm-min) {
+					font-size: 24px;
+				}
+
+			}
+
+			.spacing {
+				padding: 30px 0 0 0;
+			}
+
+		}
+
+	}
+
+	.con-4 {
+		@media(min-width:$screen-md-min) {
+			margin: 0 0 0 10px;
+		}
+
+		.col-sm-5 {
+			@media(min-width:$screen-sm-min) {
+				float: none;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+		}
+
+		.col-sm-7 {
+			@media(min-width:$screen-sm-min) {
+				float: none;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+		}
+
+		.con-4-1 {
+			padding: 40px 0;
+			background-color: #d7d7d7;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 60px 0;
+			}
+
+
+
+
+		}
+		
+
+		.list {
+			padding: 45px 0 45px 20px;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 45px 0 45px 20px;
+			}
+
+			@media(min-width:$screen-lg-min) {
+				padding: 45px 0 45px 40px;
+			}
+
+			li {
+				list-style-type: none;
+				line-height: 22px;
+				font-family: $main-font-book;
+				color: #232525;
+				letter-spacing: 1px;
+				font-size: 12px;
+				position: relative;
+				padding: 0 0 0 32px;
+
+				@media(min-width:$screen-sm-min) {
+					padding: 0 0 0 20px;
+				}
+
+				&:after {
+					content: "";
+					position: absolute;
+					left: 0;
+					width: 4px;
+					height: 4px;
+					background-color: #232525;
+					border-radius: 50% 50%;
+					left: 0;
+					top: 8px;
+				}
+
+			}
+
+		}
+
+		.con-4-2 {
+			padding: 40px 15px 0px 15px;
+			text-align: center;
+
+			@media(min-width:$screen-sm-min) {
+				padding: 0 15px;
+				margin-right: -5px;
+			}
+
+			.nl {
+				display: block;
+			}
+
+			.add-1 {
+				font-family: $main-font-light;
+				font-size: 12px;
+				color: #232525;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				line-height: 20px;
+			}
+
+			.add-2 {
+				font-family: $main-font-light;
+				color: #d7d7d7;
+				font-size: 26px;
+				padding: 30px 0;
+
+				@media(min-width:$screen-md-min) {
+					font-size: 26px;
+					line-height: 33px;
+					padding: 40px 0;
+				}
+
+				@media(min-width:$screen-lg-min) {
+					font-size: 34px;
+					line-height: 42px;
+					padding: 40px 0;
+				}
+
+			}
+
+			.add-3 {
+				font-family: $main-font-book;
+				font-size: 12px;
+				color: #232525;
+				letter-spacing: 1px;
+				line-height: 20px;
+			}
+
+		}
+
+	}
+
+}
+/*Offer detials end*/
+
 .rooms-section {
 	padding: 20px 0 0 0;
 
@@ -600,7 +1245,12 @@
 	.rooms-carousel {
 		margin: auto;
 		color: #000;
+		overflow: hidden;
 
+
+	@media (min-width:$screen-sm-min){
+		height:550px;
+		}	
 	}
 	.carousel-caption {
 	    background-color: transparent;
@@ -687,4 +1337,7 @@
 
 		
 		
+		}
+		.this-no-padding{
+			padding:0px !important;
 		}

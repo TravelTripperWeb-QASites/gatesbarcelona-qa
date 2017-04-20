@@ -37,7 +37,7 @@ layout: default
      <div class="rdc-car-con overlay-con">
      	<h3 class="sub-title">Special Offer</h3>
         <h2 class="title" ng-bind-html="offers.sRdetail.rate_plan_name | renderHTMLCorrectly"></h2>
-        <div class="spacing"><a class="button-common-2" ng-href="[[offers.sRdetail.promo_url]]" target="_blank">Book Now</a></div>
+        <div class="spacing"><a class="button-common-2 button-blue" ng-href="[[offers.sRdetail.promo_url]]" target="_blank">Book Now</a></div>
      </div> 
     </div>
 
@@ -55,7 +55,7 @@ layout: default
 </div>
 </section>
 
-<section class="r-info">
+<section class="ro-info">
 	<div class="container no-padding">
     	<div class="col-md-6 no-padding -left">
         	<div class="con-1">
@@ -66,9 +66,10 @@ layout: default
 <p class="des bold-text">Need assistance? Our dedicated reservations team is available around the clock:</p>
 <p class="des">The Gates Key West Service Center <a href="tel:305-320-0930">(305) 320-0930</a> or<br><a href="mailto:reservations@gateshotelkeywest.com">reservations@gateshotelkeywest.com</a></p>
 </div>
-<div class="spacing"><a class="button-common-2" href="mailto:reservations@gateshotelkeywest.com">Contact Us</a></div> 
+<div class="spacing"><a class="button-common-2 button-blue" href="mailto:reservations@gateshotelkeywest.com">Contact Us</a></div> 
 	  </div>
-      <div class="con-2"><img src="/images/gates/offers/offer-6.jpg" alt=""></div>
+      <!--div class="con-2" style="background-image:url(/images/gates/offers/offer-6.jpg);"></div-->
+      <div class="con-2" ><img src="/images/gates/offers/offer-6.jpg" alt=""></div>
       </div>
       <div class="col-md-6 no-padding -right">
         	<div class="con-3">
@@ -78,24 +79,24 @@ layout: default
                     <div class="spacing"><a class="button-common-2 -white" href="/gallery/">View Gallery</a></div>
                     </div>
             </div>
-            <div class="con-4">
+            <!--div class="con-4">
             	<div class="col-sm-5 con-4-1 offer-amenities">
-                	<ul class="list">
+                <!--<ul class="list">
+                    	<li>35% off Daily Rate</li>
+                    	<li>Complimentary Old Town Shuttle</li>
                     	<li>10% off Visitors Pass</li>
-                    	<li>Macy’s Miami Tote Bag</li>
-                    	<li>Free resort fee</li>
-                    	<li>5% off DAILY Rate</li>
-                    </ul>
-                   <img class="width-full" src="/images/gates/offers/amenities.jpg" alt="">
+                    	<li>Valid government-issued Florida ID at check-in to qualify</li>
+                    </ul-->
+                   <!--img class="width-full" src="/images/gates/offers/amenities.jpg" alt="">
                 </div><div class="col-sm-7 con-4-2">
                 	<div>
                      <div class="add-1">ENJOY THE FOLLOWING<span class="nl">PRIVILEGES</span></div>
                         <div class="add-2">Offer<span class="nl">Features</span></div>
-                       <!-- <div class="spacing"><a href="" class="button-common-2">general amenities</a></div>-->
+                       <div class="spacing"><a href="" class="button-common-2">general amenities</a></div>
                     </div>
                 </div>
                 
-            </div>
+            </div-->
         </div>
         
      </div>
@@ -106,7 +107,7 @@ layout: default
 <div class="container">
  <div class="col-md-4 no-padding" >
       <div class="new-caption-area " id="odscroll" class="carousel slide" data-ride="carousel">
-        <p>VIEW MORE LUXURIOUS SPECIAL OFFERS</p>
+        <p>VIEW MORE SPECIAL OFFERS</p>
         <div class="carousel-controls"> <a class="left nav-control" href="#od-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#od-carousel" role="button" data-slide="next"> </a> </div>
         <div class="carousel-inner ">
           <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>

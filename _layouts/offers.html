@@ -16,7 +16,7 @@ layout: default
         <div class="col-sm-6 sp-content v-center">
           <p class="title" ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></p>
           <p class="desp">[[offer.short_description | limitTo: 90]][[offer.short_description.length > 250 ? '...' : '']]</p>
-          <div class="btn-holder"><a class="button-common" href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]">View this offer</a></div>
+          <div class="btn-holder"><a class="button-common button-blue" href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]">View this offer</a></div>
         </div>
       
     </div>
