@@ -20,9 +20,13 @@ layout: default
       <h2 class="title">{{events.title}}</h2>
        
        <p><strong>Date:</strong> {{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</p>
+       {% if events.time and events.time!= "" %}
+       <p><strong>Time:</strong> {{events.time}}</p>
+        {% endif %}
        {% if events.venue and events.venue!= "" %}
        <p><strong> Venue:</strong> {{events.venue}} </p>   
        {% endif %}
+
        <p>{{{events.short_description}}    
       </div>
       
