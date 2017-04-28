@@ -22,7 +22,7 @@ layout: default
 {% assign eventList = site.data._models.events | sort: 'datemeta' %}
 {% for events in eventList  %}
 {% capture eventDay %}{{ site.time | date: '%d' }}{% endcapture %}
-{% capture eventDays %}{{ events.start_date | date: '%d' }}{% endcapture %}
+{% capture eventDays %}{{ events.end_date | date: '%d' }}{% endcapture %}
 {% if eventDay <= eventDays %}
 <section class="models events fancybox" data-filter="{{events.category.title}}">
       <div class="container">
@@ -34,7 +34,7 @@ layout: default
               <h2>{{events.page_title}}</h2>
               <ul class="date-time">
               	<li>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</li>
-                <li>{{events.time}}</li>
+                
               </ul>
     		  <div class="btn-holder"><a href="{{events.url_friendly_name}}" class="button-common button-blue">View this event<i class="fa fa-play"></i></a></div>
             </div>

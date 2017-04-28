@@ -7,7 +7,7 @@
 "url_friendly_name":
 	{"type":"url_slug"},
 "start_date":
-	{"type":"date"},
+	{"type":"date","required":true},
 "category":
     {
       "label": "Choose Category",
@@ -16,7 +16,7 @@
       "model_name":"event_category"
     }, 
 "end_date":
-	{"type":"date"},
+	{"type":"date", "required":true},
 "datemeta":
 	{"required":true,"hint":"Used to sort Events by date (YYYY/MM/DD)"},
 "time":
