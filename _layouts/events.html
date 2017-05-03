@@ -21,9 +21,9 @@ layout: default
 
 {% assign eventList = site.data._models.events | sort: 'datemeta' %}
 {% for events in eventList  %}
-{% capture eventDay %}{{ site.time | date: '%d' }}{% endcapture %}
-{% capture eventDays %}{{ events.end_date | date: '%d' }}{% endcapture %}
-{% if eventDay <= eventDays %}
+{% capture eventDay %}{{ site.time | date: '%s' }}{% endcapture %}
+{% capture eventDays %}{{ events.end_date | date: '%s' }}{% endcapture %}
+{% if eventDays <= eventDay  %}
 <section class="models events fancybox" data-filter="{{events.category.title}}">
       <div class="container">
         <div class="two-col-wrap">
