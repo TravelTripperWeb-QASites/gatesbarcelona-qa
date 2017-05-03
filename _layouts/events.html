@@ -23,7 +23,7 @@ layout: default
 {% for events in eventList  %}
 {% capture eventDay %}{{ site.time | date: '%s' }}{% endcapture %}
 {% capture eventDays %}{{ events.end_date | date: '%s' }}{% endcapture %}
-{% if eventDays <= eventDay  %}
+{% if eventDays >= eventDay  %}
 <section class="models events fancybox" data-filter="{{events.category.title}}">
       <div class="container">
         <div class="two-col-wrap">
@@ -31,7 +31,7 @@ layout: default
           	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.event_image.url}}" alt=""></div>
           	<div class="col-sm-6 sp-content">
            
-              <h2>{{events.title}}</h2>
+              <h2>{{events.title}}</h2> 
               <ul class="date-time">
               	<li>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</li>
                 
