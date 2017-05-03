@@ -28,7 +28,7 @@ layout: default
           	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.event_image.url}}" alt=""></div>
           	<div class="col-sm-6 sp-content">
            
-              <h2>{{events.page_title}}</h2>
+              <h2>{{events.title}}</h2>
               <ul class="date-time">
               	<li>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</li>
                 <li>{{events.time}}</li>
