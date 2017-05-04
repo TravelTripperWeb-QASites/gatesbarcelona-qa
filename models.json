@@ -26,6 +26,12 @@
     ],
     [
       {
+        "title": "The Most Scenic Spots to Watch the Key West Sunset",
+        "file": "blog15.json"
+      }
+    ],
+    [
+      {
         "title": "The Gateway to Key West",
         "file": "blog5.json"
       }
@@ -75,7 +81,7 @@
   "events": [
     [
       {
-        "title": "55th Annual Conch Shell Blowing Contest | Key West Events",
+        "title": "55th Annual Conch Shell Blowing Contest",
         "file": "event16.json"
       }
     ],
