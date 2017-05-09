@@ -2640,6 +2640,66 @@
     "git_file_name": "_assets/image_data/site-assets_192_570_1550_media_2017-04-03-023840_favorite-rum-cocktails-recipes.jpg.json"
   },
   {
+    "name": "key-west-songwriters-the-gates",
+    "file_name": "key-west-songwriters-the-gates.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1701/media/2017-04-18-164330/key-west-songwriters-the-gates.jpg",
+    "date_added": "2017-04-18-164330",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1701_media_2017-04-18-164330_key-west-songwriters-the-gates.jpg.json"
+  },
+  {
+    "name": "key-west-songwriters-the-gates-resize",
+    "file_name": "key-west-songwriters-the-gates-resize.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1701/media/2017-04-18-170745/key-west-songwriters-the-gates-resize.jpg",
+    "date_added": "2017-04-18-170745",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1701_media_2017-04-18-170745_key-west-songwriters-the-gates-resize.jpg.json"
+  },
+  {
+    "name": "mikey-reaves-songwriters-key-west",
+    "file_name": "mikey-reaves-songwriters-key-west.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1701/media/2017-04-18-170746/mikey-reaves-songwriters-key-west.jpg",
+    "date_added": "2017-04-18-170746",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1701_media_2017-04-18-170746_mikey-reaves-songwriters-key-west.jpg.json"
+  },
+  {
+    "name": "MORIONDO-LIZ-songwriters-key-west",
+    "file_name": "MORIONDO-LIZ-songwriters-key-west.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1701/media/2017-04-18-170746/MORIONDO-LIZ-songwriters-key-west.jpg",
+    "date_added": "2017-04-18-170747",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1701_media_2017-04-18-170746_MORIONDO-LIZ-songwriters-key-west.jpg.json"
+  },
+  {
+    "name": "paul-mcdonald-songwriters-key-west",
+    "file_name": "paul-mcdonald-songwriters-key-west.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1701/media/2017-04-18-170748/paul-mcdonald-songwriters-key-west.jpg",
+    "date_added": "2017-04-18-170748",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1701_media_2017-04-18-170748_paul-mcdonald-songwriters-key-west.jpg.json"
+  },
+  {
+    "name": "torres-elsten-songwriters-key-west",
+    "file_name": "torres-elsten-songwriters-key-west.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_1701/media/2017-04-18-170748/torres-elsten-songwriters-key-west.jpg",
+    "date_added": "2017-04-18-170749",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_1701_media_2017-04-18-170748_torres-elsten-songwriters-key-west.jpg.json"
+  },
+  {
     "name": "3333",
     "file_name": "3333.JPG",
     "file_type": "image/jpeg",
@@ -3078,5 +3138,55 @@
     "tags": "",
     "description": "",
     "git_file_name": "_assets/image_data/site-assets_192_570_2168_media_2017-03-10-154414_keywestlogo.jpg.json"
+  },
+  {
+    "name": "guide-to-letting-loose-like-a-local-key-west",
+    "file_name": "guide-to-letting-loose-like-a-local-key-west.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_2501/media/2017-04-19-023627/guide-to-letting-loose-like-a-local-key-west.jpg",
+    "date_added": "2017-04-19-023627",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_2501_media_2017-04-19-023627_guide-to-letting-loose-like-a-local-key-west.jpg.json"
+  },
+  {
+    "name": "letting-loose-like-a-local-key-west",
+    "file_name": "letting-loose-like-a-local-key-west.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_2501/media/2017-04-19-023757/letting-loose-like-a-local-key-west.jpg",
+    "date_added": "2017-04-19-023758",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_2501_media_2017-04-19-023757_letting-loose-like-a-local-key-west.jpg.json"
+  },
+  {
+    "name": "letting-loose-like-a-local-key-west",
+    "file_name": "letting-loose-like-a-local-key-west.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_2501/media/2017-04-19-023915/letting-loose-like-a-local-key-west.jpg",
+    "date_added": "2017-04-19-023915",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_2501_media_2017-04-19-023915_letting-loose-like-a-local-key-west.jpg.json"
+  },
+  {
+    "name": "guide-to-letting-loose-like-a-local-key-west",
+    "file_name": "guide-to-letting-loose-like-a-local-key-west.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_2501/media/2017-04-19-074755/guide-to-letting-loose-like-a-local-key-west.jpg",
+    "date_added": "2017-04-19-074755",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_2501_media_2017-04-19-074755_guide-to-letting-loose-like-a-local-key-west.jpg.json"
+  },
+  {
+    "name": "most-scenic-views-key-west-sunset",
+    "file_name": "most-scenic-views-key-west-sunset.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_570_2501/media/2017-04-27-014524/most-scenic-views-key-west-sunset.jpg",
+    "date_added": "2017-04-27-014524",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_570_2501_media_2017-04-27-014524_most-scenic-views-key-west-sunset.jpg.json"
   }
 ]
