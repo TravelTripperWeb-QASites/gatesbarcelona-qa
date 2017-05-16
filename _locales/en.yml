@@ -1,0 +1,196 @@
+en:
+
+  language_name: English
+
+  topnav:
+    about: 'About'
+    rooms: 'Rooms'
+    offers: 'Offers'
+    location: 'Location'
+    meetings: 'Meetings & Events'
+    gallery: 'Gallery'
+    contact: 'Contact'
+    booknow: 'Book Now'
+
+  footer:
+    contact: 'Contact'
+    learn: 'Learn More'
+    rooms: 'Rooms'
+    offers: 'Offers'
+    location: 'Location'
+    privacy: 'Privacy Policy'
+    sitemap: 'Site Map'
+    news: 'Newsletter Sign-Up'
+    email: 'Your Email'
+    share: 'Share'
+    copy: 'Hotel Diagonal Barcelona 2017 All Rights Reserved'
+
+  home:
+    modern-banner-h3: 'An exceptional space'
+    modern-banner-h2: 'Distinctly Modern<br>Hotel with Relaxed<br>Sensibility'
+    modern-section-h3: 'Modern Comforts'
+    modern-section-p: 'At first sight, what makes the Hotel Diagonal Barcelona by and out is its exterior façade designed by local Barcelona architect Juli Capella. Combining black and white, its surprising architecture welcomes you to an interior full of details, where elegance, current design trends and serenity reign.'
+    modern-section-button: 'View All Rooms & Suites'
+    excep-section-h2: 'Exceptional Barcelona'
+    excep-section-h4: 'Unveil Its True Beauty'
+    excep-section-p: 'The location right on Barcelona’s Diagonal is another of its strengths. Located on the famous Plaça de les Glòries Catalanes, the hotel is an immediate neighbour of the famous Torre Agbar, which enhances the quality of the 360° views that can be enjoyed from the roof-top terrace.'
+    excep-section-button: 'DISCOVER BARCELONA'
+    excep-section-hotel-h4: 'An Exceptional City'
+    excep-section-hotel-h2: 'Unveil the Unique Treasures of Beautiful Barcelona'
+    excep-section-hotel-button: 'GET HOTEL DIRECTIONS'
+    diverse-h3: 'Diverse Barcelona'
+    diverse-h4: 'Explore the Neighborhood'
+    diverse-button: 'VIEW HOTEL LOCATION'
+    event-spaces-h3: 'Event Spaces'
+    event-spaces-p: 'Ideal for all types of events, like business meetings, banquets, and social or family celebrations'
+    event-spaces-button: 'DISCOVER MORE'
+    event-caption-1: 'Roof Top'
+    offer-p: 'View our<br>exclusive Offers'
+    offer-button-1: 'View This Offer'
+    offer-button-2: 'View All Offers'
+    vibrant-h3: 'Vibrant<br>Barcelona'
+    vibrant-button: 'Book Your Stay'
+    caption-comfort: 'Basic Comfort'
+    caption-club: 'Club Room'
+    caption-agbar: 'Comfort Agbar Guaranteed'
+    caption-cafe: 'Tecla Cafe'
+    caption-bar: 'Lobby Bar'
+
+  instagram:
+    gallery-h3: 'Get Inspired'
+    gallery-h5: 'Browse our Gallery'
+
+  rooms:
+    rate: "Tonight's Rate"
+    view-button: 'View This Room'
+
+  room:
+    luxury-redefined: "Luxury Redefined"
+    prev-room: "Previous Room"
+    next-room: "Next Room"
+    check-availability: "Check Availability"
+    book-this-room: "Book this room"
+    room-info: "Room Information"
+    need-help-text: "Need assistance? Our dedicated reservations team is available around the clock:"
+
+    visual-journey: "Take a visual Journey"
+    enjoy-following: "ENJOY THE FOLLOWING"
+    privileges: "PRIVILEGES"
+    room: "room"
+    amenities: "amenities"
+    view-more-luxurious-rooms: "VIEW MORE LUXURIOUS ROOMS &amp; SUITES"
+    view-all-rooms: "VIEW ALL ROOMS"
+    proximity-text: "PROXIMITY AT ITS BEST"
+    view-more-luxurious-offers: "VIEW MORE LUXURIOUS SPECIAL OFFERS"
+    view-this-offer: "VIEW THIS OFFER"
+    view-all-offers: "VIEW ALL OFFERS"
+    contact-button: 'Contact Us'
+    view-gallery: 'View Gallery'
+
+
+  offers:
+    check-rate: "Check Rate"
+    special-offers: "Special Offers"
+    prev-offer: "Previous Offer"
+    next-offer: "Next Offer"
+    special-offer: "Special Offer"
+    book-this-offer: "Book this offer"
+    all-in-detail: "All in the details"
+    book-in-advance: "Book in advance for best offers"
+    offer: "Offer"
+    features: "Features"
+    general-amenities: "general amenities"
+    modern-barcelona: "MODERN BARCELONA"
+    feature1: "Business workspace with desk"
+    feature2: "Two phone lines with voicemail"
+    feature3: "Wireless and high-speed internet access"
+    feature4: "Flat-screen HDTV’s with web browser"
+    feature5: "iHome docking station"
+    feature6: "Comfort Zone eco-friendly bath amenities"
+
+
+
+  about:
+    page-title: 'Unforgettable Stay'
+    proximity-title: 'Proximity at its Best'
+    
+    proximity-desc: "The Diagonal Hotel Barcelona is located at number 205 of Avenida Diagonal, in a prime location. Immediately neighbouring the Torre Agbar, the hotel is located next to the Plaça de les Glòries Catalanes, which can be reached from any point in the city, train station, bus station, port or airport."
+    proximity-expl: 'EXPLORE LOCATION'
+    view-offer: 'VIEW MORE LUXURIOUS SPECIAL OFFERS'
+    offer-button-1: 'VIEW THIS OFFER'
+    offer-button-2: 'VIEW ALL OFFERS'
+    booknow-title: 'Beautiful<br>Barcelona'
+    booknow: 'BOOK NOW'
+    services-cap-1: 'WI-FI'
+    services-cap-2: 'POOL DECK'
+    services-cap-3: 'RESTAURANT'
+    services-title: 'List of Services'
+    services-list: '<li>Dry Cleaning</li><li>Business Centre</li><li>EXTENDED STAYS</li><li>Meeting Rooms</li><li>Laundry Service</li><li>Concierge</li><li>Banquet Room</li><li>Conference Facilities</li><li>Wi-FI</li><li>Pool</li><li>Bar/Lounge/Restaurant</li>'
+
+  location:
+    page-title: 'Location'
+    sites-title: 'Sites & Attractions'
+    address-title: 'Our<span class="nl">Address</span>'
+    address-text: 'Avenida Diagonal, 205<br>08018. Barcelona, Spain'
+    cta-title: 'Hotel Diagonal<br>Barcelona'
+    cta-button: 'Book Your Stay'
+
+  events:
+    page-title: 'World-Class Events'
+    contact-button: 'Contact Us'
+    rfp-button: 'Request for Proposal'
+    venue-title: 'The Perfect Venue'
+    venue-list: '<li>10,000 square feet of flexible space</li><li>State-of-the-art technology</li><li>Audio/visual equipment</li><li>9 freshly renovated meeting rooms – from opulent to intimate</li><li>A customizable and diverse catering menu is available to suit your specific preferences</li><li>Perfect for corporate events, social gatherings, executive and boardroom meetings</li>'
+    venue-cta-title: 'Exquisite Venues'
+    venue-cta-text: 'The spectacular rooftop with swimming pool on the tenth floor, provides impressive nighttime views of the city.'
+    venue-cta-button: 'About The Hotel'
+    plan-title: 'Start planning Your<span class="nl">Special event now</span>'
+    moment-title: 'FOREVER MOMENTS'
+
+  gallery:
+    page-title: 'Visual Tour'
+    gallery-cat-1: 'All'
+    gallery-cat-2: 'Hotel'
+    gallery-cat-3: 'Rooms & Suites'
+    gallery-cat-4: 'Attractions'
+
+  contact:
+    page-title: 'Contact'
+    newsletter: 'Please include me in future Emails'
+    submit: 'Submit'
+
+  rfp:
+    page-title: 'Request for Proposal'
+    form-title: 'Please fill in the form below'
+    name: 'Name'
+    company: 'Company Name'
+    address: 'Address Details'
+    phone: 'Phone Number'
+    email: 'Email'
+    event-title: 'Event Details'
+    arrival: 'Arrival Date'
+    departure: 'Departure Date'
+    flex: 'Are these dates flexible?'
+    flex-opt-1: 'Yes'
+    flex-opt-2: 'No'
+    num-rooms: 'No. of Guest Rooms'
+    event-type: 'Event Type'
+    comments: 'Comments'
+    submit: 'Submit'
+
+
+  thank:
+    thank-you: "Thank You"
+    thank-msg: "We will get in touch with you shortly."
+
+  sitemap:
+    home: 'Home'
+    about: 'About'
+    rooms: 'Rooms'
+    offers: 'Offers'
+    location: 'Location'
+    meetings: 'Meetings & Events'
+    gallery: 'Gallery'
+    contact: 'Contact'
+    privacy: 'Privacy Policy'
+    sitemap: 'Site Map'

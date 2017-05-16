@@ -11,11 +11,6 @@
         "data": "partners",
         "template": "partner-details",
         "dir": "partners"
-      },
-      {
-        "data": "events",
-        "template": "event-details",
-        "dir": "events"
       }
     ],
     "locales": [
@@ -121,32 +116,6 @@
           },
           "data_source": null,
           "source_path": "eat-drink/index.html"
-        }
-      ]
-    },
-    "events": {
-      "event-details": {
-        "__PAGES__": [
-          {
-            "label": "Key West Hotel Partnerships | Things to do in Key West Fl",
-            "published": true,
-            "locales": {
-              "en": "/events/event-details/"
-            },
-            "data_source": null,
-            "source_path": "events/event-details.html"
-          }
-        ]
-      },
-      "__PAGES__": [
-        {
-          "label": "Events in Key West Florida | Events at the Gates Hotel",
-          "published": true,
-          "locales": {
-            "en": "/events/"
-          },
-          "data_source": null,
-          "source_path": "events/index.html"
         }
       ]
     },
@@ -293,6 +262,19 @@
         }
       ]
     },
+    "about": {
+      "__PAGES__": [
+        {
+          "label": "Modern Design Hotels in Barcelona | About Hotel Diagonal",
+          "published": true,
+          "locales": {
+            "en": "/about/"
+          },
+          "data_source": null,
+          "source_path": "about.html"
+        }
+      ]
+    },
     "contact": {
       "__PAGES__": [
         {
@@ -303,6 +285,19 @@
           },
           "data_source": null,
           "source_path": "contact.html"
+        }
+      ]
+    },
+    "events": {
+      "__PAGES__": [
+        {
+          "label": "Meeting Venues in Barcelona | Functions at Hotel Diagonal",
+          "published": true,
+          "locales": {
+            "en": "/events/"
+          },
+          "data_source": null,
+          "source_path": "events.html"
         }
       ]
     },
@@ -358,6 +353,20 @@
     }
   },
   "__REGIONS__": [
+    "about.html/modern-manhattan.json",
+    "about.html/abt-image-1.json",
+    "about.html/abt-image-2.json",
+    "about.html/abt-image-3.json",
+    "about.html/abt-image-4.json",
+    "about.html/abt-image-5.json",
+    "about.html/services-amenities.json",
+    "events.html/meetings-events.json",
+    "events.html/abt-image-1.json",
+    "events.html/abt-image-2.json",
+    "events.html/abt-image-3.json",
+    "events.html/weddings-events.json",
+    "events.html/weddings-events-image-1.json",
+    "location/index.html/banner-text.json",
     "attractions/index.html/banner-text.json",
     "attractions/index.html/acttactions-todos.json",
     "attractions/index.html/attr-image-1.json",
@@ -382,8 +391,6 @@
     "eat-drink/index.html/the-blind-pig-content2.json",
     "eat-drink/index.html/the-blind-pig-content-image.json",
     "eat-drink/index.html/cuisine-content.json",
-    "events/index.html/banner-text.json",
-    "partners/index.html/banner-text.json",
     "group-hotel-booking-in-key-west/index.html/banner-text.json",
     "blog/index.html/banner-text.json",
     "index.html/welcome-paradise.json",
@@ -396,7 +403,7 @@
     "index.html/newsletter-context.json",
     "index.html/restaurent-bar.json",
     "index.html/magical-barcelona.json",
-    "location/index.html/banner-text.json",
+    "partners/index.html/banner-text.json",
     "location/shuttle.html/banner-text.json",
     "location/shuttle.html/old-town-shuttle-text.json",
     "location/shuttle.html/heart-of-republic.json",
@@ -415,5 +422,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "feb8cc3a0bf4378a8622bbd69cbdb03f2d9fc2a5"
+  "__SHA__": "1cbfcf60083737ad7c4f0bed815c4fa14413d992"
 }
