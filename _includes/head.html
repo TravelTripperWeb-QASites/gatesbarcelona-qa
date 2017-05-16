@@ -6,7 +6,7 @@
   <title>{% if page.seo_title %}{{ page.seo_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.seo_description %}{{page.seo_description  | strip_html | strip_newlines | truncate: 160}} {% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   
-  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
   <link rel="canonical" href="https://www.gateshotelkeywest.com{{ page.url }}" />
 

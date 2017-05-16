@@ -1,33 +1,54 @@
 {
-	 'mainnav':[ 
-		
+	'mainnav':[
+	       {
+			'title':'About',
+			'name': 'about',
+			'url': '/about/',
+			'submenu': 'false' 
+
+	    },
 		{
 			'title':'Rooms',
 			'name': 'rooms',
-			'url': '/rooms/' 
+			'url': '/rooms/',
+			'submenu': 'false'  
 		},
 		{
 			'title':'Offers',
 			'name': 'offers',
-			'url': '/offers/' 
+			'url': '/offers/',
+			'submenu': 'false' 
 		},
 		{
-			'title':'Gallery',
-			'name': 'gallery',
-			'url': '/gallery/' 
-		},
-		{
-			'title':'Blog',
-			'name': 'blog',
-			'url': '/blog/' 
+			'title':'Dining',
+			'name': 'dining',
+			'url': '/dining/',
+			'submenu': 'false' 
 		},
 		{
 			'title':'Location',
 			'name': 'location',
-			'url': '/location/' 
+			'url': '/location/',
+			'submenu': 'false' 
 		}, 
-		
-		 
+		{
+			'title':'Gallery',
+			'name': 'gallery',
+			'url': '/gallery/',
+			'submenu': 'false' 
+		},
+		{
+			'title':'Events',
+			'name': 'events',
+			'url': '/events/',
+			'submenu': 'false'  
+		},	
+		{
+			'title':'Contact',
+			'name': 'contact',
+			'url': '/contact/',
+			'submenu': 'false'  
+		},	 
 	],
 	'footernav':[
 		{

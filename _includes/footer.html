@@ -2,61 +2,50 @@
   <div class="footer-wrapper four-coloumn">
     <div class="container">
       
-     
-
+      
       <div class="col-md-3 col-sm-6 no-padding v-top">
-      <img src="/images/footer-logo.jpg" class="center-block"  /> </div>
+      <img src="/images/hotel-diagonal-barcelona-logo-small.png" class="center-block"  /> </div>
       <div class="col-md-3 col-sm-6 no-padding v-top">
         <div class="footer-grid">
           <h2>Contact Us</h2>
-          <p><!--<span class="block-element company-name">The Gates Key West</span>-->
-          <span class="block-element address"> 3824 N Roosevelt Blvd<br>Key West, FL 33040 <br>United States</span>
-          <span class="block-element"><a href="tel:305-320-0930"> (305) 320-0930</a></span>
-          <span class="block-element"><a href="mailto:reservations@gateshotelkeywest.com">reservations@gateshotelkeywest.com</a></span>
-          <br>
-          <span class="block-element">General Manager - <a href="mailto:esimons@gateshotelkeywest.com">Eugenia Simons</a></span>
-          <span class="block-element">Director of Sales &amp; Marketing - <a href="mailto:lsheehan@thekeyscollection.com">Lee Sheehan</a></span></p>
+          <!-- <p><span class="block-element company-name">HOTEL DIVA</span> -->
+          <span class="block-element address">Avenida Diagonal, 205 <br>08018. Barcelona, Spain <br></span>
+          <span class="block-element address"><a href="tel:34.934.895.300">P - +34 934 895 300</a><br>RESERVATIONS: <a href="tel:415.802.173"> F - +34 934 895 309</a></span>
+        </p>
+        
+        
       </div>
     </div>
     
     
     <div class="col-md-3 col-xs-12 no-padding v-top">
       <div class="footer-grid">
-          <h2>Learn More</h2>
+          <h2>LEARN MORE</h2>
           <ul class="footer-menu">
-            <li><a href="/contact/">Contact</a></li>
-          	<li><a href="/gates-hotel-key-west-press/">Press</a></li>
-            <li><a href="/rooms/">Rooms</a></li>
-        	<li><a href="/offers/">Offers</a></li>
-            <li><a href="/group-hotel-booking-in-key-west/">Groups</a></li>
-            <li><a href="/location/">Location</a></li>
-            <li><a href="/gallery/">Gallery</a></li>
-            <li><a href="/events/">Events</a></li>
-          </ul>
+      {% for items in site.data.navigation.footernav %}
+        <li><a href="{{ items.url }}" {% if items.transclude == false %} target="_blank" {%endif%}>{{ items.title }}</a></li>
+      {% endfor %}                       
+      </ul>
       </div>
     </div>
     <div class="col-md-3 col-xs-12 no-padding v-top  no-border">
       <div class="footer-grid">
         <h2>Newsletter Sign-up</h2>
         
-        <form class="jotform-form" action="https://submit.jotform.me/submit/70232618721450/" method="post" name="form_70232618721450" id="70232618721450" accept-charset="utf-8">
-          <input type="hidden" name="formID" value="70232618721450" />
-          <div class="form-holder ">
-            <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="YOUR EMAIL" required="required" />
-            <button id="input_2" type="submit" class="form-button-arrow">submit</button>
-          </div>
-          <input type="hidden" id="simple_spc" name="simple_spc" value="70232618721450" />
-          <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "70232618721450-70232618721450"; </script>
-        </form>
+        <form class="jotform-form" action="https://submit.jotform.me/submit/63502629299464/" method="post" name="form_63502629299464" id="63502629299464" accept-charset="utf-8">
+                <input type="hidden" name="formID" value="63502629299464" />
+                <div class="form-holder ">
+                  <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="YOUR EMAIL" required="required" />
+                  <button id="input_2" type="submit" class="form-button-arrow">submit</button>
+                </div>
+                <input type="hidden" id="simple_spc" name="simple_spc" value="63502629299464" />
+                <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "63502629299464-63502629299464"; </script>
+              </form>
         <script type="text/javascript">JotForm.ownerView=true;</script>
         
         <div class="social-icons-footer">
-          <h2>#unlockthekeys</h2>
-          <a href="http://facebook.com/gateskeywesthotel/" target="blank"><i class="fa fa-facebook"></i></a><span></span>
-          <a href="http://twitter.com/GatesKeyWest/" target="blank"><i class="fa fa-twitter"></i></a><span></span>
-          <a href="https://www.youtube.com/channel/UCSRTq6es6j3dVRBvdOnkhMg/" target="blank"><i class="fa fa-youtube-play"></i></a><span></span>
-          <a href="http://unlockthegates.tumblr.com/" target="blank"><i class="fa fa-tumblr"></i></a><span></span>
-          <a href="http://instagram.com/GatesKeyWest/" target="blank"><i class="fa fa-instagram"></i></a>
+          <h2>Share</h2>
+          <a href="https://www.facebook.com/HotelDiagonalBCN/" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="https://twitter.com/Hotel_Diagonal" target="blank"><i class="fa fa-twitter"></i></a><span></span> <a href="https://www.youtube.com/user/silkendiagonalbcn" target="blank"><i class="fa fa-youtube"></i></a><span></span> <a href="https://www.instagram.com/explore/locations/1295080/hotel-silken-diagonal-barcelona/" target="blank"><i class="fa fa-instagram"></i></a>
         </div>
       </div>
     </div>
@@ -66,19 +55,16 @@
 </div>
 
 <div class="footer-copyright">
-<div class="container"> 
-<span>© THE GATES KEY WEST 2017 ALL RIGHTS RESERVED</span>
-<span class="hilton-policies">
+<div class="container text-center"> 
+ &copy; HOTEL DIAGONAL BARCELONA 2017 ALL RIGHTS RESERVED
+<!-- <span class="hilton-policies">
     <a href="http://hhonors3.hilton.com/en/promotions/privacy-policy/english.html" target="_blank">Global Privacy Statement</a>
     <a href="http://hhonors3.hilton.com/en/policy/cookies-statement/english.html" target="_blank">Cookies Statement</a>
     <a href="http://hhonors3.hilton.com/en/policy/site-usage-agreement/english.html" target="_blank">Site Usage Agreement</a>
-</span>
+</span> -->
 </div>
 </div>
 
 
 </footer>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2RK4QW"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+

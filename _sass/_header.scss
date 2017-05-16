@@ -26,7 +26,7 @@ a:hover,a:focus {
 .header-wrapper {
 	background-color: $bg-white;
 	font-family: $main-font-book;
-	padding: 26px 0;
+	padding: 26px 0 18px;
 	text-transform: uppercase;
 	
 		@media (max-width: 1240px){
@@ -40,7 +40,7 @@ a:hover,a:focus {
 	
 	.booknow {
 		float:right;
-		padding: 22px 0 0 0;
+		padding: 18px 0 0 0;
 		
 			@media (max-width: 1240px){
 				padding: 8px 0 0 0;
@@ -86,7 +86,7 @@ a:hover,a:focus {
 
 .logo {
 	float:left;
-	width: 250px;
+	width: 204px;
 	@media (max-width: 1240px){
 		width: 160px;
 	}
@@ -101,7 +101,7 @@ a:hover,a:focus {
 }
 .main-menu {
 	float: left;
-	padding: 29px 0 0 14px;
+	padding: 18px 0 0 50px;
 	background-color: $bg-white;
 	
 	@media (max-width: 1240px){
@@ -122,16 +122,14 @@ a:hover,a:focus {
 					left: 0;
 					right: 0;
 					padding: 0;
-					z-index: 9999;
 					}
 					@media (max-width: 767px){
-						top: 47px;
+						top: 52px;
 					}
 	ul {
 		li{
 			list-style-type: none;
 			display: inline-block;
-			position: relative;
 				@media (max-width: 1180px){
 					display: block;
 					border-bottom: solid 1px #d3d3d3;
@@ -141,9 +139,13 @@ a:hover,a:focus {
 				color: $tc-black;
 				font-size: 12px;
 				letter-spacing: 1px;
-				padding: 10px 10px;
+				padding: 10px 12px;
+				   transition: all 0.5s ease;
+    				border-bottom: 3px solid $tc-white;
 				&:hover {
-					color: #1086b4;
+					color: $bg-blue-1;
+					/*border-bottom: 3px solid  $bg-blue-1;*/
+					background: inherit;
 				}
 				
 				@media (max-width: 1240px){
@@ -154,7 +156,7 @@ a:hover,a:focus {
 					@media (max-width: 1180px){
 					padding: 20px 15px;
 					&:focus{
-						background-color: #1086b4;
+						background-color: $bg-blue-3;
 						color: $tc-white;
 					}
 				}
@@ -168,71 +170,8 @@ a:hover,a:focus {
 				&:hover {
 				
 				}
-					
 			}
-			.submenu {
-					position: relative;
-					background-color: #fff;
-					display: none;
-					width: 100%;
-					right: 0;
-					left: 0;
-					min-width: 216px;
-					z-index: 10;
-						@media (min-width: 1181px){
-							position: absolute;
-							top: 24px;
-						}
-						li {
-							float:none;
-							display:block;
-								@media (max-width: 1180px){
-									border: none;
-								}
-							a {
-								display: block;
-								font-size: 11px;
-								padding: 14px 10px;
-									@media (max-width: 1180px){
-									padding: 16px 15px;
-								}
-							}
-						}
-					}
-					.-show {
-						display: block;
-					}
-					
-				.arrow-down {
-					position: absolute;
-					right: 0;
-					top: 0;
-					width: 50px;
-					height: 45px;
-					text-align: center;
-					display: block;
-					cursor: pointer;
-					transition: all 0.3s;
-						@media (min-width: $screen-sm-min){
-							height: 53px;
-						}
-						@media (min-width: 1181px){
-							display: none;
-						}
-						.fa {
-							position: absolute;
-							top: 50%;
-							left: 0;
-							right: 0;
-							transform: translateY(-50%);
-							margin: 0 auto;
-							color: #232525;
-							font-size: 28px;
-						}
-						&.arrow-up {
-							transform: rotate(180deg);
-						}
-				}
+			
 		}
 	}
 }
@@ -250,7 +189,7 @@ a:hover,a:focus {
 	position: fixed;
 	left:0;
 	right:0;
-	padding: 26px 0;
+	padding: 10px 0 5px;
 	z-index: 20;
 	top:0;
 	
@@ -258,9 +197,16 @@ a:hover,a:focus {
     animation-duration: 0.8s;
 	
 	
+	.logo{
+		width: 140px;
+	}
 	
-	
-	
+	.main-menu{
+		padding-top:7px;
+	}
+	.booknow{
+		padding-top:8px;
+	}
 	
 }
 
@@ -286,7 +232,6 @@ a:hover,a:focus {
 	width: 40px;
 	height: 22px;
 	top: 28px;
-	z-index: 9999;
 	
 	@media (max-width: 1180px){
 		display:block;
@@ -339,4 +284,3 @@ a:hover,a:focus {
 
 
 .carousel-control.left,.carousel-control.right {background-image:none;}
-

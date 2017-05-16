@@ -5,8 +5,8 @@
       $interpolateProvider.endSymbol(']]');
     })
     .value('rt3api', new Rt3Api({
-      portalId: 'gateshotelkeywest',
-      hotelId: 'KEYSGH',
+      portalId: 'diagonalhotelbarcelona',
+      hotelId: 'DIAGNL',
       defaultLocale: 'en',
       defaultCurrency: 'USD'
     }))
