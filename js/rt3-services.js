@@ -186,7 +186,7 @@ angular.module('rezTrip')
                     if(room.min_average_price[0] != null && !this.isRate){
 
                        this.isRate = true;
-                       self.toNightsRate = "$"+Math.round(roomRate);
+                       self.toNightsRate = "‎€"+Math.round(roomRate);
 
                     }
                     if(roomRate == null){
@@ -194,7 +194,7 @@ angular.module('rezTrip')
 
                     }
                     else{
-                      todayRate = {'todayRate': "$"+Math.round(roomRate)};
+                      todayRate = {'todayRate': "‎€"+Math.round(roomRate)};
 
                     }
                     angular.extend(self.roomsList[key] , todayRate);

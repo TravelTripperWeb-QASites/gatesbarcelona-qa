@@ -1,0 +1,193 @@
+es:
+
+  language_name: Español
+
+  topnav:
+    about: 'Acerca de'
+    rooms: 'Habitaciones'
+    offers: 'Ofertas'
+    location: 'Ubicación'
+    meetings: 'Eventos'
+    gallery: 'Galería'
+    contact: 'Contacto'
+    booknow: 'Reservar'
+
+  footer:
+    learn: 'más información'
+    contact: 'Contacto'
+    rooms: 'Habitaciones'
+    offers: 'Ofertas'
+    location: 'Ubicación'
+    privacy: 'Política de privacidad'
+    sitemap: 'Mapa Web'
+    news: 'Inscríbase al Boletín'
+    email: 'INTRODUCE TU EMAIL'
+    share: 'Compartir'
+    copy: 'Hotel Diagonal Barcelona 2017 Todos los Derechos Reservados'
+
+  home:
+    modern-banner-h3: 'Un espacio excepcional'
+    modern-banner-h2: 'MODERNIDAD, DISEÑO Y RELAX'
+    modern-section-h3: 'Comodidades Modernas'
+    modern-section-p: 'En un primer momento, lo que más destaca del Hotel Diagonal Barcelona es su fachada exterior, diseñada por el barcelonés Juli Capella. Combinando el blanco y el negro, su sorprendente arquitectura da la bienvenida a un interior lleno de detalles, donde prima la elegancia, las tendencias actuales del diseño y la tranquilidad.'
+    modern-section-button: 'Ver todas las habitaciones y suites'
+    excep-section-h2: 'Barcelona Excepcional'
+    excep-section-h4: 'Desvelar su verdadera belleza'
+    excep-section-p: 'La ubicación en la misma Diagonal de Barcelona es otro de sus puntos fuertes. Localizado en la conocida Plaza de les Glòries Catalanes, el hotel es vecino inmediato de la famosa Torre Agbar, que potencia enormemente la calidad de las vistas 360° que se pueden disfrutar desde la terraza situada en el ático.'
+    excep-section-button: 'DESCUBRE BARCELONA'
+    excep-section-hotel-h4: 'Una ciudad excepcional'
+    excep-section-hotel-h2: 'Desvelar los tesoros únicos de Barcelona hermosa'
+    excep-section-hotel-button: 'OBTENGA LAS DIRECCIONES DEL HOTEL'
+    diverse-h3: 'Barcelona diversa'
+    diverse-h4: 'Explora el Barrio'
+    diverse-button: 'LOCALIZACIÓN DEL HOTEL'
+    caption-comfort: 'habitación classic'
+    caption-club: 'Habitación Club'
+    caption-agbar: 'Habitacion classic vistas torre Agbar'
+    caption-cafe: 'Tecla Cafe'
+    caption-bar: 'Bar en el vestíbulo'
+    event-spaces-h3: 'Espacios para Eventos'
+    event-spaces-p: 'Idóneos para la realización de todo tipo de actos, como son reuniones de empresa, banquetes y celebraciones sociales o familiares.'
+    event-spaces-button: 'DESCUBRIR MÁS'
+    event-caption-1: 'Azotea'
+    offer-p: 'Ver nuestras<br>ofertas exclusivas'
+    offer-button-1: 'Ver esta Oferta'
+    offer-button-2: 'Ver Todas las Ofertas'
+    vibrant-h3: 'Vibrante<br>Barcelona'
+    vibrant-button: 'Reserve Su Estancia'
+
+  instagram:
+    gallery-h3: 'Inspírese'
+    gallery-h5: 'Visite nuestra galería'
+
+  rooms:
+    rate: "precio para hoy"
+    view-button: 'Ver esta Habitación'
+
+  room:
+    luxury-redefined: "Lujo Redefinido"
+    prev-room: "Anterior"
+    next-room: "Siguiente"
+    check-availability: "Comprobar Disponibilidad"
+    book-this-room: "Reservar esta Habitación"
+    room-info: "información sobre la habitación"
+    need-help-text: "¿Necesita asistencia? Nuestro equipo de reservas dedicado está disponible las veinticuatro horas:"
+    visual-journey: "Un viaje Visual"
+    enjoy-following: "DISFRUTAR DE LOS SIGUIENTES"
+    privileges: "Privilegios"
+    room: "	la habitación"
+    amenities: "el servicio"
+    view-more-luxurious-rooms: "Ver más habitaciones &amp; SUITES"
+    view-all-rooms: "VER TODAS LAS HABITACIONES"
+    proximity-text: "lo mejor su ubicación"
+    view-more-luxurious-offers: "VER MÁS OFERTAS ESPECIALES"
+    view-this-offer: "VER ESTA OFERTA"
+    view-all-offers: "VER TODAS LAS OFERTAS"
+    contact-button: 'Contáctenos'
+    view-gallery: 'Ver Galería'
+
+  offers:
+    check-rate: "CONSULTE DISPONIBILIDAD"
+    special-offers: "Ofertas especiales"
+    prev-offer: "Oferta anterior"
+    next-offer: "Próxima oferta"
+    special-offer: "Oferta especial"
+    book-this-offer: "Reserve esta oferta"
+    all-in-detail: "Todo en los Detalles"
+    book-in-advance: "Libro por adelantado para mejores ofertas"
+    offer: "Oferta"
+    features: "Características"
+    general-amenities: "servicios generales"
+    modern-barcelona: "MODERNO BARCELONA"
+    feature1: "Área de negocio con escritorio"
+    feature2: "Dos líneas de teléfono con correo de voz"
+    feature3: "Acceso a internet inalámbrico y de alta velocidad"
+    feature4: "Pantalla plana HDTV con navegador web"
+    feature5: "estación de acoplamiento de iHome"
+    feature6: "Amenidades de baño de respetuoso del medio ambiente de la zona de confort"
+
+  about:
+    page-title: 'Estancia Inolvidable'
+    proximity-title: 'Lo mejor su ubicación'
+    proximity-loc: 'AVENIDA DIAGONAL, 205, 08018, BARCELONA, SPAIN'
+    proximity-desc: 'El Hotel Diagonal Barcelona se encuentra en el número 205 de la Avenida Diagonal, en una situación privilegiada. Vecino inmediato de la Torre Agbar, el hotel se sitúa junto a la Plaza de les Glòries Catalanes, por lo que la llegada al mismo se puede realizar desde cualquier punto de la ciudad, estación de tren, de autobús, puerto o aeropuerto. La privilegiada ubicación del hotel en Glòries y su conexión con el transporte público hacen que el acceso a los principales puntos de interés de Barcelona se haga en pocos minutos.'
+    proximity-expl: 'EXPLORE LA UBICACIÓN'
+    view-offer: 'VER NUESTRAS OFERTAS EXCLUSIVAS'
+    offer-button-1: 'VER ESTA OFERTA'
+    offer-button-2: 'VER TODAS LAS OFERTAS'
+    booknow-title: 'Hermosa<br>Barcelona'
+    booknow: 'RESERVAR'
+    services-cap-1: 'WI-FI'
+    services-cap-2: 'PISCINA'
+    services-cap-3: 'RESTAURANTE'
+    services-title: 'Lista de Servicios'
+    services-list: '<li>BUSINESS CORNER</li><li>SALAS DE REUNIONES</li><li>SERVICIO DE LAVANDERÍA</li><li>RECEPCIÓN Y SERVICIO CONSERJERÍA 24H</li><li>SALAS DE BANQUETES</li><li>WI-FI</li><li>PISCINA</li><li>BAR/RESTAURANTE/CAFETERÍA</li><li>PARKING</li>'
+
+  location:
+    page-title: 'Ubicación'
+    sites-title: 'Sitios y Atracciones'
+    address-title: 'Nuestra<span class="nl">Dirección</span>'
+    address-text: 'Avenida Diagonal, 205<br>08018. Barcelona, Spain'
+    cta-title: 'Hotel Diagonal<br>Barcelona'
+    cta-button: 'Reserve Su Estancia'
+
+  events:
+    page-title: 'Eventos de Clase Mundial'
+    contact-button: 'Contáctenos'
+    rfp-button: 'Solicitud de Propuesta'
+    venue-title: 'El Lugar Perfecto'
+    venue-list: '<li>426 metros cuadrados de espacio flexible</li><li>Tecnología de última generación</li><li>Equipo audiovisual</li><li>5 salas de reuniones recién renovadas </li><li>Un menú de catering personalizable, diverso y adaptable para satisfacer sus preferencias</li><li>Perfecto para eventos corporativos, reuniones sociales, reuniones de ejecutivos y juntas directivas</li>'
+    venue-cta-title: 'Lugares exquisitos'
+    venue-cta-text: 'La espectacular azotea con piscina en la décima planta, ofrece impresionantes vistas nocturnas de la ciudad.'
+    venue-cta-button: 'Acerca del Hotel'
+    plan-title: 'COMIENCE A PLANEAR SU <span class="nl">EVENTO ESPECIAL AHORA</span>'
+    moment-title: 'MOMENTOS PARA SIEMPRE'
+
+
+  gallery:
+    page-title: 'Visual Tour'
+    gallery-cat-1: 'Todas'
+    gallery-cat-2: 'Hotel'
+    gallery-cat-3: 'Habitaciones y Suites'
+    gallery-cat-4: 'PUNTOS DE INTERÉS'
+
+  contact:
+    page-title: 'Contacto'
+    newsletter: 'Por favor, incluirme en futuros correos electrónicos'
+    submit: 'ENVIAR'
+
+  rfp:
+    page-title: 'Solicitud de Propuesta'
+    form-title: 'Por favor, rellene el siguiente formulario'
+    name: 'Nombre'
+    company: 'Nombre de Empresa'
+    address: 'Detalles de Dirección'
+    phone: 'Número de Teléfono'
+    email: 'Email'
+    event-title: 'Detalles del Evento'
+    arrival: 'Fecha de llegada'
+    departure: 'Fecha de salida'
+    flex: '¿Son estas fechas flexibles?'
+    flex-opt-1: 'Sí'
+    flex-opt-2: 'No'
+    num-rooms: 'Número de Habitaciones?'
+    event-type: 'Tipo de Evento'
+    comments: 'Comentarios'
+    submit: 'Enviar'
+
+
+  thank:
+    thank-you: "Gracias"
+    thank-msg: "Nos pondremos en contacto contigo pronto."
+
+  sitemap:
+    home: 'Casa'
+    about: 'Acerca de'
+    rooms: 'Habitaciones'
+    offers: 'Ofertas'
+    location: 'Ubicación'
+    meetings: 'Eventos'
+    gallery: 'Galería'
+    contact: 'Contacto'
+    privacy: 'Política de Privacidad'
+    sitemap: 'Mapa Web'

@@ -637,7 +637,7 @@
 					padding: 96px 15px;
 				}
 				.cta {
-					background-color: rgba(25,198,255,0.8);
+					background-color: rgba(1,1,1,0.8);
 					padding: 40px 15px;
 					width: 280px;
 					margin: 0 auto;
@@ -648,14 +648,23 @@
 						@media(min-width: $screen-md-min){
 							padding: 64px 0;
 						}
+					p{
+						color: #fff;
+						margin-bottom: 40px;
+						@media(min-width: $screen-sm-min){
+							line-height: 24px;
+							letter-spacing: 0.1em;
+						}
+					}
 					.cta-logo {
 						max-width: 150px;
+						text-align: center;
 						margin: 0 auto;
 							@media(min-width: $screen-md-min){
 								max-width: 225px;
 							}
 						img {
-							width: 100%;
+							 
 						}
 					}
 				}
