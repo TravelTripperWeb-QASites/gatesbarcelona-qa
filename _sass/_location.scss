@@ -494,8 +494,7 @@
 					padding: 33px 0;
 				}
 				&.logo-wrap {
-					width: 50px;
-					margin: 0 auto;
+					text-align: center;  
 					 img {
 					 	width: 100%;
 					 }
@@ -527,16 +526,13 @@
 			@media(min-width: $screen-lg-min){
 				padding: 62px 80px 63px 80px;
 			}
-			.title-head {
-				font-family:$main-font-light;
-				font-size: 12px;
-				color: #232525;
-				letter-spacing: 2px;
-				text-transform: uppercase;
-				line-height: 20px;
-				text-align: center;
-				padding-bottom:31px;
-					
+			.title-head { 
+					text-align: center;
+					font-family: "GothamHTF-Bold";
+					font-size: 24px;
+					@media(min-width: $screen-sm-min){
+						font-size: 24px;
+					}
 			}
 			p{
 				font-family:$main-font-light;
@@ -1037,3 +1033,4 @@
 .no-margin {
 	margin: 0;
 }
+ 
