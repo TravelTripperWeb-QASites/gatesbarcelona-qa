@@ -1,24 +1,18 @@
 ---
 layout: default
 ---
-
 <section>
   <div class="home-slider">
       {% assign banner_images = site.data._models.home_banner_carousel  | sort : "sort_order" %}
       {% for bannerimages in banner_images %}
         <div>
-        	<div class="overlay"></div>
-            {% if forloop.index == 2 %}
-            <div class="play-btn"><a href="#" data-toggle="modal" data-target="#gatesVideo"><img src="/images/play-btn.svg" alt="" /></a></div>
-            {% endif %}
-            {% if forloop.index == 1 %}
-            <div class="banner-logo"></div>
-            {% endif %}
-            
+            <div class="banner-logo">
+              <!--div class="hero-title">Sophisticated Playground</div-->
+            </div>
              <img src="{{ bannerimages.slider_image.url }}" class="width-full"  alt=""/>
              <div class=" social-icons">
               <h6>Follow Us</h6>
-              <a href="http://facebook.com/gateskeywesthotel" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="http://twitter.com/GatesKeyWest" target="blank"><i class="fa fa-twitter"></i></a><span></span> <a href="https://www.youtube.com/channel/UCSRTq6es6j3dVRBvdOnkhMg/" target="blank"><i class="fa fa-youtube-play"></i></a><span></span> <a href="http://unlockthegates.tumblr.com/" target="blank"><i class="fa fa-tumblr"></i></a><span></span> <a href="http://instagram.com/GatesKeyWest" target="blank"><i class="fa fa-instagram"></i></a> 
+             <a href="https://www.facebook.com/HotelDiagonalBCN/" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="https://twitter.com/Hotel_Diagonal" target="blank"><i class="fa fa-twitter"></i></a><span></span> <a href="https://www.youtube.com/user/silkendiagonalbcn" target="blank"><i class="fa fa-youtube"></i></a><span></span> <a href="https://www.instagram.com/explore/locations/1295080/hotel-silken-diagonal-barcelona/" target="blank"><i class="fa fa-instagram"></i></a> <!-- <span></span> <a href="/" target="blank"><i class="fa fa-pinterest-p"></i></a> -->
             </div>
         </div>
       {% endfor %}  
@@ -26,20 +20,21 @@ layout: default
     </section>
     <section>
               <div class="container-fluid global-container no-padding">
-                <div class="row no-gutters welcome-row">
-                  <div class="col-md-6 left-block no-padding">
+                <div class="row welcome-row">
+                  <div class="col-sm-6 left-block no-padding">
                     <div>
                       <div class="two-col-content">
-
                         {% region welcome-paradise %}
                         <div class="left-img">{% region twocol-left-img %}
                           <div class="wrapper weather-widget">
                             <div class="panel bg-panel">
+                            <div class="wrapper weather-widget">
+                              <div class="panel bg-panel">
                               <div class="weather" id="weather">
                                 <div class="temperature" id="temperature">
                                   <div id="temp">
                                     <p>Current Weather<br>
-                                    Key West, Florida</p>
+                                    BARCELONA, SPAIN</p>
                                      <i></i>
                                     <div>
                                       <ul class="list-inline">
@@ -57,64 +52,32 @@ layout: default
                                   </div>
                                 </div>
                               </div>
+                              </div>
+                            </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6 right-block no-padding">
+                  <div class="col-sm-6 right-block no-padding">
                     <div class="visual-container">{% region two-col-1-img %}
-                      <div class="visual-title">
-                        <div> {% region view-gallery-text %}</div>
-                         </div>
+                     <!--  <div class="visual-title">
+                        <div> </div>
+                         </div> -->
                       </div>
                       <div class="detailsbg" >
                         <div class="details-img pull-left">{% region home-detailsbg-img %}</div>
                         <div class="details-events pull-right">
                           {% region latest-happiness-box %}
-                          <div id="events-car" class="carousel slide custom-car-control" data-ride="carousel">
-                          
-                           <!-- Indicators -->
-
-  
-   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-      {% assign eventList = site.data._models.events | sort: 'datemeta' %}
-							{% for events in eventList %}
-                           {% if forloop.first == true %} 
-    		<div class="item active">
-            {% else %}
-            <div class="item">
-            {% endif %}
-        	<h4><a href="/events/{{events.url_friendly_name}}">{{events.title}}</a></h4>
-            <div class="date"><span class="block-ele">{{events.start_date | date: "%Y.%m.%d"}}</span><span class="seperator"></span><span class="block-ele">{{events.time}}</span></div>
-    </div>
-    {% endfor %}
-    
-  </div>
-  
-  <!-- Left and right controls -->
-<a class="left carousel-control" href="#events-car" role="button" data-slide="prev">
-    <i class="fa fa-angle-left" aria-hidden="true"></i>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#events-car" role="button" data-slide="next">
-    <i class="fa fa-angle-right" aria-hidden="true"></i>
-    <span class="sr-only">Next</span>
-  </a>
-
-</div>
-
-                          
-                        </div>
                         </div>
                         <div class="clearfix"> </div>
                       </div>
                     </div>
                 </div>
               </section>
-              <section>
+        
+                     <section>
                 <div id="rooms-carousel-home" class="carousel rooms-carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                   
@@ -131,7 +94,8 @@ layout: default
                          
                           <div class="item" ng-repeat ="room in browser.roomsList | limitTo: 4" ng-class='{active:$first}'>
                         
-                        <img ng-src="[[room.photos[0].large]]" alt="">
+                        <!-- <img ng-src="[[room.photos[0].large]]" alt=""> -->
+                        <div style='background: url([[room.photos[0].large]]) center center /  cover no-repeat;' class="rooms-image">
                         <div class="container">
                           <div class="carousel-caption">
                             
@@ -147,46 +111,51 @@ layout: default
                           <a class="left carousel-control" href="#rooms-carousel-home" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#rooms-carousel-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
                         </section>
                         
-                        
-                              
-                              <section class="rooms-section home-specials" rt3-special-rates="offers">
-  <div class="container no-padding">
-    <div class="col-md-4 no-padding">
-      <div class="new-caption-area" id="offerscroll" class="carousel slide" data-ride="carousel">
-      
-        <div class="carousel-inner">
-          <div class="item" ng-repeat ="offer in offers.special_rates | limitTo:3" ng-class='{active:$first}'>
-          
-              <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
-              <h4>[[ offer.short_description ]]</h4>
-              <div class="links"> <a ng-href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 button-blue">See Details</a></div>
-              
-          </div>
-          <!-- Indicators -->
-                                  <ol class="carousel-indicators">
-                                    <li ng-repeat="offer in offers.special_rates | limitTo:3" data-target="#offers-carousel" data-slide-to="[[$index]]" class="" ng-class='{active:$first}'></li>
-                                  </ol>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-8 no-padding">
-      <div class="rooms-carousel">
-        <div id="offers-carousel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner m-t-20">
 
-         	<div class="item" ng-repeat="offer in offers.special_rates  | limitTo:3" ng-class='{active:$first}'>
-             <img alt="" ng-src="[[offer.lead_photo_url.yankee_large]]"   class="width-full">
+                    <section class="special-offers container-fluid" style="background-image: url(/images/offers-bg.jpg);"  rt3-special-rates= "offers">
 
+                    <div class="container no-padding">
+                      <h3>Special Offers</h3>
+                      <div class="col-sm-4  col-md-4" ng-repeat ="offer in offers.special_rates | limitTo: 3">
+                      <div class="offer-inner">
+                        <h5> OFFER 01</h5>
+                        <h4 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"> <!-- Breakfast<br>Package --></h4>
 
-            </div>
+                       <a class="btn btn-lg btn-primary button-home " href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]">see details</a>
+                       <div class="offer-image" ng-style='{"background-image": "url([[offer.lead_photo_url.yankee_large]])"}'> </div>
+                       </div>
+                      </div>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-                        
+                    <div class="clearfix"></div>
+                    <a class="btn btn-lg btn-primary  button-offers " href="/offers/">View All Offers</a>
+                    
+                    </div>
+                    <div class="clearfix"></div>
+                    </section>
+
+                        <section >
+                          <div class="global-container home-offers center-block top-margin">
+                            <div class="">
+                              <div class="left-col">
+                               
+                                    <div id="offers-carousel" class="carousel slide offers-carousel" data-ride="carousel">
+                                     <div class="carousel-inner">
+                                        <div class="">
+                                        <h3>Things to do <br>in San Francisco</h3>
+                                        <p>Whether you're visiting San Francisco for the first time or if you're a seasoned visitor - soon after choosing your San Francisco Hotel, you want to know about the many things to do in San Francisco.</p>
+                                        <a class="btn btn-lg btn-primary button-home " href="/offers/">Discover more</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                   </div>
+                                    <div class="right-col">
+                                      {% region offers-image %}
+                                      <div> </div>
+                                    </div>
+                                  
+                                  </div>
+                                </div>
+                              </section>
                               <section >
                                 <div class="global-container home-offers center-block">
                                   <div class=" no-margin">
@@ -195,153 +164,50 @@ layout: default
                                       <div class="newsletter-container  pull-left">
                                         {% region newsletter-context %}
                                         <div class="newsletterform ">
-                                          <form class="jotform-form" action="https://submit.jotform.me/submit/70232618721450/" method="post" name="form_70232618721450" id="70232618721450" accept-charset="utf-8">
-                                            <input type="hidden" name="formID" value="70232618721450" />
+                                          <form class="jotform-form" action="https://submit.jotform.me/submit/71292710582455/" method="post" name="form_71292710582455" id="71292710582455" accept-charset="utf-8"> 
+                                          <input type="hidden" name="formID" value="71292710582455" />
                                             <div class="form-holder form-holder-one ">
-                                              <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="YOUR EMAIL" required="required" />
+                                              <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="ENTER YOUR EMAIL" required="required" />
                                               <button id="input_2" type="submit" class="form-button-arrow">submit</button>
                                             </div>
-                                            <input type="hidden" id="simple_spc" name="simple_spc" value="70232618721450" />
-                                            <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "62653920766463-62653920766463"; </script>
+                                            <input type="hidden" id="simple_spc" name="simple_spc" value="71292710582455" /> 
+                                            <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "71292710582455-71292710582455"; </script>
                                           </form>
                                           <script type="text/javascript">JotForm.ownerView=true;</script> </div>
                                         </div>
                                         <div class="discover-container pull-right">
                                           {% region restaurent-bar %}
-                                          <!--<a class="btn btn-lg btn-primary button-home " href="#">Discover more</a>--> </div>
+                                       </div>
                                         </div>
                                       </div>
                                     </div>
                                   </section>
-                                  <section>
-                                    <div class="continental">
-                                      
-                                      <div class="menu-container" style="background-image:url('/images/bar-img2.jpg');" >
-                                        <div class="menu-data">
-                                        <div class="bev-des">
-                                          <div class="blue-container beverage"> 
-                                            <a href="javascript:void(0);" target="blank"></a> 
-                                            <img src="/images/beverages_icon.png" class="width-full" alt=""><h4>Drink</h4>
-                                          </div>
-                                          <div class="blue-container deserts">
-                                            <a href="javascript:void(0);" target="blank"></a>
-                                            <img src="/images/eat_icon.png" class="width-full" alt=""><h4>Eat</h4>
-                                          </div>
-                                       </div>
-                                    <div class="day">
-
-  <h2>The Blind Pig</h2>
-<ul>
-  <li>
-    <h5> Breakfast</h5>
-  </li>
-  <li>
-    <p>Daily<br>
-      7:00 AM to 11:00 AM</p>
-  </li>
-  <li><a href="/pdf/blind-pig-dining-menu.pdf" target="blank"></a></li>
-</ul>
-
-<ul>
-  <li>
-    <h5>Lunch</h5>
-  </li>
-  <li>
-    <p>Daily<br>
-      11:00 AM to 10:00pm</p>
-  </li>
-  <li> <a href="/pdf/blind-pig-dining-menu.pdf" target="blank"></a></li>
-</ul>
-<ul>
-  <li>
-    <h5>Dinner</h5>
-  </li>
-  <li>
-    <p>Daily<br>
-      11:00 AM to 10:00pm</p>
-  </li>
-  <li> <a href="/pdf/blind-pig-dining-menu.pdf" target="blank"></a></li>
-</ul>
-<ul>
-<h2>Rum Row</h2>
-<ul>
-  <li>
-    <h5>Pool | Bar | Lounge</h5>
-  </li>
-  <li>
-    <p>Daily<br>
-      11:00 AM to 10:00pm</p>
-  </li>
-  <li> <a href="/pdf/rum-row.pdf" target="blank"></a></li>
-</ul>
-<ul>
-
-                                    </div>
-                                    
-                                  </div>
-                                  
-                                </div>
-                                <div class="cont-image" style="background-image:url('/images/continental-home.jpg');">
-                                </div>
-                              </div>
-                            </section>
                             <section>
-                              <div id="specials-carousel-home" class="carousel rooms-carousel slide" data-ride="carousel">
-                                <!-- Indicators -->
+                              <div id="specials-carousel-home" class="carousel rooms-carousel  spcial-carousel things-to-do slide" data-ride="carousel">
                                 
-                                <ol class="carousel-indicators" style="display:none;">
-                                  <li data-target="#specials-carousel-home" data-slide-to="0" class="active">KING SUITE<span></span></li>
-                                  <li data-target="#specials-carousel-home" data-slide-to="1">1 KING BALCONY POOL VIEW <span></span></li>
-                                  <li data-target="#specials-carousel-home" data-slide-to="2">1 KING TERRACE POOL VIEW <span></span></li>
-                                  <li data-target="#specials-carousel-home" data-slide-to="3">1 KING SUITE <span></span></li>
-                                  <a href="#" class="pull-right">[ More +]</a>
-                                </ol>
                                 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
-                              {% assign miami_images = site.data._models.enchanting_miami_carousel  | sort : "sort_order" %}
-                              {% for miamiimages in miami_images %}                                 
-                                    {% if forloop.first == true %}
-                                    <div class="item active">
-                                    {% else %}
-                                    <div class="item">
-                                    {% endif %} 
-                                    <img src="{{ miamiimages.slider_image.url }}" alt=""> 
+                              
+                                    <div class="item active" style="background-image: url(images/things-to-do-banner-1.jpg);">
+                                   
+                                    <img src="images/things-to-do-banner-1.jpg" alt=""> 
                                     <div class="container">
                                       <div class="carousel-caption">
-                                        {{ miamiimages.carousel_caption }}
+                                      {% region magical-barcelona %}
+                                     
+                                       
                                       </div>
                                       </div>
                                     </div>
-                                {% endfor %}
+                             
                                 </div>
                                       
-                                      <!-- Left and right controls -->
-                                      <a class="left carousel-control" href="#specials-carousel-home" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
-                                      <a class="right carousel-control" href="#specials-carousel-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+                                    
+                                     
                                     </div>
                                   </section>
                                   {% include twitter-instagram.html %}
-<section class="map-holder no-margin">
-	<div class="map-inner" id="map"></div>
-</section>
-                                  
-  <!-- Modal popup -->
-  
-  <div id="gatesVideo" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-                
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        
-                      </div>
-                      <div class="modal-body">
-                        <div class='embed-container'><iframe src='https://www.youtube.com/embed/rVzXaAKaNec?rel=0' frameborder='0' allowfullscreen></iframe></div>
-                      </div>
-                      
-                    </div>
-                
-                  </div>
-                </div>
+                                 <section class="map-holder no-margin">
+                                  <div class="map-inner" id="map"></div>
+                                </section>

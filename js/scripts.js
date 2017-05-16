@@ -190,11 +190,11 @@ jQuery(function ($) {
 	});
 
 function initMap() {
-        var myLatLng = {lat: 24.571201, lng: -81.754446};
+        var myLatLng = {lat: 41.403863, lng: 2.190159};
 
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 14,
-          center: new google.maps.LatLng(24.571201, -81.754446),
+          center: new google.maps.LatLng(41.403863, 2.190159),
 		  scrollwheel: false,
 		  disableDefaultUI: true
         });
@@ -206,7 +206,7 @@ function initMap() {
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          title: 'The Gates Hotel Key West',
+          title: 'HOTEL DIAGONAL BARCELONA',
 		  icon: iconBase + 'loc.png'
         });
 		

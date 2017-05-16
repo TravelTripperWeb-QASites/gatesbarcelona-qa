@@ -33,7 +33,7 @@ page_gen:
     template: 'event-details'
     dir: 'events'
     
-booking_widget_url: https://gateshotelkeywest.reztrip.com/mobile
+booking_widget_url: https://diagonalhotelbarcelona.reztrip.com/mobile
 
 exclude: ['sitemap.json']
 
