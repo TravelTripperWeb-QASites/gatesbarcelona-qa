@@ -1,1 +1,426 @@
-{"__CONFIG__":{"default_locale":"en","page_gen":[{"data":"blog","template":"blog-details","dir":"blog"},{"data":"partners","template":"partner-details","dir":"partners"}],"locales":["en"]},"__ROOT__":{"attractions":{"__PAGES__":[{"label":"Attractions in Key West Fl | The Gates Hotel Key West","published":true,"locales":{"en":"/attractions/"},"data_source":null,"source_path":"attractions/index.html"}]},"blog":{"blog-details":{"__PAGES__":[{"label":"Blogs in Key West Florida | Blogs at the Gates Hotel","published":true,"locales":{"en":"/blog/blog-details/"},"data_source":null,"source_path":"blog/blog-details.html"}]},"__PAGES__":[{"label":"Blogs in Key West Florida | Blogs at the Gates Hotel","published":true,"locales":{"en":"/blog/"},"data_source":null,"source_path":"blog/index.html"}]},"css":{"__PAGES__":[{"label":"font-awesome.css","published":true,"locales":{"en":"/css/font-awesome.css"},"data_source":null,"source_path":"css/font-awesome.scss"},{"label":"main.css","published":true,"locales":{"en":"/css/main.css"},"data_source":null,"source_path":"css/main.scss"},{"label":"owl.carousel.css","published":true,"locales":{"en":"/css/owl.carousel.css"},"data_source":null,"source_path":"css/owl.carousel.scss"},{"label":"owl.theme.css","published":true,"locales":{"en":"/css/owl.theme.css"},"data_source":null,"source_path":"css/owl.theme.scss"},{"label":"owl.transitions.css","published":true,"locales":{"en":"/css/owl.transitions.css"},"data_source":null,"source_path":"css/owl.transitions.scss"}]},"eat-drink":{"__PAGES__":[{"label":"Key West Restaurants & Bars | The Gates Hotel Key West","published":true,"locales":{"en":"/eat-drink/"},"data_source":null,"source_path":"eat-drink/index.html"}]},"gallery":{"__PAGES__":[{"label":"The Gates Key West Hotel Photos | The Gates Hotel Key West","published":true,"locales":{"en":"/gallery/"},"data_source":null,"source_path":"gallery/index.html"}]},"group-hotel-booking-in-key-west":{"__PAGES__":[{"label":"Meetings & Group Bookings in Key West | The Gates Hotel","published":true,"locales":{"en":"/group-hotel-booking-in-key-west/"},"data_source":null,"source_path":"group-hotel-booking-in-key-west/index.html"}],"request-for-proposal":{"__PAGES__":[{"label":"Meetings & Group Events in Key West Fl |The Gates Hotel","published":true,"locales":{"en":"/group-hotel-booking-in-key-west/request-for-proposal/"},"data_source":null,"source_path":"group-hotel-booking-in-key-west/request-for-proposal.html"}]}},"location":{"__PAGES__":[{"label":"Hotels in Key West | The Gates Hotel Key West Florida","published":true,"locales":{"en":"/location/"},"data_source":null,"source_path":"location/index.html"}],"shuttle":{"__PAGES__":[{"label":"Hotel near Old Town Key West | Gates Hotel Bus Service","published":true,"locales":{"en":"/location/shuttle/"},"data_source":null,"source_path":"location/shuttle.html"}]}},"offer-details":{"__PAGES__":[{"label":"Special Offers & Deals at the Gates Hotel Key West Florida","published":true,"locales":{"en":"/offer-details/"},"data_source":null,"source_path":"offer-details/index.html"}]},"offers":{"__PAGES__":[{"label":"Key West Florida Hotel Deals and Offers | Gates Hotel Deals","published":true,"locales":{"en":"/offers/"},"data_source":null,"source_path":"offers/index.html"}]},"partners":{"__PAGES__":[{"label":"Key West Hotel Partnerships | Things to do in Key West Fl","published":true,"locales":{"en":"/partners/"},"data_source":null,"source_path":"partners/index.html"}],"partner-details":{"__PAGES__":[{"label":"Key West Hotel Partnerships | Things to do in Key West Fl","published":true,"locales":{"en":"/partners/partner-details/"},"data_source":null,"source_path":"partners/partner-details.html"}]}},"room-details":{"__PAGES__":[{"label":"Hotel Rooms & Suites in Key West | The Gates Hotel Key West","published":true,"locales":{"en":"/room-details/"},"data_source":null,"source_path":"room-details/index.html"}]},"rooms":{"__PAGES__":[{"label":"Hotel Rooms in Key West | Accommodations | The Gates Hotel","published":true,"locales":{"en":"/rooms/"},"data_source":null,"source_path":"rooms/index.html"}]},"about":{"__PAGES__":[{"label":"Modern Design Hotels in Barcelona | About Hotel Diagonal","published":true,"locales":{"en":"/about/"},"data_source":null,"source_path":"about.html"}]},"contact":{"__PAGES__":[{"label":"Contact Details | The Gates Hotel Key West","published":true,"locales":{"en":"/contact/"},"data_source":null,"source_path":"contact.html"}]},"events":{"__PAGES__":[{"label":"Meeting Venues in Barcelona | Functions at Hotel Diagonal","published":true,"locales":{"en":"/events/"},"data_source":null,"source_path":"events.html"}]},"gates-hotel-key-west-press":{"__PAGES__":[{"label":"Press and Media | The Gates Hotel Key West","published":true,"locales":{"en":"/gates-hotel-key-west-press/"},"data_source":null,"source_path":"gates-hotel-key-west-press.html"}]},"__PAGES__":[{"label":"Key West Design Hotels | The Gates Hotel Key West","published":true,"locales":{"en":"/"},"data_source":null,"source_path":"index.html"}],"subscribe":{"__PAGES__":[{"label":"Subscribe to the Newsletter | Offers at the Gates Key West","published":true,"locales":{"en":"/subscribe/"},"data_source":null,"source_path":"subscribe.html"}]},"thankyou":{"__PAGES__":[{"label":"Thank You | The Gates Hotel Key West","published":true,"locales":{"en":"/thankyou/"},"data_source":null,"source_path":"thankyou.html"}]}},"__REGIONS__":["about.html/modern-manhattan.json","about.html/abt-image-1.json","about.html/abt-image-2.json","about.html/abt-image-3.json","about.html/abt-image-4.json","about.html/abt-image-5.json","about.html/services-amenities.json","events.html/meetings-events.json","events.html/abt-image-1.json","events.html/abt-image-2.json","events.html/abt-image-3.json","events.html/weddings-events.json","events.html/weddings-events-image-1.json","location/index.html/banner-text.json","attractions/index.html/banner-text.json","attractions/index.html/acttactions-todos.json","attractions/index.html/attr-image-1.json","attractions/index.html/attr-image-3.json","attractions/index.html/attr-image-4.json","attractions/index.html/attr-favourite-dest.json","attractions/index.html/restaurants-content.json","attractions/index.html/restaurants-points.json","attractions/index.html/bars-content.json","attractions/index.html/bars-points.json","attractions/index.html/golf-content.json","attractions/index.html/golf-points.json","attractions/index.html/beach-content.json","attractions/index.html/beach-points.json","attractions/index.html/attractions-content.json","attractions/index.html/attractions-points.json","eat-drink/index.html/banner-text.json","eat-drink/index.html/rum-row-container-image.json","eat-drink/index.html/rum-row-container-content.json","eat-drink/index.html/poolside-content.json","eat-drink/index.html/the-blind-pig-content.json","eat-drink/index.html/the-blind-pig-content2.json","eat-drink/index.html/the-blind-pig-content-image.json","eat-drink/index.html/cuisine-content.json","group-hotel-booking-in-key-west/index.html/banner-text.json","blog/index.html/banner-text.json","index.html/welcome-paradise.json","index.html/twocol-left-img.json","index.html/two-col-1-img.json","index.html/view-gallery-text.json","index.html/home-detailsbg-img.json","index.html/latest-happiness-box.json","index.html/newsletter-img.json","index.html/newsletter-context.json","index.html/restaurent-bar.json","partners/index.html/banner-text.json","location/shuttle.html/banner-text.json","location/shuttle.html/old-town-shuttle-text.json","location/shuttle.html/heart-of-republic.json","location/shuttle.html/shuttle-image-1.json","location/shuttle.html/shuttle-image-2.json","location/shuttle.html/explore-old-key.json","location/shuttle.html/shuttle-schedule-head.json","location/shuttle.html/shuttle-table.json","location/shuttle.html/shuttle-image-4.json","location/shuttle.html/shuttle-image-5.json","location/shuttle.html/shuttle-image-6.json","blog/page2/index.html/banner-text.json","blog/page3/index.html/banner-text.json"],"__SHA__":"0a4742d06615c65c36a79990f9a288982a189f16"}
+{
+  "__CONFIG__": {
+    "default_locale": "en",
+    "page_gen": [
+      {
+        "data": "blog",
+        "template": "blog-details",
+        "dir": "blog"
+      },
+      {
+        "data": "partners",
+        "template": "partner-details",
+        "dir": "partners"
+      }
+    ],
+    "locales": [
+      "en"
+    ]
+  },
+  "__ROOT__": {
+    "attractions": {
+      "__PAGES__": [
+        {
+          "label": "Attractions in Key West Fl | The Gates Hotel Key West",
+          "published": true,
+          "locales": {
+            "en": "/attractions/"
+          },
+          "data_source": null,
+          "source_path": "attractions/index.html"
+        }
+      ]
+    },
+    "blog": {
+      "blog-details": {
+        "__PAGES__": [
+          {
+            "label": "Blogs in Key West Florida | Blogs at the Gates Hotel",
+            "published": true,
+            "locales": {
+              "en": "/blog/blog-details/"
+            },
+            "data_source": null,
+            "source_path": "blog/blog-details.html"
+          }
+        ]
+      },
+      "__PAGES__": [
+        {
+          "label": "Blogs in Key West Florida | Blogs at the Gates Hotel",
+          "published": true,
+          "locales": {
+            "en": "/blog/"
+          },
+          "data_source": null,
+          "source_path": "blog/index.html"
+        }
+      ]
+    },
+    "css": {
+      "__PAGES__": [
+        {
+          "label": "font-awesome.css",
+          "published": true,
+          "locales": {
+            "en": "/css/font-awesome.css"
+          },
+          "data_source": null,
+          "source_path": "css/font-awesome.scss"
+        },
+        {
+          "label": "main.css",
+          "published": true,
+          "locales": {
+            "en": "/css/main.css"
+          },
+          "data_source": null,
+          "source_path": "css/main.scss"
+        },
+        {
+          "label": "owl.carousel.css",
+          "published": true,
+          "locales": {
+            "en": "/css/owl.carousel.css"
+          },
+          "data_source": null,
+          "source_path": "css/owl.carousel.scss"
+        },
+        {
+          "label": "owl.theme.css",
+          "published": true,
+          "locales": {
+            "en": "/css/owl.theme.css"
+          },
+          "data_source": null,
+          "source_path": "css/owl.theme.scss"
+        },
+        {
+          "label": "owl.transitions.css",
+          "published": true,
+          "locales": {
+            "en": "/css/owl.transitions.css"
+          },
+          "data_source": null,
+          "source_path": "css/owl.transitions.scss"
+        }
+      ]
+    },
+    "eat-drink": {
+      "__PAGES__": [
+        {
+          "label": "Key West Restaurants & Bars | The Gates Hotel Key West",
+          "published": true,
+          "locales": {
+            "en": "/eat-drink/"
+          },
+          "data_source": null,
+          "source_path": "eat-drink/index.html"
+        }
+      ]
+    },
+    "gallery": {
+      "__PAGES__": [
+        {
+          "label": "The Gates Key West Hotel Photos | The Gates Hotel Key West",
+          "published": true,
+          "locales": {
+            "en": "/gallery/"
+          },
+          "data_source": null,
+          "source_path": "gallery/index.html"
+        }
+      ]
+    },
+    "group-hotel-booking-in-key-west": {
+      "__PAGES__": [
+        {
+          "label": "Meetings & Group Bookings in Key West | The Gates Hotel",
+          "published": true,
+          "locales": {
+            "en": "/group-hotel-booking-in-key-west/"
+          },
+          "data_source": null,
+          "source_path": "group-hotel-booking-in-key-west/index.html"
+        }
+      ],
+      "request-for-proposal": {
+        "__PAGES__": [
+          {
+            "label": "Meetings & Group Events in Key West Fl |The Gates Hotel",
+            "published": true,
+            "locales": {
+              "en": "/group-hotel-booking-in-key-west/request-for-proposal/"
+            },
+            "data_source": null,
+            "source_path": "group-hotel-booking-in-key-west/request-for-proposal.html"
+          }
+        ]
+      }
+    },
+    "location": {
+      "__PAGES__": [
+        {
+          "label": "Hotels in Key West | The Gates Hotel Key West Florida",
+          "published": true,
+          "locales": {
+            "en": "/location/"
+          },
+          "data_source": null,
+          "source_path": "location/index.html"
+        }
+      ],
+      "shuttle": {
+        "__PAGES__": [
+          {
+            "label": "Hotel near Old Town Key West | Gates Hotel Bus Service",
+            "published": true,
+            "locales": {
+              "en": "/location/shuttle/"
+            },
+            "data_source": null,
+            "source_path": "location/shuttle.html"
+          }
+        ]
+      }
+    },
+    "offer-details": {
+      "__PAGES__": [
+        {
+          "label": "Special Offers & Deals at the Gates Hotel Key West Florida",
+          "published": true,
+          "locales": {
+            "en": "/offer-details/"
+          },
+          "data_source": null,
+          "source_path": "offer-details/index.html"
+        }
+      ]
+    },
+    "offers": {
+      "__PAGES__": [
+        {
+          "label": "Key West Florida Hotel Deals and Offers | Gates Hotel Deals",
+          "published": true,
+          "locales": {
+            "en": "/offers/"
+          },
+          "data_source": null,
+          "source_path": "offers/index.html"
+        }
+      ]
+    },
+    "partners": {
+      "__PAGES__": [
+        {
+          "label": "Key West Hotel Partnerships | Things to do in Key West Fl",
+          "published": true,
+          "locales": {
+            "en": "/partners/"
+          },
+          "data_source": null,
+          "source_path": "partners/index.html"
+        }
+      ],
+      "partner-details": {
+        "__PAGES__": [
+          {
+            "label": "Key West Hotel Partnerships | Things to do in Key West Fl",
+            "published": true,
+            "locales": {
+              "en": "/partners/partner-details/"
+            },
+            "data_source": null,
+            "source_path": "partners/partner-details.html"
+          }
+        ]
+      }
+    },
+    "room-details": {
+      "__PAGES__": [
+        {
+          "label": "Hotel Rooms & Suites in Key West | The Gates Hotel Key West",
+          "published": true,
+          "locales": {
+            "en": "/room-details/"
+          },
+          "data_source": null,
+          "source_path": "room-details/index.html"
+        }
+      ]
+    },
+    "rooms": {
+      "__PAGES__": [
+        {
+          "label": "Hotel Rooms in Key West | Accommodations | The Gates Hotel",
+          "published": true,
+          "locales": {
+            "en": "/rooms/"
+          },
+          "data_source": null,
+          "source_path": "rooms/index.html"
+        }
+      ]
+    },
+    "about": {
+      "__PAGES__": [
+        {
+          "label": "Modern Design Hotels in Barcelona | About Hotel Diagonal",
+          "published": true,
+          "locales": {
+            "en": "/about/"
+          },
+          "data_source": null,
+          "source_path": "about.html"
+        }
+      ]
+    },
+    "contact": {
+      "__PAGES__": [
+        {
+          "label": "Contact Details | The Gates Hotel Key West",
+          "published": true,
+          "locales": {
+            "en": "/contact/"
+          },
+          "data_source": null,
+          "source_path": "contact.html"
+        }
+      ]
+    },
+    "events": {
+      "__PAGES__": [
+        {
+          "label": "Meeting Venues in Barcelona | Functions at Hotel Diagonal",
+          "published": true,
+          "locales": {
+            "en": "/events/"
+          },
+          "data_source": null,
+          "source_path": "events.html"
+        }
+      ]
+    },
+    "gates-hotel-key-west-press": {
+      "__PAGES__": [
+        {
+          "label": "Press and Media | The Gates Hotel Key West",
+          "published": true,
+          "locales": {
+            "en": "/gates-hotel-key-west-press/"
+          },
+          "data_source": null,
+          "source_path": "gates-hotel-key-west-press.html"
+        }
+      ]
+    },
+    "__PAGES__": [
+      {
+        "label": "Key West Design Hotels | The Gates Hotel Key West",
+        "published": true,
+        "locales": {
+          "en": "/"
+        },
+        "data_source": null,
+        "source_path": "index.html"
+      }
+    ],
+    "subscribe": {
+      "__PAGES__": [
+        {
+          "label": "Subscribe to the Newsletter | Offers at the Gates Key West",
+          "published": true,
+          "locales": {
+            "en": "/subscribe/"
+          },
+          "data_source": null,
+          "source_path": "subscribe.html"
+        }
+      ]
+    },
+    "thankyou": {
+      "__PAGES__": [
+        {
+          "label": "Thank You | The Gates Hotel Key West",
+          "published": true,
+          "locales": {
+            "en": "/thankyou/"
+          },
+          "data_source": null,
+          "source_path": "thankyou.html"
+        }
+      ]
+    }
+  },
+  "__REGIONS__": [
+    "about.html/modern-manhattan.json",
+    "about.html/abt-image-1.json",
+    "about.html/abt-image-2.json",
+    "about.html/abt-image-3.json",
+    "about.html/abt-image-4.json",
+    "about.html/abt-image-5.json",
+    "about.html/services-amenities.json",
+    "events.html/meetings-events.json",
+    "events.html/abt-image-1.json",
+    "events.html/abt-image-2.json",
+    "events.html/abt-image-3.json",
+    "events.html/weddings-events.json",
+    "events.html/weddings-events-image-1.json",
+    "location/index.html/banner-text.json",
+    "attractions/index.html/banner-text.json",
+    "attractions/index.html/acttactions-todos.json",
+    "attractions/index.html/attr-image-1.json",
+    "attractions/index.html/attr-image-3.json",
+    "attractions/index.html/attr-image-4.json",
+    "attractions/index.html/attr-favourite-dest.json",
+    "attractions/index.html/restaurants-content.json",
+    "attractions/index.html/restaurants-points.json",
+    "attractions/index.html/bars-content.json",
+    "attractions/index.html/bars-points.json",
+    "attractions/index.html/golf-content.json",
+    "attractions/index.html/golf-points.json",
+    "attractions/index.html/beach-content.json",
+    "attractions/index.html/beach-points.json",
+    "attractions/index.html/attractions-content.json",
+    "attractions/index.html/attractions-points.json",
+    "eat-drink/index.html/banner-text.json",
+    "eat-drink/index.html/rum-row-container-image.json",
+    "eat-drink/index.html/rum-row-container-content.json",
+    "eat-drink/index.html/poolside-content.json",
+    "eat-drink/index.html/the-blind-pig-content.json",
+    "eat-drink/index.html/the-blind-pig-content2.json",
+    "eat-drink/index.html/the-blind-pig-content-image.json",
+    "eat-drink/index.html/cuisine-content.json",
+    "group-hotel-booking-in-key-west/index.html/banner-text.json",
+    "blog/index.html/banner-text.json",
+    "index.html/welcome-paradise.json",
+    "index.html/twocol-left-img.json",
+    "index.html/two-col-1-img.json",
+    "index.html/home-detailsbg-img.json",
+    "index.html/latest-happiness-box.json",
+    "index.html/offers-image.json",
+    "index.html/newsletter-img.json",
+    "index.html/newsletter-context.json",
+    "index.html/restaurent-bar.json",
+    "index.html/magical-barcelona.json",
+    "partners/index.html/banner-text.json",
+    "location/shuttle.html/banner-text.json",
+    "location/shuttle.html/old-town-shuttle-text.json",
+    "location/shuttle.html/heart-of-republic.json",
+    "location/shuttle.html/shuttle-image-1.json",
+    "location/shuttle.html/shuttle-image-2.json",
+    "location/shuttle.html/explore-old-key.json",
+    "location/shuttle.html/shuttle-schedule-head.json",
+    "location/shuttle.html/shuttle-table.json",
+    "location/shuttle.html/shuttle-image-4.json",
+    "location/shuttle.html/shuttle-image-5.json",
+    "location/shuttle.html/shuttle-image-6.json",
+    "blog/page2/index.html/banner-text.json",
+    "blog/page3/index.html/banner-text.json"
+  ],
+  "__SETTINGS__": [
+    "config",
+    "navigation"
+  ],
+  "__SHA__": "1cbfcf60083737ad7c4f0bed815c4fa14413d992"
+}
