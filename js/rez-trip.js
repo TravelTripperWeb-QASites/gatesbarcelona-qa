@@ -8,7 +8,7 @@
       portalId: 'diagonalhotelbarcelona',
       hotelId: 'DIAGNL',
       defaultLocale: 'en',
-      defaultCurrency: 'USD'
+      defaultCurrency: 'EUR'
     }))
    .config(function($locationProvider) {
       $locationProvider.html5Mode({
