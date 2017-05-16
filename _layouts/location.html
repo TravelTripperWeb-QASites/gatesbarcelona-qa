@@ -10,50 +10,79 @@ layout: default
   </div>
 </section>
 
-<section class="contact"> 
-  <div class="container no-padding">
-    <div class="contact-wrap">
-    
-      <div class="col-sm-8">
-          <div class="-left">
-              <h3>ACCESSIBILITY </h3>
-                <p>Located at the entry point of the island on North Roosevelt Boulevard, The Gates Hotel is a gateway to all things Key West, providing you with the full island experience at your fingertips. The island of Key West can be accessed by plane, boat and car. </p>
-                <p>Arrive to Key West International Airport for the most convenience, or select the Miami International Airport or Ft. Lauderdale International Airport and take the picturesque drive south by way of the Overseas Highway (US1), crossing the entire chain of the Florida Keys (average drive between 3.5 to 4 hours). Alternatively you may arrive by Ferry from Ft. Myers with Key West Express.</p>
-                <p>A complimentary shuttle service to Old Town is provided daily to our guests.
-                Please note that unfortunately we are unable to accommodate parking for trailers or boats on property. Should you need to secure parking for either, please contact the hotel for a list of local facilities that can accommodate parking for you.
-                </p>
-                <h3>OVERVIEW</h3>
-                <p>Mixing contemporary design and retro Floridian flair, The Gates Hotel features guestrooms with modern amenities that uniquely combine upscale sophistication and polished service with the island’s casual laidback vibe.</p>
-                <p>Rum Row, the hotel’s lively pool, bar, and lounge scene, welcomes guests to kick back in true Key West style with live music, handcrafted cocktails, and regionally inspired tapas.</p>
-                <p>Patrons can channel the days of Prohibition with specialty spirits and the custom Gates Key West Hotel Rum from our exclusive partnership with First Legal Rum Distillery, or experience a taste of Cuban-Key West history at our very own cigar lounge featuring events and products from Rodriguez Cigars.</p>
-                <h3>OLD TOWN SHUTTLE SERVICE</h3>
-                <p>Complimentary shuttle service is provided daily to transport our guests to and from Old Town at regular increments. Please review the <a href="/location/shuttle/" >shuttle schedule </a> to plan your trip.</p>            </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="-right">
-              <h2>Address</h2>
-                <p>The Gates Hotel | Key West<br>
-3824 North Roosevelt Blvd<br>
-Key West, Florida 33040<br>
-Tel: (305) 320-0930<br>
-Email: <a href="mailto:reservations@gateshotelkeywest.com">reservations@gateshotelkeywest.com</a></p>
-<div class="right-item">
-  <h2>Check - In</h2>
-  <p>16:00 hours / 4:00 pm</p>
-</div>
-<div class="right-item">
-  <h2>Check - Out</h2>
-  <p>11:00 hours / 11:00 am</p>
-</div>
-<div class="right-item">
-  <h2>GPS</h2>
-  <p>24° 34' 16.8" N81° 45' 18.6" W</p>
-</div>
-            </div>
-        </div>      
+<section>
+  
+  
+  <div class="tab-content">
+
+    <div id="attractions" class="tab-pane fade in active top-padding">
+      <section class="loc-con-one">
+          <div class="container no-padding">
+                  <div class="col-sm-6 no-padding">
+                      <div class="con-one">
+                      {% region acttactions-todos %}
+                        </div>
+                    </div>
+                    <div class="col-sm-6 no-padding">
+                      <div class="con-two">
+                        <span class="att">{% region attr-image-1 %} </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container no-padding">
+                  <div class="col-md-6 no-padding">
+                    <div class="con-tt">
+                      <div class="con-three">
+                        {% region attr-image-3 %} 
+                        </div>
+                        <div class="con-four">
+                          <div class="col-sm-6 no-padding att">
+                              {% region attr-image-4 %} 
+                            </div><div class="col-sm-6 no-padding att-con">
+                              <div class="add-1 local-add-1">HOTEL DIAGONAL
+<span class="nl">BARCELONA</span></div>
+                                <div class="add-2 logo-wrap">Our<br />Address</div>
+                                <div class="add-3 local-add-3">Avenida Diagonal, 205 
+<br>08018. Barcelona, Spain</div>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 no-padding">
+                      <div class="con-five">
+                          {% region attr-favourite-dest %}
+                        </div>
+                    </div>
+                   
+                </div>
+      </section>
     </div>
   </div>
 </section>
+
+<section class="map-holder">
+  <div class="map-inner" id="map"></div>
+</section> 
+<section class="loc-gal">
+  <div class="container-fluid no-padding">
+       <div class="col-xs-8 no-padding loc-gal-con" style="background-image: url(/images/gates/location/loc-gal-1.jpg);"><div class="strip"></div></div>
+        <div class="col-xs-4 no-padding loc-gal-con" style="background-image: url(/images/gates/location/loc-gal-2.jpg);"></div>
+    </div>
+</section>
+
+<section class="loc-cta" style="background-image: url(/images/gates/location/diagonal-hotel.jpg);">
+  <div class="container-fluid no-padding">
+
+      <div class="cta">
+          <p class="text-center">HOTEL DIAGONAL <br />
+BARCELONA</p>
+          <div class="cta-logo"><a href="/"><img src="/images/gates/location/logo.png" alt="Gates Hotel South Beach"/></a></div>
+            <div class="btn-holder text-center"><a href="https://secure3.hilton.com/en/dt/reservation/book.htm?ctyhocn=MIAMHDT" target="_blank" class="button-common">Book Your Stay</a></div>
+        </div>
+    </div>
+</section>
+
+
 
 {% include twitter-instagram.html %}
 

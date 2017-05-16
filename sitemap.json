@@ -367,6 +367,11 @@
     "events.html/weddings-events.json",
     "events.html/weddings-events-image-1.json",
     "location/index.html/banner-text.json",
+    "location/index.html/acttactions-todos.json",
+    "location/index.html/attr-image-1.json",
+    "location/index.html/attr-image-3.json",
+    "location/index.html/attr-image-4.json",
+    "location/index.html/attr-favourite-dest.json",
     "attractions/index.html/banner-text.json",
     "attractions/index.html/acttactions-todos.json",
     "attractions/index.html/attr-image-1.json",
@@ -422,5 +427,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "1cbfcf60083737ad7c4f0bed815c4fa14413d992"
+  "__SHA__": "43f3b7a9f0289132f2026e734dcf55da41f4a45a"
 }
