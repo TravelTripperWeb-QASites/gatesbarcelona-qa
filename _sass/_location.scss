@@ -201,9 +201,11 @@
 }
 
 .location-banner {
-	padding: 112px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 44px 15px;
 		@media(min-width: $screen-sm-min){
-			padding: 112px 0;
+			padding: 72px 15px;
 		}
 		.page-title{
 			padding: 0 0 22px 0;
@@ -261,24 +263,67 @@
 		height: 662px;
 	}
 }
+#canvas-map .infobox {
+    background: none repeat scroll 0 0 #ffffff;
+    color: #32333c;
+    font-family: arial;
+    line-height: 20px;
+    position: absolute; }
+    #canvas-map .infobox .content {
+      margin: 15px 15px 15px 15px; }
+  #canvas-map .infobox:before, #canvas-map .infobox:after {
+    border-color: transparent transparent transparent #ffffff;
+    border-style: solid;
+    border-width: 20px 20px 0;
+    bottom: -1px;
+    content: "";
+    display: block;
+    height: 0;
+    left: -1px;
+    position: absolute;
+    width: 0;
+    z-index: 2; }
+  #canvas-map .infobox:after {
+    border-color: transparent transparent transparent #eee;
+    border-width: 24px 24px 0;
+    z-index: 1; }
+  #canvas-map .infobox .close {
+    background: none repeat scroll 0 0 #32333c;
+    cursor: pointer;
+    color: #ffffff;
+    float: right;
+    font-size: 16px;
+    height: 25px;
+    line-height: 22px;
+    position: relative;
+    right: -25px;
+    text-align: center;
+    top: 0;
+    width: 25px;
+    text-shadow: none;
+    opacity: 1; }
 .banner-btn {
+		padding: 20px 0 0 0;
+			@media(min-width: $screen-sm-min){
+				padding: 38px 0 0 0;
+			}
 	.button-common {
 				font-family:$main-font-medium;
 				border: solid 1px #fff;
 				color: #fff;
 				transition: all 0.4s;
 				font-size: 12px;
-				letter-spacing: 4px;
-				padding: 8px 19px;
+				letter-spacing: 3px;
+				padding: 15px 14px;
 				display: inline-block;
 				margin: 12px 12px;
 					@media(min-width: 600px){
 						margin: 0 12px;
 					}
 					&:hover {
-						background-color: #232525;
+						background-color: #000;
 						color: #fff;
-						border-color: #232525;
+						border-color: #000;
 					}
 	}
 }
@@ -297,6 +342,7 @@
 }
 
 .loc-con-one {
+	padding: 20px 0 0 0;
 	.container {
 		width: auto;
 		max-width: 1320px;
@@ -338,15 +384,15 @@
 				color: #232525;
 				letter-spacing: 1px;
 					@media(min-width: $screen-sm-min){
-						font-size: 24px;
+						font-size: 34px;
 					}
 
 			}
 			.des {
-				font-family: "GothamHTF-Book";
-				font-size: 12px;
+				font-family: $main-font-book;
+				font-size: 15px;
 				line-height: 24px;
-				color: #8c8d8d;
+				color:  #8c8d8d;
 				letter-spacing: 1px;
 				margin: 0 auto;
 				padding: 30px 0 0 0;
@@ -371,7 +417,7 @@
 			}
 			.att {
 				display: inline-block;
-				width: 100%;
+				width: 50%;
 				position: relative;
 					img {
 						width: 100%;
@@ -397,8 +443,8 @@
 				padding: 0 10px 0 0;
 			}
 			@media(min-width: $screen-lg-min){
-				top: -371px;
-				margin-bottom: -371px;
+				top: -142px;
+				margin-bottom: -142px;
 			}
 	}
 	
@@ -416,14 +462,16 @@
 }
 	.con-three {
 		position: relative;
+		overflow: hidden;
 			.att {
-				display: inline-block;
+				display: block;
 				width: 50%;
 				position: relative;
+				float: left;
 					img {
 						width: 100%;
 					}
-					
+				
 			}
 			.att-1 {
 				width: 100%;
@@ -439,6 +487,9 @@
 					display: inline-block;
 					float: none;
 					vertical-align: middle;
+				}
+				.default-spacing-minus {
+					margin-right: -5px;
 				}
 			}
 			img {
@@ -468,19 +519,15 @@
 		}
 		.add-1{
 			font-family:$main-font-light;
-			font-size: 12px;
+			font-size: 14px;
 			color: #232525;
 			letter-spacing: 2px;
 			text-transform: uppercase;
 			line-height: 20px;
-				&.local-add-1 {
-					font-size: 15px;
-					line-height: 24px;
-				}
 		}
 		.add-2{
 			font-family:$main-font-light;
-			color: #d7d7d7;
+			color: #88c1ba;
 			font-size: 26px;
 			padding: 17px 0;
 				@media(min-width: $screen-md-min){
@@ -493,24 +540,13 @@
 					line-height: 42px;
 					padding: 33px 0;
 				}
-				&.logo-wrap {
-					width: 50px;
-					margin: 0 auto;
-					 img {
-					 	width: 100%;
-					 }
-				}
 		}
 		.add-3{
 			font-family:$main-font-book;
-			font-size: 12px;
-			color: #232525;
+			font-size: 15px;
+			color: #8c8d8d;
 			letter-spacing: 1px;
 			line-height: 20px;
-				&.local-add-3 {
-					font-size: 15px;
-					line-height: 24px;
-				}
 		}
 	}
 	.con-five {
@@ -518,34 +554,28 @@
 		margin: 0 0 0 0;
 		padding: 40px 20px;
 			@media(min-width: $screen-sm-min){
-				margin: 0px 0 0 0;
+				margin: 0 0 0 0;
 			}
 			@media(min-width: $screen-md-min){
-				margin: 0px 0 0 10px;
+				margin: 0 0 0 10px;
 				padding: 40px;
 			}
 			@media(min-width: $screen-lg-min){
-				padding: 62px 80px 63px 80px;
+				padding: 68px 80px 68px 80px;
 			}
 			.title-head {
 				font-family:$main-font-light;
-				font-size: 12px;
+				font-size: 30px;
+				text-transform:capitalize;
 				color: #232525;
-				letter-spacing: 2px;
-				text-transform: uppercase;
-				line-height: 20px;
+				letter-spacing: 1px;
 				text-align: center;
-				padding-bottom:31px;
-					
-			}
-			p{
-				font-family:$main-font-light;
-				font-size: 12px;
-				color: #8c8d8d;
-				letter-spacing: 2px;
-				
-				line-height: 20px;
-				text-align: center;
+					@media(min-width: $screen-sm-min){
+						text-align: left;
+					}
+					@media(min-width: $screen-md-min){
+						font-size: 34px;
+					}
 			}
 			.con-five-list {
 				padding: 30px 0 0 0;
@@ -554,11 +584,11 @@
 					}
 				li {
 					list-style-type: none;
-					line-height: 22px;
-					font-family:$main-font-book;
+					line-height: 33px;
+					font-family:$main-font-light;
 					color: #232525;
 					letter-spacing: 1px;
-					font-size: 12px;
+					font-size: 15px;
 					position: relative;
 					padding: 0 0 0 20px;
 						@media(min-width: $screen-sm-min){
@@ -589,6 +619,12 @@
 				padding: 62px 80px 38px 80px;
 			}
 	}
+	.sp-right {	
+		margin-right: 10px;
+		}
+	.sp-left {	
+		margin-left: 10px;
+		}
 }
 
 .map-holder {
@@ -623,40 +659,53 @@
 		}
 		
 		@media(min-width: $screen-sm-min){
-			height: 600px;
+			height: 510px;
 		}
 		@media(min-width: $screen-md-min){
-			height: 829px;
+			height: 510px;
 		}
 }
 }
 
 .loc-cta {
-			background-position: center center;
+			background-position: center top;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding: 50px 15px;
 			margin: 20px 0 0 0;
+			text-align: center;
 				@media(min-width: $screen-md-min){
-					padding: 96px 15px;
+					padding: 134px 15px;
 				}
 				.cta {
-					background-color: rgba(25,198,255,0.8);
+					background-color: rgba(0,0,0,0.8);
 					padding: 40px 15px;
 					width: 280px;
 					margin: 0 auto;
 						@media(min-width: $screen-sm-min){
-							padding: 50px 0;
-							width: 327px;
+							padding: 40px 0;
+							width: 290px;
 						}
 						@media(min-width: $screen-md-min){
-							padding: 64px 0;
+							padding: 42px 0;
+						}
+						h3 {
+							
+							font-size: 14px;
+							letter-spacing: 2px;
+							color: #fff;
+							text-transform: uppercase;
+							margin:0;
+							padding: 0 0 37px 0;
+								@media(min-width: $screen-md-min){
+									padding: 0 0 37px 0;
+								}
 						}
 					.cta-logo {
-						max-width: 150px;
+						max-width: 90px;
 						margin: 0 auto;
 							@media(min-width: $screen-md-min){
-								max-width: 225px;
+								max-width: 102px;
 							}
 						img {
 							width: 100%;
@@ -666,7 +715,7 @@
 				.btn-holder {
 					padding: 40px 0 0 0;
 						@media(min-width: $screen-sm-min){
-							padding: 65px 0 0 0;
+							padding: 42px 0 0 0;
 						}
 				}
 				
@@ -677,7 +726,7 @@
 				transition: all 0.4s;
 				font-size: 12px;
 				letter-spacing: 4px;
-				padding: 8px 19px;
+				padding: 10px 19px;
 				transition: all 0.4s;
 					&:hover {
 						background-color: #232525;
@@ -689,35 +738,9 @@
 .t-feeds {
 	color: #232525;
 	letter-spacing: 2px;
-	padding:0 0px;
-
-	.title{
-			max-width: 250px;
-    		margin: 0 auto;
-    		text-align:center;
-		h4{
-
-			    font-size: 24px;
-			    color: #232525;
-			    
-			    font-family: $main-font-bold;
-			    text-transform: uppercase;
-		}
-		p{
-			font-size: 12px;
-	        color: #232525;
-	        line-height: 21px;
-	        font-family: $main-font-light;
-	        letter-spacing: .1em;
-	        padding:26px 0px 60px 0px;
-	        max-width: 220px;
-	        margin: 0 auto;
-		}
-	}
 	.container {
 		width: auto;
 		max-width: 1320px;
-		background-color:#fff;
 	}
 	.insta-icon {
 				position: absolute;
@@ -769,8 +792,7 @@
 	.col-sm-4, .col-md-3 {
 		padding: 0;
 			@media(min-width: $screen-sm-min){
-				 height: 300px;
-				 overflow: hidden;
+				float: none;
 				display: inline-block;
 				vertical-align: middle;
 			}
@@ -807,7 +829,7 @@
 				padding: 0 0 20px 0;
 			}
 			@media(min-width: $screen-lg-min){
-				 padding: 0 0 30px 0;
+				padding: 0 0 70px 0;
 			}
 	}
 	.label-3 {
@@ -819,7 +841,7 @@
 		padding: 40px 15px;
 		position: relative;
 			@media(min-width: $screen-sm-min){
-				padding: 50px 15px;
+				padding: 0 15px;
 			}
 			a{
 				color: #232425;
@@ -834,9 +856,9 @@
 	.label-date {
 		display: inline-block;
 		position: relative;
-    	//padding: 0 47px 0 0;
+    	padding: 0 47px 0 0;
     	margin: 0px 16px 0 0;
-		/*&:after {
+		&:after {
 						position: absolute;
 						content: "";
 						width: 31px;
@@ -844,7 +866,7 @@
 						background-color: #232525;
 						right: 0;
 						top: 50%;
-					}*/
+					}
 		}
 }
 .p-found {
@@ -880,160 +902,45 @@
 	}
 }
 
-.location-tabs{
-
-	.container {
-		width: auto;
-		max-width: 1320px;
-		position: relative;
-
-		.tabs-links{
-
-				    position: relative;
-				    width: 100%;
-				    z-index: 10;
-
-				    padding-top: 10px;
-
-			    @media(min-width: $screen-sm-min){
-			    	 position: absolute;
-			    	 width: 50%;
-			    	 padding-top: 40px;
-			    }
-
-
-
-		}
+.banner-inner {
+	h1 {
+		font-family: $main-font-book;
+		font-size: 30px;
+		letter-spacing: 8px;
+		text-transform: uppercase;
+		color: #fff;
+			@media(min-width: $screen-sm-min){
+				font-size: 48px;
+			}
+			@media(min-width: $screen-md-min){
+				font-size: 70px;
+			}
 	}
-			
-			.content-container{
-
-
-
-					display: block;
-					width: 100%;
-
-					@media(min-width: $screen-sm-min){
-						
-						display: table;
-						width: 100%;
-
-					}
-
-				.col-sm-6{
-					
-					display: block;
-							
-					text-align: center;
-					vertical-align: middle;
-
-				@media(min-width: $screen-sm-min){
-					display: table-cell;
-					float:none;
-				}
-			
-			}
-
-
-			}
-	    	
-	    	.desc{
-
-  				max-width:366px;
-  				margin:0 auto;
-  				color: #232525;
-  				
-
-  				h2{
-  					    font-family: "GothamHTF-Bold";
-					    font-size: 24px;
-					    text-transform: uppercase;
-					    
-					    letter-spacing: 1px;
-
-  				}
-  				h5 {
-				    font-family: "GothamHTF-Light";
-				    font-size: 12px;
-				    padding:22px 0 0 0;
-				    letter-spacing: 2px;
-				    text-transform: uppercase;
-				    line-height: 20px;
-
-				    @media(min-width: $screen-sm-min){
-					    	padding:35px 0;
-					    }
-
-
-				}
-				p{
-
-					    font-family: "GothamHTF-Book";
-					    font-size: 12px;
-					    letter-spacing: 1px;
-					    line-height: 20px;
-					    padding: 25px 15px;
-					    
-					    @media(min-width: $screen-sm-min){
-					    	padding:0px;
-					    }
-				}
-
-  			}
-	   	    
-  			.imp-container{
-
-  				padding:90px 0px;
-
-  				@media(min-width: $screen-sm-min){
-					    	padding:180px 0px;
-					    }
-
-		  				.imp{
-
-		  				max-width:288px;
-		  				margin:0 auto;
-		  				
-		  				background-color: rgba(255, 255, 255, 0.85);
-		  				padding:70px 0px;
-
-		  				p{
-
-		  					font-family: "GothamHTF-Medium";
-		  					line-height: 27px;
-		  				}
-
-		  				}
-  			}
-  			
-
-
-}
-
-.top-padding{
-
-	margin-top: 20px;
 	
 }
 
-.tabs-img{
-	    background-size: cover;
-	    background-repeat:no-repeat;
-
+.spacing-right {
+		@media(min-width: $screen-md-min){
+			padding-right: 20px;
+		}			
 }
-
-
-.partners-text-align{
-
-	text-align:left !important;
+.loc-tabs {
+	.gallery-nav {
+		padding: 25px 0 25px 0;
+		li {
+			&.active {
+				& > a {
+					font-family: $main-font-medium;
+					font-weight: bold;
+				}
+			}
+		}
+	}
 }
-.blue-text {
-	font-weight: bold;
-	color: #1086b4;
-}
-.right-item {
-	padding: 40px 0 0 0;
-}
-.no-margin {
-	margin: 0;
+.hot-spots{
+	.tab-content{
+		a{color:$grey-color;
+			&:hover{ opacity:0.8;}
+		}
+	}
 }

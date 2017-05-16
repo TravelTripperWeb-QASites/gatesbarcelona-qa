@@ -29,9 +29,7 @@ page_gen:
   - data: 'partners'
     template: 'partner-details'
     dir: 'partners'
-  - data: 'events'
-    template: 'event-details'
-    dir: 'events'
+ 
     
 booking_widget_url: https://gateshotelkeywest.reztrip.com/mobile
 
