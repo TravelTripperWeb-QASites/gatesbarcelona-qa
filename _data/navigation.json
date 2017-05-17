@@ -47,24 +47,34 @@
 			'title':'Contact',
 			'name': 'contact',
 			'url': '/contact/',
-			'submenu': 'false'  
-		},	 
+			'submenu': 'true',
+			'subitems': [
+				{'title':'Request For Proposal','name': 'rfp','url': '/group-hotel-booking/request-for-proposal/'}
+			] 
+		} 	 
 	],
 	'footernav':[
 		{
-			'title':'Terms & Conditions',
-			'url':'/',
-			'name': 'terms',
+			'title':'Rooms',
+			'name': 'rooms',
+			'url': '/rooms/',
+			'submenu': 'false'  
 		},
 		{
+			'title':'Location',
+			'name': 'location',
+			'url': '/location/',
+			'submenu': 'false' 
+		}, 
+		{
 			'title':'Privacy Policy',
-			'url':'/',
-			'name': 'privacy',
+			'url':'/privacy/',
+			'name': 'privacy'
 		},
 		{
 			'title':'Site Map',
-			'url':'/',
-			'name': 'sitemap',
+			'url':'/sitemap/',
+			'name': 'sitemap'
 		}, 
 	],
 	'social':[

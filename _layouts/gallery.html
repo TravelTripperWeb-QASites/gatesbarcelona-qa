@@ -5,7 +5,7 @@ layout: default
 <section>
   <div class="container-fluid no-padding">
     <div class="page-banner" style="background-image: url(/images/gates/gallery-banner.jpg)">
-      <h1 class="page-title">Visual Tour</h1>
+      {%region banner-heading %}
     </div>
   </div>
 </section>
@@ -16,78 +16,38 @@ layout: default
     <div class="gallery-listing">
       <div class="container">
         <ul class="gallery-nav">
-         <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
-          <li><a href="javascript:;" data-rel="hotel" class="filter">Hotel</a></li>
-          <li><a href="javascript:;" data-rel="rooms" class="filter">Rooms</a></li>
-          <li><a href="javascript:;" data-rel="dining" class="filter">Dining</a></li>
-          <li><a href="javascript:;" data-rel="amenities" class="filter">Amenities</a></li>
-          <li><a href="javascript:;" data-rel="attractions" class="filter">Attractions</a></li>
-          <li><a href="javascript:;" data-rel="dela" class="filter">De La</a></li>
-          <li><a href="javascript:;" data-rel="local" class="filter">Local</a></li>
-          <li><a href="javascript:;" data-rel="ps" class="filter">Public Space</a></li>
+         <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">{% t 'gallery.gallery-cat-1' %}</a></li>
+    
+         <li><a href="javascript:;" data-rel="exterior" class="filter">{% t 'gallery.gallery-cat-2' %}</a></li>
+          <li><a href="javascript:;" data-rel="rooms" class="filter">{% t 'gallery.gallery-cat-3' %}</a></li>
+          <li><a href="javascript:;" data-rel="attractions" class="filter">{% t 'gallery.gallery-cat-4' %}</a></li>
         </ul>
       </div>
       <div class="container gallery-wrap" id="lightgallery">
         <ul class="row">
-        <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="hotel"	>
-        	<a href="https://www.youtube.com/watch?v=rVzXaAKaNec">
-                  <img src="/images/video-thumb.jpg" class="img-responsive" />
-                  <div class="play-icon"><i class="fa fa-play"></i></div>
-            </a>
-        </li>
-        {% assign hotel_images = site.data._models.gallery_hotel_images %}
-{% for hotel_gallery in hotel_images %}            
-           <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
-            <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
-          </li>  
-{% endfor %}
-{% assign room_images = site.data._models.gallery_room_images %}
-{% for room_gallery in room_images %}          
-          <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
-            <div class="item" data-src="{{room_gallery.large_image.url}}"><img src="{{room_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+
+  
+{% assign exterior_images = site.data._models.gallery_exterior_images | sort : "sort_order" %}
+{% for exterior_gallery in exterior_images %}          
+          <li class="col-md-4 col-sm-4 fancybox" data-filter="exterior">
+            <div class="item" data-src="{{exterior_gallery.large_image.url}}"><img src="{{exterior_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
           </li>
-{% endfor %}
-{% assign dining_images = site.data._models.gallery_dining_images %}
-{% for dining_gallery in dining_images %}            
-           <li class="col-md-4 col-sm-4 fancybox" data-filter="dining">
-            <div class="item" data-src="{{dining_gallery.large_image.url}}"><img src="{{dining_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
-          </li>  
 {% endfor %}  
-{% assign amenities_images = site.data._models.gallery_amenities_images %}
-{% for amenities_gallery in amenities_images %}          
-          <li class="col-md-4 col-sm-4 fancybox" data-filter="amenities">
-            <div class="item" data-src="{{amenities_gallery.large_image.url}}"><img src="{{amenities_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
-          </li>
- {% endfor %}          
-{% assign attractions_images = site.data._models.gallery_attractions_images %}
-{% for attractions_gallery in attractions_images %}            
-           <li class="col-md-4 col-sm-4 fancybox" data-filter="attractions">
-            <div class="item" data-src="{{attractions_gallery.large_image.url}}"><img src="{{attractions_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+{% assign roomsnsuites_images = site.data._models.gallery_roomsnsuites_images | sort : "sort_order" %}
+{% for roomsnsuites_gallery in roomsnsuites_images %}            
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
+            <div class="item" data-src="{{roomsnsuites_gallery.large_image.url}}"><img src="{{roomsnsuites_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
           </li>  
 {% endfor %} 
-{% assign dela_images = site.data._models.gallery_dela_images %}
-{% for dela_gallery in dela_images %}            
-           <li class="col-md-4 col-sm-4 fancybox" data-filter="dela">
-            <div class="item" data-src="{{dela_gallery.large_image.url}}"><img src="{{dela_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
-          </li>  
-{% endfor %}         
-{% assign gs_images = site.data._models.gallery_gs_images %}
-{% for gs_gallery in gs_images %}            
-           <li class="col-md-4 col-sm-4 fancybox" data-filter="local">
-            <div class="item" data-src="{{gs_gallery.large_image.url}}"><img src="{{gs_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
-          </li>  
-{% endfor %}  
-{% assign ps_images = site.data._models.gallery_ps_images %} 
-{% for ps_gallery in ps_images %}            
-           <li class="col-md-4 col-sm-4 fancybox" data-filter="ps">
-            <div class="item" data-src="{{ps_gallery.large_image.url}}"><img src="{{ps_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
-          </li>  
-{% endfor %}              
+{% assign attractions_images = site.data._models.gallery_attractions_images | sort : "sort_order" %}
+{% for attractions_gallery in attractions_images %}          
+          <li class="col-md-4 col-sm-4 fancybox" data-filter="attractions">
+            <div class="item" data-src="{{attractions_gallery.large_image.url}}"><img src="{{attractions_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>
+ {% endfor %}          
         </ul>
       </div>
     </div>
-    
-    
     <!--<div class="btn-holder text-center"><a href="javascript:void(0);" class="button-common">load more images</a></div>-->
   </div>
   <!--/gallery wrap --> 

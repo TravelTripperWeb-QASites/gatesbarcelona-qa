@@ -1,4 +1,5 @@
 .loc-con-one {
+	padding:20px 0px;
 	.con-two {
 		.abt {
 			display: block;
@@ -47,9 +48,10 @@
 		    color: #232525;
 		    letter-spacing: 1px;
 	    	padding: 0 0 30px 0;
-
+	    	text-align: center;
 		@media (min-width: $screen-sm-min){
 			font-size: 34px; 
+			text-align: center;
 		}
 	}
 	h3 {
@@ -73,9 +75,9 @@
 	p{
 
 		   font-family: $main-font-light;
-		    font-size: 15px;
+		    font-size: 12px;
 		    line-height: 24px;
-		    color: #8c8d8d;
+		    color: $tc-black;
 		    letter-spacing: 1px;
 		    margin: 0 auto;
 			
@@ -101,6 +103,7 @@
 	}
 }
 &.privacy{
+padding: 0px 0px;
 position:relative;
 background:#FFF;
 	span{
@@ -192,7 +195,7 @@ background:#FFF;
 					list-style-type: none;
 					line-height: 29px;
 					font-family:$main-font-light;
-					color: #161515;
+					color: $tc-black;
 					letter-spacing: 1px;
 					font-size: 15px;
 					position: relative;
@@ -215,6 +218,20 @@ background:#FFF;
 								top: 15px;
 						}
 				}
+				&.meetings-list{
+	
+					padding: 30px 0 0 0;
+					
+					@media(min-width: $screen-sm-min){
+						padding: 28px 0 28px 0;
+					}
+				li{	
+				    display: block;
+			 		width: 100%;
+			     	font-size:12px;
+					text-transform: none;
+				}
+			}
 			}
 .prox-list {
 	h2 {
