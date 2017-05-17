@@ -1,7 +1,7 @@
 [
 	{
 		"_template": "html",
-		"content": "<h3>Contacts</h3>\n<h4><strong>General Manager</strong></h4>\n<p>Email: <a href=\"mailto:info@diagonalhotelbarcelona.com\">info@diagonalhotelbarcelona.com<br /><br /></a></p>\n<h4><strong>Director of Sales &amp; Marketing</strong></h4>\n<p>Lee Sheehan<br />Email: <a href=\"mailto:lsheehan@thekeyscollection.com\">lsheehan@thekeyscollection.com<br /><br /></a></p>\n<h4><strong>Concierge</strong></h4>\n<p><a href=\"mailto:gates@keywestconcierge.org\">gates@keywestconcierge.org</a></p>\n<p>&nbsp;</p>",
+		"content": "<h3>Contacts</h3>\n<h4><strong>General Manager</strong></h4>\n<p>Email: <a href=\"mailto:info@diagonalhotelbarcelona.com\">info@diagonalhotelbarcelona.com<br /><br /></a></p>\n<h4><strong>Director of Sales &amp; Marketing</strong></h4>\n<p>Email: <a href=\"mailto:sale@diagonalhotelbarcelona.com\">Sale@diagonalhotelbarcelona.com<br /><br /></a></p>\n",
 		"rendered_height": 500
 	}
 ]
