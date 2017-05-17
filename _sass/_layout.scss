@@ -416,7 +416,7 @@ text-align: center;
 
 .price-holder {
     padding: 10px 20px;
-    color: $tc-black;
+    color: $tc-black-1;
     font-size: 18px;
     background-color: $bg-white;
     vertical-align: middle;
@@ -989,14 +989,14 @@ margin-bottom: 1px;
 
        .button-home {
             background-color: transparent;
-            border: solid 1px #232525;
+            border: solid 1px $tc-black;
             padding: 7px 17px;
             text-transform: uppercase;
             font-family: $main-font-medium;
             letter-spacing: 3.5px;
             font-size: 12px;
             display: inline-block;
-            color: #232525;
+            color: $tc-black-1;
             border-radius: 0px;
             text-shadow: none;
             transition: all 0.1s;
@@ -1010,8 +1010,8 @@ margin-bottom: 1px;
 
             &:hover {
                 color: $tc-white;
-                background-color: #232525;
-                border-color: #232525;
+                background-color: $tc-black-1;
+                border-color: $tc-black-1;
             }
 
             &:focus {
@@ -1609,7 +1609,7 @@ margin-bottom: 1px;
     }
 
     .rooms-item {
-        color: #232525;
+        color: $tc-black-1;
         padding: 0 0 55px 0;
 
         @media (max-width:767px) {
@@ -1643,7 +1643,7 @@ margin-bottom: 1px;
 
             span {
                 font-family: $main-font-light;
-                color: $tc-black;
+                color: $tc-black-1;
                 padding-left: 10px;
             }
 
@@ -1675,22 +1675,22 @@ margin-bottom: 1px;
         }
 
         .button-common {
-            border: solid 1px #232525;
+            border: solid 1px $tc-black;
             font-size: 12px;
             font-family: $main-font-medium;
-            color: #232525;
+            color: $tc-black-1;
             letter-spacing: 2px;
             padding: 8px 14px;
             transition: all 0.4s;
 
             &:hover {
-                background-color: #232525;
+                background-color: $tc-black-1;
                 color: #fff;
             }
 
             &:focus {
                 background-color: #fff;
-                color: #232525;
+                color: $tc-black-1;
             }
 
             .fa {
@@ -1836,8 +1836,8 @@ margin-bottom: 1px;
 }
 
 .btn-black {
-    border-color: $tc-black;
-    color: $tc-black;
+    border-color: $tc-black-1;
+    color: $tc-black-1;
     padding: 12px 50px;
 
     @media (max-width:767px) {
@@ -2057,7 +2057,7 @@ margin-bottom: 1px;
 
                 p {
                     font-size: 12px;
-                    color: #232525;
+                    color: $tc-black-1;
                     width: 70%;
                     display: block;
                     line-height: 21px;
@@ -2092,7 +2092,7 @@ margin-bottom: 1px;
                         content: "";
                         width: 12px;
                         height: 12px;
-                        border: .088em solid #232525;
+                        border: .088em solid $tc-black;
                         position: absolute;
                         right: -14px;
                         border-radius: 33px;
@@ -2145,7 +2145,7 @@ margin-bottom: 1px;
 
             p {
                 font-size: 12px;
-                color: #232525;
+                color: $tc-black-1;
                 width: 50%;
                 margin: 0px auto;
                 display: block;
@@ -2241,7 +2241,7 @@ margin-bottom: 1px;
             font-family: $main-font-bold;
             font-size: 24px;
             text-shadow: none;
-            color: #232525;
+            color: $tc-black-1;
             text-transform: uppercase;
 
             @media (max-width:600px) {
@@ -2256,7 +2256,7 @@ margin-bottom: 1px;
             font-size: 12px;
             padding-top: 34px;
             text-shadow: none;
-            color: #232525;
+            color: $tc-black-1;
             text-transform: uppercase;
         }
 
@@ -3278,12 +3278,12 @@ margin-bottom: 1px;
 }
 }
 .button-blue {
-	border: solid 1px #1086b4 !important;
-	color: #1086b4 !important;
+	border: solid 1px $tc-black-1 !important;
+	color: $tc-black-1 !important;
 		&:hover {
-			background-color: #1086b4 !important;
+			background-color: $tc-black-1 !important;
 			color: #fff !important;
-			border-color: #1086b4 !important;
+			border-color: $tc-black-1 !important;
 		}
 }
 

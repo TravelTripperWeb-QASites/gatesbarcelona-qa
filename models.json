@@ -76,356 +76,141 @@
       "file": "event_category2.json"
     }
   ],
-  "gallery_amenities_images": [
+  "gallery_area_images": [
     {
-      "file": "gallery_amenities_images1.json"
+      "file": "gallery_area_image1.json"
     },
     {
-      "file": "gallery_amenities_images2.json"
+      "file": "gallery_area_image2.json"
     },
     {
-      "file": "gallery_amenities_images3.json"
+      "file": "gallery_area_image3.json"
     },
     {
-      "file": "gallery_amenities_images4.json"
+      "file": "gallery_area_image4.json"
     },
     {
-      "file": "gallery_amenities_images5.json"
-    },
-    {
-      "file": "gallery_amenities_images6.json"
+      "file": "gallery_area_image5.json"
     }
   ],
   "gallery_attractions_images": [
     {
-      "file": "gallery_attractions_images1.json"
+      "file": "gallery_attractions_image10.json"
     },
     {
-      "file": "gallery_attractions_images2.json"
+      "file": "gallery_attractions_image11.json"
     },
     {
-      "file": "gallery_attractions_images3.json"
+      "file": "gallery_attractions_image12.json"
     },
     {
-      "file": "gallery_attractions_images4.json"
+      "file": "gallery_attractions_image13.json"
     },
     {
-      "file": "gallery_attractions_images5.json"
+      "file": "gallery_attractions_image14.json"
     },
     {
-      "file": "gallery_attractions_images6.json"
+      "file": "gallery_attractions_image15.json"
     },
     {
-      "file": "gallery_attractions_images7.json"
+      "file": "gallery_attractions_image16.json"
     },
     {
-      "file": "gallery_attractions_images8.json"
+      "file": "gallery_attractions_image17.json"
+    },
+    {
+      "file": "gallery_attractions_image18.json"
+    },
+    {
+      "file": "gallery_attractions_image19.json"
+    },
+    {
+      "file": "gallery_attractions_image2.json"
+    },
+    {
+      "file": "gallery_attractions_image3.json"
+    },
+    {
+      "file": "gallery_attractions_image4.json"
+    },
+    {
+      "file": "gallery_attractions_image5.json"
+    },
+    {
+      "file": "gallery_attractions_image6.json"
+    },
+    {
+      "file": "gallery_attractions_image7.json"
+    },
+    {
+      "file": "gallery_attractions_image8.json"
+    },
+    {
+      "file": "gallery_attractions_image9.json"
     }
   ],
-  "gallery_dela_images": [
+  "gallery_exterior_images": [
     {
-      "file": "gallery_dela_image1.json"
+      "file": "gallery_exterior_image10.json"
     },
     {
-      "file": "gallery_dela_image10.json"
+      "file": "gallery_exterior_image11.json"
     },
     {
-      "file": "gallery_dela_image11.json"
+      "file": "gallery_exterior_image3.json"
     },
     {
-      "file": "gallery_dela_image12.json"
+      "file": "gallery_exterior_image4.json"
     },
     {
-      "file": "gallery_dela_image13.json"
+      "file": "gallery_exterior_image5.json"
     },
     {
-      "file": "gallery_dela_image14.json"
+      "file": "gallery_exterior_image6.json"
     },
     {
-      "file": "gallery_dela_image15.json"
+      "file": "gallery_exterior_image7.json"
     },
     {
-      "file": "gallery_dela_image16.json"
+      "file": "gallery_exterior_image8.json"
     },
     {
-      "file": "gallery_dela_image17.json"
-    },
-    {
-      "file": "gallery_dela_image18.json"
-    },
-    {
-      "file": "gallery_dela_image19.json"
-    },
-    {
-      "file": "gallery_dela_image2.json"
-    },
-    {
-      "file": "gallery_dela_image20.json"
-    },
-    {
-      "file": "gallery_dela_image21.json"
-    },
-    {
-      "file": "gallery_dela_image3.json"
-    },
-    {
-      "file": "gallery_dela_image4.json"
-    },
-    {
-      "file": "gallery_dela_image5.json"
-    },
-    {
-      "file": "gallery_dela_image6.json"
-    },
-    {
-      "file": "gallery_dela_image7.json"
-    },
-    {
-      "file": "gallery_dela_image8.json"
-    },
-    {
-      "file": "gallery_dela_image9.json"
-    }
-  ],
-  "gallery_dining_images": [
-    {
-      "file": "gallery_dining_image1.json"
-    },
-    {
-      "file": "gallery_dining_image10.json"
-    },
-    {
-      "file": "gallery_dining_image11.json"
-    },
-    {
-      "file": "gallery_dining_image12.json"
-    },
-    {
-      "file": "gallery_dining_image13.json"
-    },
-    {
-      "file": "gallery_dining_image2.json"
-    },
-    {
-      "file": "gallery_dining_image3.json"
-    },
-    {
-      "file": "gallery_dining_image4.json"
-    },
-    {
-      "file": "gallery_dining_image5.json"
-    },
-    {
-      "file": "gallery_dining_image6.json"
-    },
-    {
-      "file": "gallery_dining_image7.json"
-    },
-    {
-      "file": "gallery_dining_image8.json"
-    },
-    {
-      "file": "gallery_dining_image9.json"
-    }
-  ],
-  "gallery_gs_images": [
-    {
-      "file": "gallery_gs_image1.json"
-    },
-    {
-      "file": "gallery_gs_image10.json"
-    },
-    {
-      "file": "gallery_gs_image11.json"
-    },
-    {
-      "file": "gallery_gs_image12.json"
-    },
-    {
-      "file": "gallery_gs_image13.json"
-    },
-    {
-      "file": "gallery_gs_image14.json"
-    },
-    {
-      "file": "gallery_gs_image15.json"
-    },
-    {
-      "file": "gallery_gs_image16.json"
-    },
-    {
-      "file": "gallery_gs_image17.json"
-    },
-    {
-      "file": "gallery_gs_image18.json"
-    },
-    {
-      "file": "gallery_gs_image19.json"
-    },
-    {
-      "file": "gallery_gs_image2.json"
-    },
-    {
-      "file": "gallery_gs_image20.json"
-    },
-    {
-      "file": "gallery_gs_image21.json"
-    },
-    {
-      "file": "gallery_gs_image3.json"
-    },
-    {
-      "file": "gallery_gs_image4.json"
-    },
-    {
-      "file": "gallery_gs_image5.json"
-    },
-    {
-      "file": "gallery_gs_image6.json"
-    },
-    {
-      "file": "gallery_gs_image7.json"
-    },
-    {
-      "file": "gallery_gs_image8.json"
-    },
-    {
-      "file": "gallery_gs_image9.json"
+      "file": "gallery_exterior_image9.json"
     }
   ],
   "gallery_hotel_images": [
-    {
-      "file": "gallery_hotel_image1.json"
-    },
-    {
-      "file": "gallery_hotel_image2.json"
-    },
-    {
-      "file": "gallery_hotel_image3.json"
-    }
+
   ],
-  "gallery_ps_images": [
+  "gallery_roomsnsuites_images": [
     {
-      "file": "gallery_ps_image1.json"
+      "file": "gallery_roomsnsuites_image1.json"
     },
     {
-      "file": "gallery_ps_image10.json"
+      "file": "gallery_roomsnsuites_image10.json"
     },
     {
-      "file": "gallery_ps_image11.json"
+      "file": "gallery_roomsnsuites_image2.json"
     },
     {
-      "file": "gallery_ps_image12.json"
+      "file": "gallery_roomsnsuites_image3.json"
     },
     {
-      "file": "gallery_ps_image13.json"
+      "file": "gallery_roomsnsuites_image4.json"
     },
     {
-      "file": "gallery_ps_image14.json"
+      "file": "gallery_roomsnsuites_image5.json"
     },
     {
-      "file": "gallery_ps_image15.json"
+      "file": "gallery_roomsnsuites_image6.json"
     },
     {
-      "file": "gallery_ps_image16.json"
+      "file": "gallery_roomsnsuites_image7.json"
     },
     {
-      "file": "gallery_ps_image17.json"
+      "file": "gallery_roomsnsuites_image8.json"
     },
     {
-      "file": "gallery_ps_image18.json"
-    },
-    {
-      "file": "gallery_ps_image19.json"
-    },
-    {
-      "file": "gallery_ps_image2.json"
-    },
-    {
-      "file": "gallery_ps_image20.json"
-    },
-    {
-      "file": "gallery_ps_image21.json"
-    },
-    {
-      "file": "gallery_ps_image22.json"
-    },
-    {
-      "file": "gallery_ps_image23.json"
-    },
-    {
-      "file": "gallery_ps_image24.json"
-    },
-    {
-      "file": "gallery_ps_image25.json"
-    },
-    {
-      "file": "gallery_ps_image26.json"
-    },
-    {
-      "file": "gallery_ps_image27.json"
-    },
-    {
-      "file": "gallery_ps_image28.json"
-    },
-    {
-      "file": "gallery_ps_image29.json"
-    },
-    {
-      "file": "gallery_ps_image3.json"
-    },
-    {
-      "file": "gallery_ps_image30.json"
-    },
-    {
-      "file": "gallery_ps_image31.json"
-    },
-    {
-      "file": "gallery_ps_image32.json"
-    },
-    {
-      "file": "gallery_ps_image4.json"
-    },
-    {
-      "file": "gallery_ps_image5.json"
-    },
-    {
-      "file": "gallery_ps_image6.json"
-    },
-    {
-      "file": "gallery_ps_image7.json"
-    },
-    {
-      "file": "gallery_ps_image8.json"
-    },
-    {
-      "file": "gallery_ps_image9.json"
-    }
-  ],
-  "gallery_room_images": [
-    {
-      "file": "gallery_room_images1.json"
-    },
-    {
-      "file": "gallery_room_images2.json"
-    },
-    {
-      "file": "gallery_room_images3.json"
-    },
-    {
-      "file": "gallery_room_images4.json"
-    },
-    {
-      "file": "gallery_room_images5.json"
-    },
-    {
-      "file": "gallery_room_images6.json"
-    },
-    {
-      "file": "gallery_room_images7.json"
-    },
-    {
-      "file": "gallery_room_images8.json"
+      "file": "gallery_roomsnsuites_image9.json"
     }
   ],
   "home_banner_carousel": [

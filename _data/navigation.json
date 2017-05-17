@@ -22,7 +22,7 @@
 		{
 			'title':'Dining',
 			'name': 'dining',
-			'url': '/dining/',
+			'url': '/eat-drink/',
 			'submenu': 'false' 
 		},
 		{

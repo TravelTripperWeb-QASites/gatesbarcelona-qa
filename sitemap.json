@@ -360,6 +360,9 @@
     "about.html/abt-image-4.json",
     "about.html/abt-image-5.json",
     "about.html/services-amenities.json",
+    "contact.html/contact-content.json",
+    "contact.html/contact-address.json",
+    "contact.html/contact-contacts.json",
     "events.html/meetings-events.json",
     "events.html/abt-image-1.json",
     "events.html/abt-image-2.json",
@@ -396,6 +399,7 @@
     "eat-drink/index.html/the-blind-pig-content2.json",
     "eat-drink/index.html/the-blind-pig-content-image.json",
     "eat-drink/index.html/cuisine-content.json",
+    "gallery/index.html/banner-heading.json",
     "group-hotel-booking-in-key-west/index.html/banner-text.json",
     "blog/index.html/banner-text.json",
     "index.html/welcome-paradise.json",
@@ -427,5 +431,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "43f3b7a9f0289132f2026e734dcf55da41f4a45a"
+  "__SHA__": "93da97d6a58824a06f4e689c59170673230cc840"
 }
