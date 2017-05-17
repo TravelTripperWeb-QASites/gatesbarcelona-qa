@@ -106,16 +106,16 @@
         }
       ]
     },
-    "eat-drink": {
+    "dining": {
       "__PAGES__": [
         {
           "label": "Key West Restaurants & Bars | The Gates Hotel Key West",
           "published": true,
           "locales": {
-            "en": "/eat-drink/"
+            "en": "/dining/"
           },
           "data_source": null,
-          "source_path": "eat-drink/index.html"
+          "source_path": "dining/index.html"
         }
       ]
     },
@@ -132,16 +132,16 @@
         }
       ]
     },
-    "group-hotel-booking-in-key-west": {
+    "group-hotel-booking": {
       "__PAGES__": [
         {
           "label": "Meetings & Group Bookings in Key West | The Gates Hotel",
           "published": true,
           "locales": {
-            "en": "/group-hotel-booking-in-key-west/"
+            "en": "/group-hotel-booking/"
           },
           "data_source": null,
-          "source_path": "group-hotel-booking-in-key-west/index.html"
+          "source_path": "group-hotel-booking/index.html"
         }
       ],
       "request-for-proposal": {
@@ -150,10 +150,10 @@
             "label": "Meetings & Group Events in Key West Fl |The Gates Hotel",
             "published": true,
             "locales": {
-              "en": "/group-hotel-booking-in-key-west/request-for-proposal/"
+              "en": "/group-hotel-booking/request-for-proposal/"
             },
             "data_source": null,
-            "source_path": "group-hotel-booking-in-key-west/request-for-proposal.html"
+            "source_path": "group-hotel-booking/request-for-proposal.html"
           }
         ]
       }
@@ -325,6 +325,45 @@
         "source_path": "index.html"
       }
     ],
+    "page-not-found": {
+      "__PAGES__": [
+        {
+          "label": "Page not found | Hotel Diagonal Barcelona",
+          "published": true,
+          "locales": {
+            "en": "/page-not-found/"
+          },
+          "data_source": null,
+          "source_path": "page-not-found.html"
+        }
+      ]
+    },
+    "privacy": {
+      "__PAGES__": [
+        {
+          "label": "Privacy Policy of Hotel Diagonal in Barcelona City Centre",
+          "published": true,
+          "locales": {
+            "en": "/privacy/"
+          },
+          "data_source": null,
+          "source_path": "privacy.html"
+        }
+      ]
+    },
+    "sitemap": {
+      "__PAGES__": [
+        {
+          "label": "Sitemap of Hotel Diagonal's Website | Hotel Diagonal",
+          "published": true,
+          "locales": {
+            "en": "/sitemap/"
+          },
+          "data_source": null,
+          "source_path": "sitemap.html"
+        }
+      ]
+    },
     "subscribe": {
       "__PAGES__": [
         {
@@ -341,7 +380,7 @@
     "thankyou": {
       "__PAGES__": [
         {
-          "label": "Thank You | The Gates Hotel Key West",
+          "label": "Thank You | Hotel Diagonal Barcelona",
           "published": true,
           "locales": {
             "en": "/thankyou/"
@@ -369,12 +408,26 @@
     "events.html/abt-image-3.json",
     "events.html/weddings-events.json",
     "events.html/weddings-events-image-1.json",
-    "location/index.html/banner-text.json",
-    "location/index.html/acttactions-todos.json",
-    "location/index.html/attr-image-1.json",
-    "location/index.html/attr-image-3.json",
-    "location/index.html/attr-image-4.json",
-    "location/index.html/attr-favourite-dest.json",
+    "dining/index.html/banner-text.json",
+    "dining/index.html/rum-row-container-image.json",
+    "dining/index.html/rum-row-container-content.json",
+    "dining/index.html/poolside-content.json",
+    "dining/index.html/the-blind-pig-content2.json",
+    "dining/index.html/the-blind-pig-content-image.json",
+    "dining/index.html/cuisine-content.json",
+    "blog/index.html/banner-text.json",
+    "index.html/welcome-paradise.json",
+    "index.html/twocol-left-img.json",
+    "index.html/two-col-1-img.json",
+    "index.html/home-detailsbg-img.json",
+    "index.html/latest-happiness-box.json",
+    "index.html/offers-image.json",
+    "index.html/newsletter-img.json",
+    "index.html/newsletter-context.json",
+    "index.html/restaurent-bar.json",
+    "index.html/magical-barcelona.json",
+    "gallery/index.html/banner-heading.json",
+    "group-hotel-booking/index.html/banner-text.json",
     "attractions/index.html/banner-text.json",
     "attractions/index.html/acttactions-todos.json",
     "attractions/index.html/attr-image-1.json",
@@ -391,27 +444,12 @@
     "attractions/index.html/beach-points.json",
     "attractions/index.html/attractions-content.json",
     "attractions/index.html/attractions-points.json",
-    "eat-drink/index.html/banner-text.json",
-    "eat-drink/index.html/rum-row-container-image.json",
-    "eat-drink/index.html/rum-row-container-content.json",
-    "eat-drink/index.html/poolside-content.json",
-    "eat-drink/index.html/the-blind-pig-content.json",
-    "eat-drink/index.html/the-blind-pig-content2.json",
-    "eat-drink/index.html/the-blind-pig-content-image.json",
-    "eat-drink/index.html/cuisine-content.json",
-    "gallery/index.html/banner-heading.json",
-    "group-hotel-booking-in-key-west/index.html/banner-text.json",
-    "blog/index.html/banner-text.json",
-    "index.html/welcome-paradise.json",
-    "index.html/twocol-left-img.json",
-    "index.html/two-col-1-img.json",
-    "index.html/home-detailsbg-img.json",
-    "index.html/latest-happiness-box.json",
-    "index.html/offers-image.json",
-    "index.html/newsletter-img.json",
-    "index.html/newsletter-context.json",
-    "index.html/restaurent-bar.json",
-    "index.html/magical-barcelona.json",
+    "location/index.html/banner-text.json",
+    "location/index.html/acttactions-todos.json",
+    "location/index.html/attr-image-1.json",
+    "location/index.html/attr-image-3.json",
+    "location/index.html/attr-image-4.json",
+    "location/index.html/attr-favourite-dest.json",
     "partners/index.html/banner-text.json",
     "location/shuttle.html/banner-text.json",
     "location/shuttle.html/old-town-shuttle-text.json",
@@ -431,5 +469,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "93da97d6a58824a06f4e689c59170673230cc840"
+  "__SHA__": "c9b32ce73dc8f9e823b8c19cfd50a80a65c55689"
 }

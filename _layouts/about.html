@@ -13,7 +13,7 @@ layout: default
   </div>
 </section>
 
-<section class="loc-con-one about">
+<section class="loc-con-one about top-padding">
       		<div class="container no-padding">
                 	<div class="col-sm-6 no-padding">
                     	<div class="con-one">
@@ -30,7 +30,9 @@ layout: default
                 	<div class="col-md-6 no-padding">
                     <div class="con-tt">
                     	<div class="con-three">
-                             <span class="att default-spacing-minus"><div class="sp-right">{% region abt-image-2 %}</div></span><span class="att"><div class="sp-left">{% region abt-image-3 %}</div></span>
+                             <span class="att default-spacing-minus"><div class="sp-right">{% region abt-image-2 %}</div></span>
+                             <span class="att">
+                             <div class="sp-left">{% region abt-image-3 %}</div></span>
                         </div>
                         <div class="con-four">
                         	<div class="col-sm-6 no-padding att default-spacing-minus">
@@ -86,7 +88,7 @@ layout: default
           <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
               <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
 
-              <div class="links"><a ng-href="{{ '/offer' | permalink}}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">{% t 'about.offer-button-1' %}</a><br /> <a href="{{ '/offers' | permalink }}" class="button-common-2">{% t 'about.offer-button-2' %}</a> </div>
+              <div class="links"><a ng-href="{{ '/offer' | permalink}}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">{% t 'about.offer-button-1' %}</a><br /><br /> <a href="{{ '/offers' | permalink }}" class="button-common-2">{% t 'about.offer-button-2' %}</a> </div>
 
           </div>
         </div>
@@ -94,10 +96,6 @@ layout: default
     </div>
   </div>
 </section>
-
-
-
-
 <section>
 	<div class="container-fluid no-padding m-20">
     	<div class="row no-gutters">

@@ -11,7 +11,7 @@ layout: default
     <div class="page-banner location-banner" style="background-image: url(/images/meetings/meetings-banner-2.jpg)">
       <h1 class="page-title">{% t 'events.page-title' %}</h1>
 
-      <div class="banner-btn"><a href="{{ '/contact' | permalink }}" class="button-common">{% t 'events.contact-button' %}</a><a href="{{ '/request-for-proposal' | permalink }}" class="button-common">{% t 'events.rfp-button' %}</a></div>
+      <div class="banner-btn"><a href="{{ '/contact' | permalink }}" class="button-common">{% t 'events.contact-button' %}</a><a href="{{ '/group-hotel-booking/request-for-proposal' | permalink }}" class="button-common">{% t 'events.rfp-button' %}</a></div>
 
     </div>
   </div>
@@ -31,20 +31,21 @@ layout: default
                     </div>
                 </div>
                 <div class="container no-padding">
-                	<div class="col-md-6 no-padding">
+                	<div class="col-md-6 no-padding prox">
                     <div class="con-tt">
-                    	<div class="con-three">
-                             <span class="att default-spacing-minus"><div class="sp-right">{% region abt-image-2 %}</div></span><span class="att">
+                    {% region abt-image-2 %}
+                    	<!-- <div class="con-three">
+                             <span class="att default-spacing-minus"><div class="sp-right"></div></span><span class="att">
                              <div class="sp-left menu-list">{% region abt-image-3 %}
-                            <!-- <a class="btn btn-lg btn-primary button-home food" href="#">Food Menu</a>
-                             <a class="btn btn-lg btn-primary button-home drinks" href="#">drinks Menu</a> -->
+                            <a class="btn btn-lg btn-primary button-home food" href="#">Food Menu</a>
+                             <a class="btn btn-lg btn-primary button-home drinks" href="#">drinks Menu</a>
                              </div>
                              </span>
-                        </div>
+                        </div> -->
 
                         </div>
                     </div>
-                    <div class="col-md-6 no-padding prox">
+                    <div class="col-md-6 no-padding ">
                     	<div class="prox-content">
                         	<h2>{% t 'events.venue-title' %}</h2>
                             <ul class="about-list meetings-list">
@@ -57,38 +58,17 @@ layout: default
                 </div>
       </section>
 
-<!-- rooms section -->
-<section class="animatedParent">
-  <div id="rooms-carousel-home" class="carousel rooms-carousel slide animated fadeInUp" data-ride="carousel">
-    <div class="carousel-inner" role="listbox">
-      <!-- Wrapper for slides -->
-      <div class="item active"  style="background-image:url(/images/meetings/exquisite.jpg);">
 
-            <div class="carousel-caption">
-            <h3>{% t 'events.venue-cta-title' %}</h3>
-            <p>{% t 'events.venue-cta-text' %}</p>
-            <a class="btn btn-lg btn-primary button-home" href="{{ '/about' | permalink }}">{% t 'events.venue-cta-button' %}</a>
-            </div>
-
+ <section class="meeting-cta about-cta" style="background-image: url(/images/meetings/exquisite.jpg);">
+  <div class="container-fluid no-padding">
+      <div class="cta">
+      <h2 class="text-center">Exquisite<br>Venues</h2>
+          <p class="text-center">The spectacular rooftop with swimming pool on the tenth floor, provides impressive nighttime views of the city.</p>
+         
+            <div class="btn-holder text-center"><a href="/about/" class="button-common">ABOUT THE HOTEL</a></div>
         </div>
-
-      <!-- Indicators
-      <ol class="carousel-indicators">
-        <li data-target="#rooms-carousel-home" ng-repeat="room in browser.roomsList | limitTo: 5" data-slide-to="[[$index]]">[[room.name]]</li>
-      </ol>-->
-      <!-- Left and right controls -->
-      <div class="home-bottom-controllers">
-
-      <a class="" href="#rooms-carousel-home" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  </a>
-
-       <a class="" href="#rooms-carousel-home" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>  </a>
-
-       </div>
-       </div>
-  </div>
+    </div>
 </section>
-
-<!-- rooms section ends here-->
 
 <section class="loc-con-one meetings weddings">
       		<div class="container no-padding">
@@ -104,7 +84,7 @@ layout: default
                     </div>
                 </div>
                 <div class="container no-padding">
-                	<div class="col-md-6 no-padding">
+                	<div class="col-md-6 no-padding prox">
                     <div class="con-tt">
                     	<div class="con-three">
                              <span class="att meet-grid-1 default-spacing-minus"><div class="sp-right" style="background-image:url(/images/meetings/meetings-4.jpg)"></div></span>
@@ -113,7 +93,7 @@ layout: default
 
                         </div>
                     </div>
-                    <div class="col-md-6 no-padding prox">
+                    <div class="col-md-6 no-padding ">
                     	<div class="con-four">
                         	<div class="col-sm-5 no-padding att default-spacing-minus">
                             	<img class="img-responsive" src="/images/meetings/meetings-7.jpg" alt="">
@@ -135,9 +115,9 @@ layout: default
       <section class="loc-cta about-cta" style="background-image: url(/images/meetings/meetings-cta.jpg);">
 	<div class="container-fluid no-padding">
     	<div class="cta">
-        	<h3>{% t 'events.moment-title' %}</h3>
-        	<div class="cta-logo"><a href="{{ '/' | permalink }}"><img src="/images/diagnol-symbol.svg" alt="Hotel Diagonal Barcelona"/></a></div>
-            <div class="btn-holder text-center"><a href="{{ '/request-for-proposal' | permalink }}" class="button-common">{% t 'events.rfp-button' %}</a></div>
+        	<p class="text-center">{% t 'events.moment-title' %}</p>
+        	<div class="cta-logo"><a href="{{ '/' | permalink }}"><img src="/images/gates/location/logo.png" alt="Hotel Diagonal Barcelona"/></a></div>
+            <div class="btn-holder text-center"><a href="/group-hotel-booking/request-for-proposal/" class="button-common">{% t 'events.rfp-button' %}</a></div>
         </div>
     </div>
 </section>
