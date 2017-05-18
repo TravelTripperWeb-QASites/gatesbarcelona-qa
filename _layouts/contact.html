@@ -5,7 +5,7 @@ layout: default
 <section>
   <div class="container-fluid no-padding">
     <div class="page-banner" style="background-image: url(/images/contact/contact-banner.jpg)">
-      <h1 class="page-title">Contact</h1>
+      <h1 class="page-title">{% t 'contact.page-title' %}</h1>
     </div>
   </div>
 </section>
@@ -26,9 +26,43 @@ layout: default
                 <p>The Gates Hotel Key West is a new lifestyle hotel in Key West that offers 100 contemporary accommodations with an urban chic flare. Featuring one of the best locations for hotels in Key West, our family-friendly Key West hotel is located at the entrance of the island. For more information or directions, contact our front desk and take a peek at our map below.</p> -->
                 <div class="groups contact-con">
   <div class="container no-padding">
-    <div class="rfp-wrapper contact-form">
-      <div class="contact-form">
-       <form action="https://submit.jotform.me/submit/70891572764467/" method="post" name="form_70891572764467" id="70891572764467" accept-charset="utf-8" autocomplete="off">
+    <div class="rfp-wrapper">
+    <div class="contact-form">
+
+      {% if site.active_lang == "es"%}
+      <form action="https://submit.jotform.me/submit/70891572764467/" method="post" name="form_70891572764467" id="70891572764467" accept-charset="utf-8" autocomplete="off">
+        <input type="hidden" name="formID" value="70891572764467" />
+        <div class="two-fields-holder">
+          <div class="col-sm-6 no-padding">
+            <div class="form-group right-space">
+              <input type="text" class="form-control validate[required, Alphabetic]" id="input_3" name="q3_first-name" placeholder="Nombre" required>
+            </div>
+          </div>
+          <div class="col-sm-6 no-padding">
+            <div class="form-group left-space">
+              <input type="text" class="form-control validate[required, Alphabetic]" id="input_9" name="q9_last-name" placeholder="Apellido" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control validate[required, Email]" id="input_4" name="q4_email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control validate[required]" id="input_5" name="q5_phone" placeholder="Teléfono
+" required>
+        </div>
+        <div class="checkbox">
+          <label class="cb"><input type="checkbox" id="input_8_0" name="q8_newsletter[]" value="Incluirme en futuros correos electrónicos">{% t 'contact.newsletter' %}</label>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="input_7" name="q7_comments" cols="40" rows="5" placeholder="Comentarios"></textarea>
+        </div>
+        <button type="submit" id="input_2" class="btn btn-default">{% t 'contact.submit' %}</button>
+      </form>
+
+      {% else %}
+      
+      <form action="https://submit.jotform.me/submit/70891572764467/" method="post" name="form_70891572764467" id="70891572764467" accept-charset="utf-8" autocomplete="off">
         <input type="hidden" name="formID" value="70891572764467" />
         <div class="two-fields-holder">
           <div class="col-sm-6 no-padding">
@@ -55,11 +89,13 @@ layout: default
           <textarea class="form-control" id="input_7" name="q7_comments" cols="40" rows="5" placeholder="Comments"></textarea>
         </div>
         <button type="submit" id="input_2" class="btn btn-default">{% t 'contact.submit' %}</button>
-      </form>
-        <script type="text/javascript">JotForm.ownerView=true;</script>
-        
-      </div>
+        {% endif %}
+
+      <script type="text/javascript">
+        JotForm.ownerView = true;
+      </script>
     </div>
+  </div>
   </div>
   
 </div>

@@ -16,7 +16,11 @@
        {% endfor %}
       </ul>
     </div>
+    
 <div class="menu-btn"></div>
-<div class="booknow"> <a href="javascript:void(0);" class="button-blue" show-booking-widget>Book Now</a> </div>
+<div class="booknow "> <a href="javascript:void(0);" class="button-blue" show-booking-widget>Book Now</a>
+    <!-- <div class="lang-toggle">                
+ <a href="{{ page | permalink: locale: 'en' }}">{% t 'language_name', en %}</a>
+    <a href="{{ page | permalink: locale: 'es' }}">{% t 'language_name', es %}</a></div> -->
 </div>
 </nav>

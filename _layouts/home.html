@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default 
 ---
 <section>
   <div class="home-slider">
@@ -141,9 +141,10 @@ layout: default
                                     <div id="offers-carousel" class="carousel slide offers-carousel" data-ride="carousel">
                                      <div class="carousel-inner">
                                         <div class="">
-                                        <h3>Things to do <br>in San Francisco</h3>
+                                        {% region exceptionalbarcelona %}
+                                        <!-- <h3>Exceptional <br>Barcelona </h3>
                                         <p>Whether you're visiting San Francisco for the first time or if you're a seasoned visitor - soon after choosing your San Francisco Hotel, you want to know about the many things to do in San Francisco.</p>
-                                        <a class="btn btn-lg btn-primary button-home " href="/offers/">Discover more</a>
+                                        <a class="btn btn-lg btn-primary button-home " href="/offers/">Discover more</a> -->
                                         </div>
                                       </div>
                                     </div>
@@ -208,6 +209,7 @@ layout: default
                                     </div>
                                   </section>
                                   {% include twitter-instagram.html %}
-                                 <section class="map-holder no-margin">
-                                  <div class="map-inner" id="map"></div>
+                                                               
+                                <section class="map-holder loc-map">
+                                  <div class="map-inner" id="canvas-map"></div>
                                 </section>

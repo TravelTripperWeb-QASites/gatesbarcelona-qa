@@ -40,7 +40,7 @@ a:hover,a:focus {
 	
 	.booknow {
 		float:right;
-		padding: 18px 0 0 0;
+		padding: 12px 0 0 0;
 		
 			@media (max-width: 1240px){
 				padding: 8px 0 0 0;
@@ -82,6 +82,13 @@ a:hover,a:focus {
 			color:#fff;
 		}
 		}
+
+		&.lang-toggle{
+			a{
+				padding: 7px 5px;
+			}
+
+		}
 	}
 
 .logo {
@@ -101,7 +108,7 @@ a:hover,a:focus {
 }
 .main-menu {
 	float: left;
-	padding: 18px 0 0 50px;
+	padding: 12px 0 0 50px;
 	background-color: $bg-white;
 	
 	@media (max-width: 1240px){

@@ -10,7 +10,7 @@ github_username:  jekyll
 
 permalink: pretty
 default_lang: 'en'
-languages: ['en']
+languages: ['en', 'es']
 
 data_paginate: 
   per_page: 5

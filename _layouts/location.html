@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
+{% if  site.active_lang == 'es' %}
+{% assign langPrefix = 'es' %}
+{% assign locale = "locale=es" %}
+{% endif %}
 <section>
   <div class="container-fluid no-padding">
     <div class="page-banner location-banner" style="background-image: url(/images/gates/location-banner.jpg)">
-      {% region banner-text %}
+     <h1 class="page-title">{% t 'location.page-title' %}</h1>
       <!--<div class="banner-btn"><a href="#" class="button-common">Download Map</a><a href="#" class="button-common">Download Fact Sheet</a></div>-->
     </div>
   </div>
@@ -41,7 +45,7 @@ layout: default
                             </div><div class="col-sm-6 no-padding att-con">
                               <div class="add-1 local-add-1">HOTEL DIAGONAL
 <span class="nl">BARCELONA</span></div>
-                                <div class="add-2 logo-wrap">Our<br />Address</div>
+                                <div class="add-2 logo-wrap">{% t 'location.address-title' %}</div>
                                 <div class="add-3 local-add-3">Avenida Diagonal, 205 
 <br>08018. Barcelona, Spain</div>
                           </div>
@@ -60,9 +64,10 @@ layout: default
   </div>
 </section>
 
-<section class="map-holder">
-  <div class="map-inner" id="map"></div>
-</section> 
+
+<section class="map-holder loc-map">
+  <div class="map-inner" id="canvas-map"></div>
+</section>
 <section class="loc-gal">
   <div class="container-fluid no-padding">
        <div class="col-xs-8 no-padding loc-gal-con" style="background-image: url(/images/gates/location/loc-gal-1.jpg);"><div class="strip"></div></div>
@@ -74,10 +79,9 @@ layout: default
   <div class="container-fluid no-padding">
 
       <div class="cta">
-          <p class="text-center">HOTEL DIAGONAL <br />
-BARCELONA</p>
+          <p class="text-center">{% t 'location.cta-title' %}</p>
           <div class="cta-logo"><a href="/"><img src="/images/gates/location/logo.png" alt="Gates Hotel South Beach"/></a></div>
-            <div class="btn-holder text-center"><a href="https://secure3.hilton.com/en/dt/reservation/book.htm?ctyhocn=MIAMHDT" target="_blank" class="button-common">Book Your Stay</a></div>
+            <div class="btn-holder text-center"><a href="https://secure3.hilton.com/en/dt/reservation/book.htm?ctyhocn=MIAMHDT" target="_blank" class="button-common">{% t 'location.cta-button' %}</a></div>
         </div>
     </div>
 </section>

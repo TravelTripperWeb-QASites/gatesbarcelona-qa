@@ -26,7 +26,7 @@
 			'submenu': 'false' 
 		},
 		{
-			'title':'Location',
+			'title':'Local',
 			'name': 'location',
 			'url': '/location/',
 			'submenu': 'false' 
@@ -38,7 +38,7 @@
 			'submenu': 'false' 
 		},
 		{
-			'title':'Events',
+			'title':'Meetings & Events',
 			'name': 'events',
 			'url': '/events/',
 			'submenu': 'false'  

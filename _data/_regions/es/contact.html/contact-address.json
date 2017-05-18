@@ -1,0 +1,7 @@
+[
+	{
+		"_template": "html",
+		"content": "<h3>Address</h3>\n<p>Avenida Diagonal, 205 <br>08018. Barcelona, Spain<br />Tel: <a href=\"tel:34.934.895.300\"> +34 934 895 300</a><br />F: <a href=\"fax:34.934.895.309\">+34 934 895 309</a></p>",
+		"rendered_height": 500
+	}
+]

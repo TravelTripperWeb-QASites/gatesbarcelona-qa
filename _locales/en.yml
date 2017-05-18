@@ -1,6 +1,6 @@
 en:
 
-  language_name: English
+  language_name: EN
 
   topnav:
     about: 'About'
@@ -113,10 +113,10 @@ en:
   about:
     page-title: 'Unforgettable Stay'
     proximity-title: 'Proximity at its Best'
-    
-    proximity-desc: "The Diagonal Hotel Barcelona is located at number 205 of Avenida Diagonal, in a prime location. Immediately neighbouring the Torre Agbar, the hotel is located next to the Plaça de les Glòries Catalanes, which can be reached from any point in the city, train station, bus station, port or airport."
+    proximity-loc: 'AVENIDA DIAGONAL, 205, 08018, BARCELONA, SPAIN'
+    proximity-desc: "The Diagonal Hotel Barcelona is located at number 205 of Avenida Diagonal, in a prime location. Immediately neighbouring the Torre Agbar, the hotel is located next to the Plaça de les Glòries Catalanes, which can be reached from any point in the city, train station, bus station, port or airport. The prime location of the hotel in Glòries and its connectivity with public transport make it easy to access all of Barcelona's main attractions in just minutes."
     proximity-expl: 'EXPLORE LOCATION'
-    view-offer: 'VIEW MORE LUXURIOUS SPECIAL OFFERS'
+    view-offer: 'VIEW OUR EXCLUSIVE OFFERS'
     offer-button-1: 'VIEW THIS OFFER'
     offer-button-2: 'VIEW ALL OFFERS'
     booknow-title: 'Beautiful<br>Barcelona'

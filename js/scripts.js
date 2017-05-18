@@ -116,6 +116,8 @@ jQuery(function ($) {
 
 });
 
+
+
 jQuery(function ($) {
 
 
@@ -184,33 +186,27 @@ jQuery(function ($) {
 	
 });
 
+$(window).load(function(){
+  if( $(window).width() > 768 ) {
+
+     jQuery('ul.nav li.dropdown a').attr('data-toggle','disable');
+   //Add Hover effect to menus
+        jQuery('ul.nav li.dropdown').hover(function() {
+          jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
+        }, function() {
+          jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut();
+        });
+  }
+  else{
+     //jQuery('ul.nav li.dropdown a.dropdown-toggle').removeAttr('data-toggle');
+  }
+});
  
  $('#rd-carousel').carousel({
     	interval: false
 	});
 
-function initMap() {
-        var myLatLng = {lat: 41.403863, lng: 2.190159};
 
-        var map = new google.maps.Map(document.getElementById('map'), { 
-          zoom: 16, 
-          center: new google.maps.LatLng(41.403863, 2.190159),
-		  scrollwheel: false,
-		  disableDefaultUI: true
-        });
-		
-		
-		
-		var iconBase = '/images/gates/location/'; 
-		
-        var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'HOTEL DIAGONAL BARCELONA',
-		  icon: iconBase + 'loc.png'
-        });
-		
-      }
 	  
 	 
 	  
