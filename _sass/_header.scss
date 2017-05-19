@@ -60,7 +60,7 @@ a:hover,a:focus {
 		a{
 			background-color: transparent;
 			border: solid 1px $tc-black-1;
-			padding: 7px 30px;
+			padding: 7px 20px;
 			text-transform: uppercase;
 			font-family: "GothamHTF-Medium";
 			letter-spacing: 3.5px;
@@ -83,9 +83,10 @@ a:hover,a:focus {
 		}
 		}
 
-		&.lang-toggle{
+		.lang-toggle{
 			a{
-				padding: 7px 5px;
+				    padding: 7px 4px;
+    			letter-spacing: 1px;
 			}
 
 		}
