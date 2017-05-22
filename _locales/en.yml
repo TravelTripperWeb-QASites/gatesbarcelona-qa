@@ -10,7 +10,7 @@ en:
     meetings: 'Meetings & Events'
     gallery: 'Gallery'
     contact: 'Contact'
-    booknow: 'Book Now'
+    
 
   footer:
     contact: 'Contact'
@@ -23,7 +23,7 @@ en:
     news: 'Newsletter Sign-Up'
     email: 'Your Email'
     share: 'Share'
-    copy: 'Hotel Diagonal Barcelona 2017 All Rights Reserved'
+    copy: 'Gates Hotel Diagonal Barcelona 2017 All Rights Reserved'
 
   home:
     modern-banner-h3: 'An exceptional space'
@@ -45,7 +45,7 @@ en:
     event-spaces-p: 'Ideal for all types of events, like business meetings, banquets, and social or family celebrations'
     event-spaces-button: 'DISCOVER MORE'
     event-caption-1: 'Roof Top'
-    offer-p: 'View our<br>exclusive Offers'
+    offer-p: 'Special Offers'
     offer-button-1: 'View This Offer'
     offer-button-2: 'View All Offers'
     vibrant-h3: 'Vibrant<br>Barcelona'
@@ -55,6 +55,13 @@ en:
     caption-agbar: 'Comfort Agbar Guaranteed'
     caption-cafe: 'Tecla Cafe'
     caption-bar: 'Lobby Bar'
+    fallow: 'Follow Us'
+    weather: 'Current Weather<br>BARCELONA, SPAIN'
+    viewallrooms: 'View All Rooms'
+    more : 'More +'
+    email: 'ENTER YOUR EMAIL'
+    booknow: 'Book Now'
+    offer: 'offer'
 
   instagram:
     gallery-h3: 'Get Inspired'
@@ -80,6 +87,7 @@ en:
     amenities: "amenities"
     view-more-luxurious-rooms: "VIEW MORE LUXURIOUS ROOMS &amp; SUITES"
     view-all-rooms: "VIEW ALL ROOMS"
+    view-this-room: "VIEW THIS ROOM"
     proximity-text: "PROXIMITY AT ITS BEST"
     view-more-luxurious-offers: "VIEW MORE LUXURIOUS SPECIAL OFFERS"
     view-this-offer: "VIEW THIS OFFER"
@@ -120,12 +128,13 @@ en:
     offer-button-1: 'VIEW THIS OFFER'
     offer-button-2: 'VIEW ALL OFFERS'
     booknow-title: 'Beautiful<br>Barcelona'
-    booknow: 'BOOK NOW'
+    bookyourstay: 'BOOK YOUR STAY'
     services-cap-1: 'WI-FI'
     services-cap-2: 'POOL DECK'
     services-cap-3: 'RESTAURANT'
     services-title: 'List of Services'
     services-list: '<li>Dry Cleaning</li><li>Business Centre</li><li>EXTENDED STAYS</li><li>Meeting Rooms</li><li>Laundry Service</li><li>Concierge</li><li>Banquet Room</li><li>Conference Facilities</li><li>Wi-FI</li><li>Pool</li><li>Bar/Lounge/Restaurant</li>'
+    dining-page-title: 'DINING'
 
   location:
     page-title: 'Location'

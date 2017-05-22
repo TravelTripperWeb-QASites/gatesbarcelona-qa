@@ -10,7 +10,7 @@ es:
     meetings: 'Eventos'
     gallery: 'Galería'
     contact: 'Contacto'
-    booknow: 'Reservar'
+    
 
   footer:
     learn: 'más información'
@@ -23,7 +23,7 @@ es:
     news: 'Inscríbase al Boletín'
     email: 'INTRODUCE TU EMAIL'
     share: 'Compartir'
-    copy: 'Hotel Diagonal Barcelona 2017 Todos los Derechos Reservados'
+    copy: 'Gates Hotel Diagonal Barcelona 2017 Todos los Derechos Reservados'
 
   home:
     modern-banner-h3: 'Un espacio excepcional'
@@ -50,11 +50,18 @@ es:
     event-spaces-p: 'Idóneos para la realización de todo tipo de actos, como son reuniones de empresa, banquetes y celebraciones sociales o familiares.'
     event-spaces-button: 'DESCUBRIR MÁS'
     event-caption-1: 'Azotea'
-    offer-p: 'Ver nuestras<br>ofertas exclusivas'
+    offer-p: 'Ofertas especiales'
     offer-button-1: 'Ver esta Oferta'
     offer-button-2: 'Ver Todas las Ofertas'
     vibrant-h3: 'Vibrante<br>Barcelona'
     vibrant-button: 'Reserve Su Estancia'
+    fallow: 'Síguenos'
+    weather: 'Tiempo actual<br>BARCELONA, ESPAÑA'
+    viewallrooms: 'Ver todas las habitaciones'
+    more : 'M&aacute;s +'
+    email: 'INTRODUCE TU CORREO ELECTR&Oacute;NICO'
+    booknow: 'Reservar'
+    offer: 'OFERTA'
 
   instagram:
     gallery-h3: 'Inspírese'
@@ -79,6 +86,7 @@ es:
     amenities: "el servicio"
     view-more-luxurious-rooms: "Ver más habitaciones &amp; SUITES"
     view-all-rooms: "VER TODAS LAS HABITACIONES"
+    view-this-room: "VER ESTA HABITACIÓN"
     proximity-text: "lo mejor su ubicación"
     view-more-luxurious-offers: "VER MÁS OFERTAS ESPECIALES"
     view-this-offer: "VER ESTA OFERTA"
@@ -116,12 +124,13 @@ es:
     offer-button-1: 'VER ESTA OFERTA'
     offer-button-2: 'VER TODAS LAS OFERTAS'
     booknow-title: 'Hermosa<br>Barcelona'
-    booknow: 'RESERVAR'
+    bookyourstay:  'RESERVE SU ESTANCIA'
     services-cap-1: 'WI-FI'
     services-cap-2: 'PISCINA'
     services-cap-3: 'RESTAURANTE'
     services-title: 'Lista de Servicios'
     services-list: '<li>BUSINESS CORNER</li><li>SALAS DE REUNIONES</li><li>SERVICIO DE LAVANDERÍA</li><li>RECEPCIÓN Y SERVICIO CONSERJERÍA 24H</li><li>SALAS DE BANQUETES</li><li>WI-FI</li><li>PISCINA</li><li>BAR/RESTAURANTE/CAFETERÍA</li><li>PARKING</li>'
+    dining-page-title: 'COMIDA'
 
   location:
     page-title: 'Ubicación'

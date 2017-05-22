@@ -88,7 +88,7 @@ layout: default
           <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
               <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
 
-              <div class="links"><a ng-href="{{ '/offer' | permalink}}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">{% t 'about.offer-button-1' %}</a><br /><br /> <a href="{{ '/offers' | permalink }}" class="button-common-2">{% t 'about.offer-button-2' %}</a> </div>
+              <div class="links"><a ng-href="{{ '/offer-detials' | permalink}}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2">{% t 'about.offer-button-1' %}</a><br /><br /> <a href="{{ '/offers' | permalink }}" class="button-common-2">{% t 'about.offer-button-2' %}</a> </div>
 
           </div>
         </div>
@@ -147,7 +147,7 @@ layout: default
 
            <p class="text-center">BEAUTIFUL <br />BARCELONA</p>
             <div class="cta-logo"><img src="/images/gates/location/logo.png" alt="Gates Hotel Barcelona"/></div>
-            <div class="btn-holder text-center"><a href="https://diagonalhotelbarcelona.reztrip.com/?{{locale}}" target="_blank" class="button-common">Book Your Stay</a></div>
+            <div class="btn-holder text-center"><a href="https://diagonalhotelbarcelona.reztrip.com/?{{locale}}" target="_blank" class="button-common">{% t 'about.bookyourstay' %}</a></div>
 
         </div>
     </div>

@@ -165,7 +165,7 @@ angular.module('rezTrip')
 
        var self = this;
        self.isRate= true;
-
+       self.locale = rt3api.config.defaultLocale;
        rt3api.getAllAvailableRooms().then(function(response) {
         $rootScope.$applyAsync(function() {
          //console.log(response);
@@ -186,15 +186,19 @@ angular.module('rezTrip')
                     if(room.min_average_price[0] != null && !this.isRate){
 
                        this.isRate = true;
-                       self.toNightsRate = "‎€"+Math.round(roomRate);
+                       self.toNightsRate = "€"+Math.round(roomRate);
 
                     }
                     if(roomRate == null){
-                       todayRate = {'todayRate': 'CHECK AVAILABILITY'};
+                       var strCA = "CHECK AVAILABILITY"
+                       if(self.locale == 'es'){
+                          strCA = "Comprobar Disponibilidad";
+                       }
+                       todayRate = {'todayRate': strCA};
 
                     }
                     else{
-                      todayRate = {'todayRate': "‎€"+Math.round(roomRate)};
+                      todayRate = {'todayRate': "€"+Math.round(roomRate)};
 
                     }
                     angular.extend(self.roomsList[key] , todayRate);

@@ -439,7 +439,6 @@
     "events.html/abt-image-3.json",
     "events.html/weddings-events.json",
     "events.html/weddings-events-image-1.json",
-    "dining/index.html/banner-text.json",
     "dining/index.html/rum-row-container-image.json",
     "dining/index.html/rum-row-container-content.json",
     "dining/index.html/poolside-content.json",
@@ -502,5 +501,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "2b8adb079443f2db45c51a4b71a81981d4ba136b"
+  "__SHA__": "d5905d67958dd5be8dfad32ded033ff30971f2d0"
 }

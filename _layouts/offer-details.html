@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+{% if  site.active_lang == 'es' %}
+{% assign langPrefix = '/es' %}
+{% assign locale = "locale=es" %}
+{% endif %}
 
 <section data-offer-code ="{{page.code}}"  rt3-special-rates= "offers" >
   <input type="hidden" id="offerId"  value="{{page.code}}" />
@@ -8,16 +12,16 @@ layout: default
 <section>
   <div class="container-fluid no-padding">
     <div class="page-banner" style="background-image: url(/images/gates/offers-banner.jpg)">
-      <h1 class="page-title">Special Offers</h1>
+      <h1 class="page-title">{% t 'offers.special-offers' %}</h1>
     </div>
   </div>
 </section>
 
 <section ng-controller="offerDetail">
   <ul class="gallery-nav">
-        <li ng-show="prevOfferName"><a  ng-click="reloadPage" ng-href="/offer-details/#[[prevOfferName | formatNameForLink]]">Prevoius Offer</a></li>
+        <li ng-show="prevOfferName"><a  ng-click="reloadPage" ng-href="/offer-details/#[[prevOfferName | formatNameForLink]]">{% t 'offers.prev-offer' %}</a></li>
         <li><a href="javascript:void(0);">[[offers.sRdetail.rate_plan_name | renderHTMLCorrectly]]</a></li>
-        <li ng-show="nextOfferName"><a ng-click="reloadPage" ng-href="/offer-details/#[[nextOfferName | formatNameForLink]]">Next Offer</a></li>
+        <li ng-show="nextOfferName"><a ng-click="reloadPage" ng-href="/offer-details/#[[nextOfferName | formatNameForLink]]">{% t 'offers.next-offer' %}</a></li>
   </ul>
 </section>
 
@@ -35,9 +39,9 @@ layout: default
   <div class="carousel-inner" role="listbox">
     <div class="item active" style="background-image:url([[offers.sRdetail.lead_photo_url.yankee_large]]);">
      <div class="rdc-car-con overlay-con">
-      <h3 class="sub-title">Special Offer</h3>
+      <h3 class="sub-title">{% t 'offers.special-offer' %}</h3>
         <h2 class="title" ng-bind-html="offers.sRdetail.rate_plan_name | renderHTMLCorrectly"></h2>
-        <div class="spacing"><a class="button-common-2 button-blue" ng-href="[[offers.sRdetail.promo_url]]" target="_blank">Book Now</a></div>
+        <div class="spacing"><a class="button-common-2 button-blue" ng-href="[[offers.sRdetail.promo_url]]" target="_blank">{% t 'offers.book-this-offer' %}</a></div>
      </div> 
     </div>
 
@@ -59,17 +63,17 @@ layout: default
   <div class="container no-padding">
       <div class="col-md-6 no-padding -left">
           <div class="con-1">
-          <h2 class="title">all in the details</h2>
+          <h2 class="title">{% t 'offers.all-in-detail' %}</h2>
 <!--<h3 class="sub-title">18 November 2016 until 7 february 2017</h3>-->
 <div class="des-wrap">
-<p class="des">[[ offers.sRdetail.short_description | renderHTMLCorrectly ]]</p>
-<p class="des bold-text">Need assistance? Our dedicated reservations team is available around the clock:</p>
+ <p class="des" ng-bind-html="offers.sRdetail.long_description | renderHTMLCorrectly"></p>
+ <p class="des">{% t 'room.need-help-text' %}</p>
 <p class="des">Gates Hotel Barcelona Service Center  <a href="tel:+34 934 895 300">+34 934 895 300</a> or<br><a href="mailto:info@diagonalhotelbarcelona.com">info@diagonalhotelbarcelona.com</a></p>
 </div>
-<div class="spacing"><a class="button-common-2 button-blue" href="/contact/">Contact Us</a></div> 
-    </div>
+<div class="spacing"><a class="button-common-2 button-blue"href="{{ '/contact' | permalink }}">{% t 'room.contact-button' %}</a></div>
       <!--div class="con-2" style="background-image:url(/images/gates/offers/offer-6.jpg);"></div-->
       <div class="con-2" ><img src="/images/gates/offers/offer-6.jpg" alt=""></div>
+      </div>
       </div>
       <div class="col-md-6 no-padding -right">
           <div class="con-3">
@@ -89,12 +93,12 @@ layout: default
 <div class="container">
  <div class="col-md-4 no-padding" >
       <div class="new-caption-area " id="odscroll" class="carousel slide" data-ride="carousel">
-        <p>VIEW MORE SPECIAL OFFERS</p>
+      <p>{% t 'room.view-more-luxurious-offers' %}</p>
         <div class="carousel-controls"> <a class="left nav-control" href="#od-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#od-carousel" role="button" data-slide="next"> </a> </div>
         <div class="carousel-inner ">
           <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
             <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
-            <div class="links"> <a href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">VIEW THIS OFFER</a><br/> <a href="/offers/" class="button-common-2 button-blue">VIEW ALL OFFERS</a> </div>
+            <div class="links"> <a href="{{'/offer-details' | permalink }}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">{% t 'room.view-this-offer' %}</a><br/> <a href="{{'/offers' | permalink }}" class="button-common-2 button-blue">{% t 'room.view-all-offers' %}</a> </div>
           </div>
         </div>
       </div>

@@ -7,7 +7,8 @@
     .value('rt3api', new Rt3Api({
       portalId: 'diagonalhotelbarcelona',
       hotelId: 'DIAGNL',
-      defaultLocale: 'en',
+      defaultLocale: $("#siteLang").val().toLowerCase() || 'en',
+
       defaultCurrency: 'EUR'
     }))
    .config(function($locationProvider) {

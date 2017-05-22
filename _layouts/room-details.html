@@ -1,21 +1,25 @@
 ---
 layout: default
 ---
+{% if  site.active_lang == 'es' %}
+{% assign langPrefix = '/es' %}
+{% assign locale = "locale=es" %}
+{% endif %}
 <input type="hidden" id="roomId"  value="{{page.code}}" />
 <input type="hidden" id="roomList" value="[[ browser.roomsList ]]"   />
 <div ng-controller ="roomDetail">
 <section>
   <div class="container-fluid no-padding">
     <div class="page-banner" style="background-image: url(/images/gates/room-details/rooms-banner.jpg)">
-      <h1 class="page-title">Luxury Redefined</h1>
+      <h1 class="page-title">{% t 'room.luxury-redefined' %}</h1>
     </div>
   </div>
 </section>
 <section>
   <ul class="gallery-nav">
-    <li ng-show="prevRoomName"><a ng-href="/room-details/#[[prevRoomName | formatNameForLink ]]" ng-click="reloadPage">Prevoius Room</a></li>
+    <li ng-show="prevRoomName"><a ng-href="{{'/room-details'| permalink}}#[[prevRoomName | formatNameForLink ]]" ng-click="reloadPage">{% t 'room.prev-room' %}</a></li>
     <li><a href="#">[[selectedRoom.name]]</a></li>
-    <li ng-show="nextRoomName"><a ng-href="/room-details/#[[nextRoomName | formatNameForLink ]]" ng-click="reloadPage">Next Room</a></li>
+    <li ng-show="nextRoomName"><a ng-href="{{'/room-details'| permalink}}#[[nextRoomName | formatNameForLink ]]" ng-click="reloadPage">{% t 'room.next-room' %}</a></li>
   </ul>
 </section>
 <section class="rd-row-1">
@@ -24,10 +28,13 @@ layout: default
     <div class="carousel-inner" role="listbox">
       <div class="item" ng-class="{'active': $index == 0}"  style="background-image: url([[photo.yankee_large]]);" ng-repeat ="photo in selectedRoom.photos">
         <div class="rdc-car-con">
-          <!--<h3 class="sub-title">luxury redefined</h3>-->
+          <h3 class="sub-title">{% t 'room.luxury-redefined' %}</h3>
           <h2 class="title">[[selectedRoom.name]]</h2>
-          <div class="tonight"><a href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">[[ selectedRoom.todayRate ]]</a></div>
-          <div class="spacing"><a class="button-common-2 button-blue" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">Book Now</a></div>
+          <div class="tonight"><a href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]&locale={{site.active_lang}}" target="_blank">[[ selectedRoom.todayRate ]]</a></div>
+           <div ng-show="selectedRoom.todayRate == 'CHECK AVAILABILITY' || selectedRoom.todayRate == 'Comprobar Disponibilidad'">
+              <div class="room-rate-holder check-avail"><a href="{{site.data.config.reztripUrl}}?{{locale}}&search=?">{% t 'room.check-availability' %}</a></div>
+            </div>
+          <div class="spacing"><a class="button-common-2 button-blue" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">{% t 'room.book-this-room' %}</a></div>
         </div>
       </div>
     </div>
@@ -41,15 +48,16 @@ layout: default
     <div class="col-md-6 no-padding -left">
       <div class="con-1">
       <h3 class="sub-title this-no-padding">[[selectedRoom.name]]</h3>
-        <h2 class="title">Room Information</h2>
+        <h2 class="title">{% t 'room.room-info' %}</h2>
         <h3 class="sub-title">[[selectedRoom.bed_types[0].name]] | [[ selectedRoom.room_size ]] [[ selectedRoom.room_size_units ]]</h3>
         <div class="des-wrap">
           <p class="des">[[ selectedRoom.description ]]</p>
-          <p class="des bold-text">Need assistance? Our dedicated reservations team is available around the clock:</p>
+          <p class="des bold-text">{% t 'room.need-help-text' %}</p>
+        <!--   <p class="des bold-text">Need assistance? Our dedicated reservations team is available around the clock:</p> -->
           <p class="des">Gates Hotel Barcelona Service Center  <a href="tel:+34 934 895 300">+34 934 895 300</a> or<br>
             <a href="mailto:info@diagonalhotelbarcelona.com">info@diagonalhotelbarcelona.com</a></p>
         </div>
-        <div class="spacing"><a class="button-common-2 button-blue" href="/contact/">Contact Us</a></div>
+        <div class="spacing"><a class="button-common-2 button-blue" href="{{langPrefix}}/contact/">{% t 'room.contact-button' %}</a></div>
       </div>
       <div class="con-2"><img src="/images/gates/room-details/room-2.jpg" alt=""></div>
     </div>
@@ -57,15 +65,15 @@ layout: default
       <div class="con-3">
         <div><img src="/images/gates/room-details/gallery.jpg" alt=""></div>
         <div class="text">
-          <h2 class="title">Take a visual Journey</h2>
-          <div class="spacing"><a class="button-common-2 -white" href="/gallery/">View Gallery</a></div>
+          <h2 class="title">{% t 'room.visual-journey' %}</h2>
+          <div class="spacing"><a class="button-common-2 -white" href="{{'/gallery' | permalink }}">{% t 'room.view-gallery' %}</a></div>
         </div>
       </div>
       <div class="con-4">
         <div class="col-sm-5 con-4-1">
         <ul class="list" ng-show="selectedRoom.amenities.length  > 0">
 
-          <li ng-repeat="amenities in selectedRoom.amenities">[[amenities]]</li> 
+          <li ng-repeat="amenities in selectedRoom.amenities">[[amenity]]</li> 
         </ul>
           <ul class="list" ng-show="!selectedRoom.amenities.length">
             <li>WIFI available</li>
@@ -99,7 +107,9 @@ layout: default
         <div class="carousel-inner ">
           <div class="item "  ng-repeat ="room in browser.roomsList" ng-class='{active:$first}'>
             <h3>[[room.name]]</h3>
-            <div class="links"> <a href="/room-details/#[[room.name | formatNameForLink]]/" class="button-common-2 btn-spacing button-blue">VIEW THIS ROOM</a><br/> <a href="/rooms/" class="button-common-2 button-blue">VIEW ALL ROOMS</a> </div>
+            <div class="links"> 
+            <a href="{{'/room-details'| permalink}}#[[room.name | formatNameForLink]]/" class="button-common-2 btn-spacing button-blue">{% t 'room.view-this-room' %}</a><br/> 
+            <a href="{{'/rooms'| permalink}}" class="button-common-2 button-blue"> {% t 'room.view-all-rooms' %}</a> </div>
           </div>
         </div>
       </div>
@@ -126,7 +136,7 @@ layout: default
       <div class="cta">
       <p class="text-center">GATES HOTEL <br>DIAGONAL BARCELONA</p>
     <div class="cta-logo"><a href="/" target="_blank"><img src="/images/gates/location/logo.png" alt="Gates Hotel South Beach"></a></div>
-<div class="btn-holder text-center"><a class="button-common" href="https://diagonalhotelbarcelona.reztrip.com/">Book Your Stay</a></div>
+<div class="btn-holder text-center"><a href="https://diagonalhotelbarcelona.reztrip.com/?{{locale}}" target="_blank" class="button-common">{% t 'about.bookyourstay' %}</a></div>
   </div>
     </div>
   </div>
@@ -148,12 +158,12 @@ layout: default
     </div>
  <div class="col-md-4 no-padding" >
       <div class="new-caption-area " id="odscroll" class="carousel slide" data-ride="carousel">
-        <p>VIEW MORE SPECIAL OFFERS</p>
+        <p>{% t 'room.view-more-luxurious-rooms' %}</p>
         <div class="carousel-controls"> <a class="left nav-control" href="#od-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#od-carousel" role="button" data-slide="next"> </a> </div>
         <div class="carousel-inner ">
           <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
             <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
-            <div class="links"> <a href="/offer-details/#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">VIEW THIS OFFER</a><br/> <a href="/offers/" class="button-common-2 button-blue">VIEW ALL OFFERS</a> </div>
+            <div class="links"> <a href="{{'/offer-details' | permalink }}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">{% t 'room.view-this-offer' %}</a><br/> <a href="{{'/offers' | | permalink }}" class="button-common-2 button-blue">{% t 'room.view-all-offers' %}</a> </div>
           </div>
         </div>
       </div>

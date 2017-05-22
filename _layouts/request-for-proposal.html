@@ -5,7 +5,7 @@ layout: default
 <section>
   <div class="container-fluid no-padding">
     <div class="page-banner" style="background-image: url(/images/rfp-banner.jpg)">
-      <h1 class="page-title">Request for Proposal</h1>
+      <h1 class="page-title">{%t 'rfp.page-title' %}</h1>
     </div>
   </div>
 </section>
@@ -14,129 +14,88 @@ layout: default
   <div class="container no-padding">
     <h2>Contact Information</h2>
     <div class="rfp-wrapper">
-      <div class="contact-form">
-        <form action="https://submit.jotform.me/submit/70053018269452/" method="post" name="form_70053018269452" id="70053018269452" accept-charset="utf-8" autocomplete="off">
-          <input type="hidden" name="formID" value="70053018269452" />
-          
-          
-          
-          <div class="two-fields-holder">
-            <div class="col-sm-6 no-padding">
-              <div class="form-group right-space">
-                <input type="text" class="form-control" id="input_3" name="q3_first-name" placeholder="First Name" required>
-              </div>
-            </div>
-            <div class="col-sm-6 no-padding">
-              <div class="form-group left-space">
-                <input type="text" class="form-control" id="input_9" name="q9_last-name" placeholder="Last Name" required>
-              </div>
-            </div>
-          </div>
-          
-          <div class="two-fields-holder">
-            <div class="col-sm-6 no-padding">
-              <div class="form-group right-space">
-                <input type="text" class="form-control " id="input_25" name="q25_company" placeholder="Company">
-              </div>
-            </div>
-            <div class="col-sm-6 no-padding">
-              <div class="form-group left-space">
-                <input type="text" class="form-control" id="input_11" name="q11_address-line-1" placeholder="Address">
-              </div>
-            </div>
-          </div>
-          
-          <div class="two-fields-holder">
-            <div class="col-sm-6 no-padding">
-              <div class="form-group right-space">
-                <input type="text" class="form-control" id="input_13" name="q13_city" placeholder="City">
-              </div>
-            </div>
-            <div class="col-sm-6 no-padding">
-              <div class = "form-group left-space">
-                <input type="text" class="form-control" id="input_14" name="q14_zipcode" placeholder="Postal Code">
-              </div>
-            </div>
-          </div>
-          
-          <div class="two-fields-holder">
-            <div class="col-sm-6 no-padding">
-              <div class="form-group right-space">
-                <input type="text" class="form-control" id="input_26" name="q26_cell-phone" placeholder="Phone Number" required>
-              </div>
-            </div>
-            <div class="col-sm-6 no-padding">
-              <div class="form-group left-space">
-                <input type="email" class="form-control" id="input_4" name="q4_email" placeholder="Email" required>
-              </div>
-            </div>
-          </div>
-          
-          <div class="rooms-suites coconut-groove">
-            <h2>Group Information</h2>
-          </div>
-          
-          
-          
-          <div class="two-fields-holder">
-            <div class="col-sm-6 no-padding">
-              <div class="form-group right-space">
-                <input type="text" class="form-control main-date" id="input_15" name="q15_arrival" placeholder="Arrival Date">
-              </div>
-            </div>
-            <div class="col-sm-6 no-padding">
-              <div class="form-group left-space">
-                <input type="text" class="form-control alternate-date" id="input_16" name="q16_departure" placeholder="Departure Date">
-              </div>
-            </div>
-          </div>
-          
-          <div class="two-fields-holder">
-            <div class="col-sm-6 no-padding">
-              <div class="form-group right-space">
-                <select class = "form-control" id="input_32" name="q32_noOf">
-                  <option value selected>Number of Rooms</option>
-                  <option value="AL" >10 Rooms</option>
-                  <option value="AK" >11-30 Rooms</option>
-                  <option value="AK" >31-50 Rooms</option>
-                  <option value="AB" >50 Rooms</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-sm-6 no-padding">
-              <div class="form-group left-space">
-                <select class = "form-control" id="input_33" name="q33_eventType">
-                  <option value selected>Event Type</option>
-                  <option value="AL" >Corporate</option>
-                  <option value="AK" >Wedding</option>
+              <div class="contact-form">
+              <p class="rfp-label">{% t 'rfp.form-title' %}</p>
+                <form class="jotform-form" action="https://submit.jotform.me/submit/70892908393469/" method="post" name="form_70892908393469" id="70892908393469" accept-charset="utf-8" enctype="multipart/form-data">
+      <input type="hidden" name="formID" value="70892908393469" />
+                  <div class="two-fields-holder">
+                    <div class="col-sm-6 no-padding">
+                      <div class="form-group right-space">
+                        <input type="text" class="form-control validate[required, Alphabetic]" id="input_3" name="q3_first-name" placeholder="{% t 'rfp.name' %}" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 no-padding">
+                      <div class="form-group left-space">
+                        <input type="text" class="form-control validate[required, Alphabetic]" id="input_37" name="q37_company37" placeholder="{% t 'rfp.company' %}" required>
+                      </div>
+                    </div>
+                  </div>
+                <div class="form-group">
+                    <textarea id="input_36" class="form-control validate[required] m-textarea" name="q36_others36" style="width:100%" rows="5" placeholder="{% t 'rfp.address' %}"></textarea>
+                  </div>
+                  <div class="two-fields-holder">
+                    <div class="col-sm-6 no-padding">
+                      <div class="form-group">
+                        <input type="text" class="form-control validate[required, Numeric]"  id="input_26" name="q26_cell-phone"  placeholder="{% t 'rfp.phone' %}" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 no-padding">
+                      <div class="form-group left-space">
+                        <input type="email" class="form-control validate[required, Email]" id="input_4" name="q4_email"  placeholder="{% t 'rfp.email' %}" required>
+                      </div>
+                    </div>
+                  </div>
                   
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="two-fields-holder">
-            <div class="col-sm-6 no-padding">
-              <div class="form-group right-space">
-                <select class = "form-control" id="input_35" name="q35_areDate">
-                  <option value selected>Are date flexible</option>
-                  <option value="AL" >Yes</option>
-                  <option value="AK" >No</option>
+                   <p class="desp">{% t 'rfp.event-title' %}</p>
                   
-                </select>
+                  <div class="two-fields-holder">
+                    <div class="col-sm-6 no-padding">
+                      <div class="form-group right-space">
+                        <input type="text" class="form-control main-date-1" id="input_15" name="q15_arrival" placeholder="{% t 'rfp.arrival' %}">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 no-padding">
+                      <div class="form-group left-space">
+                        <input type="text" class="form-control alternate-date-1" id="input_16" name="q16_departure" placeholder="{% t 'rfp.departure' %}">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checkbox-holder">
+                    <div class="col-sm-4">
+                      <div class="row option-label">{% t 'rfp.flex' %}</div>
+                    </div>
+                    <div class="col-sm-8">
+                      <div class="row">
+                        <label class="radio-inline">
+                          <input type="radio" value="Yes" id="input_28_0" name="q28_flexible[]">
+                          {% t 'rfp.flex-opt-1' %} </label>
+                        <label class="radio-inline">
+                          <input type="radio" value="No" id="input_28_1" name="q28_flexible[]">
+                          {% t 'rfp.flex-opt-2' %} </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="two-fields-holder">
+                    <div class="col-sm-6 no-padding">
+                      <div class="form-group right-space">
+                        <input type="text" class="form-control" id="input_20" name="q20_sleeping-rooms" placeholder="{% t 'rfp.num-rooms' %}">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 no-padding">
+                      <div class="form-group left-space">
+                        <input type="text" class="form-control" id="input_25" name="q25_company" placeholder="{% t 'rfp.event-type' %}">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control m-textarea" rows="5" id="input_35" name="q35_others" placeholder="{% t 'rfp.comments' %}"></textarea>
+                  </div>
+                  <button type="submit" id="input_2" class="btn btn-default button-blue">{% t 'rfp.submit' %}</button>
+                </form>
+               <script type="text/javascript">JotForm.ownerView=true;</script>
               </div>
+
             </div>
-            <div class="col-sm-6 no-padding">
-              <div class="form-group left-space">
-                <input type="text" class="form-control" id="input_31" name="q31_sleeping-rooms31" placeholder="Comments" required>
-              </div>
-            </div>
-          </div>
-          <button type="submit" id="input_2" class="btn btn-default button-blue">Submit</button>
-        </form>
-        <script type="text/javascript">JotForm.ownerView=true;</script>
-        
-      </div>
-    </div>
   </div>
   
 </section>
