@@ -34,7 +34,7 @@ layout: default
            <div ng-show="selectedRoom.todayRate == 'CHECK AVAILABILITY' || selectedRoom.todayRate == 'Comprobar Disponibilidad'">
               <div class="room-rate-holder check-avail"><a href="{{site.data.config.reztripUrl}}?{{locale}}&search=?">{% t 'room.check-availability' %}</a></div>
             </div>
-          <div class="spacing"><a class="button-common-2 button-blue" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">{% t 'room.book-this-room' %}</a></div>
+          <div class="spacing"><a class="button-common-2 button-blue" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]&locale={{site.active_lang}}" target="_blank">{% t 'room.book-this-room' %}</a></div>
         </div>
       </div>
     </div>
@@ -49,9 +49,9 @@ layout: default
       <div class="con-1">
       <h3 class="sub-title this-no-padding">[[selectedRoom.name]]</h3>
         <h2 class="title">{% t 'room.room-info' %}</h2>
-        <h3 class="sub-title">[[selectedRoom.bed_types[0].name]] | [[ selectedRoom.room_size ]] [[ selectedRoom.room_size_units ]]</h3>
+        <h3 class="sub-title">[[selectedRoom.bed_types[0].name]] | <span ng-bind-html=" selectedRoom.room_size | renderHTMLCorrectly"></span> <span ng-bind-html=" selectedRoom.room_size_units | renderHTMLCorrectly"></span></h3>
         <div class="des-wrap">
-          <p class="des">[[ selectedRoom.description ]]</p>
+          <p class="des" ng-bind-html="selectedRoom.description | renderHTMLCorrectly"></p>
           <p class="des bold-text">{% t 'room.need-help-text' %}</p>
         <!--   <p class="des bold-text">Need assistance? Our dedicated reservations team is available around the clock:</p> -->
           <p class="des">Gates Hotel Barcelona Service Center  <a href="tel:+34 934 895 300">+34 934 895 300</a> or<br>
