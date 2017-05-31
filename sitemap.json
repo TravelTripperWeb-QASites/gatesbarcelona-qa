@@ -437,6 +437,7 @@
     "events.html/abt-image-1.json",
     "events.html/abt-image-2.json",
     "events.html/abt-image-3.json",
+    "events.html/exquistite.json",
     "events.html/weddings-events.json",
     "events.html/weddings-events-image-1.json",
     "dining/index.html/rum-row-container-image.json",
@@ -501,5 +502,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "3cd65720023693543906c506e8261951cc23331f"
+  "__SHA__": "f01281ce97c6ab9639f34c544f4f804c1dad3c0f"
 }

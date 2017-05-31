@@ -11,9 +11,11 @@ layout: default
       {% assign banner_images = site.data._models.home_banner_carousel  | sort : "sort_order" %}
       {% for bannerimages in banner_images %}
         <div>
-            <div class="banner-logo">
-              <!--div class="hero-title">Sophisticated Playground</div-->
-            </div>
+          <div class="overlay"></div>
+            {% if forloop.index == 1 %}
+            <div class="banner-logo"></div>
+            {% endif %}
+            
              <img src="{{ bannerimages.slider_image.url }}" class="width-full"  alt=""/>
              <div class=" social-icons">
               <h6>{% t 'home.fallow' %}</h6>

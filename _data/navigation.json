@@ -23,8 +23,8 @@
 			'submenu': 'false' 
 		},
 		{
-			'title':'Dining',
-			'title_es':'Comida',
+			'title':'Eat & Drink',
+			'title_es':'Comer y Beber',
 			'name': 'dining',
 			'url': '/dining/',
 			'submenu': 'false' 

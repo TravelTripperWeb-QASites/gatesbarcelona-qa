@@ -12,11 +12,11 @@
         position: relative;
         text-align: center;
 
-        .banner-logo {
+         .banner-logo {
             position: absolute;
             height: 100%;
             width: 100%;
-           
+            background: url(/images/banner-gates-logo.png) no-repeat top  42%  center;
 
             @media (max-width:1024px) {
                 background-size: 40%;
@@ -156,6 +156,14 @@
 
     .slick-active {
         opacity: 1;
+    }
+    .overlay {
+        background-color: rgba(0,0,0,0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
 }

@@ -147,7 +147,7 @@ a:hover,a:focus {
 				color: $tc-black;
 				font-size: 12px;
 				letter-spacing: 1px;
-				padding: 10px 12px;
+				padding: 10px 9px;
 				   transition: all 0.5s ease;
     				border-bottom: 3px solid $tc-white;
 				&:hover {
@@ -157,7 +157,7 @@ a:hover,a:focus {
 				}
 				
 				@media (max-width: 1240px){
-					padding: 10px 12px;
+					padding: 10px 9px;
 					letter-spacing: 2px;
 					display: block;
 				}
@@ -206,7 +206,7 @@ a:hover,a:focus {
 	
 	
 	.logo{
-		width: 140px;
+		width: 170px;
 	}
 	
 	.main-menu{
