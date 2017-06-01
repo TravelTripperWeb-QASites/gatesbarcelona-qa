@@ -118,7 +118,7 @@
     "dining": {
       "__PAGES__": [
         {
-          "label": "Restaurants in Diagonal Barcelona | Dining at Hotel Diagonal",
+          "label": "Key West Restaurants & Bars | The Gates Hotel Key West",
           "published": true,
           "locales": {
             "en": "/dining/",
@@ -314,7 +314,7 @@
     "events": {
       "__PAGES__": [
         {
-          "label": "Events in Barcelona City Centre | Events at Hotel Diagonal",
+          "label": "Meeting Venues in Barcelona | Functions at Hotel Diagonal",
           "published": true,
           "locales": {
             "en": "/events/",
@@ -482,10 +482,9 @@
     "location/index.html/attr-image-4.json",
     "location/index.html/attr-favourite-dest.json",
     "rooms/index.html/rooms-banner-text.json",
+    "offer-details/index.html/staybutton.json",
     "partners/index.html/banner-text.json",
     "offers/index.html/offers-banner-text.json",
-    "privacy.html/banner-text.json",
-    "privacy.html/privacy-content.json",
     "location/shuttle.html/banner-text.json",
     "location/shuttle.html/old-town-shuttle-text.json",
     "location/shuttle.html/heart-of-republic.json",
@@ -504,5 +503,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "134ddd384df0c6e069b6252b0f2d9747ace497c8"
+  "__SHA__": "aada0e1dcbe420f4ca7d7e74bc072db6c1d8a69c"
 }
