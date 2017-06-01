@@ -134,7 +134,7 @@ en:
     services-cap-3: 'RESTAURANT'
     services-title: 'List of Services'
     services-list: '<li>Dry Cleaning</li><li>Business Centre</li><li>EXTENDED STAYS</li><li>Meeting Rooms</li><li>Laundry Service</li><li>Concierge</li><li>Banquet Room</li><li>Conference Facilities</li><li>Wi-FI</li><li>Pool</li><li>Bar/Lounge/Restaurant</li>'
-    dining-page-title: 'DINING'
+    dining-page-title: 'EAT & DRINK'
 
   location:
     page-title: 'Location'

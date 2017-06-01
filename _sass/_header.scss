@@ -246,7 +246,7 @@ a:hover,a:focus {
 	}
 	@media (max-width: 767px){
 		top:16px;
-		right:110px;
+		right:160px;
 	}
 }
 .menu-btn:after{
@@ -254,7 +254,7 @@ a:hover,a:focus {
 	position: absolute;
 	border-bottom: solid 2px #000;
 	border-top: solid 2px #000;
-	width: 40px;
+	width: 35px;
 	left:0;
 	height: 12px;
 	
@@ -263,7 +263,7 @@ a:hover,a:focus {
 	content:"";
 	position: absolute;
 	border-bottom: solid 2px #000;
-	width: 40px;
+	width: 35px;
 	left:0;
 	height: 22px;
 }
