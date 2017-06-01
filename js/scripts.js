@@ -28,6 +28,9 @@
  });
  
   $(document).ready(function() {
+    setTimeout(function(){
+     $('.loading').css('display','none'); 
+    },2000); 
 	 $(".menu-btn").click(function(){
 		 $(".main-menu").slideToggle(300);
 	 });

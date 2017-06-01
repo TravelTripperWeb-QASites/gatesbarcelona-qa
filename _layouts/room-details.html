@@ -7,6 +7,7 @@ layout: default
 {% endif %}
 <input type="hidden" id="roomId"  value="{{page.code}}" />
 <input type="hidden" id="roomList" value="[[ browser.roomsList ]]"   />
+<div class="loading" style="display: block;">Loading&#8230;</div>
 <div ng-controller ="roomDetail">
 <section>
   <div class="container-fluid no-padding">
