@@ -1,5 +1,9 @@
 <head>
   <meta charset="utf-8">
+  {% if site.url %}
+    {% assign seo_url = site.url | append: site.baseurl %}
+  {% endif %}
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -8,7 +12,9 @@
   
   <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 
-  <link rel="canonical" href="https://www.gateshotelkeywest.com{{ page.url }}" />
+  {% if seo_url %}
+    <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+  {% endif %}
 
 <link rel="stylesheet" href="/css/owl.carousel.css" >
   <link rel="stylesheet" href="/css/owl.theme.css" >
