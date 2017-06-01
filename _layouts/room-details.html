@@ -7,6 +7,7 @@ layout: default
 {% endif %}
 <input type="hidden" id="roomId"  value="{{page.code}}" />
 <input type="hidden" id="roomList" value="[[ browser.roomsList ]]"   />
+<div class="loading" style="display: block;">Loading&#8230;</div>
 <div ng-controller ="roomDetail">
 <section>
   <div class="container-fluid no-padding">
@@ -32,9 +33,9 @@ layout: default
           <h2 class="title">[[selectedRoom.name]]</h2>
           <div class="tonight"><a href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]&locale={{site.active_lang}}" target="_blank">[[ selectedRoom.todayRate ]]</a></div>
            <div ng-show="selectedRoom.todayRate == 'CHECK AVAILABILITY' || selectedRoom.todayRate == 'Comprobar Disponibilidad'">
-              <div class="room-rate-holder check-avail"><a href="{{site.data.config.reztripUrl}}?{{locale}}&search=?">{% t 'room.check-availability' %}</a></div>
+              <!--div class="room-rate-holder check-avail"><a href="{{site.data.config.reztripUrl}}?{{locale}}&search=?">{% t 'room.check-availability' %}</a></div-->
             </div>
-          <div class="spacing"><a class="button-common-2 button-blue" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]&locale={{site.active_lang}}" target="_blank">{% t 'room.book-this-room' %}</a></div>
+          <div ng-hide="selectedRoom.todayRate == 'CHECK AVAILABILITY' || selectedRoom.todayRate == 'Comprobar Disponibilidad'" class="spacing"><a class="button-common-2 button-blue" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]&locale={{site.active_lang}}" target="_blank">{% t 'room.book-this-room' %}</a></div>
         </div>
       </div>
     </div>

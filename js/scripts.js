@@ -28,6 +28,9 @@
  });
  
   $(document).ready(function() {
+    setTimeout(function(){
+     $('.loading').css('display','none'); 
+    },3000); 
 	 $(".menu-btn").click(function(){
 		 $(".main-menu").slideToggle(300);
 	 });
@@ -52,7 +55,7 @@
  
    
    // get instagram feed
-  var instaurl = 'https://api.instagram.com/v1/users/1107405473/media/recent/?access_token=1107405473.2340b2a.0fa34e173388438db804c1c089c8e1fe&callback=?';
+  var instaurl = 'https://api.instagram.com/v1/users/260774511/media/recent/?access_token=260774511.4212a58.483bbbf81f5b4ba6bbbc4b909dafe7e7&callback=?';
    $.ajax({
       url: instaurl,
       dataType: "jsonp",
