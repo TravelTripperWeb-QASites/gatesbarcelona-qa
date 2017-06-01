@@ -482,6 +482,7 @@
     "location/index.html/attr-image-4.json",
     "location/index.html/attr-favourite-dest.json",
     "rooms/index.html/rooms-banner-text.json",
+    "offer-details/index.html/staybutton.json",
     "partners/index.html/banner-text.json",
     "offers/index.html/offers-banner-text.json",
     "location/shuttle.html/banner-text.json",
@@ -502,5 +503,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "f01281ce97c6ab9639f34c544f4f804c1dad3c0f"
+  "__SHA__": "aada0e1dcbe420f4ca7d7e74bc072db6c1d8a69c"
 }
