@@ -103,7 +103,7 @@ InfoBox.prototype.createElement = function () {
     } else {
         // The panes have not changed, so no need to create or move the div.
     }
-};
+}
 /* Pan the map to fit the InfoBox.
  */
 InfoBox.prototype.panMap = function () {
@@ -170,22 +170,22 @@ function initialize1() {
         sensor: 'true', 
         scaleControl: false,
         scrollwheel: false
-    };
+    }
     var map = new google.maps.Map(document.getElementById("canvas-map"), myOptions);
   
     var data = [ // map data
      {
        'id':1,
-       'content':'<strong>Hotel Diagonal Barcelona</strong> ',
+       'content':'<strong>Hotel Diagonal Barcelona</strong><br>Avenida Diagonal, 205<br>08018 Barcelona<br>Spain',
        'position': {
-         'lat': 41.412024,
-         'lng': 2.219475
+         'lat': 41.403656,
+         'lng': 2.190294
         },
         'markericon': '/images/icons/marker1.png'
      },  
       {
         'id':2,
-        'content':'<strong> La Rambla</strong> ',
+        'content':'<strong>La Rambla</strong><br>08002 Barcelona<br>Spain',
         'position': {
           'lat':41.380727,
           'lng':2.173551
@@ -194,7 +194,7 @@ function initialize1() {
       },
       {
         'id':3,
-        'content':'<strong>Sagrada Familia</strong> ',
+        'content':'<strong>Sagrada Familia</strong><br>Carrer de Mallorca, 401<br>08013 Barcelona<br>Spain ',
         'position': {
           'lat':41.403630,
           'lng':2.174356
@@ -202,17 +202,8 @@ function initialize1() {
          'markericon': '/images/icons/marker.png'
       },
       {
-        'id':4,
-        'content':'<strong>La Playa</strong>  ',
-        'position': {
-          'lat':41.376337,
-          'lng':2.190185
-         },
-         'markericon': '/images/icons/marker.png'
-      },
-      {
         'id':5,
-        'content':'<strong>Passeig De Gracia</strong> ',
+        'content':'<strong>Passeig De Gracia</strong><br>08007 Barcelona<br>Spain ',
         'position': {
           'lat':41.393170,
           'lng':2.163960
@@ -221,7 +212,7 @@ function initialize1() {
       },
       {
         'id':6,
-        'content':'<strong> Parc Guell</strong>',
+        'content':'<strong>Parc Guell</strong><br>08024 Barcelona<br>Spain',
         'position': {
           'lat': 41.414495,
           'lng': 2.152695
@@ -230,7 +221,7 @@ function initialize1() {
       },
       {
         'id':7,
-        'content':'<strong>Port Olympic</strong>  ',
+        'content':'<strong>Port Olympic</strong><br>08005 Barcelona<br>Spain',
         'position': {
           'lat': 41.386471,
           'lng': 2.202847
@@ -239,7 +230,7 @@ function initialize1() {
       },
       {
         'id':8,
-        'content':'<strong>Camp Nuo (FC Barcelona Football Stadium)</strong> ',
+        'content':"<strong>Camp Nou</strong><br>Carrer d'Aristides Maillol<br>08028 Barcelona<br>Spain",
         'position': {
           'lat': 41.380896,
           'lng': 2.122820
@@ -248,7 +239,7 @@ function initialize1() {
       },
       {
         'id':9,
-        'content':'<strong>Fira Montjuic</strong> ',
+        'content':'<strong>Fira Montjuic</strong><br>Avinguda de la Reina Maria Cristina<br>08004 Barcelona<br>Spain ',
         'position': {
           'lat': 41.374169,
           'lng': 2.151255
@@ -266,7 +257,7 @@ function initialize1() {
       },
       {
         'id':11,
-        'content':'<strong>CCIB (the convention center closest to the hotel)</strong> ',
+        'content':'<strong>CCIB</strong><br>Placa de Willy Brandt, 11-14<br>08019 Barcelona<br>Spain ',
         'position': {
           'lat': 41.409407,
           'lng': 2.219077
