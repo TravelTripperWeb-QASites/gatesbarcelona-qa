@@ -1,1 +1,6 @@
-[{"_template":"html","content":"<p>LATEST HAPPENINGS</p><h4>S&oacute;nar Barcelona<br>Barcelona</h4><div class='date'>15.07.2017 &nbsp; &nbsp; &nbsp; &nbsp; 9am - 11pm</div>"}]
+[
+  {
+    "_template": "html",
+    "content": "<p>LATEST HAPPENINGS</p>\n<h4>S&oacute;nar Barcelona<br />Barcelona</h4>\n<div class=\"date\">15.06.2017 &nbsp; &nbsp; &nbsp; &nbsp; 9am - 11pm</div>"
+  }
+]
