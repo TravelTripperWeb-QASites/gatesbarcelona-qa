@@ -30,7 +30,7 @@ page_gen:
     dir: 'partners'
  
     
-booking_widget_url: https://diagonalhotelbarcelona.reztrip.com/mobile
+booking_widget_url: https://gateshotelbarcelona.reztrip.com/mobile
 
 exclude: ['sitemap.json']
 
