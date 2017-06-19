@@ -1,38 +1,36 @@
 <head>
   <meta charset="utf-8">
-  {% if site.url %}
-    {% assign seo_url = site.url | append: site.baseurl %}
-  {% endif %}
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-W2LHWVW');</script>
+  <!-- End Google Tag Manager -->
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.meta_description %}{{page.meta_description  | strip_html | strip_newlines | truncate: 160}}{% else %}{{ site.description }}{% endif %}">
-  
+  {% include seo.html %}
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script>
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  </script>
+
+  <link rel="stylesheet" href="{{ '/css/owl.carousel.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/css/owl.theme.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/css/owl.transitions.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/css/lightgallery.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/css/slick.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/css/main.css' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/css/font-awesome.css' | absolute_url }}">
+
   <link rel="icon" href="/images/favicon.png" type="image/x-icon">
 
-  {% if seo_url %}
-    <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
-  {% endif %}
+  <meta http-equiv="cleartype" content="on">
 
-<link rel="stylesheet" href="/css/owl.carousel.css" >
-  <link rel="stylesheet" href="/css/owl.theme.css" >
-  <link rel="stylesheet" href="/css/owl.transitions.css" >
-  <link rel="stylesheet" href="{{ "/css/lightgallery.css" | prepend: site.baseurl }}">
-   <link rel="stylesheet" href="{{ "/css/owl.carousel.css" | prepend: site.baseurl }}">
-   <link rel="stylesheet" href="{{ "/css/slick.css" | prepend: site.baseurl }}">
-  
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}">
- <script src="/js/slick.min.js"></script>
- 
-  <!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-W2LHWVW');</script>
-<!-- End Google Tag Manager -->
-<script id="gtsgig-boot" data-hotel-id="gateshotel" src="https://widgets.gtsgig.com/boot.js" async defer></script>
+  <script src="/js/slick.min.js"></script>
+  <script id="gtsgig-boot" data-hotel-id="gateshotel" src="https://widgets.gtsgig.com/boot.js" async defer></script>
 </head>
