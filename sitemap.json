@@ -22,7 +22,7 @@
     "attractions": {
       "__PAGES__": [
         {
-          "label": "Attractions in Key West Fl | The Gates Hotel Key West",
+          "label": "Attractions",
           "published": true,
           "locales": {
             "en": "/attractions/",
@@ -37,7 +37,7 @@
       "blog-details": {
         "__PAGES__": [
           {
-            "label": "News & Events in Barcelona | Gates Hotel Diagonal Blog",
+            "label": "News & Events in Barcelona",
             "published": true,
             "locales": {
               "en": "/blog/blog-details/",
@@ -50,7 +50,7 @@
       },
       "__PAGES__": [
         {
-          "label": "Events in Barcelona in 2017 | Gates Diagonal Barcelona",
+          "label": "Events in Barcelona in 2017",
           "published": true,
           "locales": {
             "en": "/blog/",
@@ -118,7 +118,7 @@
     "dining": {
       "__PAGES__": [
         {
-          "label": "Restaurants in Barcelona | Dining at Piano, Hotel Diagonal",
+          "label": "Restaurants in Barcelona",
           "published": true,
           "locales": {
             "en": "/dining/",
@@ -132,7 +132,7 @@
     "gallery": {
       "__PAGES__": [
         {
-          "label": "Photos of Design Hotels in Barcelona | Hotel Diagonal Photos",
+          "label": "Photos of Design Hotels in Barcelona",
           "published": true,
           "locales": {
             "en": "/gallery/",
@@ -146,7 +146,7 @@
     "group-hotel-booking": {
       "__PAGES__": [
         {
-          "label": "Meetings & Group Bookings in Key West | The Gates Hotel",
+          "label": "Meetings & Group Bookings in Key West",
           "published": true,
           "locales": {
             "en": "/group-hotel-booking/",
@@ -159,7 +159,7 @@
       "request-for-proposal": {
         "__PAGES__": [
           {
-            "label": "Meetings & Group Events in Key West Fl |The Gates Hotel",
+            "label": "Meetings & Group Events",
             "published": true,
             "locales": {
               "en": "/group-hotel-booking/request-for-proposal/",
@@ -174,7 +174,7 @@
     "location": {
       "__PAGES__": [
         {
-          "label": "Hotel near Sagrada Familia | Gates Hotel Barcelona",
+          "label": "Hotel near Sagrada Familia",
           "published": true,
           "locales": {
             "en": "/location/",
@@ -187,7 +187,7 @@
       "shuttle": {
         "__PAGES__": [
           {
-            "label": "Hotel near Old Town Key West | Gates Hotel Bus Service",
+            "label": "shuttle",
             "published": true,
             "locales": {
               "en": "/location/shuttle/",
@@ -202,7 +202,7 @@
     "offer-details": {
       "__PAGES__": [
         {
-          "label": "Barcelona Hotel Offers & Deals | Hotel Diagonal Best Rates",
+          "label": "Barcelona Hotel Offers & Deals",
           "published": true,
           "locales": {
             "en": "/offer-details/",
@@ -216,7 +216,7 @@
     "offers": {
       "__PAGES__": [
         {
-          "label": "Barcelona Hotel Deals | Special Offers at Hotel Diagonal",
+          "label": "Barcelona Hotel Deals",
           "published": true,
           "locales": {
             "en": "/offers/",
@@ -230,7 +230,7 @@
     "partners": {
       "__PAGES__": [
         {
-          "label": "Key West Hotel Partnerships | Things to do in Key West Fl",
+          "label": "partners",
           "published": true,
           "locales": {
             "en": "/partners/",
@@ -243,7 +243,7 @@
       "partner-details": {
         "__PAGES__": [
           {
-            "label": "Key West Hotel Partnerships | Things to do in Key West Fl",
+            "label": "partner-details",
             "published": true,
             "locales": {
               "en": "/partners/partner-details/",
@@ -258,7 +258,7 @@
     "room-details": {
       "__PAGES__": [
         {
-          "label": "Design Hotel in Barcelona | Modern Rooms at Hotel Diagonal",
+          "label": "Design Hotel in Barcelona",
           "published": true,
           "locales": {
             "en": "/room-details/",
@@ -272,7 +272,7 @@
     "rooms": {
       "__PAGES__": [
         {
-          "label": "Modern Design Hotels in Barcelona | Hotel Diagonal Rooms",
+          "label": "Modern Design Hotels in Barcelona",
           "published": true,
           "locales": {
             "en": "/rooms/",
@@ -286,7 +286,7 @@
     "about": {
       "__PAGES__": [
         {
-          "label": "Modern Design Hotels in Barcelona | About Hotel Diagonal",
+          "label": "Modern Design Hotels in Barcelona",
           "published": true,
           "locales": {
             "en": "/about/",
@@ -300,7 +300,7 @@
     "contact": {
       "__PAGES__": [
         {
-          "label": "Modern Design Hotel in Barcelona | Contact Hotel Diagonal",
+          "label": "Modern Design Hotel in Barcelona",
           "published": true,
           "locales": {
             "en": "/contact/",
@@ -314,7 +314,7 @@
     "events": {
       "__PAGES__": [
         {
-          "label": "Events in Barcelona City Centre | Events at Hotel Diagonal",
+          "label": "Events in Barcelona City Centre",
           "published": true,
           "locales": {
             "en": "/events/",
@@ -328,7 +328,7 @@
     "gates-hotel-key-west-press": {
       "__PAGES__": [
         {
-          "label": "Press and Media | The Gates Hotel Key West",
+          "label": "Press and Media",
           "published": true,
           "locales": {
             "en": "/gates-hotel-key-west-press/",
@@ -354,7 +354,7 @@
     "page-not-found": {
       "__PAGES__": [
         {
-          "label": "Page not found | Hotel Diagonal Barcelona",
+          "label": "Page not found",
           "published": true,
           "locales": {
             "en": "/page-not-found/",
@@ -368,7 +368,7 @@
     "privacy": {
       "__PAGES__": [
         {
-          "label": "Privacy Policy of Hotel Diagonal in Barcelona City Centre",
+          "label": "Privacy Policy",
           "published": true,
           "locales": {
             "en": "/privacy/",
@@ -382,7 +382,7 @@
     "sitemap": {
       "__PAGES__": [
         {
-          "label": "Sitemap of Hotel Diagonal's Website | Hotel Diagonal",
+          "label": "Sitemap of Hotel Diagonal's Website",
           "published": true,
           "locales": {
             "en": "/sitemap/",
@@ -396,7 +396,7 @@
     "subscribe": {
       "__PAGES__": [
         {
-          "label": "Subscribe to the Newsletter | Offers at the Gates Key West",
+          "label": "Subscribe to the Newsletter",
           "published": true,
           "locales": {
             "en": "/subscribe/",
@@ -410,7 +410,7 @@
     "thankyou": {
       "__PAGES__": [
         {
-          "label": "Thank You | Gates Hotel Diagonal Barcelona",
+          "label": "Thank You",
           "published": true,
           "locales": {
             "en": "/thankyou/",
@@ -507,5 +507,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "8383abd292a119866a072f4d4ceb1d91754ffbca"
+  "__SHA__": "b8786b5007a9893f226762036749bab1006e7148"
 }
