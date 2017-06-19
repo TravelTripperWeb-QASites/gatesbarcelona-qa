@@ -37,7 +37,7 @@
       "blog-details": {
         "__PAGES__": [
           {
-            "label": "Blogs in Key West Florida | Blogs at the Gates Hotel",
+            "label": "News & Events in Barcelona | Gates Hotel Diagonal Blog",
             "published": true,
             "locales": {
               "en": "/blog/blog-details/",
@@ -50,7 +50,7 @@
       },
       "__PAGES__": [
         {
-          "label": "Blogs in Key West Florida | Blogs at the Gates Hotel",
+          "label": "Events in Barcelona in 2017 | Gates Diagonal Barcelona",
           "published": true,
           "locales": {
             "en": "/blog/",
@@ -118,7 +118,7 @@
     "dining": {
       "__PAGES__": [
         {
-          "label": "Restaurants in Diagonal Barcelona | Dining at Hotel Diagonal",
+          "label": "Restaurants in Barcelona | Dining at Piano, Hotel Diagonal",
           "published": true,
           "locales": {
             "en": "/dining/",
@@ -174,7 +174,7 @@
     "location": {
       "__PAGES__": [
         {
-          "label": "Hotel near Sagrada Familia | Hotel Diagonal Barcelona",
+          "label": "Hotel near Sagrada Familia | Gates Hotel Barcelona",
           "published": true,
           "locales": {
             "en": "/location/",
@@ -341,7 +341,7 @@
     },
     "__PAGES__": [
       {
-        "label": "Design Hotels in Barcelona | Hotel Diagonal Barcelona",
+        "label": "Design Hotels in Barcelona",
         "published": true,
         "locales": {
           "en": "/",
@@ -410,7 +410,7 @@
     "thankyou": {
       "__PAGES__": [
         {
-          "label": "Thank You | Hotel Diagonal Barcelona",
+          "label": "Thank You | Gates Hotel Diagonal Barcelona",
           "published": true,
           "locales": {
             "en": "/thankyou/",
@@ -440,26 +440,6 @@
     "events.html/exquistite.json",
     "events.html/weddings-events.json",
     "events.html/weddings-events-image-1.json",
-    "dining/index.html/rum-row-container-image.json",
-    "dining/index.html/rum-row-container-content.json",
-    "dining/index.html/poolside-content.json",
-    "dining/index.html/the-blind-pig-content2.json",
-    "dining/index.html/the-blind-pig-content-image.json",
-    "dining/index.html/cuisine-content.json",
-    "blog/index.html/banner-text.json",
-    "index.html/welcome-paradise.json",
-    "index.html/twocol-left-img.json",
-    "index.html/two-col-1-img.json",
-    "index.html/home-detailsbg-img.json",
-    "index.html/latest-happiness-box.json",
-    "index.html/exceptionalbarcelona.json",
-    "index.html/offers-image.json",
-    "index.html/newsletter-img.json",
-    "index.html/newsletter-context.json",
-    "index.html/restaurent-bar.json",
-    "index.html/magical-barcelona.json",
-    "gallery/index.html/banner-heading.json",
-    "group-hotel-booking/index.html/banner-text.json",
     "attractions/index.html/banner-text.json",
     "attractions/index.html/acttactions-todos.json",
     "attractions/index.html/attr-image-1.json",
@@ -476,15 +456,35 @@
     "attractions/index.html/beach-points.json",
     "attractions/index.html/attractions-content.json",
     "attractions/index.html/attractions-points.json",
+    "blog/index.html/banner-text.json",
+    "dining/index.html/rum-row-container-image.json",
+    "dining/index.html/rum-row-container-content.json",
+    "dining/index.html/poolside-content.json",
+    "dining/index.html/the-blind-pig-content2.json",
+    "dining/index.html/the-blind-pig-content-image.json",
+    "dining/index.html/cuisine-content.json",
+    "gallery/index.html/banner-heading.json",
+    "group-hotel-booking/index.html/banner-text.json",
     "location/index.html/acttactions-todos.json",
     "location/index.html/attr-image-1.json",
     "location/index.html/attr-image-3.json",
     "location/index.html/attr-image-4.json",
     "location/index.html/attr-favourite-dest.json",
-    "rooms/index.html/rooms-banner-text.json",
     "offer-details/index.html/staybutton.json",
-    "partners/index.html/banner-text.json",
     "offers/index.html/offers-banner-text.json",
+    "partners/index.html/banner-text.json",
+    "rooms/index.html/rooms-banner-text.json",
+    "index.html/welcome-paradise.json",
+    "index.html/twocol-left-img.json",
+    "index.html/two-col-1-img.json",
+    "index.html/home-detailsbg-img.json",
+    "index.html/latest-happiness-box.json",
+    "index.html/exceptionalbarcelona.json",
+    "index.html/offers-image.json",
+    "index.html/newsletter-img.json",
+    "index.html/newsletter-context.json",
+    "index.html/restaurent-bar.json",
+    "index.html/magical-barcelona.json",
     "privacy.html/banner-text.json",
     "privacy.html/privacy-content.json",
     "location/shuttle.html/banner-text.json",
@@ -502,8 +502,10 @@
     "blog/page3/index.html/banner-text.json"
   ],
   "__SETTINGS__": [
+    "authors",
+    "social",
     "config",
     "navigation"
   ],
-  "__SHA__": "5e86da6956716d7826032617ac1b46890a735f26"
+  "__SHA__": "8383abd292a119866a072f4d4ceb1d91754ffbca"
 }
