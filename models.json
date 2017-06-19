@@ -25,6 +25,10 @@
       "file": "blog16.json"
     },
     {
+      "title": "Live Music and a 360-Degree View of Barcelona from Our Rooftop Bar",
+      "file": "blog17.json"
+    },
+    {
       "title": "The Gateway to Key West",
       "file": "blog5.json"
     },
@@ -56,16 +60,6 @@
       "file": "enchanting_miami_carousel3.json"
     }
   ],
-  "events": [
-    {
-      "title": "55th Annual Conch Shell Blowing Contest",
-      "file": "event16.json"
-    },
-    {
-      "title": "Cow Key Channel Bridge Run | Key West Events",
-      "file": "event17.json"
-    }
-  ],
   "event_category": [
     {
       "title": "At The Gates",
@@ -74,6 +68,16 @@
     {
       "title": "City-Wide",
       "file": "event_category2.json"
+    }
+  ],
+  "events": [
+    {
+      "title": "55th Annual Conch Shell Blowing Contest",
+      "file": "event16.json"
+    },
+    {
+      "title": "Cow Key Channel Bridge Run | Key West Events",
+      "file": "event17.json"
     }
   ],
   "gallery_area_images": [
