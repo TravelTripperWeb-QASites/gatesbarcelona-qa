@@ -1,6 +1,7 @@
 {
 	"title": {
-		"required": true
+		"required": true,
+		"localizable": true
 	},
 	"blogimage": {
 		"type": "image",
@@ -24,14 +25,15 @@
 	},
 	"short_description": {
 		"required": false,
-		"type": "richtext"
+		"type": "richtext",
+		"localizable": true
 	},
 	"more_content": {
-		"type": "richtext"
+		"type": "richtext",
+		"localizable": true
 	},
 	"sort_order": {
 		"type": "integer",
 		"required": false
-	},
-	"localizable": true
+	}
 }
