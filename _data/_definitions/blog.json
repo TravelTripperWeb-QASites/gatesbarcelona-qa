@@ -32,5 +32,6 @@
 	"sort_order": {
 		"type": "integer",
 		"required": false
-	}
+	},
+	"localizable": true
 }
