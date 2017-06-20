@@ -1,13 +1,18 @@
 {
 	"title": {
-		"required": true
+		"required": true,
+		"localizable": true
 	},
 	"blogimage": {
 		"type": "image",
 		"required": true
 	},
-	"seo_title": {},
-	"seo_description": {},
+	"seo_title": {
+		"localizable": true
+	},
+	"seo_description": {
+		"localizable": true
+	},
 	"from": {},
 	"to": {},
 	"url_friendly_name": {
@@ -24,10 +29,12 @@
 	},
 	"short_description": {
 		"required": false,
-		"type": "richtext"
+		"type": "richtext",
+		"localizable": true
 	},
 	"more_content": {
-		"type": "richtext"
+		"type": "richtext",
+		"localizable": true
 	},
 	"sort_order": {
 		"type": "integer",
