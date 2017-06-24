@@ -60,16 +60,6 @@
       "file": "enchanting_miami_carousel3.json"
     }
   ],
-  "event_category": [
-    {
-      "title": "At The Gates",
-      "file": "event_category1.json"
-    },
-    {
-      "title": "City-Wide",
-      "file": "event_category2.json"
-    }
-  ],
   "events": [
     {
       "title": "55th Annual Conch Shell Blowing Contest",
@@ -78,6 +68,16 @@
     {
       "title": "Cow Key Channel Bridge Run | Key West Events",
       "file": "event17.json"
+    }
+  ],
+  "event_category": [
+    {
+      "title": "At The Gates",
+      "file": "event_category1.json"
+    },
+    {
+      "title": "City-Wide",
+      "file": "event_category2.json"
     }
   ],
   "gallery_area_images": [
