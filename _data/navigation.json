@@ -75,13 +75,6 @@
 			'name': 'location',
 			'url': '/location/',
 			'submenu': 'false'  
-		},
-		{
-			'title':'Blog',
-			'title_es':'Blog',
-			'name':'blog',
-			'url':'/blog/',
-			'submenu': 'false'
 		}, 
 		{
 			'title':'Privacy Policy',
