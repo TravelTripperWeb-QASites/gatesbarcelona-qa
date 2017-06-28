@@ -443,9 +443,7 @@
     "location/shuttle.html/shuttle-table.json",
     "location/shuttle.html/shuttle-image-4.json",
     "location/shuttle.html/shuttle-image-5.json",
-    "location/shuttle.html/shuttle-image-6.json",
-    "blog/page2/index.html/banner-text.json",
-    "blog/page3/index.html/banner-text.json"
+    "location/shuttle.html/shuttle-image-6.json"
   ],
   "__SETTINGS__": [
     "authors",
@@ -453,5 +451,5 @@
     "config",
     "navigation"
   ],
-  "__SHA__": "1e30231e9995f2f81eaf689e0e0e58fa93480e0f"
+  "__SHA__": "07ff5766c7b149eae3a2f157f8ca0444049e1057"
 }
