@@ -43,9 +43,10 @@ class DataObject
       else
         data[name]
       end
-
-      definition.has_key?(name) && definition[name].has_key?('localizable') && definition[name]['localizable'] ?
-        value[storage.locale] || value[storage.default_locale] : value
+      return value
+      # The current copy of [data] has the appropriate values stored for the current locale already
+      # definition.has_key?(name) && definition[name].has_key?('localizable') && definition[name]['localizable'] ?
+      #  value[storage.locale] || value[storage.default_locale] : value
     end
   end
 
