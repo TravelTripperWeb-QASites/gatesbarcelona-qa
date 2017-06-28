@@ -42,7 +42,7 @@ published_localized:
                    
                    	<div class="date-holder">{{post.date | date: "%B %d, %Y"}}</div>
                     {{post.short_description}}
-                    <div class="btn-holder"><a href="/blog/{{post.url_friendly_name}}" class="btn-common button-blue">READ MORE</a></div>
+                    <div class="btn-holder"><a href="{{ post.id | permalink: model_dir: 'blog' }}" class="btn-common button-blue">READ MORE</a></div>
                </div>
           </div>
         </div>

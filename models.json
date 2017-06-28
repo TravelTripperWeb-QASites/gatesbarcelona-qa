@@ -1,64 +1,8 @@
 {
   "blog": [
     {
-      "name": "Our Favorite Rum Cocktails + Recipes",
-      "title": "Our Favorite Rum Cocktails + Recipes",
-      "file": "blog10.json"
-    },
-    {
-      "name": "The Gates Guide to Letting Loose Like a Local on Key West",
-      "title": "The Gates Guide to Letting Loose Like a Local on Key West",
-      "file": "blog11.json"
-    },
-    {
-      "name": "The Gateway to Key West-copy",
-      "title": "The Gateway to Key West-copy",
-      "file": "blog13.json"
-    },
-    {
-      "name": "Who to See This Year at Songwriters",
-      "title": "Who to See This Year at Songwriters",
-      "file": "blog14.json"
-    },
-    {
-      "name": "The Most Scenic Spots to Watch the Key West Sunset",
-      "title": "The Most Scenic Spots to Watch the Key West Sunset",
-      "file": "blog15.json"
-    },
-    {
-      "name": "Time Travel at Fantasy Fest 2017",
-      "title": "Time Travel at Fantasy Fest 2017",
-      "file": "blog16.json"
-    },
-    {
       "name": "Live Music and a 360-Degree View of Barcelona from Our Rooftop Bar",
-      "title": "Live Music and a 360-Degree View of Barcelona from Our Rooftop Bar",
       "file": "blog17.json"
-    },
-    {
-      "name": "The Gateway to Key West",
-      "title": "The Gateway to Key West",
-      "file": "blog5.json"
-    },
-    {
-      "name": "Where to Dine in Key West",
-      "title": "Where to Dine in Key West",
-      "file": "blog6.json"
-    },
-    {
-      "name": "Our Favorite Boutiques in Key West",
-      "title": "Our Favorite Boutiques in Key West",
-      "file": "blog7.json"
-    },
-    {
-      "name": "Where to Grab Drinks in Key West",
-      "title": "Where to Grab Drinks in Key West",
-      "file": "blog8.json"
-    },
-    {
-      "name": "Our Favorite Art Galleries in Key West",
-      "title": "Our Favorite Art Galleries in Key West",
-      "file": "blog9.json"
     }
   ],
   "enchanting_miami_carousel": [
