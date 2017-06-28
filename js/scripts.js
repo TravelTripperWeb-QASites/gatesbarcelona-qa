@@ -189,7 +189,7 @@ jQuery(function ($) {
  
  $(document).ready(function(){
   $('.home-slider').slick({
-  autoplay: false,
+  autoplay: true,
     dots: false,
 	
    centerMode: true,
