@@ -1,50 +1,62 @@
 {
   "blog": [
     {
+      "name": "Our Favorite Rum Cocktails + Recipes",
       "title": "Our Favorite Rum Cocktails + Recipes",
       "file": "blog10.json"
     },
     {
+      "name": "The Gates Guide to Letting Loose Like a Local on Key West",
       "title": "The Gates Guide to Letting Loose Like a Local on Key West",
       "file": "blog11.json"
     },
     {
+      "name": "The Gateway to Key West-copy",
       "title": "The Gateway to Key West-copy",
       "file": "blog13.json"
     },
     {
+      "name": "Who to See This Year at Songwriters",
       "title": "Who to See This Year at Songwriters",
       "file": "blog14.json"
     },
     {
+      "name": "The Most Scenic Spots to Watch the Key West Sunset",
       "title": "The Most Scenic Spots to Watch the Key West Sunset",
       "file": "blog15.json"
     },
     {
+      "name": "Time Travel at Fantasy Fest 2017",
       "title": "Time Travel at Fantasy Fest 2017",
       "file": "blog16.json"
     },
     {
+      "name": "Live Music and a 360-Degree View of Barcelona from Our Rooftop Bar",
       "title": "Live Music and a 360-Degree View of Barcelona from Our Rooftop Bar",
       "file": "blog17.json"
     },
     {
+      "name": "The Gateway to Key West",
       "title": "The Gateway to Key West",
       "file": "blog5.json"
     },
     {
+      "name": "Where to Dine in Key West",
       "title": "Where to Dine in Key West",
       "file": "blog6.json"
     },
     {
+      "name": "Our Favorite Boutiques in Key West",
       "title": "Our Favorite Boutiques in Key West",
       "file": "blog7.json"
     },
     {
+      "name": "Where to Grab Drinks in Key West",
       "title": "Where to Grab Drinks in Key West",
       "file": "blog8.json"
     },
     {
+      "name": "Our Favorite Art Galleries in Key West",
       "title": "Our Favorite Art Galleries in Key West",
       "file": "blog9.json"
     }
@@ -60,24 +72,28 @@
       "file": "enchanting_miami_carousel3.json"
     }
   ],
-  "events": [
-    {
-      "title": "55th Annual Conch Shell Blowing Contest",
-      "file": "event16.json"
-    },
-    {
-      "title": "Cow Key Channel Bridge Run | Key West Events",
-      "file": "event17.json"
-    }
-  ],
   "event_category": [
     {
+      "name": "At The Gates",
       "title": "At The Gates",
       "file": "event_category1.json"
     },
     {
+      "name": "City-Wide",
       "title": "City-Wide",
       "file": "event_category2.json"
+    }
+  ],
+  "events": [
+    {
+      "name": "55th Annual Conch Shell Blowing Contest",
+      "title": "55th Annual Conch Shell Blowing Contest",
+      "file": "event16.json"
+    },
+    {
+      "name": "Cow Key Channel Bridge Run | Key West Events",
+      "title": "Cow Key Channel Bridge Run | Key West Events",
+      "file": "event17.json"
     }
   ],
   "gallery_area_images": [
@@ -258,26 +274,32 @@
   ],
   "partners": [
     {
+      "name": "Rodriguez Cigar Lounge Key West | The Gates Hotel Key West",
       "title": "Rodriguez Cigar Lounge Key West | The Gates Hotel Key West",
       "file": "partner1.json"
     },
     {
+      "name": "De La Gallery in Key West | Gallery at The Gates Hotel",
       "title": "De La Gallery in Key West | Gallery at The Gates Hotel",
       "file": "partner2.json"
     },
     {
+      "name": "Key West First Legal Rum Distillery | The Gates Key West",
       "title": "Key West First Legal Rum Distillery | The Gates Key West",
       "file": "partner3.json"
     },
     {
+      "name": "Key West Hotel with Concierge | The Gates Hotel Key West",
       "title": "Key West Hotel with Concierge | The Gates Hotel Key West",
       "file": "partner5.json"
     },
     {
+      "name": "Key West Bike Rentals | Things to do in Key West Fl",
       "title": "Key West Bike Rentals | Things to do in Key West Fl",
       "file": "partner6.json"
     },
     {
+      "name": "Key West Theater | Things to do in Key West",
       "title": "Key West Theater | Things to do in Key West",
       "file": "partner7.json"
     }
