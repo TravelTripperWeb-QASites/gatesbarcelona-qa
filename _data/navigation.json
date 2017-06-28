@@ -79,9 +79,9 @@
 		{
 			'title':'Blog',
 			'title_es':'Blog',
-			'name':'blog',
-			'url':'/blog/',
-			'submenu': 'false'
+			'name': 'blog',
+			'url': '/blog/',
+			'submenu': 'false'  
 		}, 
 		{
 			'title':'Privacy Policy',
