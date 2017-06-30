@@ -5,7 +5,7 @@ function getIp(data){
 }
 </script>
 <script src="https://api.ipify.org?format=jsonp&callback=getIp"></script>
-<script src="/js/jquery-1.11.1.js"></script>
+<script src="/js/jquery.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgpfLrDcd6r2v4U4gnC1aJNmg4Lq8T-Ko"></script>
 <script>
 /* An InfoBox is like an info window, but it displays
@@ -115,7 +115,7 @@ InfoBox.prototype.panMap = function () {
     var position = this.latlng_;
     // The dimension of the infowindow
     var iwWidth = this.width_ ;
-    var iwHeight = this.height_ ; 
+    var iwHeight = this.height_ ;
     // The offset position of the infowindow
     var iwOffsetX = this.offsetHorizontal_;
     var iwOffsetY = this.offsetVertical_;
@@ -162,17 +162,17 @@ InfoBox.prototype.panMap = function () {
 
 function initialize1() {
     var markers = []; // makers array
-  
+
     var myOptions = { // map settings
         zoom: 12,
         center: new google.maps.LatLng(41.412024, 2.219475),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        sensor: 'true', 
+        sensor: 'true',
         scaleControl: false,
         scrollwheel: false
     }
     var map = new google.maps.Map(document.getElementById("canvas-map"), myOptions);
-  
+
     var data = [ // map data
      {
        'id':1,
@@ -182,7 +182,7 @@ function initialize1() {
          'lng': 2.190294
         },
         'markericon': '/images/icons/marker1.png'
-     },  
+     },
       {
         'id':2,
         'content':'<strong>La Rambla</strong><br>08002 Barcelona<br>Spain',
@@ -263,21 +263,21 @@ function initialize1() {
           'lng': 2.219077
          },
          'markericon': '/images/icons/marker.png'
-      } 
+      }
     ];
-   
+
     for (var i = 0; i < data.length; i++) {
       var current = data[i];
-  
+
       var marker = new google.maps.Marker({
         position: new google.maps.LatLng(current.position.lat, current.position.lng),
         map: map,
         icon:  current.markericon,
         content: current.content
       });
-  
+
       markers.push(marker);
-  
+
       google.maps.event.addListener(markers[i], "click", function (e) {
         var infoBox = new InfoBox({
             latlng: this.getPosition(),
@@ -288,25 +288,25 @@ function initialize1() {
     }
 }
 
-jQuery(document).ready(function(){ 
+jQuery(document).ready(function(){
     google.maps.event.addDomListener(window, 'load', initialize1);
 
 });
 </script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
-                            <script> 
+                            <script>
 
                             // v3.1.0
                             //Docs at http://simpleweatherjs.com
-                            $(document).ready(function() { 
-                            	
+                            $(document).ready(function() {
+
                               $.simpleWeather({
                                 location: 'BARCELONA, SPAIN',
                                 woeid: '',
-                                unit: 'f', 
+                                unit: 'f',
                                 success: function(weather) {
-                                 var toFar = weather.temp; 
-                                 var toCels = weather.alt.temp; 
+                                 var toFar = weather.temp;
+                                 var toCels = weather.alt.temp;
                                   var icon = 'icon-'+weather.code;
                                   $(".fahr").html(toFar + "");
                                   $(".cel").html(toCels + "");
@@ -323,13 +323,14 @@ jQuery(document).ready(function(){
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/lightgallery.js"></script>
 <script src="/js/lg-fullscreen.js"></script>
-<script src="/js/lg-thumbnail.js"></script> 
+<script src="/js/lg-thumbnail.js"></script>
 <script src="/js/lg-video.js"></script>
 <script src="/js/jquery.mousewheel.min.js"></script>
-<script src="/js/slick.min.js"></script> 
+<script src="/js/jquery-ui.min.js"></script>
+
+<script src="/js/slick.min.js"></script>
 <script src="/js/booking-widget.js"></script>
 <script src="/js/angular.min.js"></script>
-<script src="/js/jquery-ui.min.js"></script>
 <script src="/js/rt3api.js"></script>
 <script src="/js/ui-date.js"></script>
 <script src="/js/rez-trip.js"></script>
@@ -338,4 +339,3 @@ jQuery(document).ready(function(){
 <script src="/js/rt3-filters.js"></script>
 <script src="/js/scripts.js"></script>
 <script src="/js/tweet.js"></script>
- 

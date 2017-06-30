@@ -10,7 +10,7 @@ es:
     meetings: 'Eventos'
     gallery: 'Galería'
     contact: 'Contacto'
-    
+
 
   footer:
     learn: 'más información'
@@ -113,6 +113,7 @@ es:
     feature4: "Pantalla plana HDTV con navegador web"
     feature5: "estación de acoplamiento de iHome"
     feature6: "Amenidades de baño de respetuoso del medio ambiente de la zona de confort"
+    Gates Hotel Barcelona Service Center: "Gates Hotel Barcelona Centro de Servicios"
 
   about:
     page-title: 'Estancia Inolvidable'
