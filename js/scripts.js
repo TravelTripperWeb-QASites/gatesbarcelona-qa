@@ -235,24 +235,6 @@
  });
 
 
- 
-
- $(window).on('load resize', function () {
- 	var mheight = $(window).height();
- 	var mwidth = $(window).width();
-
- 	if (mwidth > 300) {
- 		$(".home-banner .carousel-inner .item").height(mheight - 50);
- 	}
- 	if (mwidth > 768) {
- 		$(".home-banner .carousel-inner .item").height(mheight - 75);
- 	}
- 	if (mwidth > 1240) {
- 		$(".home-banner .carousel-inner .item").height(mheight - 121);
- 	}
-
- });
-
 function adjustHeader(){
 	var mheight = $(window).height();
  	var mscroll = $(window).scrollTop();
