@@ -67,11 +67,11 @@ layout: default
        
     <div class="col-md-8 no-padding">
       <div class="rooms-carousel">
-        <div id="rooms-carousel" class="carousel slide" data-ride="carousel">
+        <div id="od-carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
 
          	<div class="item" ng-repeat="offer in offers.special_rates" ng-class='{active:$first}'>
-             <img alt="" ng-src="[[offer.lead_photo_url.yankee_large]]"   class="width-full">
+             <img alt="[[offer.rate_plan_name]]" ng-src="[[offer.lead_photo_url.yankee_large]]"   class="width-full">
 
 
             </div>
@@ -81,9 +81,9 @@ layout: default
       </div>
     </div>
      <div class="col-md-4 no-padding">
-      <div class="new-caption-area" id="roomscroll" class="carousel slide" data-ride="carousel">
+      <div class="new-caption-area" id="odscroll" class="carousel slide" data-ride="carousel">
         <p>{% t 'about.view-offer' %}</p>
-        <div class="carousel-controls"> <a class="left nav-control" href="#rooms-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#rooms-carousel" role="button" data-slide="next"> </a> </div>
+        <div class="carousel-controls"> <a class="left nav-control" href="#od-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#od-carousel" role="button" data-slide="next"> </a> </div>
         <div class="carousel-inner ">
           <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
               <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
