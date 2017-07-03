@@ -1,0 +1,18 @@
+{
+  "name": "gatesbercelona",
+  "version": "1.0.0",
+  "description": "gatesbercelona npm build scripts",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^1.7.0",
+    "onchange": "^2.2.0",
+    "uglify-js": "^2.6.1"
+  },
+  "scripts": {
+    "uglify": "uglifyjs js/jquery-1.11.1.js js/bootstrap.min.js js/lightgallery.js js/lg-fullscreen.js js/lg-thumbnail.js js/lg-video.js js/jquery.mousewheel.min.js js/slick.min.js js/booking-widget.js js/angular.min.js js/jquery-ui.min.js js/rt3api.js js/ui-date.js js/rez-trip.js js/rt3-services.js js/rt3-directives.js js/rt3-filters.js js/scripts.js js/tweet.js -c -o js/main.min.js",
+    "watch:js": "onchange \"js/**/*.js\" -e \"js/main.min.js\" -- npm run build:js",
+    "build:js": "npm run uglify"
+  }
+}

@@ -337,6 +337,34 @@ angular.module('rezTrip')
     }
 
   }])
+  .service('rt3SecretSpecials', ['$rootScope', '$q', '$location','rt3api','$filter', function($rootScope, $q, $location, rt3api,$filter) {
+    var secretSpecialRates = {
+
+      loaded: false,
+      locationHash:  angular.element('#secOfferCode').data('offercode') || null ,
+      secretOffer: {}
+     // locationHash: window.location.hash.substr(1) //$location.search().name || null
+
+    };
+
+    secretSpecialRates.ready = $q(function(resolve) {
+      rt3api.getAllSpecialRates(secretSpecialRates.locationHash).then(function(response) {
+
+             $rootScope.$applyAsync(function() {
+
+              angular.extend(secretSpecialRates.secretOffer, response.special_rates[0]);
+
+              secretSpecialRates.loaded = true;
+              resolve(secretSpecialRates);
+          });
+
+      });
+    });
+
+    return secretSpecialRates;
+
+
+  }])
   .service('rt3RoomDetails', ['$rootScope', '$q', '$location', 'rt3Search', 'rt3api', '$timeout', function($rootScope, $q, $location, rt3Search, rt3api, $timeout) {
     function RoomDetails() {
       loaded = false;
