@@ -535,6 +535,17 @@ h2{
 .text-center {
 	text-align: center;
 }
+.secDealPercent {
+	color: #da0a0a;
+	
+	font-size: 18px;
+	font-weight:bold;
+	padding: 0 0 34px 0;
+
+	@media(min-width:$screen-sm-min) {
+		padding: 0 0 40px 0;
+	}
+}
 .rd-row-1 .rdc-car-con {
 &.overlay-con {
 	@media (min-width: $screen-sm-min){
@@ -542,4 +553,11 @@ h2{
 		padding-bottom: 90px;
 	}
 }
+.secDealTitle {
+	font-family: $main-font-bold;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+
+
 }

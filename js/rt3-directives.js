@@ -35,6 +35,15 @@ angular.module('rezTrip')
       }
     };
   }])
+  .directive('rt3SecretSpecials', ['rt3SecretSpecials', function(rt3SecretSpecials) {
+    return {
+      restrict: 'A',
+      scope: true,
+      link: function(scope, element, attrs) {
+        scope[attrs['rt3SecretSpecials']] = rt3SecretSpecials;
+      }
+    };
+  }])
   .directive('rt3RoomDetails', ['rt3RoomDetails', function(rt3RoomDetails) {
     return {
       restrict: 'A',

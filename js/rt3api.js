@@ -69,7 +69,7 @@ Rt3Api.prototype.availableRooms = function(searchParams) {
 };
 
 
-Rt3Api.prototype.getAllAvailableRooms = function(searchParams) { 
+Rt3Api.prototype.getAllAvailableRooms = function(searchParams) {
     var path = '/hotels/rooms.json';
     var newParams = {};
     if(searchParams){
@@ -148,7 +148,7 @@ Rt3Api.prototype.availableRoomsTonight = function() {
     return query(path, defaultParams);
 };
 
-Rt3Api.prototype.getAllSpecialRates = function() {
+Rt3Api.prototype.getAllSpecialRates = function(rateCode) {
     var path = '/hotels/special_rates.json';
     var params = {
         hotel_id: this.config.hotelId,
@@ -156,6 +156,9 @@ Rt3Api.prototype.getAllSpecialRates = function() {
         locale: this.config.defaultLocale,
         currency: this.config.defaultCurrency
     };
+    if(rateCode){
+        var params = $.extend(params, {'rate_code':rateCode});
+    }
 
     return query(path, params);
 };
