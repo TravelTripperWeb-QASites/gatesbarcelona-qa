@@ -12,145 +12,117 @@ layout: default
     </div>
   </div>
 </section>
-
 <section class="loc-con-one about top-padding">
-      		<div class="container no-padding">
-                	<div class="col-sm-6 no-padding">
-                    	<div class="con-one">
-                    	{% region modern-manhattan %}
-                        </div>
-                    </div>
-                    <div class="col-sm-6 no-padding">
-                    	<div class="con-two">
-                    		<span class="abt">{% region abt-image-1 %}</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="container no-padding">
-                	<div class="col-md-6 no-padding">
-                    <div class="con-tt">
-                    	<div class="con-three">
-                             <span class="att default-spacing-minus"><div class="sp-right">{% region abt-image-2 %}</div></span>
-                             <span class="att">
-                             <div class="sp-left">{% region abt-image-3 %}</div></span>
-                        </div>
-                        <div class="con-four">
-                        	<div class="col-sm-6 no-padding att default-spacing-minus">
-                            	<div class="sp-right">
-                            	{% region abt-image-4 %}
-                                </div>
-
-                            </div>
-                            <div class="col-sm-6 no-padding">
-                            	<div class="sp-left">{% region abt-image-5 %}</div>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 no-padding prox">
-                    	<div class="prox-content ">
-                        	<h2>{% t 'about.proximity-title' %}</h2>
-                           <!-- <h3><a href="https://goo.gl/OqAOdb" target="_blank">{% t 'about.proximity-loc' %}</a></h3> -->
-                            <p>{% t 'about.proximity-desc' %}</p>
-
-                            <div class="btn-holder  text-center"><a href="{{ '/location' | permalink }}" class="button-common outline">{% t 'about.proximity-expl' %}</a></div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-      </section>
-
-<section class="rooms-section" rt3-special-rates="offers">
-  <div class="container">
-       
-    <div class="col-md-8 no-padding">
-      <div class="rooms-carousel">
-        <div id="rooms-carousel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-
-         	<div class="item" ng-repeat="offer in offers.special_rates" ng-class='{active:$first}'>
-             <img alt="" ng-src="[[offer.lead_photo_url.yankee_large]]"   class="width-full">
-
-
-            </div>
-
+  <div class="container no-padding">
+    <div class="col-sm-6 no-padding">
+      <div class="con-one"> {% region modern-manhattan %} </div>
+    </div>
+    <div class="col-sm-6 no-padding">
+      <div class="con-two"> <span class="abt">{% region abt-image-1 %}</span> </div>
+    </div>
+  </div>
+  <div class="container no-padding">
+    <div class="col-md-6 no-padding">
+      <div class="con-tt">
+        <div class="con-three"> <span class="att default-spacing-minus">
+          <div class="sp-right">{% region abt-image-2 %}</div>
+          </span> <span class="att">
+          <div class="sp-left">{% region abt-image-3 %}</div>
+          </span> </div>
+        <div class="con-four">
+          <div class="col-sm-6 no-padding att default-spacing-minus">
+            <div class="sp-right"> {% region abt-image-4 %} </div>
+          </div>
+          <div class="col-sm-6 no-padding">
+            <div class="sp-left">{% region abt-image-5 %}</div>
           </div>
         </div>
       </div>
     </div>
-     <div class="col-md-4 no-padding">
+    <div class="col-md-6 no-padding prox">
+      <div class="prox-content ">
+        <h2>{% t 'about.proximity-title' %}</h2>
+        <!-- <h3><a href="https://goo.gl/OqAOdb" target="_blank">{% t 'about.proximity-loc' %}</a></h3> -->
+        <p>{% t 'about.proximity-desc' %}</p>
+        <div class="btn-holder  text-center"><a href="{{ '/location' | permalink }}" class="button-common outline">{% t 'about.proximity-expl' %}</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="rooms-section" rt3-special-rates="offers">
+  <div class="container">
+    <div class="col-md-8 no-padding">
+      <div class="rooms-carousel">
+        <div id="rooms-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item" ng-repeat="offer in offers.special_rates" ng-class='{active:$first}'> <img alt="" ng-src="[[offer.lead_photo_url.yankee_large]]"   class="width-full"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 no-padding">
       <div class="new-caption-area" id="roomscroll" class="carousel slide" data-ride="carousel">
-        <p>{% t 'about.view-offer' %}</p>
-        <div class="carousel-controls"> <a class="left nav-control" href="#rooms-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#rooms-carousel" role="button" data-slide="next"> </a> </div>
-        <div class="carousel-inner ">
-          <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
-              <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
-
-              <div class="links"><a href="{{'/offer-details' | permalink }}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">{% t 'room.view-this-offer' %}</a><br /><br /> <a href="{{ '/offers' | permalink }}" class="button-common-2">{% t 'about.offer-button-2' %}</a> </div>
-
+      <p>{% t 'about.view-offer' %}</p>
+      <div class="carousel-controls"> <a class="left nav-control" href="#rooms-carousel" role="button" data-slide="prev" title="Previous"> </a> <a class="right nav-control" href="#rooms-carousel" role="button" data-slide="next" title="Next"> </a> </div>
+      <div class="carousel-inner ">
+        <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
+          <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
+          <div class="links"><a href="{{'/offer-details' | permalink }}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">{% t 'room.view-this-offer' %}</a><br />
+            <br />
+            <a href="{{ '/offers' | permalink }}" class="button-common-2">{% t 'about.offer-button-2' %}</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<section>
+  <div class="container-fluid no-padding m-20">
+    <div class="row no-gutters">
+      <div class="col-md-6 p-l-0 p-r-10 text-center">
+        <div class="about-intro-content city">{% region services-amenities %} </div>
+        <img src="/images/about/about-9.jpg" class="img-responsive" alt="About Gates Diagonal Barcelona"/> </div>
+      <div class="col-md-6 p-r-0 p-l-10 home-map">
+        <div class="con-img-holder"> <img src="/images/about/about-6.jpg" alt="Map"/> 
+          <!--  <span class="cap">{% t 'about.services-cap-1' %}</span>--> 
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters relative-box m-t-20">
+      <div class="col-md-6 p-l-0 p-r-10 ">
+        <div class="container-fluid no-padding">
+          <div class="row no-gutters no-padding">
+            <div class="col-sm-12 p-l-0 p-r-0 m-n-p">
+              <div class="city-1 img-100"> <img src="/images/about/about-8.jpg" alt="Services"/> 
+                <!--    <span class="cap">{% t 'about.services-cap-2' %}</span>--> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 p-r-0 p-l-10 prox-abs">
+        <div class="container-fluid no-padding">
+          <div class="row no-gutters no-padding">
+            <div class="prox-content prox-list no-margin prox-content2">
+              <h2 class="text-center">{% t 'about.services-title' %}</h2>
+              <ul class="about-list">
+                {% t 'about.services-list' %}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section>
-	<div class="container-fluid no-padding m-20">
-    	<div class="row no-gutters">
-        	<div class="col-md-6 p-l-0 p-r-10 text-center">
-            	<div class="about-intro-content city">{% region services-amenities %} </div>
-                <img src="/images/about/about-9.jpg" class="img-responsive" alt=""/>
-            </div>
-            <div class="col-md-6 p-r-0 p-l-10 home-map">
-            	<div class="con-img-holder">
-           	    	<img src="/images/about/about-6.jpg" alt=""/>
-                   <!--  <span class="cap">{% t 'about.services-cap-1' %}</span>-->
-                </div>
-          </div>
-        </div>
-        <div class="row no-gutters relative-box m-t-20">
-        	<div class="col-md-6 p-l-0 p-r-10 ">
-                <div class="container-fluid no-padding">
-                    <div class="row no-gutters no-padding">
-                        <div class="col-sm-12 p-l-0 p-r-0 m-n-p">
-                            <div class="city-1 img-100">
-                                <img src="/images/about/about-8.jpg" alt=""/>
-                              <!--    <span class="cap">{% t 'about.services-cap-2' %}</span>-->
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 p-r-0 p-l-10 prox-abs">
-            	<div class="container-fluid no-padding">
-                	<div class="row no-gutters no-padding">
-                    	<div class="prox-content prox-list no-margin prox-content2">
-                        	<h2 class="text-center">{% t 'about.services-title' %}</h2>
-                            <ul class="about-list">
-                                {% t 'about.services-list' %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <section class="loc-cta about-cta" style="background-image: url(/images/about/cta.jpg);">
-    <div class="container-fluid no-padding">
-        <div class="cta">
-
-           <p class="text-center">BEAUTIFUL <br />BARCELONA</p>
-            <div class="cta-logo"><img src="/images/gates/location/logo.png" alt="Gates Hotel Barcelona"/></div>
-            <div class="btn-holder text-center"><a href="https://gateshotelbarcelona.reztrip.com/?{{locale}}" target="_blank" class="button-common">{% t 'about.bookyourstay' %}</a></div>
-
-        </div>
+  <div class="container-fluid no-padding">
+    <div class="cta">
+      <p class="text-center">BEAUTIFUL <br />
+        BARCELONA</p>
+      <div class="cta-logo"><img src="/images/gates/location/logo.png" alt="Gates Hotel Barcelona"/></div>
+      <div class="btn-holder text-center"><a href="https://gateshotelbarcelona.reztrip.com/?{{locale}}" target="_blank" class="button-common">{% t 'about.bookyourstay' %}</a></div>
     </div>
+  </div>
 </section>
-
-{% include twitter-instagram.html %}
+{% include twitter-instagram.html %} 

@@ -6,6 +6,11 @@
       "label": "Upload Banner Image"
       
     },
+	"image_alt_txt":
+	{
+		"required": true,  
+      	"type": "text"
+	},
     "sort_order": 
     { 
       "type": "integer",
