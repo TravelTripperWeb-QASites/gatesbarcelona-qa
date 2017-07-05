@@ -17,31 +17,31 @@ layout: default
               <div class="contact-form">
               <p class="rfp-label">{% t 'rfp.form-title' %}</p>
               <form class="jotform-form" action="https://submit.jotform.me/submit/71511601404441/" method="post" name="form_71511601404441" id="71511601404441" accept-charset="utf-8"  enctype="multipart/form-data"> 
-              <input type="hidden" name="formID" value="71511601404441" />
+              <input type="hidden" name="formID" value="71511601404441" aria-label="Hidden" />
                   <div class="two-fields-holder">
                     <div class="col-sm-6 no-padding">
                       <div class="form-group right-space">
-                        <input type="text" class="form-control validate[required, Alphabetic]" id="input_3" name="q3_first-name" placeholder="{% t 'rfp.name' %}" required>
+                        <input type="text" class="form-control validate[required, Alphabetic]" id="input_3" name="q3_first-name" placeholder="{% t 'rfp.name' %}" required aria-label="First Name">
                       </div>
                     </div>
                     <div class="col-sm-6 no-padding">
                       <div class="form-group left-space">
-                        <input type="text" class="form-control validate[required, Alphabetic]" id="input_37" name="q37_company37" placeholder="{% t 'rfp.company' %}" required>
+                        <input type="text" class="form-control validate[required, Alphabetic]" id="input_37" name="q37_company37" placeholder="{% t 'rfp.company' %}" required aria-label="Company">
                       </div>
                     </div>
                   </div>
                 <div class="form-group">
-                    <textarea id="input_36" class="form-control validate[required] m-textarea" name="q36_others36" style="width:100%" rows="5" placeholder="{% t 'rfp.address' %}"></textarea>
+                    <textarea id="input_36" class="form-control validate[required] m-textarea" name="q36_others36" style="width:100%" rows="5" placeholder="{% t 'rfp.address' %}" aria-label="Address"></textarea>
                   </div>
                   <div class="two-fields-holder">
                     <div class="col-sm-6 no-padding">
                       <div class="form-group">
-                        <input type="text" class="form-control validate[required, Numeric]"  id="input_26" name="q26_cell-phone"  placeholder="{% t 'rfp.phone' %}" required>
+                        <input type="text" class="form-control validate[required, Numeric]"  id="input_26" name="q26_cell-phone"  placeholder="{% t 'rfp.phone' %}" required aria-label="Phone">
                       </div>
                     </div>
                     <div class="col-sm-6 no-padding">
                       <div class="form-group left-space">
-                        <input type="email" class="form-control validate[required, Email]" id="input_4" name="q4_email"  placeholder="{% t 'rfp.email' %}" required>
+                        <input type="email" class="form-control validate[required, Email]" id="input_4" name="q4_email"  placeholder="{% t 'rfp.email' %}" required aria-label="Email">
                       </div>
                     </div>
                   </div>
@@ -51,12 +51,12 @@ layout: default
                   <div class="two-fields-holder">
                     <div class="col-sm-6 no-padding">
                       <div class="form-group right-space">
-                        <input type="text" class="form-control main-date-1" id="input_15" name="q15_arrival" placeholder="{% t 'rfp.arrival' %}">
+                        <input type="text" class="form-control main-date-1" id="input_15" name="q15_arrival" placeholder="{% t 'rfp.arrival' %}" aria-label="Arrival Date">
                       </div>
                     </div>
                     <div class="col-sm-6 no-padding">
                       <div class="form-group left-space">
-                        <input type="text" class="form-control alternate-date-1" id="input_16" name="q16_departure" placeholder="{% t 'rfp.departure' %}">
+                        <input type="text" class="form-control alternate-date-1" id="input_16" name="q16_departure" placeholder="{% t 'rfp.departure' %}" aria-label="Departure Date">
                       </div>
                     </div>
                   </div>
@@ -67,10 +67,10 @@ layout: default
                     <div class="col-sm-8">
                       <div class="row">
                         <label class="radio-inline">
-                          <input type="radio" value="Yes" id="input_28_0" name="q28_flexible[]">
+                          <input type="radio" value="Yes" id="input_28_0" name="q28_flexible[]" aria-label="Yes">
                           {% t 'rfp.flex-opt-1' %} </label>
                         <label class="radio-inline">
-                          <input type="radio" value="No" id="input_28_1" name="q28_flexible[]">
+                          <input type="radio" value="No" id="input_28_1" name="q28_flexible[]" aria-label="No">
                           {% t 'rfp.flex-opt-2' %} </label>
                       </div>
                     </div>
@@ -78,17 +78,17 @@ layout: default
                   <div class="two-fields-holder">
                     <div class="col-sm-6 no-padding">
                       <div class="form-group right-space">
-                        <input type="text" class="form-control" id="input_20" name="q20_sleeping-rooms" placeholder="{% t 'rfp.num-rooms' %}">
+                        <input type="text" class="form-control" id="input_20" name="q20_sleeping-rooms" placeholder="{% t 'rfp.num-rooms' %}" aria-label="Rooms">
                       </div>
                     </div>
                     <div class="col-sm-6 no-padding">
                       <div class="form-group left-space">
-                        <input type="text" class="form-control" id="input_25" name="q25_company" placeholder="{% t 'rfp.event-type' %}">
+                        <input type="text" class="form-control" id="input_25" name="q25_company" placeholder="{% t 'rfp.event-type' %}" aria-label="Event Type">
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <textarea class="form-control m-textarea" rows="5" id="input_35" name="q35_others" placeholder="{% t 'rfp.comments' %}"></textarea>
+                    <textarea class="form-control m-textarea" rows="5" id="input_35" name="q35_others" placeholder="{% t 'rfp.comments' %}" aria-label="Comments"></textarea>
                   </div>
                   <button type="submit" id="input_2" class="btn btn-default button-blue">{% t 'rfp.submit' %}</button>
                 </form>

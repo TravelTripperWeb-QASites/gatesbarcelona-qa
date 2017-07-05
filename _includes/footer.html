@@ -1,76 +1,54 @@
 <footer>
   <div class="footer-wrapper four-coloumn">
     <div class="container">
-      
-      
-      <div class="col-md-3 col-sm-6 no-padding v-top f-logo">
-      <img src="/images/hotel-diagonal-barcelona-logo-small.png" class="center-block"  /> </div>
+      <div class="col-md-3 col-sm-6 no-padding v-top f-logo"> <img src="/images/hotel-diagonal-barcelona-logo-small.png" class="center-block" alt="Hotel Diagonal Barcelona"/> </div>
       <div class="col-md-3 col-sm-6 no-padding v-top">
         <div class="footer-grid">
           <h2>{% t 'footer.contact' %}</h2>
-          <span class="block-element address">Avenida Diagonal, 205 <br>08018. Barcelona, Spain <br></span>
-          <span class="block-element address"><a href="tel:34.934.895.300">P - +34 934 895 300</a><br><a href="tel:415.802.173"> F - +34 934 895 309</a></span>
-        </p>
-        
-        
+          <span class="block-element address">Avenida Diagonal, 205 <br>
+          08018. Barcelona, Spain <br>
+          </span> <span class="block-element address"><a href="tel:34.934.895.300">P - +34 934 895 300</a><br>
+          <a href="tel:415.802.173"> F - +34 934 895 309</a></span>
+          </p>
+        </div>
       </div>
-    </div>
-    
-    
-    <div class="col-md-3 col-xs-12 no-padding v-top">
-      <div class="footer-grid">
+      <div class="col-md-3 col-xs-12 no-padding v-top">
+        <div class="footer-grid">
           <h2>{% t 'footer.learn' %}</h2>
           <ul class="footer-menu">
-      {% for items in site.data.navigation.footernav %}
-        
-        <li> 
-          {% if  site.active_lang == 'es' %}
-          <a href="/es{{ items.url }}" {% if items.transclude == false %} target="_blank" {%endif%}>{{ items.title_es }}</a>
-            {% else %}
-             <a href="{{ items.url }}" {% if items.transclude == false %} target="_blank" {%endif%}>{{ items.title }}</a>
-          {% endif %}
-        </li>
-          
-
-      {% endfor %}                       
-      </ul>
+            {% for items in site.data.navigation.footernav %}
+            <li> {% if  site.active_lang == 'es' %} <a href="/es{{ items.url }}" {% if items.transclude == false %} target="_blank" {%endif%}>{{ items.title_es }}</a> {% else %} <a href="{{ items.url }}" {% if items.transclude == false %} target="_blank" {%endif%}>{{ items.title }}</a> {% endif %} </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="col-md-3 col-xs-12 no-padding v-top  no-border">
-      <div class="footer-grid">
-        <h2>{% t 'footer.news' %}</h2>
-        
-       <form class="jotform-form" action="https://submit.jotform.me/submit/71514699884170/" method="post" name="form_71514699884170" id="71514699884170" accept-charset="utf-8"> <input type="hidden" name="formID" value="71514699884170" /> 
-                <div class="form-holder ">
-                  <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="input_3" name="q3_email" size="21" value="" placeholder="{% t 'footer.email' %}" required="required" />
-                  <button id="input_2" type="submit" class="form-button-arrow">submit</button>
-                </div>
-                 <input type="hidden" id="simple_spc" name="simple_spc" value="71514699884170" /> <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "71514699884170-71514699884170"; </script>
-              </form>
-       <script type="text/javascript">JotForm.ownerView=true;</script>
-        
-        <div class="social-icons-footer">
-          <h2>{% t 'footer.share' %}</h2>
-          <a href="https://www.facebook.com/GatesDiagonal" target="blank"><i class="fa fa-facebook"></i></a><span></span> <a href="https://twitter.com/GatesDiagonal" target="blank"><i class="fa fa-twitter"></i></a><span></span> <!--<a href="https://www.youtube.com/user/silkendiagonalbcn" target="blank"><i class="fa fa-youtube"></i></a>--><span></span> <a href="https://www.instagram.com/gatesdiagonal/" target="blank"><i class="fa fa-instagram"></i></a>
+      <div class="col-md-3 col-xs-12 no-padding v-top  no-border">
+        <div class="footer-grid">
+          <h2>{% t 'footer.news' %}</h2>
+          <form class="jotform-form" action="https://submit.jotform.me/submit/71514699884170/" method="post" name="form_71514699884170" id="71514699884170" accept-charset="utf-8">
+            <input type="hidden" name="formID" value="71514699884170" aria-label="Form Id"/>
+            <div class="form-holder ">
+              <input type="email" class=" form-textbox validate[required] input-text" data-type="input-textbox" id="signup" name="q3_email" size="21" value="" placeholder="{% t 'footer.email' %}" required="required" aria-label="Email"/>
+              <button id="submit_signup" type="submit" class="form-button-arrow">submit</button>
+            </div>
+            <input type="hidden" id="simple_spc3" name="simple_spc" value="71514699884170" aria-label="Hidden"/>
+            <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "71514699884170-71514699884170"; </script>
+          </form>
+          <script type="text/javascript">JotForm.ownerView=true;</script>
+          <div class="social-icons-footer">
+            <h2>{% t 'footer.share' %}</h2>
+            <a href="https://www.facebook.com/GatesDiagonal" target="blank" title="Facebook Share"><i class="fa fa-facebook"></i></a><span></span> <a href="https://twitter.com/GatesDiagonal" target="blank" title="Twitter Share"><i class="fa fa-twitter"></i></a><span></span> <!--<a href="https://www.youtube.com/user/silkendiagonalbcn" target="blank"><i class="fa fa-youtube"></i></a>--><span></span> <a href="https://www.instagram.com/gatesdiagonal/" target="blank" title="Instagram Share"><i class="fa fa-instagram"></i></a> </div>
         </div>
       </div>
     </div>
-    
-    
   </div>
-</div>
-
-<div class="footer-copyright">
-<div class="container text-center"> 
- &copy;{% t 'footer.copy' %}
-<!-- <span class="hilton-policies">
+  <div class="footer-copyright">
+    <div class="container text-center"> &copy;{% t 'footer.copy' %} 
+      <!-- <span class="hilton-policies">
     <a href="http://hhonors3.hilton.com/en/promotions/privacy-policy/english.html" target="_blank">Global Privacy Statement</a>
     <a href="http://hhonors3.hilton.com/en/policy/cookies-statement/english.html" target="_blank">Cookies Statement</a>
     <a href="http://hhonors3.hilton.com/en/policy/site-usage-agreement/english.html" target="_blank">Site Usage Agreement</a>
-</span> -->
-</div>
-</div>
-
-
+</span> --> 
+    </div>
+  </div>
 </footer>
-

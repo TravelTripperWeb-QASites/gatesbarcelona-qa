@@ -70,10 +70,10 @@ layout: default
  <p class="des">{% t 'room.need-help-text' %}</p>
 <p class="des">Gates Hotel Barcelona Service Center  <a href="tel:+34 934 895 300">+34 934 895 300</a> or<br><a href="mailto:recepcion.diagonal@gateshotelbarcelona.com">recepcion.diagonal@gateshotelbarcelona.com</a></p>
 </div>
-<div class="spacing"><a class="button-common-2 button-blue"href="{{ '/contact' | permalink }}">{% t 'room.contact-button' %}</a></div>
+<div class="spacing"><a class="button-common-2 button-blue" href="{{ '/contact' | permalink }}">{% t 'room.contact-button' %}</a></div>
       <!--div class="con-2" style="background-image:url(/images/gates/offers/offer-6.jpg);"></div-->
-      <div class="con-2" ><img src="/images/gates/offers/offer-6.jpg" alt=""></div>
       </div>
+      <div class="con-2" ><img src="/images/gates/offers/offer-6.jpg" alt=""></div>
       </div>
       <div class="col-md-6 no-padding -right">
           <div class="con-3">
@@ -92,11 +92,11 @@ layout: default
 <section class="rooms-section" rt3-special-rates= "offers">
 <div class="container">
  <div class="col-md-4 no-padding" >
-      <div class="new-caption-area " id="odscroll" class="carousel slide" data-ride="carousel">
+      <div class="new-caption-area carousel slide" id="odscroll" data-ride="carousel">
       <p>{% t 'room.view-more-luxurious-offers' %}</p>
-        <div class="carousel-controls"> <a class="left nav-control" href="#od-carousel" role="button" data-slide="prev"> </a> <a class="right nav-control" href="#od-carousel" role="button" data-slide="next"> </a> </div>
+        <div class="carousel-controls"> <a class="left nav-control" href="#od-carousel" role="button" data-slide="prev" title="Previous"> </a> <a class="right nav-control" href="#od-carousel" role="button" data-slide="next" title="Next"> </a> </div>
         <div class="carousel-inner ">
-          <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class='{active:$first}'>
+          <div class="item "  ng-repeat ="offer in offers.special_rates" ng-class="{active:$first}">
             <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
             <div class="links"> <a href="{{'/offer-details' | permalink }}#[[offer.rate_plan_name | formatNameForLink ]]" class="button-common-2 btn-spacing button-blue">{% t 'room.view-this-offer' %}</a><br/> <a href="{{'/offers' | permalink }}" class="button-common-2 button-blue">{% t 'room.view-all-offers' %}</a> </div>
           </div>
@@ -108,8 +108,8 @@ layout: default
         <div id="od-carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
 
-          <div class="item" ng-repeat="offer in offers.special_rates" ng-class='{active:$first}'>
-             <img alt="[[offer.rate_plan_name]]" ng-src="[[offer.lead_photo_url.yankee_large]]" class="width-full">
+          <div class="item" ng-repeat="offer in offers.special_rates" ng-class="{active:$first}">
+             <img alt="" ng-src="[[offer.lead_photo_url.yankee_large]]" class="width-full">
 
             </div>
           </div>

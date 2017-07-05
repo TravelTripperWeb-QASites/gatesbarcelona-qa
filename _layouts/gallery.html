@@ -31,19 +31,19 @@ layout: default
 {% assign exterior_images = site.data._models.gallery_exterior_images | sort : "sort_order" %}
 {% for exterior_gallery in exterior_images %}          
           <li class="col-md-4 col-sm-4 fancybox" data-filter="exterior">
-            <div class="item" data-src="{{exterior_gallery.large_image.url}}"><img src="{{exterior_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+            <div class="item" data-src="{{exterior_gallery.large_image.url}}"><img src="{{exterior_gallery.thumb_image.url}}" class="img-responsive" alt="{{exterior_gallery.image_alt_txt}}"/> </div> 
           </li>
 {% endfor %}  
 {% assign roomsnsuites_images = site.data._models.gallery_roomsnsuites_images | sort : "sort_order" %}
 {% for roomsnsuites_gallery in roomsnsuites_images %}            
            <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
-            <div class="item" data-src="{{roomsnsuites_gallery.large_image.url}}"><img src="{{roomsnsuites_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+            <div class="item" data-src="{{roomsnsuites_gallery.large_image.url}}"><img src="{{roomsnsuites_gallery.thumb_image.url}}" class="img-responsive" alt="{{roomsnsuites_gallery.image_alt_txt}}"/> </div> 
           </li>  
 {% endfor %} 
 {% assign attractions_images = site.data._models.gallery_attractions_images | sort : "sort_order" %}
 {% for attractions_gallery in attractions_images %}          
           <li class="col-md-4 col-sm-4 fancybox" data-filter="attractions">
-            <div class="item" data-src="{{attractions_gallery.large_image.url}}"><img src="{{attractions_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+            <div class="item" data-src="{{attractions_gallery.large_image.url}}"><img src="{{attractions_gallery.thumb_image.url}}" class="img-responsive" alt="{{attractions_gallery.image_alt_txt}}"/> </div> 
           </li>
  {% endfor %}          
         </ul>
