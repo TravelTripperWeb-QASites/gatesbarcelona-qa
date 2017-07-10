@@ -3330,5 +3330,23 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_676_4624/media/2017-06-28-131735/xsmall_sagrada-familia.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_676_4624/media/2017-06-28-131735/thumb_sagrada-familia.jpg",
     "git_file_name": "_assets/image_data/site-assets_192_676_4624_media_2017-06-28-131735_sagrada-familia.jpg.json"
+  },
+  {
+    "name": "five-restaturants",
+    "file_name": "five-restaturants.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_676_4839/media/2017-06-30-021545/five-restaturants.jpg",
+    "date_added": "2017-06-30-021546",
+    "tags": "",
+    "file_size": 163575.0,
+    "width": 1000,
+    "height": 667,
+    "description": "",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_676_4839/media/2017-06-30-021545/large_five-restaturants.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_676_4839/media/2017-06-30-021545/medium_five-restaturants.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_676_4839/media/2017-06-30-021545/small_five-restaturants.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_676_4839/media/2017-06-30-021545/xsmall_five-restaturants.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_676_4839/media/2017-06-30-021545/thumb_five-restaturants.jpg",
+    "git_file_name": "_assets/image_data/site-assets_192_676_4839_media_2017-06-30-021545_five-restaturants.jpg.json"
   }
 ]
