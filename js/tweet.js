@@ -55,7 +55,7 @@ handleTweets(arrayTweets);inProgress=false;if(queue.length>0){twitterFetcher.fet
 // id "example1". Also automatically hyperlinks URLS and user mentions and
 // hashtags.
 var configProfile = {
-  "profile": {"screenName": 'Hotel_Diagonal'},
+  "profile": {"screenName": 'GatesDiagonal'},
   "domId": 'soicalfeed',
   "maxTweets": 4,
   "enableLinks": true, 
