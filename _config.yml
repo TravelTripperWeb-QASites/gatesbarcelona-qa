@@ -1,8 +1,8 @@
 # Site Settings
-title                    : "Gates Hotel Diagonal Barcelona"
+title                    : "The Gates Hotel Diagonal Barcelona"
 title_separator          : "-"
-name                     : "Gates Hotel Diagonal Barcelona"
-description              : "Enjoy the spectacular design of the Gates Hotel Barcelona, a modern 4* design hotel near Torre Agbar. Book on our Official Website here for our Best Rate!"
+name                     : "The Gates Hotel Diagonal Barcelona"
+description              : "Enjoy the spectacular design of the Gates Hotel Diagonal Barcelona, a modern 4* design hotel near Torre Agbar. Book on our Official Website here for our Best Rate!"
 url                      : "https://www.gateshotelbarcelona.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "TravelTripperWeb/gatesbercelona"
