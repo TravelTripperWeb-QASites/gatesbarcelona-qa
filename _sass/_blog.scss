@@ -507,3 +507,11 @@
 .m-t-60{
     margin-top:60px;
 }
+.postlink{
+    display: inline-block;
+    &:hover{
+        /*opacity: 0.7;*/
+        text-decoration: underline;
+        text-decoration-color: #000000;
+    }
+}
