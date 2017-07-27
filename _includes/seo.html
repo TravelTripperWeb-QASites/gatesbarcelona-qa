@@ -23,7 +23,13 @@
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
 
+{% if page.meta_description %}
 <meta name="description" content="{{ seo_description }}">
+{% endif %}
+
+{% if page.seo_description %}
+<meta name="description" content="{{ page.seo_title }}. Read more on the blog of Gates Hotel Barcelona, a 4* hotel near Torre Agbar">
+{% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.data.authors.primary.name %}
 {% if seo_author %}
