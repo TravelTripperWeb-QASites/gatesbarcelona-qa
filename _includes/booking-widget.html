@@ -1,10 +1,10 @@
 <div class="booking-widget" ng-controller="bookingWidget as widget" rt3-search-form="search" on-search-changed="browser.search()" ng-cloak>
-  <iframe src="{{site.booking_widget_url}}" title="Book Now"></iframe>
+  <iframe src="{{site.booking_widget_url}}?locale={{site.active_lang}}" title="Book Now"></iframe>
   <div class="booking-widget_header">
     <div class="booking-widget_close">&times;</div>
     <h3 class="booking-widget_title">Your Booking</h3>
   </div>
-  <form action="{{site.data.config.reztripUrl}}search?" method="get">
+  <form action="{{site.data.config.reztripUrl}}search?locale={{site.active_lang}}" method="get">
     <input type="text" name="arrival_date" value="[[search.params.arrival_date | date:'yyyy-MM-dd']]" aria-label="Arrival Date">
     <input type="text" name="departure_date" value="[[search.params.departure_date | date:'yyyy-MM-dd']]" aria-label="Departure Date">
     <select name="adults[]" id="adults" ng-model="browser.params.adults" aria-label="Number of Adults">
