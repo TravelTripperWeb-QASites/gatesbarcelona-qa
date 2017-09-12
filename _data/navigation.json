@@ -5,6 +5,7 @@
 			'title_es':'Sobre',
 			'name': 'about',
 			'url': '/about/',
+			'url_es': /acerca-de/,
 			'submenu': 'false' 
 
 	    },
@@ -13,6 +14,7 @@
 			'title_es':'Habitaciones',
 			'name': 'rooms',
 			'url': '/rooms/',
+			'url_es': /habitaciones/,
 			'submenu': 'false'  
 		},
 		{
@@ -20,6 +22,7 @@
 			'title_es':'Ofertas',
 			'name': 'offers',
 			'url': '/offers/',
+			'url_es': '/ofertas/',
 			'submenu': 'false' 
 		},
 		{
@@ -27,6 +30,7 @@
 			'title_es':'Comer y Beber',
 			'name': 'dining',
 			'url': '/dining/',
+			'url_es': /comer-y-beber/,
 			'submenu': 'false' 
 		},
 		{
@@ -34,6 +38,7 @@
 			'title_es':'Local',
 			'name': 'location',
 			'url': '/location/',
+			'url_es': /ubicacion/,
 			'submenu': 'false' 
 		}, 
 		{
@@ -41,6 +46,7 @@
 			'title_es':'Galería',
 			'name': 'gallery',
 			'url': '/gallery/',
+			'url_es': /galeria/,
 			'submenu': 'false' 
 		},
 		{
@@ -48,6 +54,7 @@
 			'title_es':'Eventos',
 			'name': 'events',
 			'url': '/events/',
+			'url_es': /eventos/,
 			'submenu': 'false'  
 		},	
 		{
@@ -55,9 +62,10 @@
 			'title_es':'Contacto',
 			'name': 'contact',
 			'url': '/contact/',
+			'url_es': /contacto/,
 			'submenu': 'true',
 			'subitems': [
-				{'title':'Request For Proposal','title_es':'Solicitud De Propuesta',name': 'rfp','url': '/group-hotel-booking/request-for-proposal/'}
+				{'title':'Request For Proposal','title_es':'Solicitud De Propuesta',name': 'rfp','url': '/group-hotel-booking/request-for-proposal/', 'url_es': /eventos-de-grupo/,}
 			] 
 		} 	 
 	],
@@ -67,6 +75,7 @@
 			'title_es':'Habitaciones',
 			'name': 'rooms',
 			'url': '/rooms/',
+			'url_es': /habitaciones/,
 			'submenu': 'false'  
 		},
 		{
@@ -74,6 +83,7 @@
 			'title_es':'Local',
 			'name': 'location',
 			'url': '/location/',
+			'url_es': /ubicacion/,
 			'submenu': 'false'  
 		},
 		{
@@ -81,18 +91,21 @@
 			'title_es':'Blog',
 			'name': 'blog',
 			'url': '/blog/',
+			'url_es': '/blog/',
 			'submenu': 'false'  
 		}, 
 		{
 			'title':'Privacy Policy',
 			'title_es':'Política de privacidad',
 			'url':'/privacy/',
+			'url_es': /politica-de-privacidad/,
 			'name': 'privacy'
 		},
 		{
 			'title':'Sitemap',
 			'title_es':'Mapa del sitio',
 			'url':'/sitemap/',
+			'url_es': /mapa-web/,
 			'name': 'sitemap'
 		}, 
 	],
