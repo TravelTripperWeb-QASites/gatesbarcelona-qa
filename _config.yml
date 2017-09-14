@@ -4,6 +4,7 @@ title_separator          : "-"
 name                     : "The Gates Hotel Diagonal Barcelona"
 description              : "Enjoy the spectacular design of the Gates Hotel Diagonal Barcelona, a modern 4* design hotel near Torre Agbar. Book on our Official Website here for our Best Rate!"
 url                      : "https://www.gateshotelbarcelona.com"
+url_es                   : "https://www.gateshotelbarcelona.com/es"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "TravelTripperWeb/gatesbercelona"
 
