@@ -2,76 +2,74 @@
 title_localized:
   en: Blog | The Gates Hotel Diagonal Barcelona
 label_localized:
-  en: 
+  en:
 layout_localized:
   en: default
 permalink_localized:
-  en: blog/
+  en:
   es:
 meta_description_localized:
-  en: Keep up to date with all the latest news and events from Barcelona in 2017!
-    Find out what's going on in the city with The Gates Hotel Diagonal Barcelona's
-    blog.
+  en: Keep up to date with all the latest news and events from Barcelona in 2017! Find out what's going on in the city with The Gates Hotel Diagonal Barcelona's blog.
 meta_keywords_localized:
-  en: 
+  en:
 published_localized:
   en: true
 include_in_nav_localized:
   en: true
-
 ---
 
-<!--Banner here-->
 <section>
   <div class="container-fluid no-padding">
-    <div class="page-banner location-banner" style="background-image: url(/images/gates/events-banner.jpg)">
+    <div class="page-banner location-banner" style="background-image: url('/images/gates/events-banner.jpg')">
       {% region banner-text %}
       <!--<div class="banner-btn"><a href="#" class="button-common">Download Map</a><a href="#" class="button-common">Download Fact Sheet</a></div>-->
     </div>
   </div>
 </section>
 
-{% for post in data_paginator.posts | sort : 'date' %}
+{% for post in data_paginator.posts | sort: 'date' %}
 <section class="intro-wrap cta-events attractions-listing m-t-60">
-	<div class="container">
-        <div class="intro">
-            <div class="col-sm-5 no-padding cta-events-img" style="background-image: url({{post.blogimage.url}})">
-            	<div class="-left">
-                	<!--<div class="btn-holder"><a href="{{post.url_friendly_name}}" class="btn-common button-blue">View this Blog</a></div>-->
-                </div>
-            </div>
-            <div class="col-sm-7 no-padding">
-                <div class="-right -right-blog">
-                <a class="postlink" href="{{ post.id | permalink: model_dir: 'blog' }}">
-                   <h2>{{post.title}}</h2>
-                   </a>
-                   	<div class="date-holder">{{post.date | date: "%B %d, %Y"}}</div>
-                    {{post.short_description}}
-                    <div class="btn-holder"><a href="{{ post.id | permalink: model_dir: 'blog' }}" class="btn-common button-blue">READ MORE</a></div>
-               </div>
+  <div class="container">
+    <div class="intro">
+      <div class="col-sm-5 no-padding cta-events-img" style="background-image: url('{{ post.blogimage.url }}')">
+        <div class="-left">
+          <!--<div class="btn-holder"><a href="{{ post.url_friendly_name }}" class="btn-common button-blue">View this Blog</a></div>-->
+        </div>
+      </div>
+      <div class="col-sm-7 no-padding">
+        <div class="-right -right-blog">
+          <a class="postlink" href="{{ post.id | permalink: model_dir: 'blog' }}">
+            <h2>{{ post.title }}</h2>
+          </a>
+          <div class="date-holder">{{ post.date | date: "%B %d, %Y" }}</div>
+          {{ post.short_description }}
+          <div class="btn-holder">
+            <a href="{{ post.id | permalink: model_dir: 'blog' }}" class="btn-common button-blue">READ MORE</a>
           </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 {% endfor %}
 
 <div class="pagination-wrapper">
-<div class="pagination"> 
- <p><span class="page_number">Page: {{ data_paginator.page }} of {{ data_paginator.total_pages }}</span></p>
-<ul class="pagination">
+  <div class="pagination">
 
-  {% if data_paginator.previous_page %}
-    <li><a href="{{ data_paginator.previous_page_path }}" class="previous">Previous</a></li>
-  {% else %}
-    <li><span class="previous">Previous</span></li>
-  {% endif %}
-   
-  {% if data_paginator.next_page %}
-    <li><a href="{{ data_paginator.next_page_path }}" class="next">Next</a></li>
-  {% else %}
-    <li><span class="next ">Next</span></li>
-  {% endif %}
-  </ul>
+    <p><span class="page_number">Page: {{ data_paginator.page }} of {{ data_paginator.total_pages }}</span></p>
 
-</div>
+    <ul class="pagination">
+      {% if data_paginator.previous_page %}
+        <li><a href="{{ data_paginator.previous_page_path }}" class="previous">Previous</a></li>
+      {% else %}
+        <li><span class="previous">Previous</span></li>
+      {% endif %}
+      {% if data_paginator.next_page %}
+        <li><a href="{{ data_paginator.next_page_path }}" class="next">Next</a></li>
+      {% else %}
+        <li><span class="next">Next</span></li>
+      {% endif %}
+    </ul>
+
+  </div>
 </div>
