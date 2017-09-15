@@ -7,6 +7,7 @@ url                      : "https://www.gateshotelbarcelona.com"
 url_es                   : "https://www.gateshotelbarcelona.com/es"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "TravelTripperWeb/gatesbercelona"
+booking_widget_url       : "https://gateshotelbarcelona.reztrip.com/mobile"
 
 # Language Settings
 default_lang             : 'en'
@@ -71,7 +72,7 @@ sass:
 permalink: pretty
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-data_paginate: 
+data_paginate:
   per_page: 5
   data: 'blog'
   path: 'blog/page:num'
@@ -87,4 +88,3 @@ page_gen:
     template: 'partner-details'
     dir: 'partners'
 
-booking_widget_url: https://gateshotelbarcelona.reztrip.com/mobile
