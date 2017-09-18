@@ -324,3 +324,23 @@ jQuery(document).ready(function(){
                               });
                             });
                             </script>
+<!--New Booking Widget-->
+
+<script src="https://plugins.traveltripper.io/v2/rt3api.js"></script> 
+<script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script> 
+<script>
+   
+    TTWeb.Config.configure({
+      hotelId: 'DIAGNL', //'orwhatever your values are',
+      portalId: 'diagonalhotelbarcelona',
+      defaultTimezone: 'America/New_York', // timezone of site
+      ipAddress: sessionStorage.ip_add,
+      defaultCurrency: 'USD'
+    });
+    
+
+    $("[show-booking-widget]").bookingWidget({
+         showRateCalendar: true,
+         showOfferCode: true          
+    });
+</script>
