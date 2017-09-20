@@ -27,7 +27,7 @@
 <!-- <div class="booknow "><a href="javascript:void(0);" class="button-blue" show-booking-widget>{%t 'home.booknow' %}</a> <span class="lang-toggle"> <a href="{{ page | permalink: locale: 'en' }}">{% t 'language_name', en %}</a> <a href="{{ page | permalink: locale: 'es' }}">{% t 'language_name', es %}</a> <!-- <a href="/" title="English">{% t 'language_name', en %}</a> -->
     <!-- <a href="/" title="Espanish">{% t 'language_name', es %}</a></span>-->
 <!-- </div> -->
-<div class="booknow "><a href="{% if site.active_lang == 'es' %}https://gateshotelbarcelona.reztrip.com/search?locale=es {%  else %}https://gateshotelbarcelona.reztrip.com/search? {% endif %}" target="_blank" class="button-blue">{%t 'home.booknow' %}</a> <span class="lang-toggle"> <a href="{{ page | permalink: locale: 'en' }}">{% t 'language_name', en %}</a> <a href="{{ page | permalink: locale: 'es' }}">{% t 'language_name', es %}</a> <!-- <a href="/" title="English">{% t 'language_name', en %}</a>
+<div class="booknow "><a href="javascript:void(0)" target="_blank" class="button-blue" show-booking-widget>{%t 'home.booknow' %}</a> <span class="lang-toggle"> <a href="{{ page | permalink: locale: 'en' }}">{% t 'language_name', en %}</a> <a href="{{ page | permalink: locale: 'es' }}">{% t 'language_name', es %}</a> <!-- <a href="/" title="English">{% t 'language_name', en %}</a>
   <a href="/" title="Espanish">{% t 'language_name', es %}</a></span>--> 
 </div>
 </nav>
