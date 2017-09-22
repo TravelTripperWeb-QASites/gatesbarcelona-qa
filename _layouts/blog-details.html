@@ -29,8 +29,8 @@ layout: default
                 {% assign blog = site.data._models.blog %}
 				{% for a in blog limit:5  | sort : 'date' %}
                 <div class="fe-item">
-            	<p><a href="/blog/{{a.url_friendly_name}}" title="{{a.title}}"><img src="{{a.blogimage.url}}" alt="{{a.image_alt_txt}}"/></a></p>
-                <p><a href="/blog/{{a.url_friendly_name}}">{{a.title}}</a></p>
+            	<p><a href="/blog/{{a.url_friendly_name}}/" title="{{a.title}}"><img src="{{a.blogimage.url}}" alt="{{a.image_alt_txt}}"/></a></p>
+                <p><a href="/blog/{{a.url_friendly_name}}/">{{a.title}}</a></p>
                 </div>
                 {% endfor %}
                 <div class="btn-holder"><a href="/blog/" class="btn-common button-blue">SEE ALL BLOG POSTS</a></div>
