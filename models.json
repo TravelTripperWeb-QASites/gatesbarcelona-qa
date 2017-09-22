@@ -5,23 +5,23 @@
       "file": "blog17.json"
     },
     {
-      "name": "4 Acts You Can’t Miss at Primavera Sound",
+      "name": "4 Acts You CanΓÇÖt Miss at Primavera Sound",
       "file": "blog18.json"
     },
     {
-      "name": "The Sagrada Famíla - Barcelona's Most Visited Landmark",
+      "name": "The Sagrada Fam├¡la - Barcelona's Most Visited Landmark",
       "file": "blog19.json"
     },
     {
-      "name": "5 Restaurants You Have to Try When You’re in Barcelona",
+      "name": "5 Restaurants You Have to Try When YouΓÇÖre in Barcelona",
       "file": "blog20.json"
     },
     {
-      "name": "Barcelona’s 9 UNESCO World Heritage Sites",
+      "name": "BarcelonaΓÇÖs 9 UNESCO World Heritage Sites",
       "file": "blog21.json"
     },
     {
-      "name": "Set out to Sea with Barcelona’s Top 5 Water Sports",
+      "name": "Set out to Sea with BarcelonaΓÇÖs Top 5 Water Sports",
       "file": "blog22.json"
     },
     {
@@ -29,7 +29,7 @@
       "file": "blog23.json"
     },
     {
-      "name": "A Taste of Barcelona’s Famous Chocolate Museum",
+      "name": "A Taste of BarcelonaΓÇÖs Famous Chocolate Museum",
       "file": "blog24.json"
     },
     {
@@ -49,7 +49,7 @@
       "file": "blog28.json"
     },
     {
-      "name": "Barcelona’s 5 Best Marketplaces to Shop and Eat",
+      "name": "BarcelonaΓÇÖs 5 Best Marketplaces to Shop and Eat",
       "file": "blog29.json"
     }
   ],
@@ -64,18 +64,6 @@
       "file": "enchanting_miami_carousel3.json"
     }
   ],
-  "event_category": [
-    {
-      "name": "At The Gates",
-      "title": "At The Gates",
-      "file": "event_category1.json"
-    },
-    {
-      "name": "City-Wide",
-      "title": "City-Wide",
-      "file": "event_category2.json"
-    }
-  ],
   "events": [
     {
       "name": "55th Annual Conch Shell Blowing Contest",
@@ -86,6 +74,18 @@
       "name": "Cow Key Channel Bridge Run | Key West Events",
       "title": "Cow Key Channel Bridge Run | Key West Events",
       "file": "event17.json"
+    }
+  ],
+  "event_category": [
+    {
+      "name": "At The Gates",
+      "title": "At The Gates",
+      "file": "event_category1.json"
+    },
+    {
+      "name": "City-Wide",
+      "title": "City-Wide",
+      "file": "event_category2.json"
     }
   ],
   "gallery_area_images": [
