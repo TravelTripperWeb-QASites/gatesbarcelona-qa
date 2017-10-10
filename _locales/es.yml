@@ -115,6 +115,7 @@ es:
     feature6: "Amenidades de baño de respetuoso del medio ambiente de la zona de confort"
     Gates Hotel Barcelona Service Center: "Gates Hotel Barcelona Centro de Servicios"
     Get Deal Off: 'Disfrute de un 17% de descuento'
+    book-now: 'Reservar'
 
   about:
     page-title: 'Estancia Inolvidable'
@@ -203,3 +204,7 @@ es:
     rfp: 'Solicitud De Propuesta'
     privacy: 'Política de Privacidad'
     sitemap: 'Mapa Web'
+
+  mobile-offer:
+    name: 'MÓVIL - MEJOR TARIFA DISPONIBLE'
+    description: 'Mejor tarifa disponible . Tarifa flexible con wifi incluido . Acceso al bar y piscina de la 10ª planta (según temporada)'

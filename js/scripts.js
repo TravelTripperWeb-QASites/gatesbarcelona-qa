@@ -23,7 +23,36 @@
  			$(this).removeClass("arrow-up");
  		}
  	});
+	 if(sessionStorage.getItem('mobileOfferShown')){
+		$('.mobile-only-offer').hide();
+		$('.mobile-only').css({
+				'overflow-y': 'auto'
+			});
 
+	}else{
+		if($(window).width() <= 768){
+		sessionStorage.setItem('mobileOfferShown',  true);
+		$('.mobile-only-offer').css({'visibility' : "visible"});
+		}
+	}
+	
+	$('#kill').click(function() {
+		$('.mobile-only-offer').css({
+			'visibility': 'hidden',
+			'opacity': '0',
+			'-webkit-transition': 'all 1s ease-in-out',
+			'-moz-transition': 'all 1s ease-in-out',
+			'-o-transition': 'all 1s ease-in-out',
+			'transition': 'all 1s ease-in-out'
+		});
+	  $('.mobile-only').css({
+			'overflow-y': 'auto'
+		});
+	  });
+
+	$(".mobile-only-offer a").click(function(){
+		$('#kill').click();
+	});
  });
 
  $(document).ready(function () {
