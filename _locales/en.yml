@@ -117,6 +117,7 @@ en:
     feature6: "Comfort Zone eco-friendly bath amenities"
     Gates Hotel Barcelona Service Center: "Gates Hotel Barcelona Service Center"
     Get Deal Off: 'Get 17% Off'
+    book-now: 'Book Now'
 
 
 
@@ -205,3 +206,7 @@ en:
     contact: 'Contact'
     privacy: 'Privacy Policy'
     sitemap: 'Site Map'
+  
+  mobile-offer:
+    name: 'MOBILE - BEST RATE ROOM ONLY'
+    description: 'Flexible rate with free WiFi and Access to rooftop terrace & pool (seasonal)'
