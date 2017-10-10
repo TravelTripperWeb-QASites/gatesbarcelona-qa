@@ -1,83 +1,41 @@
 {
-  "blog": [
+  "offers": [
     {
-      "name": "Live Music and a 360-Degree View of Barcelona from Our Rooftop Bar",
-      "file": "blog17.json"
+      "file": "offer1.json"
     },
     {
-      "name": "4 Acts You CanΓÇÖt Miss at Primavera Sound",
-      "file": "blog18.json"
+      "file": "offer3.json"
     },
     {
-      "name": "The Sagrada Fam├¡la - Barcelona's Most Visited Landmark",
-      "file": "blog19.json"
-    },
-    {
-      "name": "5 Restaurants You Have to Try When YouΓÇÖre in Barcelona",
-      "file": "blog20.json"
-    },
-    {
-      "name": "BarcelonaΓÇÖs 9 UNESCO World Heritage Sites",
-      "file": "blog21.json"
-    },
-    {
-      "name": "Set out to Sea with BarcelonaΓÇÖs Top 5 Water Sports",
-      "file": "blog22.json"
-    },
-    {
-      "name": "Human Castell Towers: A Barcelona Tradition",
-      "file": "blog23.json"
-    },
-    {
-      "name": "A Taste of BarcelonaΓÇÖs Famous Chocolate Museum",
-      "file": "blog24.json"
-    },
-    {
-      "name": "5 Mind-Blowing Facts About Barcelona",
-      "file": "blog25.json"
-    },
-    {
-      "name": "See 4,251 Pieces of Art by Pablo Picasso in a Day",
-      "file": "blog26.json"
-    },
-    {
-      "name": "Get in Touch with Your Wild Side at the Barcelona Zoo",
-      "file": "blog27.json"
-    },
-    {
-      "name": "Get a Breathtaking Bird's-Eye View of Barcelona",
-      "file": "blog28.json"
-    },
-    {
-      "name": "BarcelonaΓÇÖs 5 Best Marketplaces to Shop and Eat",
-      "file": "blog29.json"
-    },
-    {
-      "name": "The Voll-Damm Barcelona International Jazz Festival",
-      "file": "blog30.json"
-    },
-    {
-      "name": "The Historic Streets of Barcelona",
-      "file": "blog31.json"
-    },
-    {
-      "name": "Castanyada: A Catalan Holiday",
-      "file": "blog32.json"
-    },
-    {
-      "name": "Bunker El Carmel: The Best View of Barcelona",
-      "file": "blog33.json"
+      "file": "offer2.json"
     }
   ],
   "enchanting_miami_carousel": [
     {
-      "file": "enchanting_miami_carousel1.json"
+      "file": "enchanting_miami_carousel3.json"
     },
     {
       "file": "enchanting_miami_carousel2.json"
     },
     {
-      "file": "enchanting_miami_carousel3.json"
+      "file": "enchanting_miami_carousel1.json"
+    }
+  ],
+  "simple": [
+
+  ],
+  "rooms_carousel": [
+    {
+      "file": "rooms_carousel1.json"
+    },
+    {
+      "file": "rooms_carousel3.json"
+    },
+    {
+      "file": "rooms_carousel2.json"
+    },
+    {
+      "file": "rooms_carousel4.json"
     }
   ],
   "events": [
@@ -92,175 +50,6 @@
       "file": "event17.json"
     }
   ],
-  "event_category": [
-    {
-      "name": "At The Gates",
-      "title": "At The Gates",
-      "file": "event_category1.json"
-    },
-    {
-      "name": "City-Wide",
-      "title": "City-Wide",
-      "file": "event_category2.json"
-    }
-  ],
-  "gallery_area_images": [
-    {
-      "file": "gallery_area_image1.json"
-    },
-    {
-      "file": "gallery_area_image2.json"
-    },
-    {
-      "file": "gallery_area_image3.json"
-    },
-    {
-      "file": "gallery_area_image4.json"
-    },
-    {
-      "file": "gallery_area_image5.json"
-    }
-  ],
-  "gallery_attractions_images": [
-    {
-      "file": "gallery_attractions_image10.json"
-    },
-    {
-      "file": "gallery_attractions_image11.json"
-    },
-    {
-      "file": "gallery_attractions_image12.json"
-    },
-    {
-      "file": "gallery_attractions_image13.json"
-    },
-    {
-      "file": "gallery_attractions_image14.json"
-    },
-    {
-      "file": "gallery_attractions_image15.json"
-    },
-    {
-      "file": "gallery_attractions_image16.json"
-    },
-    {
-      "file": "gallery_attractions_image17.json"
-    },
-    {
-      "file": "gallery_attractions_image18.json"
-    },
-    {
-      "file": "gallery_attractions_image19.json"
-    },
-    {
-      "file": "gallery_attractions_image2.json"
-    },
-    {
-      "file": "gallery_attractions_image3.json"
-    },
-    {
-      "file": "gallery_attractions_image4.json"
-    },
-    {
-      "file": "gallery_attractions_image5.json"
-    },
-    {
-      "file": "gallery_attractions_image6.json"
-    },
-    {
-      "file": "gallery_attractions_image7.json"
-    },
-    {
-      "file": "gallery_attractions_image8.json"
-    },
-    {
-      "file": "gallery_attractions_image9.json"
-    }
-  ],
-  "gallery_exterior_images": [
-    {
-      "file": "gallery_exterior_image10.json"
-    },
-    {
-      "file": "gallery_exterior_image11.json"
-    },
-    {
-      "file": "gallery_exterior_image3.json"
-    },
-    {
-      "file": "gallery_exterior_image4.json"
-    },
-    {
-      "file": "gallery_exterior_image5.json"
-    },
-    {
-      "file": "gallery_exterior_image6.json"
-    },
-    {
-      "file": "gallery_exterior_image7.json"
-    },
-    {
-      "file": "gallery_exterior_image8.json"
-    },
-    {
-      "file": "gallery_exterior_image9.json"
-    }
-  ],
-  "gallery_hotel_images": [
-
-  ],
-  "gallery_roomsnsuites_images": [
-    {
-      "file": "gallery_roomsnsuites_image1.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image10.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image2.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image3.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image4.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image5.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image6.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image7.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image8.json"
-    },
-    {
-      "file": "gallery_roomsnsuites_image9.json"
-    }
-  ],
-  "home_banner_carousel": [
-    {
-      "file": "home_banner_carousel1.json"
-    },
-    {
-      "file": "home_banner_carousel2.json"
-    },
-    {
-      "file": "home_banner_carousel3.json"
-    },
-    {
-      "file": "home_banner_carousel4.json"
-    },
-    {
-      "file": "home_banner_carousel5.json"
-    },
-    {
-      "file": "home_banner_carousel6.json"
-    }
-  ],
   "home_special_offers_carousel": [
     {
       "file": "home_special_offers_carousel1.json"
@@ -272,37 +61,67 @@
       "file": "home_special_offers_carousel3.json"
     }
   ],
-  "offers": [
+  "gallery_attractions_images": [
     {
-      "file": "offer1.json"
+      "file": "gallery_attractions_image7.json"
     },
     {
-      "file": "offer2.json"
+      "file": "gallery_attractions_image10.json"
     },
     {
-      "file": "offer3.json"
+      "file": "gallery_attractions_image6.json"
+    },
+    {
+      "file": "gallery_attractions_image11.json"
+    },
+    {
+      "file": "gallery_attractions_image16.json"
+    },
+    {
+      "file": "gallery_attractions_image17.json"
+    },
+    {
+      "file": "gallery_attractions_image14.json"
+    },
+    {
+      "file": "gallery_attractions_image3.json"
+    },
+    {
+      "file": "gallery_attractions_image18.json"
+    },
+    {
+      "file": "gallery_attractions_image19.json"
+    },
+    {
+      "file": "gallery_attractions_image15.json"
+    },
+    {
+      "file": "gallery_attractions_image2.json"
+    },
+    {
+      "file": "gallery_attractions_image9.json"
+    },
+    {
+      "file": "gallery_attractions_image12.json"
+    },
+    {
+      "file": "gallery_attractions_image5.json"
+    },
+    {
+      "file": "gallery_attractions_image13.json"
+    },
+    {
+      "file": "gallery_attractions_image4.json"
+    },
+    {
+      "file": "gallery_attractions_image8.json"
     }
   ],
   "partners": [
     {
-      "name": "Rodriguez Cigar Lounge Key West | The Gates Hotel Key West",
-      "title": "Rodriguez Cigar Lounge Key West | The Gates Hotel Key West",
-      "file": "partner1.json"
-    },
-    {
-      "name": "De La Gallery in Key West | Gallery at The Gates Hotel",
-      "title": "De La Gallery in Key West | Gallery at The Gates Hotel",
-      "file": "partner2.json"
-    },
-    {
-      "name": "Key West First Legal Rum Distillery | The Gates Key West",
-      "title": "Key West First Legal Rum Distillery | The Gates Key West",
-      "file": "partner3.json"
-    },
-    {
-      "name": "Key West Hotel with Concierge | The Gates Hotel Key West",
-      "title": "Key West Hotel with Concierge | The Gates Hotel Key West",
-      "file": "partner5.json"
+      "name": "Key West Theater | Things to do in Key West",
+      "title": "Key West Theater | Things to do in Key West",
+      "file": "partner7.json"
     },
     {
       "name": "Key West Bike Rentals | Things to do in Key West Fl",
@@ -310,31 +129,38 @@
       "file": "partner6.json"
     },
     {
-      "name": "Key West Theater | Things to do in Key West",
-      "title": "Key West Theater | Things to do in Key West",
-      "file": "partner7.json"
-    }
-  ],
-  "rooms_carousel": [
-    {
-      "file": "rooms_carousel1.json"
+      "name": "Rodriguez Cigar Lounge Key West | The Gates Hotel Key West",
+      "title": "Rodriguez Cigar Lounge Key West | The Gates Hotel Key West",
+      "file": "partner1.json"
     },
     {
-      "file": "rooms_carousel2.json"
+      "name": "Key West First Legal Rum Distillery | The Gates Key West",
+      "title": "Key West First Legal Rum Distillery | The Gates Key West",
+      "file": "partner3.json"
     },
     {
-      "file": "rooms_carousel3.json"
+      "name": "De La Gallery in Key West | Gallery at The Gates Hotel",
+      "title": "De La Gallery in Key West | Gallery at The Gates Hotel",
+      "file": "partner2.json"
     },
     {
-      "file": "rooms_carousel4.json"
+      "name": "Key West Hotel with Concierge | The Gates Hotel Key West",
+      "title": "Key West Hotel with Concierge | The Gates Hotel Key West",
+      "file": "partner5.json"
     }
   ],
   "rooms_page_images": [
     {
-      "file": "rooms_page_image1.json"
+      "file": "rooms_page_image6.json"
+    },
+    {
+      "file": "rooms_page_image7.json"
     },
     {
       "file": "rooms_page_image10.json"
+    },
+    {
+      "file": "rooms_page_image1.json"
     },
     {
       "file": "rooms_page_image2.json"
@@ -343,25 +169,199 @@
       "file": "rooms_page_image3.json"
     },
     {
+      "file": "rooms_page_image8.json"
+    },
+    {
       "file": "rooms_page_image4.json"
     },
     {
       "file": "rooms_page_image5.json"
     },
     {
-      "file": "rooms_page_image6.json"
-    },
-    {
-      "file": "rooms_page_image7.json"
-    },
-    {
-      "file": "rooms_page_image8.json"
-    },
-    {
       "file": "rooms_page_image9.json"
     }
   ],
-  "simple": [
+  "gallery_exterior_images": [
+    {
+      "file": "gallery_exterior_image6.json"
+    },
+    {
+      "file": "gallery_exterior_image7.json"
+    },
+    {
+      "file": "gallery_exterior_image3.json"
+    },
+    {
+      "file": "gallery_exterior_image4.json"
+    },
+    {
+      "file": "gallery_exterior_image10.json"
+    },
+    {
+      "file": "gallery_exterior_image8.json"
+    },
+    {
+      "file": "gallery_exterior_image9.json"
+    },
+    {
+      "file": "gallery_exterior_image11.json"
+    },
+    {
+      "file": "gallery_exterior_image5.json"
+    }
+  ],
+  "gallery_hotel_images": [
 
+  ],
+  "home_banner_carousel": [
+    {
+      "file": "home_banner_carousel4.json"
+    },
+    {
+      "file": "home_banner_carousel5.json"
+    },
+    {
+      "file": "home_banner_carousel2.json"
+    },
+    {
+      "file": "home_banner_carousel3.json"
+    },
+    {
+      "file": "home_banner_carousel1.json"
+    },
+    {
+      "file": "home_banner_carousel6.json"
+    }
+  ],
+  "gallery_area_images": [
+    {
+      "file": "gallery_area_image3.json"
+    },
+    {
+      "file": "gallery_area_image2.json"
+    },
+    {
+      "file": "gallery_area_image5.json"
+    },
+    {
+      "file": "gallery_area_image4.json"
+    },
+    {
+      "file": "gallery_area_image1.json"
+    }
+  ],
+  "blog": [
+    {
+      "name": "Barcelona’s 9 UNESCO World Heritage Sites",
+      "file": "blog21.json"
+    },
+    {
+      "name": "Live Music and a 360-Degree View of Barcelona from Our Rooftop Bar",
+      "file": "blog17.json"
+    },
+    {
+      "name": "5 Restaurants You Have to Try When You’re in Barcelona",
+      "file": "blog20.json"
+    },
+    {
+      "name": "The Historic Streets of Barcelona",
+      "file": "blog31.json"
+    },
+    {
+      "name": "Get in Touch with Your Wild Side at the Barcelona Zoo",
+      "file": "blog27.json"
+    },
+    {
+      "name": "See 4,251 Pieces of Art by Pablo Picasso in a Day",
+      "file": "blog26.json"
+    },
+    {
+      "name": "The Voll-Damm Barcelona International Jazz Festival",
+      "file": "blog30.json"
+    },
+    {
+      "name": "Barcelona’s 5 Best Marketplaces to Shop and Eat",
+      "file": "blog29.json"
+    },
+    {
+      "name": "5 Mind-Blowing Facts About Barcelona",
+      "file": "blog25.json"
+    },
+    {
+      "name": "Bunker El Carmel: The Best View of Barcelona",
+      "file": "blog33.json"
+    },
+    {
+      "name": "Castanyada: A Catalan Holiday",
+      "file": "blog32.json"
+    },
+    {
+      "name": "A Taste of Barcelona’s Famous Chocolate Museum",
+      "file": "blog24.json"
+    },
+    {
+      "name": "Get a Breathtaking Bird's-Eye View of Barcelona",
+      "file": "blog28.json"
+    },
+    {
+      "name": "The Sagrada Famíla - Barcelona's Most Visited Landmark",
+      "file": "blog19.json"
+    },
+    {
+      "name": "Human Castell Towers: A Barcelona Tradition",
+      "file": "blog23.json"
+    },
+    {
+      "name": "Set out to Sea with Barcelona’s Top 5 Water Sports",
+      "file": "blog22.json"
+    },
+    {
+      "name": "4 Acts You Can’t Miss at Primavera Sound",
+      "file": "blog18.json"
+    }
+  ],
+  "gallery_roomsnsuites_images": [
+    {
+      "file": "gallery_roomsnsuites_image2.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image10.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image3.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image8.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image4.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image5.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image9.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image6.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image7.json"
+    },
+    {
+      "file": "gallery_roomsnsuites_image1.json"
+    }
+  ],
+  "event_category": [
+    {
+      "name": "At The Gates",
+      "title": "At The Gates",
+      "file": "event_category1.json"
+    },
+    {
+      "name": "City-Wide",
+      "title": "City-Wide",
+      "file": "event_category2.json"
+    }
   ]
 }
