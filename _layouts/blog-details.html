@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign blog = page %}
 {% assign model = page %}
 <!--Banner here-->
@@ -20,20 +21,26 @@ layout: default
             	<h1>{{blog.title}}</h1>
               <div class="date-holder">{{blog.date  |  date: "%B %d, %Y"}}</div>
                 {{blog.more_content}}
-                <div class="btn-holder"><a href="/blog/" class="btn-common button-blue">SEE ALL BLOG POSTS</a></div>
+                <div class="btn-holder"><a href="{{'/blog/' | permalink }}" class="btn-common button-blue">SEE ALL BLOG POSTS</a></div>
             </div>
         </div>
         <div class="col-sm-5 no-padding">
         	<div class="-right">
             	<h3>Most recent blog posts</h3>
                 {% assign blog = site.data._models.blog %}
-				{% for a in blog limit:5  | sort : 'date' %}
+				{% for a in blog limit:5 | sort : 'date' %}
                 <div class="fe-item">
+                {% if a.title_localized.es %}
             	<p><a href="/blog/{{a.url_friendly_name}}/" title="{{a.title}}"><img src="{{a.blogimage.url}}" alt="{{a.image_alt_txt}}"/></a></p>
                 <p><a href="/blog/{{a.url_friendly_name}}/">{{a.title}}</a></p>
                 </div>
+                {% else %}
+                <p><a href="/blog/{{a.url_friendly_name}}/" title="{{a.title_localized.en}}"><img src="{{a.blogimage.url}}" alt="{{a.image_alt_txt}}"/></a></p>
+                <p><a href="/blog/{{a.url_friendly_name}}/">{{a.title_localized.en}}</a></p>
+                </div>
+                {% endif %}
                 {% endfor %}
-                <div class="btn-holder"><a href="/blog/" class="btn-common button-blue">SEE ALL BLOG POSTS</a></div>
+                <div class="btn-holder"><a href="{{'/blog/' | permalink }}" class="btn-common button-blue">SEE ALL BLOG POSTS</a></div>
             </div>
         </div>
     </div>
