@@ -17,11 +17,11 @@ layout: default
 <section class="models" ng-repeat="offer in offers.special_rates">
   <div class="container">
     <div class=" two-col-wrap">
-       <div class="col-sm-6 sp-img v-center" style="background-image:url([[offer.lead_photo_url.yankee_large]]);"><a ng-href="[[offer.promo_url]]" class="rate-btn">{% t 'offers.check-rate' %}</a></div>
+       <div class="col-sm-6 sp-img v-center" style="background-image:url([[offer.lead_photo_url.yankee_large]]);"></div>
         <div class="col-sm-6 sp-content v-center">
           <p class="title">[[offer.rate_plan_name]]</p>
               <p class="desp">[[offer.short_description]]</p>
-          <div class="btn-holder"><a class="button-common button-blue" href="{{'/offer-details'| permalink}}#[[offer.rate_plan_name | formatNameForLink ]]">{% t 'room.view-this-offer' %}</a></div>
+          <div class="btn-holder btn-margin"><a class="button-common button-blue" href="{{'/offer-details'| permalink}}#[[offer.rate_plan_name | formatNameForLink ]]">{% t 'room.view-this-offer' %}</a>&nbsp;<a ng-href="[[offer.promo_url]]" class="button-common button-blue">{% t 'offers.book-now' %}</a></div>
         </div>
       
     </div>
