@@ -1,129 +1,129 @@
 {
-	'mainnav':[
+	"mainnav":[
 	       {
-			'title':'About',
-			'title_es':'Sobre',
-			'name': 'about',
-			'url': '/about/',
-			'url_es': /acerca-de/,
-			'submenu': 'false' 
+			"title":"About",
+			"title_es":"Sobre",
+			"name": "about",
+			"url": "/about/",
+			"url_es": "/acerca-de/",
+			"submenu": "false" 
 
 	    },
 		{
-			'title':'Rooms',
-			'title_es':'Habitaciones',
-			'name': 'rooms',
-			'url': '/rooms/',
-			'url_es': /habitaciones/,
-			'submenu': 'false'  
+			"title":"Rooms",
+			"title_es":"Habitaciones",
+			"name": "rooms",
+			"url": "/rooms/",
+			"url_es": "/habitaciones/",
+			"submenu": "false"  
 		},
 		{
-			'title':'Offers',
-			'title_es':'Ofertas',
-			'name': 'offers',
-			'url': '/offers/',
-			'url_es': '/ofertas/',
-			'submenu': 'false' 
+			"title":"Offers",
+			"title_es":"Ofertas",
+			"name": "offers",
+			"url": "/offers/",
+			"url_es": "/ofertas/",
+			"submenu": "false" 
 		},
 		{
-			'title':'Eat & Drink',
-			'title_es':'Comer y Beber',
-			'name': 'dining',
-			'url': '/dining/',
-			'url_es': /comer-y-beber/,
-			'submenu': 'false' 
+			"title":"Eat & Drink",
+			"title_es":"Comer y Beber",
+			"name": "dining",
+			"url": "/dining/",
+			"url_es": "/comer-y-beber/",
+			"submenu": "false" 
 		},
 		{
-			'title':'Local',
-			'title_es':'Local',
-			'name': 'location',
-			'url': '/location/',
-			'url_es': /ubicacion/,
-			'submenu': 'false' 
+			"title":"Local",
+			"title_es":"Local",
+			"name": "location",
+			"url": "/location/",
+			"url_es": "/ubicacion/",
+			"submenu": "false" 
 		}, 
 		{
-			'title':'Gallery',
-			'title_es':'Galería',
-			'name': 'gallery',
-			'url': '/gallery/',
-			'url_es': /galeria/,
-			'submenu': 'false' 
+			"title":"Gallery",
+			"title_es":"Galería",
+			"name": "gallery",
+			"url": "/gallery/",
+			"url_es": "/galeria/",
+			"submenu": "false" 
 		},
 		{
-			'title':'Meetings & Events',
-			'title_es':'Eventos',
-			'name': 'events',
-			'url': '/events/',
-			'url_es': /eventos/,
-			'submenu': 'false'  
+			"title":"Meetings & Events",
+			"title_es":"Eventos",
+			"name": "events",
+			"url": "/events/",
+			"url_es": "/eventos/",
+			"submenu": "false"  
 		},	
 		{
-			'title':'Contact',
-			'title_es':'Contacto',
-			'name': 'contact',
-			'url': '/contact/',
-			'url_es': /contacto/,
-			'submenu': 'true',
-			'subitems': [
-				{'title':'Request For Proposal','title_es':'Solicitud De Propuesta',name': 'rfp','url': '/group-hotel-booking/request-for-proposal/', 'url_es': /eventos-de-grupo/,}
+			"title":"Contact",
+			"title_es":"Contacto",
+			"name": "contact",
+			"url": "/contact/",
+			"url_es": "/contacto/",
+			"submenu": "true",
+			"subitems": [
+				{"title":"Request For Proposal","title_es":"Solicitud De Propuesta","name": "rfp","url": "/group-hotel-booking/request-for-proposal/", "url_es": "/eventos-de-grupo/"}
 			] 
 		} 	 
 	],
-	'footernav':[
+	"footernav":[
 		{
-			'title':'Rooms',
-			'title_es':'Habitaciones',
-			'name': 'rooms',
-			'url': '/rooms/',
-			'url_es': /habitaciones/,
-			'submenu': 'false'  
+			"title":"Rooms",
+			"title_es":"Habitaciones",
+			"name": "rooms",
+			"url": "/rooms/",
+			"url_es": "/habitaciones/",
+			"submenu": "false"  
 		},
 		{
-			'title':'Local',
-			'title_es':'Local',
-			'name': 'location',
-			'url': '/location/',
-			'url_es': /ubicacion/,
-			'submenu': 'false'  
+			"title":"Local",
+			"title_es":"Local",
+			"name": "location",
+			"url": "/location/",
+			"url_es": "/ubicacion/",
+			"submenu": "false"  
 		},
 		{
-			'title':'Blog',
-			'title_es':'Blog',
-			'name': 'blog',
-			'url': '/blog/',
-			'url_es': '/blog/',
-			'submenu': 'false'  
+			"title":"Blog",
+			"title_es":"Blog",
+			"name": "blog",
+			"url": "/blog/",
+			"url_es": "/blog/",
+			"submenu": "false"  
 		}, 
 		{
-			'title':'Privacy Policy',
-			'title_es':'Política de privacidad',
-			'url':'/privacy/',
-			'url_es': /politica-de-privacidad/,
-			'name': 'privacy'
+			"title":"Privacy Policy",
+			"title_es":"Política de privacidad",
+			"url":"/privacy/",
+			"url_es": "/politica-de-privacidad/",
+			"name": "privacy"
 		},
 		{
-			'title':'Sitemap',
-			'title_es':'Mapa del sitio',
-			'url':'/sitemap/',
-			'url_es': /mapa-web/,
-			'name': 'sitemap'
-		}, 
+			"title":"Sitemap",
+			"title_es":"Mapa del sitio",
+			"url":"/sitemap/",
+			"url_es": "/mapa-web/",
+			"name": "sitemap"
+		}
 	],
-	'social':[
+	"social":[
 		{
-			'title':'Linkedin',
-			'url':'https://www.linkedin.com/company/travel-trippe',
-			'class':'fa-linkedin'
+			"title":"Linkedin",
+			"url":"https://www.linkedin.com/company/travel-trippe",
+			"class":"fa-linkedin"
 		},
 		{
-			'title':'Facebook',
-			'url':'https://www.facebook.com/traveltripper',
-			'class':'fa-facebook-square'
+			"title":"Facebook",
+			"url":"https://www.facebook.com/traveltripper",
+			"class":"fa-facebook-square"
 		},
 		{
-			'title':'Twitter',
-			'url':'https://twitter.com/Travel_Tripper',
+			"title":"Twitter",
+			"url":"https://twitter.com/Travel_Tripper",
 			"class":"fa-twitter"
-		},
+		}
 	]
 }
