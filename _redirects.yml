@@ -1,4 +1,5 @@
 ---
+- location/: en/location/
 - offers/: en/offers/
 - group-hotel-booking/request-for-proposal/: en/group-hotel-booking/request-for-proposal/
 - rooms/: en/rooms/
