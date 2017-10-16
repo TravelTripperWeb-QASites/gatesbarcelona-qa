@@ -1,4 +1,15 @@
 ---
+- about/: en/about/
+- gallery/: en/gallery/
+- sitemap/: en/sitemap/
+- privacy/: en/privacy/
+- events/: en/events/
+- location/: en/location/
+- offers/: en/offers/
+- group-hotel-booking/request-for-proposal/: en/group-hotel-booking/request-for-proposal/
+- rooms/: en/rooms/
+- dining/: en/dining/
+- contact/: en/contact/
 - es/about/: acerca-de/
 - es/contact/: contacto/
 - es/gallery/: galeria/
