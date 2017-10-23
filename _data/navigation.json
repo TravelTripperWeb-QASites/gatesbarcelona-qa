@@ -71,6 +71,14 @@
 	],
 	"footernav":[
 		{
+			"title":"Home",
+			"title_es":"Home",
+			"name": "rooms",
+			"url": "https://www.gateshotelbarcelona.com/",
+			"url_es": "https://www.gateshotelbarcelona.com/",
+			"submenu": "false"  
+		},
+		{
 			"title":"Rooms",
 			"title_es":"Habitaciones",
 			"name": "rooms",
