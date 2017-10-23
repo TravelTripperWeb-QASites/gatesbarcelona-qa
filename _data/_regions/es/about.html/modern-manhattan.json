@@ -1,6 +1,6 @@
 [
 	{
 		"_template": "html",
-		"content": "<h2 class=\"title-head\">Hermosa Barcelona</h2>\n<p class=\"des\">La ubicaci&oacute;n en la misma Diagonal de Barcelona es otro de sus puntos fuertes. Localizado en la conocida Plaza de les Gl&ograve;ries Catalanes, el hotel es vecino inmediato de la famosa Torre Agbar, que potencia enormemente la calidad de las vistas 360&deg; que se pueden disfrutar desde la terraza situada en el &aacute;tico.</p>"
+		"content": "<h2 class=\"title-head\">Hermosa Barcelona</h2>\n<p class=\"des\">La ubicaci&oacute;n en la misma <a href=\"https://www.gateshotelbarcelona.com/\" title=\"Gates Hotel Barcelona\">Diagonal de Barcelona</a> es otro de sus puntos fuertes. <a href=\"/ubicacion/\" title=\"Gates Barcelona local\">Localizado</a> en la conocida Plaza de les Gl&ograve;ries Catalanes, el hotel es vecino inmediato de la famosa Torre Agbar, que potencia enormemente la calidad de las vistas 360&deg; que se pueden disfrutar desde la terraza situada en el &aacute;tico.</p>"
 	}
 ]
