@@ -73,8 +73,8 @@
 		{
 			"title":"Home",
 			"title_es":"Home",
-			"name": "rooms",
-			"url": "https://www.gateshotelbarcelona.com/",
+			"name": "Home",
+			"url": "/",
 			"url_es": "https://www.gateshotelbarcelona.com/",
 			"submenu": "false"  
 		},
