@@ -1,6 +1,6 @@
 [
   {
     "_template": "html",
-    "content": "<h3>Contacts</h3>\n<h4><strong>General Manager</strong></h4>\n<p>Email: <a href=\"mailto:recepcion.diagonal@gateshotelbarcelona.com\">recepcion.diagonal@gateshotelbarcelona.com</a></p>"
+    "content": "<h3>Contacts</h3>\n<h4><strong>General Manager</strong></h4>\n<p>Email: <a href=\"mailto:info@gateshotelbarcelona.com\">info@gateshotelbarcelona.com<br /><br /></a></p>\n<h4><strong>Director of Sales & Marketing</strong></h4>\n<p>Email: <a href=\"mailto:sales@gateshotelbarcelona.com\">sales@gateshotelbarcelona.com<br /><br /></a></p>"
   }
 ]
