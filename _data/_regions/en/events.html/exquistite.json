@@ -1,6 +1,6 @@
 [
 	{
 		"_template": "html",
-		"content": "<h2 class=\"text-center\">Exquisite<br>Venues</h2><p class=\"text-center\">The spectacular rooftop with swimming pool on the tenth floor, provides impressive nighttime views of the city.</p><div class=\"btn-holder text-center\"><a href=\"/en/about/\" class=\"button-common\">ABOUT THE HOTEL</a></div>"
+		"content": "<h2 class=\"text-center\">Exquisite<br>Venues</h2><p class=\"text-center\">The spectacular rooftop with swimming pool on the tenth floor, provides impressive nighttime views of the city.</p>\n<p class=\"text-center\">The terrace is under renovation until may</p><div class=\"btn-holder text-center\"><a href=\"/en/about/\" class=\"button-common\">ABOUT THE HOTEL</a></div>"
 	}
 ]
