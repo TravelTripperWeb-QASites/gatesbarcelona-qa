@@ -136,7 +136,8 @@ en:
     services-cap-2: 'POOL DECK'
     services-cap-3: 'RESTAURANT'
     services-title: 'List of Services'
-    services-list: '<li>Dry Cleaning</li><li>Business Centre</li><li>EXTENDED STAYS</li><li>Meeting Rooms</li><li>Laundry Service</li><li>Concierge</li><li>Banquet Room</li><li>Conference Facilities</li><li>Wi-FI</li><li>Pool</li><li>Bar/Lounge/Restaurant</li>'
+    services-list: '<li>Dry Cleaning</li><li>Business Centre</li><li>EXTENDED STAYS</li><li>Meeting Rooms</li><li>Laundry Service</li><li>Concierge</li><li>Banquet Room</li><li>Conference Facilities</li><li>Wi-FI</li><li>Pool</li><li>Bar/Lounge/Restaurant</li>
+    <p><strong>The roof top terrace & pool is closed for refurbishment until may</strong></p>'
     dining-page-title: 'EAT & DRINK'
 
   location:

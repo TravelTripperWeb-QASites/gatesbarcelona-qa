@@ -132,7 +132,8 @@ es:
     services-cap-2: 'PISCINA'
     services-cap-3: 'RESTAURANTE'
     services-title: 'Lista de Servicios'
-    services-list: '<li>BUSINESS CORNER</li><li>SALAS DE REUNIONES</li><li>SERVICIO DE LAVANDERÍA</li><li>RECEPCIÓN Y SERVICIO CONSERJERÍA 24H</li><li>SALAS DE BANQUETES</li><li>WI-FI</li><li>PISCINA</li><li>BAR/RESTAURANTE/CAFETERÍA</li><li>PARKING</li>'
+    services-list: '<li>BUSINESS CORNER</li><li>SALAS DE REUNIONES</li><li>SERVICIO DE LAVANDERÍA</li><li>RECEPCIÓN Y SERVICIO CONSERJERÍA 24H</li><li>SALAS DE BANQUETES</li><li>WI-FI</li><li>PISCINA</li><li>BAR/RESTAURANTE/CAFETERÍA</li><li>PARKING</li>
+    <p><strong>La terraza y piscina est&aacute;n cerradas hasta mayo por reformas</strong></p>'
     dining-page-title: 'COMER Y BEBER'
 
   location:
