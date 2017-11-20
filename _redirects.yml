@@ -1,4 +1,5 @@
 ---
+- es/blog/: blog/
 - es/habitaciones/: habitaciones/
 - es/room-details/: room-details/
 - es/contacto/: contacto/
