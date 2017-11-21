@@ -1,1 +1,6 @@
-[{"_template":"html","content":"<h3>Piano Restaurant</h3><p>Indulge in one of Barcelona's best culinary experiences without leaving Gates Barcelona. Piano Restaurant delivers an authentic Spanish dining experience by sourcing local ingredients and taking inspiration from local culture and traditions. Let our world-renowned chefs tantalize your palette while our expert wait staff guide you selections and pairings.</p> <a class='button-common loc-btn button-blue' href='/contact/'>Contact us</a>"}]
+[
+  {
+    "_template": "html",
+    "content": "<h3>Piano Restaurant</h3>\n<p>Indulge in one of Barcelona's best culinary experiences without leaving <a title=\"Gates Diagonal Barcelona\" href=\"https://www.gateshotelbarcelona.com/en/\">Gates Barcelona</a>. Piano Restaurant delivers an authentic Spanish dining experience by sourcing local ingredients and taking inspiration from local culture and traditions. Let our world-renowned chefs tantalize your palette while our expert wait staff guide you selections and pairings.</p>\n<p><a class=\"button-common loc-btn button-blue\" href=\"../../contact/\">Contact us</a></p>"
+  }
+]
