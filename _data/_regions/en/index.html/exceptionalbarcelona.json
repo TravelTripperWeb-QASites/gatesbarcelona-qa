@@ -1,1 +1,6 @@
-[{"_template":"html","content":"<h3>Exceptional <br>Barcelona </h3><p>The location right on Barcelona&rsquo;s Diagonal is another of its strengths. Located on the famous Pla&ccedil;a de les Gl&ograve;ries Catalanes, the hotel is an immediate neighbour of the famous Torre Agbar, which enhances the quality of the 360&deg; views that can be enjoyed from the roof-top terrace.</p><a class=\"btn btn-lg btn-primary button-home\" href=\"/en/location/\">Discover more</a>","rendered_height":500}]
+[
+  {
+    "_template": "html",
+    "content": "<h3>Exceptional <br />Barcelona</h3>\n<p>The <a title=\"Hotel in Barcelona\" href=\"https://www.gateshotelbarcelona.com/en/location/\">location</a> right on Barcelona&rsquo;s Diagonal is another of its strengths. Located on the famous <a title=\"Pla&ccedil;a de les Gl&ograve;ries Catalanes Hotel\" href=\"https://www.gateshotelbarcelona.com/en/location/\">Pla&ccedil;a de les Gl&ograve;ries Catalanes</a>, the hotel is an immediate neighbour of the famous Torre Agbar, which enhances the quality of the <a title=\"Hotel with views of Barcelona\" href=\"https://www.gateshotelbarcelona.com/en/gallery/\">360&deg; views</a> that can be enjoyed from the roof-top terrace.</p>\n<p><a class=\"btn btn-lg btn-primary button-home\" href=\"location/\">Discover more</a></p>"
+  }
+]
