@@ -1,1 +1,6 @@
-[{"_template":"html","content":"<h3>Magical Barcelona</h3><p class=\"black-para\">The Gates Hotel Barcelona is located at number 205 of Avenida Diagonal, in a prime location. Immediately neighbouring the Torre Agbar, the hotel is located next to the Placa de les Glories Catalanes, which can be reached from any point in the city, train station, bus station, port or airport.</p><a class=\"btn btn-lg btn-primary button-home \" href=\" /en/gallery/\">View Gallery</a>"}]
+[
+  {
+    "_template": "html",
+    "content": "<h3>Magical Barcelona</h3>\n<p class=\"black-para\">The Gates Hotel Barcelona is located at number 205 of <a title=\"Avenida Diagonal hotel\" href=\"https://www.gateshotelbarcelona.com/en/location/\">Avenida Diagonal</a>, in a prime location. Immediately neighbouring the Torre Agbar, the hotel is <a title=\"Gates Hotel Barcelona location\" href=\"https://www.gateshotelbarcelona.com/en/location/\">located next to the Placa de les Glories Catalanes</a>, which can be reached from any point in the city, train station, bus station, port or airport.</p>\n<p><a class=\"btn btn-lg btn-primary button-home \" href=\"gallery/\">View Gallery</a></p>"
+  }
+]
