@@ -101,28 +101,49 @@
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 {% endif %}
 
-{% if site.data.social.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site.data.social.og_image | absolute_url | jsonify }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Hotel",
+      "name": "Gates Hotel Barcelona",
+        "alternateName":"The Gates Hotel Diagonal Barcelona",
+        "priceRange" : "$100-$300",
+  "description": "Enjoy the spectacular design of the Gates Hotel Barcelona, a modern 4* design hotel located next to Torre Agbar on the Avenida Diagonal. Book on our Official Website for our Best Rate!",
+  "image": "https://cdn.traveltripper.io/site-assets/192_676_3169/media/2017-05-16-023300/home-banner-1.jpg",
+  "logo": "https://www.gateshotelbarcelona.com/images/hotel-diagonal-barcelona-logo-small.png",
+  "url": "https://www.gateshotelbarcelona.com/",
+  "telephone": "+34 934 895 300",
+  "sameAs": ["https://twitter.com/GatesDiagonal","https://www.facebook.com/GatesBarcelona/","https://www.instagram.com/gatesdiagonal/"],
+"hasMap": "https://goo.gl/b69CJG",
+  "geo": {
+  "@type": "GeoCoordinates",
+  "latitude":"41.4038634",
+  "longitude":"2.1879703"
+  },
+"openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+    },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "205 Avenida Diagonal",
+    "addressLocality": "Barcelona",
+    "postalCode": "08018",
+    "addressCountry": "Spain"
     }
-  </script>
-{% endif %}
-
-{% if site.social %}
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
     }
-  </script>
-{% endif %}
+    }
+</script>
 
 <meta http-equiv="Content-Language" content="{{ site.active_lang }}">
 <link rel="alternate" hreflang="es" href="{{ site.url }}/{{ page.permalink_localized.es }}">
