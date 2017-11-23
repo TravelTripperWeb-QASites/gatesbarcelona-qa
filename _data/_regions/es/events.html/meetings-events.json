@@ -2,7 +2,7 @@
 	{
 		"_template": "html",
 
-		"content": "<h2 class=\"title-head\">Reuniones y Eventos</h2>\n<p class=\"des\">El ambiente moderno y el servicio profesional hacen que las salas de reuniones del The Gates Hotel Diagonal Barcelona sean ideales para todo tipo de eventos, incluyendo reuniones de negocio y de trabajo, banquetes y celebraciones sociales o familiares. Ideal para eventos corporativos o reuniones privadas e &iacute;ntimas.</p>"
+		"content": "<h2 class=\"title-head\">Reuniones y Eventos</h2>\n<p class=\"des\">El ambiente moderno y el servicio profesional hacen que las salas de reuniones del The <a title=\"Gates Hotel Barcelona\" href=\"https://www.gateshotelbarcelona.com/en/\">Gates Hotel Diagonal Barcelona</a> sean ideales para todo tipo de eventos, incluyendo reuniones de negocio y de trabajo, banquetes y celebraciones sociales o familiares. Ideal para eventos corporativos o reuniones privadas e &iacute;ntimas.</p>"
 
 	}
 ]
