@@ -101,48 +101,71 @@
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 {% endif %}
 
-<script type="application/ld+json">
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Organization",
+  "name": "The Gates Hotel Diagonal Barcelona",
+  "url": "https://www.gateshotelbarcelona.com/",
+  "logo": "https://www.gateshotelbarcelona.com/images/hotel-diagonal-barcelona-logo-small.png",
+  "description": "Enjoy the spectacular design of The Gates Hotel Diagonal Barcelona, a modern 4* design hotel located next to Torre Agbar on the Avenida Diagonal. Book on our Official Website for our Best Rate!",
+     "sameAs": [
+    "https://plus.google.com/105386528873022105822"
+   
+  ]
+  }
+}
+</script>	
+<script type='application/ld+json'>
 {
   "@context": "http://schema.org",
   "@type": "Hotel",
-      "name": "Gates Hotel Barcelona",
-        "alternateName":"The Gates Hotel Diagonal Barcelona",
-        "priceRange" : "$100-$300",
-  "description": "Enjoy the spectacular design of the Gates Hotel Barcelona, a modern 4* design hotel located next to Torre Agbar on the Avenida Diagonal. Book on our Official Website for our Best Rate!",
   "image": "https://cdn.traveltripper.io/site-assets/192_676_3169/media/2017-05-16-023300/home-banner-1.jpg",
-  "logo": "https://www.gateshotelbarcelona.com/images/hotel-diagonal-barcelona-logo-small.png",
-  "url": "https://www.gateshotelbarcelona.com/",
-  "telephone": "+34 934 895 300",
-  "sameAs": ["https://twitter.com/GatesDiagonal","https://www.facebook.com/GatesBarcelona/","https://www.instagram.com/gatesdiagonal/"],
-"hasMap": "https://goo.gl/b69CJG",
-  "geo": {
-  "@type": "GeoCoordinates",
-  "latitude":"41.4038634",
-  "longitude":"2.1879703"
-  },
-"openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
-    ],
-    "opens": "00:00",
-    "closes": "23:59"
-    },
+  "starRating" : { "@type" : "Rating",
+                   "ratingValue" : "4"},
+  "priceRange" : "Best Rate Guaranteed",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "205 Avenida Diagonal",
+    "streetAddress": "205 Avenida Diagonal, Barcelona",
     "addressLocality": "Barcelona",
+    "addressRegion": "Barcelona",
     "postalCode": "08018",
     "addressCountry": "Spain"
-    }
-    }
-    }
+  },
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4",
+    "bestRating": "5",
+    "ratingCount": "69"
+    },
+  
+  "description": "Enjoy the spectacular design of The Gates Hotel Barcelona, a modern 4* design hotel located next to Torre Agbar on the Avenida Diagonal. Book on our Official Website for our Best Rate!",
+  "name": "The Gates Hotel Diagonal Barcelona",
+  "alternateName":"Gates Hotel Barcelona",
+  "telephone": "+34 934 895 300",
+  "email": "info@gateshotelbarcelona.com",
+  "url": "https://www.gateshotelbarcelona.com/",
+   "sameAs" : ["https://twitter.com/GatesDiagonal","https://www.facebook.com/GatesBarcelona/","https://www.instagram.com/gatesdiagonal/","https://www.tripadvisor.com/Hotel_Review-g187497-d518349-Reviews-The_Gates_Diagonal_Barcelona-Barcelona_Catalonia.html"]
+    },   
+   "hasMap": "https://goo.gl/maps/F9pbuRPArYn"
+ },
+ 
+  "potentialAction":{
+   "@type":"ReserveAction",
+   "target":{
+   "@type":"EntryPoint",
+   "urlTemplate":"https://gateshotelbarcelona.reztrip.com/classic/en/searches/5a16e168af2aa91c8ce57a9a/hotels/DIAGNL/rooms?action=show&adults%5B%5D=1&locale=en&starting_page=search","actionPlatform":[
+   "http://schema.org/DesktopWebPlatform",
+   "http://schema.org/IOSPlatform",
+    "http://schema.org/AndroidPlatform"
+]
+},
+   "result":{
+   "@type":"LodgingReservation",
+   "name":"Book Now"
+  }
+ }
+}
 </script>
 
 <meta http-equiv="Content-Language" content="{{ site.active_lang }}">
