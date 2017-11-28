@@ -14,6 +14,8 @@ default_lang             : 'es'
 languages                : ['es', 'en']
 
 # Reading Files
+include:
+  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
