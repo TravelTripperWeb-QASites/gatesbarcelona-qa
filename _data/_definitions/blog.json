@@ -2,5 +2,47 @@
 	"title": {
 		"required": true,
 		"localizable": true
+	},
+	,
+	"blogimage": {
+		"type": "image",
+		"required": true
+	},
+	"image_alt_txt":{
+		"type":"text",
+		"required":true
+	},
+	"seo_title": {
+		"localizable": true
+	},
+	"seo_description": {
+		"localizable": true
+	},
+	"from": {},
+	"to": {},
+	"url_friendly_name": {
+		"type": "url_slug"
+	},
+	"date": {
+		"type": "date",
+		"required": true
+	},
+	"Posted_by": {},
+	"Image_caption": {
+		"required": false,
+		"type": "richtext"
+	},
+	"short_description": {
+		"required": false,
+		"type": "richtext",
+		"localizable": true
+	},
+	"more_content": {
+		"type": "richtext",
+		"localizable": true
+	},
+	"sort_order": {
+		"type": "integer",
+		"required": false
 	}
 }
