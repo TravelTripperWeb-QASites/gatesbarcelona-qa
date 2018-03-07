@@ -3,7 +3,6 @@
 		"required": true,
 		"localizable": true
 	},
-	,
 	"blogimage": {
 		"type": "image",
 		"required": true
