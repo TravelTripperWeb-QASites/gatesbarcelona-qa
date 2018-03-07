@@ -43,8 +43,5 @@
 	"sort_order": {
 		"type": "integer",
 		"required": false
-	},
-	"Google location" :{
-		"type": "location"
 	}
 }
