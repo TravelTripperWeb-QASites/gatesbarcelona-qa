@@ -1,1 +1,6 @@
-[{"_template":"html","content":"<div><img src=\"/images/about/about-2.jpg\" alt=\"\" /></div>"}]
+[
+  {
+    "_template": "image",
+    "content": "<div><img src=\"/images/about/about-2.jpg\" alt=\"\" /></div>"
+  }
+]
