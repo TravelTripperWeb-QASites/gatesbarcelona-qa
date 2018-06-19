@@ -1,1 +1,7 @@
-[{"_template":"html","content":"<div><img src='/images/two-col-10.jpg'  class='width-full' alt='Gates Diagonal Barcelona'/></div>","rendered_height":500}]
+[
+  {
+    "_template": "image",
+    "content": "<div><img src='/images/two-col-10.jpg'  class='width-full' alt='Gates Diagonal Barcelona'/></div>",
+    "rendered_height": 500
+  }
+]
