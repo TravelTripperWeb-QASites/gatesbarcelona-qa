@@ -1,1 +1,7 @@
-[{"_template":"html","content":"<h3>BIENVENIDO A <br>Gates Hotel Barcelona</h3><p>Tome un chapuz&oacute;n en el agua de la piscina durante la temporada de verano, disfrute de un c&oacute;ctel mientras se moja los pies, admire las espectaculares vistas mientras toma algo despu&eacute;s de un duro d&iacute;a de trabajo o turismo. Es un lugar inmejorable para reducir la velocidad y tomar tiempo para ti.</p><div><a class=\"btn btn-lg btn-primary button-home button-blue \" href=\"/acerca-de/\">DESCUBRIR</a></div>","rendered_height":500}]
+[
+  {
+    "_template": "html",
+    "content": "<h3>BIENVENIDO A <br />Gates Hotel Barcelona</h3>\n<p><img id=\"1530876292137\" class=\" \" src=\"https://cdn.traveltripper.io/site-assets/192_570_2054/media/2017-03-03-052646/001-th.jpg\" alt=\"001-th\" width=\"133\" height=\"99\" />&nbsp;<br /><br />Tome un chapuz&oacute;n en el agua de la piscina durante la temporada de verano, disfrute de un c&oacute;ctel mientras se moja los pies, admire las espectaculares vistas mientras toma algo despu&eacute;s de un duro d&iacute;a de trabajo o turismo. Es un lugar inmejorable para reducir la velocidad y tomar tiempo para ti.</p>\n<div><a class=\"btn btn-lg btn-primary button-home button-blue \" href=\"acerca-de/\">DESCUBRIR</a></div>",
+    "rendered_height": 500
+  }
+]
