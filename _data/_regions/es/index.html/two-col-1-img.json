@@ -1,44 +1,7 @@
 [
   {
     "_template": "html",
-    "content": {
-      "name": "gallery-thumb-13",
-      "file_name": "gallery-thumb-13.jpg",
-      "file_type": "image/jpeg",
-      "url": "https://cdn.traveltripper.io/site-assets/192_570_1220/media/2017-01-04-055722/gallery-thumb-13.jpg",
-      "date_added": "2017-01-04-055722",
-      "tags": "",
-      "description": "",
-      "git_file_name": "_assets/image_data/site-assets_192_570_1220_media_2017-01-04-055722_gallery-thumb-13.jpg.json",
-      "path": "https://cdn.traveltripper.io/site-assets/192_570_1220/media/2017-01-04-055722/gallery-thumb-13.jpg",
-      "file_size": null,
-      "alt": "gallery-thumb-13",
-      "crop": {
-        "origin": {
-          "x": 180,
-          "y": 0
-        },
-        "width": 820,
-        "height": 745
-      },
-      "croppedImage": {
-        "name": "gallery-thumb-13",
-        "file_name": "gallery-thumb-13.jpg",
-        "url": "//cdn.qa-traveltripper.info/site-assets/2_14_82/media/2018-06-19-140601/gallery-thumb-13.png",
-        "tags": "",
-        "description": "",
-        "date_added": "2018-06-19-140601",
-        "file_type": "image/jpeg",
-        "width": 820,
-        "height": 745,
-        "file_size": 952090,
-        "url_large": "//cdn.qa-traveltripper.info/site-assets/2_14_82/media/2018-06-19-140601/large_gallery-thumb-13.png",
-        "url_medium": "//cdn.qa-traveltripper.info/site-assets/2_14_82/media/2018-06-19-140601/medium_gallery-thumb-13.png",
-        "url_small": "//cdn.qa-traveltripper.info/site-assets/2_14_82/media/2018-06-19-140601/small_gallery-thumb-13.png",
-        "url_xsmall": "//cdn.qa-traveltripper.info/site-assets/2_14_82/media/2018-06-19-140601/xsmall_gallery-thumb-13.png",
-        "url_thumb": "//cdn.qa-traveltripper.info/site-assets/2_14_82/media/2018-06-19-140601/thumb_gallery-thumb-13.png"
-      }
-    },
+    "content": "<p><img id=\"1530876133237\" class=\" \" src=\"//cdn.traveltripper.io/site-assets/192_676_9395/media/2017-11-17-114205/large_10562644413_dc2b7d0538_k.jpg\" alt=\"10562644413_dc2b7d0538_k\" data-image-large=\"//cdn.traveltripper.io/site-assets/192_676_9395/media/2017-11-17-114205/large_10562644413_dc2b7d0538_k.jpg\" data-image-medium=\"//cdn.traveltripper.io/site-assets/192_676_9395/media/2017-11-17-114205/medium_10562644413_dc2b7d0538_k.jpg\" data-image-small=\"//cdn.traveltripper.io/site-assets/192_676_9395/media/2017-11-17-114205/small_10562644413_dc2b7d0538_k.jpg\" data-image-xsmall=\"//cdn.traveltripper.io/site-assets/192_676_9395/media/2017-11-17-114205/xsmall_10562644413_dc2b7d0538_k.jpg\" data-image-thumb=\"//cdn.traveltripper.io/site-assets/192_676_9395/media/2017-11-17-114205/thumb_10562644413_dc2b7d0538_k.jpg\" /></p>",
     "rendered_height": 500
   }
 ]
