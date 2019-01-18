@@ -36,10 +36,48 @@
         "question_id": "leaveluggage",
         "answer": "<p>You can leave your luggage in your personal locker&nbsp;located on the same floor as your room.&nbsp;</p>\n<p>For larger luggage that do not fit in your locker, we can keep them at reception so please inquire. </p>"
       }
+    ],
+    "ja": [
+      {
+        "question": "部屋の種類について",
+        "question_id": "roomopts",
+        "answer": "<p><span style=\"font-family: Arial; font-size: 13px; white-space: pre-wrap;\">朝食は用意がございますが、別途料金をいただいております。</span></p>"
+      },
+      {
+        "question": "朝食は用意がございますが、別途料金をいただいております。",
+        "question_id": "personcount",
+        "answer": "<p>test</p>"
+      },
+      {
+        "question": "朝食は用意がございますが、別途料金をいただいております。",
+        "question_id": "breakfast",
+        "answer": "<p>はい。宿泊プランに含まれています。</p>"
+      },
+      {
+        "question": "客室にバスルーム・シャワーはついていますか？",
+        "question_id": "bath",
+        "answer": "<p>客室にはございません。男女別、共用シャワー・バスルームがございます。</p>"
+      },
+      {
+        "question": "部屋のドアの鍵について",
+        "question_id": "lock",
+        "answer": "<p>部屋を退室する時は鍵をかけれますが、部屋の中にいらっしゃる際は鍵をかけることができません。</p>\n<p>カプセルホテルの規制上の仕様になりますためご理解のほど何卒宜しくお願いいたします。</p>"
+      },
+      {
+        "question": "部屋に金庫はありますか？",
+        "question_id": "safe",
+        "answer": "<p>ございます。パソコンやタブレットも入るサイズのものがございます。</p>"
+      },
+      {
+        "question": "荷物はどこに置けますか？",
+        "question_id": "leaveluggage",
+        "answer": "<p>leaveleaveluggage</p>"
+      }
     ]
   },
   "title_localized": {
-    "en": "Room"
+    "en": "Room",
+    "ja": "ルーム"
   },
   "category_order": 2,
   "category_id": "room"
