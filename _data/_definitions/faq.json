@@ -7,7 +7,7 @@
   },
   "Category Image": {
     "label": "Category Image",
-    "type:: "image",
+    "type": "image",
     "required": true,
     "hint": "Enter event categroy name",
     "localizable": true
