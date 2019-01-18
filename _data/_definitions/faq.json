@@ -30,6 +30,10 @@
       "answer": {
         "type": "richtext",
         "required": true
+      },
+      "Image": {
+        "type": "image",
+        "required": true
       }
     }
   }
