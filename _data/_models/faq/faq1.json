@@ -1,0 +1,46 @@
+{
+  "qa_listing_localized": {
+    "en": [
+      {
+        "question": "What is the difference between room options?",
+        "question_id": "roomoptions",
+        "answer": "<p>Room options vary depending on the size of bed (single 100cm width or semidouble 120cm width) and room size. For details please refer to the&nbsp;rooms section of the website. </p>"
+      },
+      {
+        "question": "Are there rooms for more than one person?",
+        "question_id": "personcount",
+        "answer": "<p>Unfortunately no. All rooms are for one person.</p>"
+      },
+      {
+        "question": "Is breakfast provided?",
+        "question_id": "breakfast",
+        "answer": "<p>Yes breakfast is provided, at separate cost. Please inquire at the front desk if you would like breakfast. </p>"
+      },
+      {
+        "question": "Do the rooms come with a shower and bathroom?",
+        "question_id": "bath",
+        "answer": "<p>No. There are gender-segregated communal showers and bathrooms.</p>"
+      },
+      {
+        "question": "Does the room come with a lock?",
+        "question_id": "lock",
+        "answer": "<p>Unfortunately no. Due to regulations capsule hotels do not come with door locks.&nbsp;The pod comes with a safe for locking your valuables and you'll also get a private locker to lock up all other belongings.</p>"
+      },
+      {
+        "question": "Is there a safe?",
+        "question_id": "safe",
+        "answer": "<p>Yes. All rooms come with a safe to lock up your valuables. </p>"
+      },
+      {
+        "question": "Where can I leave my luggage? ",
+        "question_id": "leaveluggage",
+        "answer": "<p>You can leave your luggage in your personal locker&nbsp;located on the same floor as your room.&nbsp;</p>\n<p>For larger luggage that do not fit in your locker, we can keep them at reception so please inquire. </p>"
+      }
+    ]
+  },
+  "title_localized": {
+    "en": "Room"
+  },
+  "category_order": 2,
+  "category_id": "room"
+}
