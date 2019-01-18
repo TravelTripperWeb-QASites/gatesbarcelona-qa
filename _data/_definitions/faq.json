@@ -5,13 +5,6 @@
     "hint": "Enter event categroy name",
     "localizable": true
   },
-  "Category Image": {
-    "label": "Category Image",
-    "type": "image",
-    "required": true,
-    "hint": "Enter event categroy name",
-    "localizable": true
-  },
   "category_order": {
     "type": "integer",
     "required": true,
@@ -36,10 +29,6 @@
       },
       "answer": {
         "type": "richtext",
-        "required": true
-      },
-      "Image": {
-        "type": "image",
         "required": true
       }
     }
