@@ -10,8 +10,8 @@ repository               : "TravelTripperWeb/gatesbercelona"
 booking_widget_url       : "https://gateshotelbarcelona.reztrip.com/mobile"
 
 # Language Settings
-default_lang             : 'es'
-languages                : ['es', 'en']
+default_lang             : 'en'
+languages                : ['ja', 'en']
 
 # Reading Files
 include:
