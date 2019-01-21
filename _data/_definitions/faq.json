@@ -30,6 +30,10 @@
       "answer": {
         "type": "richtext",
         "required": true
+      },
+      "Thumb": {
+        "type": "image",
+        "required": true
       }
     }
   }
