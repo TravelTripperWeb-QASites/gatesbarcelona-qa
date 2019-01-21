@@ -196,37 +196,170 @@
       {
         "question": "部屋の種類について",
         "question_id": "roomopts",
-        "answer": "<p><span style=\"font-family: Arial; font-size: 13px; white-space: pre-wrap;\">朝食は用意がございますが、別途料金をいただいております。</span></p>"
+        "answer": "<p><span style=\"font-family: Arial; font-size: 13px; white-space: pre-wrap;\">朝食は用意がございますが、別途料金をいただいております。</span></p>",
+        "Thumb": {
+          "name": "castella-towers",
+          "file_name": "castella-towers.jpg",
+          "file_type": "image/jpeg",
+          "url": "https://cdn.traveltripper.io/site-assets/192_676_6477/media/2017-08-22-025146/castella-towers.jpg",
+          "date_added": "2017-08-22 02:51:47",
+          "tags": "",
+          "file_size": 191700,
+          "width": 1000,
+          "height": 667,
+          "description": "",
+          "url_large": "//cdn.traveltripper.io/site-assets/192_676_6477/media/2017-08-22-025146/large_castella-towers.jpg",
+          "url_medium": "//cdn.traveltripper.io/site-assets/192_676_6477/media/2017-08-22-025146/medium_castella-towers.jpg",
+          "url_small": "//cdn.traveltripper.io/site-assets/192_676_6477/media/2017-08-22-025146/small_castella-towers.jpg",
+          "url_xsmall": "//cdn.traveltripper.io/site-assets/192_676_6477/media/2017-08-22-025146/xsmall_castella-towers.jpg",
+          "url_thumb": "//cdn.traveltripper.io/site-assets/192_676_6477/media/2017-08-22-025146/thumb_castella-towers.jpg",
+          "git_file_name": "_assets/image_data/site-assets_192_676_6477_media_2017-08-22-025146_castella-towers.jpg.json",
+          "path": "https://cdn.traveltripper.io/site-assets/192_676_6477/media/2017-08-22-025146/castella-towers.jpg",
+          "alt": "castella-towers",
+          "caption": ""
+        }
       },
       {
         "question": "朝食は用意がございますが、別途料金をいただいております。",
         "question_id": "personcount",
-        "answer": "<p>test</p>"
+        "answer": "<p>test</p>",
+        "Thumb": {
+          "name": "marketplaces",
+          "file_name": "marketplaces.jpg",
+          "file_type": "image/jpeg",
+          "url": "https://cdn.traveltripper.io/site-assets/192_676_6476/media/2017-08-22-023406/marketplaces.jpg",
+          "date_added": "2017-08-22 02:34:07",
+          "tags": "",
+          "file_size": 228878,
+          "width": 1000,
+          "height": 664,
+          "description": "",
+          "url_large": "//cdn.traveltripper.io/site-assets/192_676_6476/media/2017-08-22-023406/large_marketplaces.jpg",
+          "url_medium": "//cdn.traveltripper.io/site-assets/192_676_6476/media/2017-08-22-023406/medium_marketplaces.jpg",
+          "url_small": "//cdn.traveltripper.io/site-assets/192_676_6476/media/2017-08-22-023406/small_marketplaces.jpg",
+          "url_xsmall": "//cdn.traveltripper.io/site-assets/192_676_6476/media/2017-08-22-023406/xsmall_marketplaces.jpg",
+          "url_thumb": "//cdn.traveltripper.io/site-assets/192_676_6476/media/2017-08-22-023406/thumb_marketplaces.jpg",
+          "git_file_name": "_assets/image_data/site-assets_192_676_6476_media_2017-08-22-023406_marketplaces.jpg.json",
+          "path": "https://cdn.traveltripper.io/site-assets/192_676_6476/media/2017-08-22-023406/marketplaces.jpg",
+          "alt": "marketplaces",
+          "caption": ""
+        }
       },
       {
         "question": "朝食は用意がございますが、別途料金をいただいております。",
         "question_id": "breakfast",
-        "answer": "<p>はい。宿泊プランに含まれています。</p>"
+        "answer": "<p>はい。宿泊プランに含まれています。</p>",
+        "Thumb": {
+          "name": "iStock-501651029",
+          "file_name": "iStock-501651029.jpg",
+          "file_type": "image/jpeg",
+          "url": "//cdn.traveltripper.io/site-assets/192_676_8959/media/2017-11-01-130326/iStock-501651029.jpg",
+          "tags": "",
+          "file_size": 342864,
+          "width": 720,
+          "height": 485,
+          "description": "",
+          "date_added": "2017-11-01-130326",
+          "url_large": "//cdn.traveltripper.io/site-assets/192_676_8959/media/2017-11-01-130326/large_iStock-501651029.jpg",
+          "url_medium": "//cdn.traveltripper.io/site-assets/192_676_8959/media/2017-11-01-130326/medium_iStock-501651029.jpg",
+          "url_small": "//cdn.traveltripper.io/site-assets/192_676_8959/media/2017-11-01-130326/small_iStock-501651029.jpg",
+          "url_xsmall": "//cdn.traveltripper.io/site-assets/192_676_8959/media/2017-11-01-130326/xsmall_iStock-501651029.jpg",
+          "url_thumb": "//cdn.traveltripper.io/site-assets/192_676_8959/media/2017-11-01-130326/thumb_iStock-501651029.jpg",
+          "git_file_name": "_assets/image_data/iStock-501651029.json",
+          "path": "//cdn.traveltripper.io/site-assets/192_676_8959/media/2017-11-01-130326/iStock-501651029.jpg",
+          "alt": "iStock-501651029",
+          "caption": ""
+        }
       },
       {
         "question": "客室にバスルーム・シャワーはついていますか？",
         "question_id": "bath",
-        "answer": "<p>客室にはございません。男女別、共用シャワー・バスルームがございます。</p>"
+        "answer": "<p>客室にはございません。男女別、共用シャワー・バスルームがございます。</p>",
+        "Thumb": {
+          "name": "Voll-Damm",
+          "file_name": "Voll-Damm.jpg",
+          "file_type": "image/jpeg",
+          "url": "https://cdn.traveltripper.io/site-assets/192_676_7450/media/2017-09-22-015736/Voll-Damm.jpg",
+          "date_added": "2017-09-22 01:57:38",
+          "tags": "",
+          "file_size": 81376,
+          "width": 1000,
+          "height": 667,
+          "description": "",
+          "url_large": "//cdn.traveltripper.io/site-assets/192_676_7450/media/2017-09-22-015736/large_Voll-Damm.jpg",
+          "url_medium": "//cdn.traveltripper.io/site-assets/192_676_7450/media/2017-09-22-015736/medium_Voll-Damm.jpg",
+          "url_small": "//cdn.traveltripper.io/site-assets/192_676_7450/media/2017-09-22-015736/small_Voll-Damm.jpg",
+          "url_xsmall": "//cdn.traveltripper.io/site-assets/192_676_7450/media/2017-09-22-015736/xsmall_Voll-Damm.jpg",
+          "url_thumb": "//cdn.traveltripper.io/site-assets/192_676_7450/media/2017-09-22-015736/thumb_Voll-Damm.jpg",
+          "git_file_name": "_assets/image_data/site-assets_192_676_7450_media_2017-09-22-015736_Voll-Damm.jpg.json",
+          "path": "https://cdn.traveltripper.io/site-assets/192_676_7450/media/2017-09-22-015736/Voll-Damm.jpg",
+          "alt": "Voll-Damm",
+          "caption": ""
+        }
       },
       {
         "question": "部屋のドアの鍵について",
         "question_id": "lock",
-        "answer": "<p>部屋を退室する時は鍵をかけれますが、部屋の中にいらっしゃる際は鍵をかけることができません。</p>\n<p>カプセルホテルの規制上の仕様になりますためご理解のほど何卒宜しくお願いいたします。</p>"
+        "answer": "<p>部屋を退室する時は鍵をかけれますが、部屋の中にいらっしゃる際は鍵をかけることができません。</p>\n<p>カプセルホテルの規制上の仕様になりますためご理解のほど何卒宜しくお願いいたします。</p>",
+        "Thumb": {
+          "name": "mind-blowing-facts",
+          "file_name": "mind-blowing-facts.jpg",
+          "file_type": "image/jpeg",
+          "url": "https://cdn.traveltripper.io/site-assets/192_676_6296/media/2017-08-17-021448/mind-blowing-facts.jpg",
+          "date_added": "2017-08-17 02:14:50",
+          "tags": "",
+          "file_size": 165627,
+          "width": 1000,
+          "height": 667,
+          "description": "",
+          "url_large": "//cdn.traveltripper.io/site-assets/192_676_6296/media/2017-08-17-021448/large_mind-blowing-facts.jpg",
+          "url_medium": "//cdn.traveltripper.io/site-assets/192_676_6296/media/2017-08-17-021448/medium_mind-blowing-facts.jpg",
+          "url_small": "//cdn.traveltripper.io/site-assets/192_676_6296/media/2017-08-17-021448/small_mind-blowing-facts.jpg",
+          "url_xsmall": "//cdn.traveltripper.io/site-assets/192_676_6296/media/2017-08-17-021448/xsmall_mind-blowing-facts.jpg",
+          "url_thumb": "//cdn.traveltripper.io/site-assets/192_676_6296/media/2017-08-17-021448/thumb_mind-blowing-facts.jpg",
+          "git_file_name": "_assets/image_data/site-assets_192_676_6296_media_2017-08-17-021448_mind-blowing-facts.jpg.json",
+          "path": "https://cdn.traveltripper.io/site-assets/192_676_6296/media/2017-08-17-021448/mind-blowing-facts.jpg",
+          "alt": "mind-blowing-facts",
+          "caption": ""
+        }
       },
       {
         "question": "部屋に金庫はありますか？",
         "question_id": "safe",
-        "answer": "<p>ございます。パソコンやタブレットも入るサイズのものがございます。</p>"
+        "answer": "<p>ございます。パソコンやタブレットも入るサイズのものがございます。</p>",
+        "Thumb": {
+          "name": "key-west-songwriters-the-gates",
+          "file_name": "key-west-songwriters-the-gates.jpg",
+          "file_type": "image/jpeg",
+          "url": "https://cdn.traveltripper.io/site-assets/192_570_1701/media/2017-04-18-164330/key-west-songwriters-the-gates.jpg",
+          "date_added": "2017-04-18-164330",
+          "tags": "",
+          "description": "",
+          "git_file_name": "_assets/image_data/site-assets_192_570_1701_media_2017-04-18-164330_key-west-songwriters-the-gates.jpg.json",
+          "path": "https://cdn.traveltripper.io/site-assets/192_570_1701/media/2017-04-18-164330/key-west-songwriters-the-gates.jpg",
+          "file_size": null,
+          "alt": "key-west-songwriters-the-gates",
+          "caption": ""
+        }
       },
       {
         "question": "荷物はどこに置けますか？",
         "question_id": "leaveluggage",
-        "answer": "<p>leaveleaveluggage</p>"
+        "answer": "<p>leaveleaveluggage</p>",
+        "Thumb": {
+          "name": "ps-lg-16",
+          "file_name": "ps-lg-16.jpg",
+          "file_type": "image/jpeg",
+          "url": "https://cdn.traveltripper.io/site-assets/192_570_1492/media/2017-01-25-053231/ps-lg-16.jpg",
+          "date_added": "2017-01-25-053231",
+          "tags": "",
+          "description": "",
+          "git_file_name": "_assets/image_data/site-assets_192_570_1492_media_2017-01-25-053231_ps-lg-16.jpg.json",
+          "path": "https://cdn.traveltripper.io/site-assets/192_570_1492/media/2017-01-25-053231/ps-lg-16.jpg",
+          "file_size": null,
+          "alt": "ps-lg-16",
+          "caption": ""
+        }
       }
     ]
   },
